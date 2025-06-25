@@ -1,7 +1,7 @@
 // -- IMPORTS
 
 import { getRandomTuid } from 'senselogic-gist';
-import { createBedDataArray, createSpaceDataArray } from '../../fileUtils/propertyUtils';
+import { createBedDataArray, createSpaceDataArray } from '../../propertyUtils';
 import { propertyService } from '../../service/property_service';
 import { bedService } from '../../service/bed_service';
 import { spaceService } from '../../service/space_service';

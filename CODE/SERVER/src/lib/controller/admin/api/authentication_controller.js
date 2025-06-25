@@ -10,7 +10,7 @@ import { getBackoffSecondCount, getCurrentTimestamp, getTimestampFromDateTime, h
 import { betaApplicantService } from '../../../service/beta_applicant_service';
 import { notificationService } from '../../../service/notification_service';
 import { databaseService } from '../../../service/database_service';
-import { AppError } from '../../../utils/app_error';
+import { AppError } from '../../../app_error';
 import { notificationCenterService } from '../../../service/notification_center_service';
 import { hubspotService } from '../../../service/hubspot_service';
 import { createServerClient, parseCookieHeader, serializeCookieHeader } from '@supabase/ssr';

@@ -6,8 +6,7 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "start": "vite preview",
-        "test": "vitest"
+        "start": "vite preview"
     },
     "devDependencies": {
         "@capacitor/cli": "^6.2.0",
@@ -16,7 +15,6 @@
         "stylus": "^0.63.0",
         "svelte": "^4.2.12",
         "vite": "^5.1.4",
-        "vitest": "^3.2.3",
         "yarn": "^1.22.22"
     },
     "dependencies": {

@@ -1,7 +1,7 @@
 //  -- IMPORTS
 
 import { profileService } from '../../../service/profile_service';
-import { AppError } from '../../../utils/app_error';
+import { AppError } from '../../../app_error';
 import { userRoleService } from '../../../service/user_role_service';
 import { userStatusService } from '../../../service/user_status_service';
 import { userGenderService } from '../../../service/user_gender_service';

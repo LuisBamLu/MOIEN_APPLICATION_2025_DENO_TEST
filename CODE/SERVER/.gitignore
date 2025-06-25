@@ -13,6 +13,7 @@ dist-ssr/
 lerna-debug.log*
 logs/
 node_modules/
+sitemaps/
 npm-debug.log*
 pnpm-debug.log*
 yarn-debug.log*

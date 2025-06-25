@@ -10,7 +10,7 @@ import { profileService } from '../../../service/profile_service';
 import { featureTypeService } from '../../../service/feature_type_service';
 import { featureService } from '../../../service/feature_service';
 import { getHasMorePage, getUniqueValues, hasUserPermission, isNullOrUndefined } from '../../../base';
-import { AppError } from '../../../utils/app_error';
+import { AppError } from '../../../app_error';
 import { getJsonObject } from 'senselogic-gist';
 import { rentalBookingService } from '../../../service/rental_booking_service';
 import { currencyConversionService } from '../../../service/currency_conversion_service';

@@ -114,8 +114,14 @@ export async function generateSitemap(
             languageData.code
             );
 
+        // sitemapMain.addRoute(
+        //     `/${ languageData.code }/search`,
+        //     '',
+        //     languageData.code
+        //     );
+
         sitemapMain.addRoute(
-            `/${ languageData.code }/search`,
+            `/${ languageData.code }/terms`,
             '',
             languageData.code
             );
@@ -133,21 +139,21 @@ export async function generateSitemap(
             }
         }
 
-        if ( isArray( propertyArray ) && propertyArray.length > 0 )
-        {
-            for ( let property of propertyArray )
-            {
-                let latitudeIndex = Math.floor( property.latitude / 2 ) * 2;
-                let longitudeIndex = Math.floor( property.longitude / 2 ) * 2;
+        // if ( isArray( propertyArray ) && propertyArray.length > 0 )
+        // {
+        //     for ( let property of propertyArray )
+        //     {
+        //         let latitudeIndex = Math.floor( property.latitude / 2 ) * 2;
+        //         let longitudeIndex = Math.floor( property.longitude / 2 ) * 2;
 
-                sitemapProperty.addRoute(
-                    `/${ languageData.code }/property/${ property.id }`,
-                    `${ latitudeIndex }_${ longitudeIndex }/`,
-                    languageData.code,
-                    { crawlPriority: 0.8 },
-                    );
-            }
-        }
+        //         sitemapProperty.addRoute(
+        //             `/${ languageData.code }/property/${ property.id }`,
+        //             `${ latitudeIndex }_${ longitudeIndex }/`,
+        //             languageData.code,
+        //             { crawlPriority: 0.8 },
+        //             );
+        //     }
+        // }
     }
 
     await sitemapMain.writeSitemapFiles();

@@ -11,9 +11,9 @@
     const windowMatchesMaxWidth56em = window.matchMedia( '(max-width: 56em)' );
     const contentImageArray =
         [
-            '/global/home/content/relaxing_man_on_couch',
-            '/global/home/content/sitting_woman_on_calculator',
-            '/global/home/content/walking_woman_with_bagpack'
+            '/global/home/content/relaxing_man_on_couch.avif',
+            '/global/home/content/sitting_woman_on_calculator.avif',
+            '/global/home/content/walking_woman_with_bagpack.avif'
         ]
 
     // -- VARIABLES

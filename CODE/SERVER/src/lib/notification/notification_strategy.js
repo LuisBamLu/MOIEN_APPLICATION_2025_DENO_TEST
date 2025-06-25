@@ -1,6 +1,6 @@
 // -- IMPORTS
 
-import { TemplateEngine } from '../fileUtils/template_engine';
+import { TemplateEngine } from '../template_engine';
 
 // -- TYPES
 

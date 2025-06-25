@@ -8,7 +8,7 @@ import { validationStatusService } from '../../../service/validation_status_serv
 import { getJsonObject, isArray } from 'senselogic-gist';
 import { documentTypeService } from '../../../service/document_type_service';
 import { hasUserPermission, isNullOrUndefined } from '../../../base';
-import { AppError } from '../../../utils/app_error';
+import { AppError } from '../../../app_error';
 
 // -- FUNCTIONS
 

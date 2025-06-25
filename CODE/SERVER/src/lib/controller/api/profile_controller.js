@@ -5,7 +5,7 @@ import { mangopayService } from '../../service/mangopay_service';
 import { profileService } from '../../service/profile_service';
 import { userService } from '../../service/user_service';
 import { authentificationService } from '../../service/authentification_service';
-import { AppError } from '../../utils/app_error';
+import { AppError } from '../../app_error';
 import { hasUserPermission, isDefinedAndNotNull, isNullOrUndefined } from '../../base';
 import { validateDashboardProfileData } from '../../validators/profile_validator';
 
@@ -104,7 +104,7 @@ export async function addManyProfiles(
         }
         else
         {
-            redirectTo = 'https://moien-groupbam.koyeb.app'
+            redirectTo = 'https://www.moien.com/'
         }
     }
     else

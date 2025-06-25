@@ -5,7 +5,7 @@ import { documentService } from '../../../service/document_service';
 import { mangopayService } from '../../../service/mangopay_service';
 import { profileService } from '../../../service/profile_service';
 import { getMangopayDocumentTypeFromDocumentTypeId, hasAllUserPermissions, hasUserPermission, isMangopayDocument, isNullOrUndefined } from '../../../base';
-import { AppError } from '../../../utils/app_error';
+import { AppError } from '../../../app_error';
 import { storageService } from '../../../service/storage_service';
 import { notificationCenterService } from '../../../service/notification_center_service';
 

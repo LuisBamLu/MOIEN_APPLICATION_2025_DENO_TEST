@@ -1,6 +1,6 @@
 // -- IMPORTS
 
-import { AppError } from '../../../utils/app_error';
+import { AppError } from '../../../app_error';
 import { getUniqueValues } from '../../../base';
 import { serviceManagerService } from '../../../service/service_manager_service';
 import { profileService } from '../../../service/profile_service';

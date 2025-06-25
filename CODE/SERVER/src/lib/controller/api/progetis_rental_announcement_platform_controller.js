@@ -2,7 +2,7 @@
 
 import { getLogicalFilePath, getRandomTuid, logError } from "senselogic-gist";
 import { progetisService } from "../../service/progetis_rental_announcement_platform_service";
-import { handleUploadFiles } from "../../utils/fileUtils";
+import { handleUploadFiles } from "../../fileUtils";
 import { countryService } from "../../service/country_service";
 import { cityService } from "../../service/city_service";
 import { propertyService } from "../../service/property_service";

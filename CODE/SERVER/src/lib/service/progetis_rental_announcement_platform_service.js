@@ -1,7 +1,7 @@
 // -- IMPORTS
 
 import { getLogicalFilePath, getRandomTuid, logError } from 'senselogic-gist';
-import { handleUploadFiles } from '../utils/fileUtils';
+import { handleUploadFiles } from '../fileUtils';
 import { propertyService } from './property_service';
 import { featureService } from './feature_service';
 import * as fileSystem from 'fs';

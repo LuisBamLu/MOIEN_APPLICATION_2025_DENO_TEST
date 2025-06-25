@@ -1,6 +1,6 @@
 // -- VARIABLES
 
-export let filePathPrefix = 'https://cjspwqqhdpkjmqycwxys.supabase.co/storage/v1/object/public';
+export let filePathPrefix = 'https://ripmolshugpqpadlluex.supabase.co/storage/v1/object/public';
 export let filePathSuffix = '.512.jpg';
 
 // -- FUNCTIONS

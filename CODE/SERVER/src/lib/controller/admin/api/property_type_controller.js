@@ -3,7 +3,7 @@
 import { getJsonObject, logError } from 'senselogic-gist';
 import { getTextSlug, hasUserPermission, isNullOrUndefined } from '../../../base';
 import { propertyTypeService } from '../../../service/property_type_service';
-import { AppError } from '../../../utils/app_error';
+import { AppError } from '../../../app_error';
 
 // -- FUNCTIONS
 

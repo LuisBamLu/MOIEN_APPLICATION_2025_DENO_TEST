@@ -1,6 +1,6 @@
 // -- IMPORTS
 
-import { AppError } from '../../../utils/app_error';
+import { AppError } from '../../../app_error';
 import { emailTemplateService } from '../../../service/email_template_service';
 
 // -- FUNCTIONS

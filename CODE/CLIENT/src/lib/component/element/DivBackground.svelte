@@ -17,14 +17,8 @@
 
     if ( isArticle === false )
     {
-        lowResImage =
-            isGlobal === true
-            ? getStorageImagePath( `${ imagePath }.${ lowRes }.avif` )
-            : getStorageImagePath( `${ imagePath }.avif` );
-        highResImage =
-            isGlobal === true
-            ? getStorageImagePath( `${ imagePath }.${ highRes }.avif` )
-            : getStorageImagePath( `${ imagePath }.avif` );
+        lowResImage = getStorageImagePath( imagePath, lowRes )
+        highResImage = getStorageImagePath( imagePath, highRes )
     }
     else
     {

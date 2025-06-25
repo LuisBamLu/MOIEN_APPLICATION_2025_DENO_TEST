@@ -14,7 +14,7 @@ import { supabaseService } from './lib/service/supabase_service';
 import { profileService } from './lib/service/profile_service';
 import { mangopayService } from './lib/service/mangopay_service';
 import { notificationCenterService } from './lib/service/notification_center_service';
-import { AppError } from './lib/utils/app_error';
+import { AppError } from './lib/app_error';
 import { handleUpdateNewMessageCount, handleWebSocketAddMessage, handleWebSocketMarkMessageAsRead } from './lib/controller/api/message_controller';
 import { adminPageRoutes } from './lib/routes/admin/page';
 import { adminApiRoutes, adminAuthRoutes } from './lib/routes/admin/api';
@@ -177,6 +177,7 @@ fastify.addHook(
 
             generateSitemap();
 
+
             request.profileLogged = userData ? await getProfileForUserId( userData.id ) : null;
         }
         else
@@ -195,21 +196,21 @@ fastify.addHook(
             await mangopayService.addHook(
                 {
                     EventType: 'KYC_SUCCEEDED',
-                    Url: 'https://www.moien.com/api/update-document-validation'
+                    Url: 'https://release.moien.com/api/update-document-validation'
                 }
                 );
 
             await mangopayService.addHook(
                 {
                     EventType: 'KYC_FAILED',
-                    Url: 'https://www.moien.com/api/update-document-validation'
+                    Url: 'https://release.moien.com/api/update-document-validation'
                 }
                 );
 
             await mangopayService.addHook(
                 {
                     EventType: 'KYC_OUTDATED',
-                    Url: 'https://www.moien.com/api/update-document-validation'
+                    Url: 'https://release.moien.com/api/update-document-validation'
                 }
                 );
         }

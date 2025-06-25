@@ -11,7 +11,7 @@ import { rentalBookingService } from '../../../service/rental_booking_service';
 import { currencyService } from '../../../service/currency_service';
 import { getHasMorePage, getUniqueValues, hasUserPermission, isNullOrUndefined } from '../../../base';
 import { paymentMethodService } from '../../../service/payment_method_service';
-import { AppError } from '../../../utils/app_error';
+import { AppError } from '../../../app_error';
 
 // -- FUNCTIONS
 

@@ -1,7 +1,7 @@
 // -- IMPORTS
 
 import { getJsonObject } from 'senselogic-gist';
-import { AppError } from '../../../utils/app_error';
+import { AppError } from '../../../app_error';
 import { profileService } from '../../../service/profile_service';
 import { propertyService } from '../../../service/property_service';
 import { visitService } from '../../../service/visit_service';

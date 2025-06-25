@@ -2,7 +2,7 @@
 
 import { languageService } from '../../service/language_service';
 import { textService } from '../../service/text_service';
-import { getCacheData, setCacheData, startCacheCheckInterval } from '../../utils/cache';
+import { getCacheData, setCacheData, startCacheCheckInterval } from '../../cache';
 
 // -- CONSTANTS
 

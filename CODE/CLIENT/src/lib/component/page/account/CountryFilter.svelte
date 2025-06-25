@@ -212,6 +212,7 @@
         z-index: 1000;
         position: absolute;
         top: 4rem;
+        z-index: 1000;
 
         overflow-y: auto;
         scrollbar-width: none;

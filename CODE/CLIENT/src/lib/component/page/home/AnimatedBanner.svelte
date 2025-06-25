@@ -7,18 +7,18 @@
 
     const imageFilePathArray =
     [
-        '/global/home/banner/animated/cannes',
-        '/global/home/banner/animated/eiffel_tower',
-        '/global/home/banner/animated/palace_garden',
-        '/global/home/banner/animated/river_city',
-        '/global/home/banner/animated/austria',
-        '/global/home/banner/animated/dinan',
-        '/global/home/banner/animated/london',
-        '/global/home/banner/animated/madrid',
-        '/global/home/banner/animated/new_york',
-        '/global/home/banner/animated/norway',
-        '/global/home/banner/animated/porto',
-        '/global/home/banner/animated/tokyo'
+        '/global/home/banner/animated/cannes.avif',
+        '/global/home/banner/animated/eiffel_tower.avif',
+        '/global/home/banner/animated/palace_garden.avif',
+        '/global/home/banner/animated/river_city.avif',
+        '/global/home/banner/animated/austria.avif',
+        '/global/home/banner/animated/dinan.avif',
+        '/global/home/banner/animated/london.avif',
+        '/global/home/banner/animated/madrid.avif',
+        '/global/home/banner/animated/new_york.avif',
+        '/global/home/banner/animated/norway.avif',
+        '/global/home/banner/animated/porto.avif',
+        '/global/home/banner/animated/tokyo.avif'
     ];
 
     // -- FUNCTIONS

@@ -2,7 +2,7 @@
 
 import { getJsonObject, logError } from 'senselogic-gist';
 import { billTypeService } from '../../../service/bill_type_service';
-import { AppError } from '../../../utils/app_error';
+import { AppError } from '../../../app_error';
 import { getTextSlug, hasUserPermission, isNullOrUndefined } from '../../../base';
 
 // -- FUNCTIONS

@@ -12,7 +12,7 @@ import { leaseSignatoryService } from '../../service/lease_signatory_service';
 import { questionService } from '../../service/question_service';
 import { rentalBookingService } from '../../service/rental_booking_service';
 import { rentalDayService } from '../../service/rental_day_service';
-import { AppError } from '../../utils/app_error';
+import { AppError } from '../../app_error';
 import { userReviewService } from '../../service/user_review_service';
 
 // -- FUNCTIONS

@@ -1,6 +1,6 @@
 // -- IMPORTS
 
-import { AppError } from '../../../utils/app_error';
+import { AppError } from '../../../app_error';
 import { hasUserPermission, isNullOrUndefined } from '../../../base';
 import { rentalBookingStatusService } from '../../../service/rental_booking_status_service';
 

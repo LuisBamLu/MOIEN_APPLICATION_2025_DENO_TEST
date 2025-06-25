@@ -2,7 +2,7 @@
 
 import { getRandomTuid } from 'senselogic-gist';
 import { newsletterSubscriptionService } from '../../service/newsletter_subscription_service';
-import { AppError } from '../../utils/app_error';
+import { AppError } from '../../app_error';
 import { addListMember } from '../../newsletter/lists/members';
 import { hubspotService } from '../../service/hubspot_service';
 

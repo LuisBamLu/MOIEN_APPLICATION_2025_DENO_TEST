@@ -1,7 +1,7 @@
 // -- IMPORTS
 
 import { getJsonObject } from 'senselogic-gist';
-import { handleUploadFiles } from '../../utils/fileUtils';
+import { handleUploadFiles } from '../../fileUtils';
 import { storageService } from '../../service/storage_service';
 
 // -- TYPES

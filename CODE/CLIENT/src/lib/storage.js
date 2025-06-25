@@ -14,7 +14,7 @@ export function getStorageFilePath(
     {
         if ( filePath.startsWith( '/global/' ) || filePath.startsWith( '/upload/' ) )
         {
-            return 'https://cjspwqqhdpkjmqycwxys.supabase.co/storage/v1/object/public' + filePath;
+            return 'https://ripmolshugpqpadlluex.supabase.co/storage/v1/object/public' + filePath;
         }
         else
         {
@@ -38,6 +38,9 @@ export function getStorageImagePath(
         return defaultImagePath;
     }
 
+    if ( !isNaN( imageWidth )
+         && imagePath
+        )
     if ( !isNaN( imageWidth )
          && imagePath )
     {

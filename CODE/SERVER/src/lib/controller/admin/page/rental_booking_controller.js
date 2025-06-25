@@ -13,8 +13,8 @@ import { rentalBookingStatusService } from '../../../service/rental_booking_stat
 import { getFormattedPrice, getTimeDifferenceInDay, getUniqueValues, hasUserPermission, isNullOrUndefined } from '../../../base';
 import { notificationService } from '../../../service/notification_service';
 import { deviceTokenService } from '../../../service/device_token_service';
-import { AppError } from '../../../utils/app_error';
-import { getStorageImagePath } from '../../../utils/fileUtils';
+import { AppError } from '../../../app_error';
+import { getStorageImagePath } from '../../../fileUtils';
 import { notificationCenterService } from '../../../service/notification_center_service';
 import { ticketService } from '../../../service/ticket_service';
 import { currencyConversionService } from '../../../service/currency_conversion_service';

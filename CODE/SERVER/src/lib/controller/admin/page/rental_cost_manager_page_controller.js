@@ -8,7 +8,7 @@ import { rentalCostFrequencyService } from '../../../service/rental_cost_frequen
 import { getHasMorePage, getUniqueValues, hasUserPermission, isNullOrUndefined } from '../../../base';
 import { currencyService } from '../../../service/currency_service';
 import { getJsonObject, getRandomTuid } from 'senselogic-gist';
-import { AppError } from '../../../utils/app_error';
+import { AppError } from '../../../app_error';
 
 // -- FUNCTIONS
 

@@ -286,7 +286,7 @@
         <div class="about-page-image">
             <DivBackground
                 isGlobal
-                imagePath={ '/global/about/lisboa' }
+                imagePath={ '/global/about/lisboa.avif' }
                 lowRes={ 360 }
                 highRes={ 960 }
             />
@@ -301,7 +301,7 @@
         <div class="about-page-image">
             <DivBackground
                 isGlobal
-                imagePath={ '/global/about/external_house' }
+                imagePath={ '/global/about/external_house.avif' }
                 lowRes={ 360 }
                 highRes={ 960 }
             />

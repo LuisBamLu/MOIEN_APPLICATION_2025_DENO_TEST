@@ -5,7 +5,7 @@ import { ticketStatusService } from '../../../service/ticket_status_service';
 import { profileService } from '../../../service/profile_service';
 import { getUniqueValues, hasUserPermission, isNullOrUndefined } from '../../../base';
 import { getCurrentLocalDateTime, getJsonObject, getRandomTuid } from 'senselogic-gist';
-import { AppError } from '../../../utils/app_error';
+import { AppError } from '../../../app_error';
 import { ticketTypeService } from '../../../service/ticket_type_service';
 
 // -- FUNCTIONS

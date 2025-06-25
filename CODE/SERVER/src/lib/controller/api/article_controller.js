@@ -6,7 +6,7 @@ import { getHasMorePage, getUniqueValues, hasUserPermission, isNullOrUndefined }
 import { profileService } from '../../service/profile_service';
 import { articleTypeService } from '../../service/article_type_service';
 import { articleCategoryService } from '../../service/article_category_service';
-import { AppError } from '../../utils/app_error';
+import { AppError } from '../../app_error';
 
 // -- FUNCTIONS
 

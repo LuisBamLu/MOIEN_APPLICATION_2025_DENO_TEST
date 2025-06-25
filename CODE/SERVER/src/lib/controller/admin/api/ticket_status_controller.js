@@ -1,7 +1,7 @@
 // -- IMPORTS
 
 import { getJsonObject } from 'senselogic-gist';
-import { AppError } from '../../../utils/app_error';
+import { AppError } from '../../../app_error';
 import { ticketStatusService } from '../../../service/ticket_status_service';
 import { getTextSlug, hasUserPermission, isNullOrUndefined } from '../../../base';
 

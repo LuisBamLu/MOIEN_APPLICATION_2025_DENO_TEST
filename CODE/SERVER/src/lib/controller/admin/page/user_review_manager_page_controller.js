@@ -1,7 +1,7 @@
 // -- IMPORTS
 
 import { getJsonObject } from 'senselogic-gist';
-import { AppError } from '../../../utils/app_error';
+import { AppError } from '../../../app_error';
 import { getHasMorePage, hasUserPermission, isNullOrUndefined } from '../../../base';
 import { profileService } from '../../../service/profile_service';
 import { userReviewService } from '../../../service/user_review_service';

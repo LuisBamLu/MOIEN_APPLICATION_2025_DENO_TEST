@@ -5,7 +5,7 @@ import { employmentStatusService } from '../../../service/employment_status_serv
 import { profileService } from '../../../service/profile_service';
 import { companyTypeService } from '../../../service/company_type_service';
 import { getJsonObject } from 'senselogic-gist';
-import { AppError } from '../../../utils/app_error';
+import { AppError } from '../../../app_error';
 import { getHasMorePage, getUniqueValues, hasUserPermission, isNullOrUndefined } from '../../../base';
 import { leaseContractService } from '../../../service/lease_contract_service';
 

@@ -1,6 +1,6 @@
 // -- IMPORTS
 
-import { AppError } from '../../utils/app_error';
+import { AppError } from '../../app_error';
 import { isNullOrUndefined } from '../../base';
 import { userRoleService } from '../../service/user_role_service';
 

@@ -5,7 +5,7 @@ import { profileService } from '../../../service/profile_service';
 import { propertyService } from '../../../service/property_service';
 import { rentalReviewService } from '../../../service/rental_review_service';
 import { getHasMorePage, getUniqueValues, hasUserPermission, isNullOrUndefined } from '../../../base';
-import { AppError } from '../../../utils/app_error';
+import { AppError } from '../../../app_error';
 
 // -- FUNCTIONS
 

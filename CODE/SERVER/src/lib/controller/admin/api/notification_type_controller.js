@@ -2,7 +2,7 @@
 
 import { getJsonObject } from 'senselogic-gist';
 import { notificationTypeService } from '../../../service/notification_type_service';
-import { AppError } from '../../../utils/app_error';
+import { AppError } from '../../../app_error';
 import { getTextSlug, hasUserPermission, isNullOrUndefined } from '../../../base';
 
 // -- FUNCTIONS

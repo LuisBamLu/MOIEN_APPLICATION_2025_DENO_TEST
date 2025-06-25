@@ -11,7 +11,7 @@ import { deviceTokenService } from '../../../service/device_token_service';
 import { profileService } from '../../../service/profile_service';
 import { notificationEventService } from '../../../service/notification_event_service';
 import { getHasMorePage, getUniqueValues, hasUserPermission, isNullOrUndefined } from '../../../base';
-import { AppError } from '../../../utils/app_error';
+import { AppError } from '../../../app_error';
 
 // -- FUNCTIONS
 

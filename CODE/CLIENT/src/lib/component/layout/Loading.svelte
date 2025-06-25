@@ -107,7 +107,7 @@
     <div class="load-container">
         <DivBackground
             isGlobal={ true }
-            imagePath="/global/loading/moien"
+            imagePath="/global/loading/moien.avif"
             preload={ true }
             lowRes={ 360 }
             highRes={ 640 }

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>https://www.moien.com/sitemap/static/sitemap.xml</loc>
-    <lastmod>2024-08-01</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://www.moien.com/sitemap/app/sitemap.xml</loc>
-    <lastmod>2024-08-01</lastmod>
-  </sitemap>
-  <sitemap>
     <loc>https://www.moien.com/sitemap/blog/sitemap.xml</loc>
     <lastmod>2024-08-01</lastmod>
   </sitemap>
+  <sitemap>
+    <loc>https://www.moien.com/sitemap/main/sitemap.xml</loc>
+    <lastmod>2024-08-01</lastmod>
+  </sitemap>
+  <!-- <sitemap>
+    <loc>https://www.moien.com/sitemap/property/sitemap.xml</loc>
+    <lastmod>2024-08-01</lastmod>
+  </sitemap> -->
   <!-- <sitemap>
     <loc>https://www.moien.com/sitemap/properties/sitemap_0000.xml</loc>
     <lastmod>2024-08-01</lastmod>

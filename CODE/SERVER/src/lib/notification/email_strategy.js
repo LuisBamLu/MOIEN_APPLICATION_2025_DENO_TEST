@@ -1,7 +1,7 @@
 // -- IMPORTS
 
 import { NotificationStrategy } from './notification_strategy';
-import { transporter } from '../fileUtils/mailer';
+import { transporter } from '../mailer';
 import schedule from 'node-schedule';
 import { notificationEventService } from '../service/notification_event_service';
 

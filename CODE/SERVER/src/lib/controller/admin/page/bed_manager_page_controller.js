@@ -7,7 +7,7 @@ import { bedTypeService } from '../../../service/bed_type_service';
 import { profileService } from '../../../service/profile_service';
 import { propertyService } from '../../../service/property_service';
 import { spaceService } from '../../../service/space_service';
-import { AppError } from '../../../utils/app_error';
+import { AppError } from '../../../app_error';
 
 // -- FUNCTIONS
 

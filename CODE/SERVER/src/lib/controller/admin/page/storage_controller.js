@@ -1,8 +1,8 @@
 // -- IMPORTS
 
 import { storageService } from '../../../service/storage_service';
-import { AppError } from '../../../utils/app_error';
-import { getFileBufferBySizeMap } from '../../../utils/fileUtils';
+import { AppError } from '../../../app_error';
+import { getFileBufferBySizeMap } from '../../../fileUtils';
 import { hasUserPermission } from '../../../base';
 
 // -- FUNCTIONS

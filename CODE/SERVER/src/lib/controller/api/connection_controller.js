@@ -2,7 +2,7 @@
 
 import { connectionService } from '../../service/connection_service';
 import { getBackoffSecondCount, getCurrentTimestamp, getTimestampFromDateTime, hasUserPermission, isNullOrUndefined } from '../../base';
-import { AppError } from '../../utils/app_error';
+import { AppError } from '../../app_error';
 import { getJsonObject, getRandomTuid, logError } from 'senselogic-gist';
 
 // -- FUNCTIONS

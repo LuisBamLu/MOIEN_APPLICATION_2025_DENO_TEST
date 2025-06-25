@@ -16,9 +16,9 @@ import { SafeArea } from 'capacitor-plugin-safe-area';
 
 export const platform = Capacitor.getPlatform();
 export const device = Device.getInfo();
-export const hostUrl = getHostUrl( platform, 'http', true );
-export const webSocketUrl = getHostUrl( platform, 'ws', true );
-export const googleAuthUrl = 'https://cjspwqqhdpkjmqycwxys.supabase.co/auth/v1/authorize?provider=google';
+export const hostUrl = getHostUrl( platform, 'http', false, 'release' );
+export const webSocketUrl = getHostUrl( platform, 'ws', false, 'release' );
+export const googleAuthUrl = 'https://rvmaltqvxnmtvljlghlx.supabase.co/auth/v1/authorize?provider=google';
 export const getInsets = async () => ( await SafeArea.getSafeAreaInsets() ).insets;
 
 const regexCardNumberToBrandMap =

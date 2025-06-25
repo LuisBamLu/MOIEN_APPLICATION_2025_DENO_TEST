@@ -5,7 +5,7 @@ import { currencyService } from '../../../service/currency_service';
 import { billService } from '../../../service/bill_service';
 import { profileService } from '../../../service/profile_service';
 import { getHasMorePage, getUniqueValues, hasUserPermission, isNullOrUndefined } from '../../../base';
-import { AppError } from '../../../utils/app_error';
+import { AppError } from '../../../app_error';
 import { getJsonObject } from 'senselogic-gist';
 
 // -- FUNCTIONS

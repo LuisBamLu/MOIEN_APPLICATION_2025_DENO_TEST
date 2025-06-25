@@ -239,7 +239,7 @@
                 <div class="iphone-mobile">
                     <DivBackground
                         isGlobal={ true }
-                        imagePath={ '/global/home/banner/iphone_desktop' }
+                        imagePath={ '/global/home/banner/iphone_desktop.avif' }
                         preload={ true }
                         highRes={ 1280 }
                     />
@@ -247,7 +247,7 @@
                 <div class="iphone">
                     <DivBackground
                         isGlobal={ true }
-                        imagePath={ '/global/home/banner/iphone_desktop' }
+                        imagePath={ '/global/home/banner/iphone_desktop.avif' }
                         preload={ true }
                         highRes={ 1920 }
                     />

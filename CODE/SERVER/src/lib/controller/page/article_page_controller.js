@@ -5,7 +5,7 @@ import { profileService } from '../../service/profile_service';
 import { userRoleService } from '../../service/user_role_service';
 import { articleCategoryService } from '../../service/article_category_service';
 import { blockService } from '../../service/block_service';
-import { AppError } from '../../utils/app_error';
+import { AppError } from '../../app_error';
 
 // -- FUNCTIONS
 
