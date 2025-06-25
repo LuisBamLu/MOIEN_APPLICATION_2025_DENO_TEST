@@ -1,0 +1,19 @@
+VISIT_STATUS
+
+    id name
+
+        available
+            ~ Available
+              ¨fr:Disponible
+
+        pending
+            ~ Pending
+              ¨fr:En attente
+
+        booked
+            ~ Booked
+              ¨fr:Réservée
+
+        rescheduled-by-host
+            ~ Rescheduled by host
+              ¨fr:Reprogrammé par l'hôte

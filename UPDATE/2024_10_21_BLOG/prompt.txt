@@ -1,0 +1,24 @@
+ChatGPT 4o
+
+---
+
+Could you convert this HTML document to Markdown format :
+
+<!DOCTYPE html>
+<html>
+<head>
+...
+</body>
+</html>
+
+---
+
+Could you now convert this Markdown document to Pendown format ?
+
+You need to adapt the following tags like this :
+
+# title 1 => ! title 1
+## title 2 => !! title 2
+### title 3 => !!! title 3
+![...](xxx.png) => [[xxx.1920.avif]]
+([Immoweb](https://www.immoweb.be/)) => ((Immoweb)(https://www.immoweb.be/))

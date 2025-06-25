@@ -1,0 +1,30 @@
+DOCUMENT_TYPE
+
+    id number name
+
+        passport
+            ~ 1
+            ~ Passport
+
+        id-card
+            ~ 2
+            ~ Identity Card
+
+        payroll
+            ~ 3
+            ~ Payroll
+
+        proof-of-residence
+            ~ 4
+            ~ Proof of Residence
+
+        tax-sheet
+            ~ 5
+            ~ Tax Sheet
+
+        company-extract
+            ~ 6
+            ~ Company Extract
+              ¨fr:Extrait de société
+              ¨de:Unternehmensauszug
+              

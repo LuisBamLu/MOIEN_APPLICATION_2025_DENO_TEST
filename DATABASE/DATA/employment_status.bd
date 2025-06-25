@@ -1,0 +1,55 @@
+EMPLOYMENT_STATUS
+
+    id name
+
+        unemployed
+            ~ Unemployed
+              ¨fr:Chômeur
+
+        employed-part-time
+            ~ Employed part-time
+              ¨fr:Employé à temps partiel
+
+        employed-full-time
+            ~ Employed full-time
+              ¨fr:Employé à temps plein
+
+        contractually-employed
+            ~ Contractually employed
+              ¨fr:Employé contractuel
+
+        self-employed
+            ~ Self-Employed
+              ¨fr:Travailleur indépendant
+
+        freelance
+            ~ Freelance
+              ¨fr:Freelance
+
+        contractor
+            ~ Contractor
+              ¨fr:Entrepreneur
+
+        retired
+            ~ Retired
+              ¨fr:Retraité
+
+        intern
+            ~ Intern
+              ¨fr:Stagiaire
+
+        student
+            ~ Student
+              ¨fr:Étudiant
+
+        disabled
+            ~ Disabled
+              ¨fr:Handicapé
+
+        on leave
+            ~ On Leave
+              ¨fr:En congé
+
+        other
+            ~ Other
+              ¨fr:Autre

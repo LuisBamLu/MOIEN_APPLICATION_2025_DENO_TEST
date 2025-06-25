@@ -1,0 +1,27 @@
+CONVERSATION_TYPE
+
+    id number name
+
+        visit-request
+            ~ 1
+            ~ Visit request
+              ¨fr:Demande de visite
+              ¨de:Anfrage besuchen
+
+        lease
+            ~ 2
+            ~ Lease
+              ¨fr:Bail
+              ¨de:Pacht
+
+        booking-confirmed
+            ~ 3
+            ~ Booking confirmed
+              ¨fr:Réservation confirmée
+              ¨de:Reservierung bestätigt
+
+        contact
+            ~ 4
+            ~ Contact
+              ¨fr:Contact
+              ¨de:Kontakt

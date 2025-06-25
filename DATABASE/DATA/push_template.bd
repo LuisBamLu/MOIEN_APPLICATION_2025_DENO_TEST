@@ -1,0 +1,93 @@
+PUSH_TEMPLATE
+
+    id name description notification
+
+        welcome-email
+            ~ Welcome Push
+            ~ Push notification sent after user registration.
+            ~ { { title ~ Welcome to [YourApp]! } ~ { body ~ Thank you for joining our community. We're excited to have you on board. Happy traveling! } }
+
+        email-verification
+            ~ Email Verification Push
+            ~ Push notification to verify the user's email address.
+            ~ { { title ~ Verify Your Email Address } ~ { body ~ Please click the link below to verify your email address. } }
+
+        document-verification-request
+            ~ Document Verification Request Push
+            ~ Push notification requesting document submission for identity verification.
+            ~ { { title ~ Verify Your Identity } ~ { body ~ To complete your registration, please submit the necessary documents using the link below. } }
+
+        booking-confirmation-guest
+            ~ Booking Confirmation (Guest) Push
+            ~ Push notification for guests after booking a property.
+            ~ { { title ~ Booking Confirmed! } ~ { body ~ Your booking at \{\{propertyName\}\} from \{\{checkInDate\}\} to \{\{checkOutDate\}\} has been confirmed. Looking forward to your stay! } }
+
+        booking-confirmation-host
+            ~ Booking Confirmation (Host) Push
+            ~ Push notification for hosts about a new booking.
+            ~ { { title ~ New Booking Alert! } ~ { body ~ You have a new booking for \{\{propertyName\}\} from \{\{guestName\}\} for the dates \{\{checkInDate\}\} to \{\{checkOutDate\}\}. Please review the booking details in your dashboard. } }
+
+        reservation-update
+            ~ Reservation Update Push
+            ~ Push notification with information about changes in the reservation.
+            ~ { { title ~ Reservation Update } ~ { body ~ Your reservation at \{\{propertyName\}\} has been updated. Please review the changes. } }
+
+        reservation-cancellation-guest
+            ~ Reservation Cancellation (Guest) Push
+            ~ Push notification confirming reservation cancellation for guests.
+            ~ { { title ~ Reservation Cancelled } ~ { body ~ Your reservation at \{\{propertyName\}\} has been cancelled. We hope to host you in the future. } }
+
+        reservation-cancellation-host
+            ~ Reservation Cancellation (Host) Push
+            ~ Push notification of reservation cancellation for hosts.
+            ~ { { title ~ Reservation Cancelled } ~ { body ~ The reservation at \{\{propertyName\}\} from \{\{guestName\}\} for the dates \{\{checkInDate\}\} to \{\{checkOutDate\}\} has been cancelled. } }
+
+        check-in-reminder
+            ~ Check-in Reminder Push
+            ~ Push notification reminding guests about their upcoming check-in.
+            ~ { { title ~ Upcoming Check-in } ~ { body ~ This is a reminder of your upcoming stay at \{\{propertyName\}\}. Check-in date is \{\{checkInDate\}\}. } }
+
+        check-out-reminder
+            ~ Check-out Reminder Push
+            ~ Push notification reminding guests about their upcoming check-out.
+            ~ { { title ~ Upcoming Check-out } ~ { body ~ This is a reminder that your stay at \{\{propertyName\}\} ends on \{\{checkOutDate\}\}. } }
+
+        new-message-notification
+            ~ New Message Notification Push
+            ~ Push notification about a new message from another user.
+            ~ { { title ~ You Have a New Message } ~ { body ~ You have received a new message from \{\{senderName\}\}. } }
+
+        message-reply-notification
+            ~ Message Reply Notification Push
+            ~ Push notification about a reply to a message sent.
+            ~ { { title ~ You Have a New Reply } ~ { body ~ \{\{senderName\}\} has replied to your message. } }
+
+        payment-confirmation-guest
+            ~ Payment Confirmation (Guest) Push
+            ~ Push notification confirming payment made by the guest.
+            ~ { { title ~ Payment Confirmed } ~ { body ~ Your payment for the booking at \{\{propertyName\}\} has been processed successfully. } }
+
+        payment-received-host
+            ~ Payment Received (Host) Push
+            ~ Push notification of payment received for the host.
+            ~ { { title ~ Payment Received } ~ { body ~ You have received a payment for the booking at \{\{propertyName\}\} from \{\{guestName\}\}. } }
+
+        refund-processed
+            ~ Refund Processed Push
+            ~ Push notification confirming refund processed for the guest.
+            ~ { { title ~ Refund Processed } ~ { body ~ Your refund for the booking at \{\{propertyName\}\} has been processed. The amount of \{\{amount\}\} will be credited to your account shortly. } }
+
+        review-request-guest
+            ~ Review Request (Guest) Push
+            ~ Push notification requesting guests to review their stay.
+            ~ { { title ~ How Was Your Stay? } ~ { body ~ We hope you enjoyed your stay at \{\{propertyName\}\}. Please take a moment to leave a review. } }
+
+        review-request-host
+            ~ Review Request (Host) Push
+            ~ Push notification requesting hosts to review their guests.
+            ~ { { title ~ How Was Your Guest? } ~ { body ~ We hope everything went smoothly with \{\{guestName\}\}. Please take a moment to leave a review. } }
+
+        review-received-notification
+            ~ Review Received Notification Push
+            ~ Push notification that a review has been received.
+            ~ { { title ~ You Have a New Review } ~ { body ~ You have received a new review from \{\{reviewerName\}\}. } }

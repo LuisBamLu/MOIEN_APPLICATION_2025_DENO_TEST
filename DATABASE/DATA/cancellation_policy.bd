@@ -1,0 +1,33 @@
+CANCELLATION_POLICY
+
+    id number name partialRefundMinimumDayCount partialRefundRatio fullRefundMinimumDayCount penaltyDayCount
+
+        flexible
+            ~ 1
+            ~ Flexible
+              ¨fr:Flexible
+              ¨de:Flexibel
+            ~ 0
+            ~ 100
+            ~ 1
+            ~ 1
+
+        moderate
+            ~ 2
+            ~ Moderate
+              ¨fr:Modérée
+              ¨de:Mäßig
+            ~ 0
+            ~ 50
+            ~ 5
+            ~ 1
+
+        strict
+            ~ 3
+            ~ Strict
+              ¨fr:Stricte
+              ¨de:Streng
+            ~ 7
+            ~ 50
+            ~ 0
+            ~ 1

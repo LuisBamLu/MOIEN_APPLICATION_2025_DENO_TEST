@@ -1,0 +1,7 @@
+phonePrefix,phoneNumber,email,firstName,lastName,roleSlugArray
+1,123456789,m.courie@moien.com,Marie,Courie,[host] 
+33,612345678,t.joseph@moien.com,Tyler,Joseph,[guest]
+1,123456789,t.henry@moien.com,Thierry,Henry,[administrator]
+33,612345678,m.murdoc@moien.com,Matthew,Murdoc,[backoffice-senior]
+1,123456789,z.zidane@moien.com,Zinedine,Zidane,[backoffice]
+33,612345678,moien_access@oakbuildings.com,Oak,Buildings,[agency]

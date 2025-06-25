@@ -1,0 +1,11 @@
+PROPERTY_STATUS
+
+    id name
+
+        offline
+            ~ Offline
+              ¨fr:Hors ligne
+
+        online
+            ~ Online
+              ¨fr:En ligne

@@ -1,0 +1,659 @@
+How can my Fastify Node.js webserver code send the contact form information to HubSpot using their API ?
+
+---
+
+I'll help you create a solution to send contact form information to HubSpot using their API in a Fastify Node.js webserver. I'll provide a comprehensive example that covers the integration.
+
+```javascript
+import Fastify from 'fastify'
+import axios from 'axios'
+import dotenv from 'dotenv'
+
+// Load environment variables
+dotenv.config()
+
+// Create Fastify server
+const fastify = Fastify({ logger: true })
+
+// Middleware for parsing JSON body
+fastify.register(import('@fastify/formbody'))
+
+// HubSpot contact creation endpoint
+fastify.post('/submit-contact', async (request, reply) => {
+  try {
+    // Destructure contact information from request body
+    const {
+      firstName,
+      lastName,
+      email,
+      phone,
+      message
+    } = request.body
+
+    // Prepare contact object for HubSpot
+    const contactProperties = {
+      properties: [
+        { property: 'firstname', value: firstName },
+        { property: 'lastname', value: lastName },
+        { property: 'email', value: email },
+        { property: 'phone', value: phone },
+        { property: 'message', value: message }
+      ]
+    }
+
+    // Make API call to HubSpot
+    const response = await axios.post(
+      'https://api.hubapi.com/crm/v3/objects/contacts/batch/create',
+      { inputs: [contactProperties] },
+      {
+        headers: {
+          'Authorization': `Bearer ${process.env.HUBSPOT_ACCESS_TOKEN}`,
+          'Content-Type': 'application/json'
+        }
+      }
+    )
+
+    // Respond to client
+    reply.status(201).send({
+      success: true,
+      contactId: response.data.results[0].id
+    })
+  } catch (error) {
+    fastify.log.error(error)
+
+    // Handle specific HubSpot API errors
+    if (error.response) {
+      reply.status(error.response.status).send({
+        success: false,
+        message: error.response.data.message || 'HubSpot API error'
+      })
+    } else {
+      reply.status(500).send({
+        success: false,
+        message: 'Internal server error'
+      })
+    }
+  }
+})
+
+// Start the server
+const start = async () => {
+  try {
+    await fastify.listen({ port: 3000 })
+    fastify.log.info('Server listening on port 3000')
+  } catch (err) {
+    fastify.log.error(err)
+    process.exit(1)
+  }
+}
+
+start()
+
+```
+
+Here's a breakdown of the implementation:
+
+1. Dependencies:
+   - `fastify`: Web server framework
+   - `axios`: HTTP client for API requests
+   - `dotenv`: Loads environment variables
+
+2. Configuration:
+   - Uses environment variables for the HubSpot access token
+   - Creates a POST endpoint `/submit-contact`
+
+3. HubSpot Integration:
+   - Sends contact data to HubSpot's batch create contacts endpoint
+   - Handles both successful and error scenarios
+
+4. Error Handling:
+   - Logs errors
+   - Provides meaningful error responses
+
+To use this code, you'll need to:
+
+1. Install dependencies:
+```bash
+npm install fastify axios dotenv @fastify/formbody
+```
+
+2. Create a `.env` file with your HubSpot access token:
+```
+HUBSPOT_ACCESS_TOKEN=your_hubspot_access_token_here
+```
+
+3. Obtain a HubSpot access token:
+   - Go to your HubSpot Developer account
+   - Create a private app
+   - Generate an access token with the necessary scopes (contacts create)
+
+Important Notes:
+- Ensure you handle form validation on the client and server-side
+- Consider rate limiting and additional error handling
+- The example assumes a specific contact form structure
+
+Would you like me to elaborate on any part of the implementation or explain how to generate the HubSpot access token?
+
+---
+
+Could you implement me a HubspotService class that I can use in my Fastify server code ?
+
+---
+
+I'll create a comprehensive HubspotService class that encapsulates the HubSpot API interactions.
+
+```typescript
+import axios, { AxiosInstance } from 'axios';
+
+interface ContactProperties {
+  [key: string]: string | number | boolean;
+}
+
+interface CreateContactOptions {
+  properties: ContactProperties;
+  associatedCompanyId?: string;
+}
+
+interface HubSpotServiceConfig {
+  accessToken: string;
+  baseUrl?: string;
+}
+
+class HubSpotService {
+  private client: AxiosInstance;
+  private accessToken: string;
+
+  constructor(config: HubSpotServiceConfig) {
+    this.accessToken = config.accessToken;
+    this.client = axios.create({
+      baseURL: config.baseUrl || 'https://api.hubapi.com/crm/v3',
+      headers: {
+        'Authorization': `Bearer ${this.accessToken}`,
+        'Content-Type': 'application/json'
+      }
+    });
+  }
+
+  /**
+   * Create a new contact in HubSpot
+   * @param contactData Contact properties to create
+   * @returns Promise with created contact ID
+   */
+  async createContact(contactData: CreateContactOptions): Promise<string> {
+    try {
+      // Validate required properties
+      if (!contactData.properties.email) {
+        throw new Error('Email is required to create a contact');
+      }
+
+      // Prepare contact creation payload
+      const payload = {
+        properties: this.formatProperties(contactData.properties)
+      };
+
+      // Optional: Add company association if provided
+      if (contactData.associatedCompanyId) {
+        payload['associations'] = [{
+          types: [{
+            associationCategory: 'HUBSPOT_DEFINED',
+            associationTypeId: 1
+          }],
+          details: [{
+            companyId: contactData.associatedCompanyId
+          }]
+        }];
+      }
+
+      const response = await this.client.post('/objects/contacts', payload);
+      return response.data.id;
+    } catch (error) {
+      this.handleError(error);
+    }
+  }
+
+  /**
+   * Update an existing contact in HubSpot
+   * @param contactId ID of the contact to update
+   * @param contactData Properties to update
+   * @returns Promise with updated contact ID
+   */
+  async updateContact(contactId: string, contactData: ContactProperties): Promise<string> {
+    try {
+      const payload = {
+        properties: this.formatProperties(contactData)
+      };
+
+      const response = await this.client.patch(`/objects/contacts/${contactId}`, payload);
+      return response.data.id;
+    } catch (error) {
+      this.handleError(error);
+    }
+  }
+
+  /**
+   * Search for a contact by email
+   * @param email Email to search for
+   * @returns Promise with contact details or null
+   */
+  async findContactByEmail(email: string): Promise<any | null> {
+    try {
+      const response = await this.client.post('/objects/contacts/search', {
+        filterGroups: [{
+          filters: [{
+            propertyName: 'email',
+            operator: 'EQ',
+            value: email
+          }]
+        }],
+        limit: 1
+      });
+
+      return response.data.results.length > 0
+        ? response.data.results[0]
+        : null;
+    } catch (error) {
+      this.handleError(error);
+    }
+  }
+
+  /**
+   * Format properties for HubSpot API
+   * Converts object to HubSpot's expected format
+   */
+  private formatProperties(properties: ContactProperties): Array<{property: string, value: string | number | boolean}> {
+    return Object.entries(properties).map(([key, value]) => ({
+      property: key,
+      value: value
+    }));
+  }
+
+  /**
+   * Centralized error handling
+   */
+  private handleError(error: any): never {
+    if (error.response) {
+      // HubSpot API returned an error response
+      const errorMessage = error.response.data?.message || 'HubSpot API error';
+      const statusCode = error.response.status;
+
+      throw new Error(`HubSpot Error (${statusCode}): ${errorMessage}`);
+    } else if (error.request) {
+      // No response received
+      throw new Error('No response received from HubSpot API');
+    } else {
+      // Error in request setup
+      throw new Error(`Request setup error: ${error.message}`);
+    }
+  }
+}
+
+export default HubSpotService;
+
+```
+
+Here's how you can use this HubSpotService in your Fastify server:
+
+```typescript
+import Fastify from 'fastify';
+import HubSpotService from './HubSpotService';
+
+const fastify = Fastify({ logger: true });
+
+// Initialize HubSpot Service
+const hubspotService = new HubSpotService({
+  accessToken: process.env.HUBSPOT_ACCESS_TOKEN!
+});
+
+// Contact form submission endpoint
+fastify.post('/submit-contact', async (request, reply) => {
+  try {
+    const {
+      firstName,
+      lastName,
+      email,
+      phone,
+      message
+    } = request.body;
+
+    // Check if contact already exists
+    const existingContact = await hubspotService.findContactByEmail(email);
+
+    let contactId;
+    if (existingContact) {
+      // Update existing contact
+      contactId = await hubspotService.updateContact(existingContact.id, {
+        firstname: firstName,
+        lastname: lastName,
+        phone: phone,
+        additional_message__c: message
+      });
+    } else {
+      // Create new contact
+      contactId = await hubspotService.createContact({
+        properties: {
+          firstname: firstName,
+          lastname: lastName,
+          email: email,
+          phone: phone,
+          additional_message__c: message
+        }
+      });
+    }
+
+    reply.status(200).send({
+      success: true,
+      contactId: contactId
+    });
+  } catch (error) {
+    fastify.log.error(error);
+    reply.status(500).send({
+      success: false,
+      message: error.message
+    });
+  }
+});
+
+export default fastify;
+
+```
+
+Key Features of the HubSpotService:
+
+1. Comprehensive API Interactions
+   - Create contacts
+   - Update existing contacts
+   - Search contacts by email
+
+2. Robust Error Handling
+   - Centralized error management
+   - Detailed error messages
+   - Handles various error scenarios
+
+3. Flexible Configuration
+   - Configurable access token
+   - Optional base URL override
+
+4. TypeScript Support
+   - Type-safe interfaces
+   - Clear method signatures
+
+5. Smart Contact Management
+   - Checks for existing contacts
+   - Updates or creates contacts as needed
+
+To use this in your project:
+
+1. Install dependencies:
+```bash
+npm install axios
+npm install -D @types/node
+```
+
+2. Set up environment variables:
+```
+HUBSPOT_ACCESS_TOKEN=your_access_token_here
+```
+
+Recommendations:
+- Store sensitive tokens in environment variables
+- Implement additional validation as needed
+- Consider adding logging and monitoring
+
+Would you like me to explain any part of the implementation or discuss how to further customize the HubSpot integration?
+
+---
+
+I'll convert both the HubSpotService and Fastify integration to JavaScript.
+
+
+
+```javascript
+import axios from 'axios';
+
+class HubSpotService {
+  constructor(config) {
+    this.accessToken = config.accessToken;
+    this.client = axios.create({
+      baseURL: config.baseUrl || 'https://api.hubapi.com/crm/v3',
+      headers: {
+        'Authorization': `Bearer ${this.accessToken}`,
+        'Content-Type': 'application/json'
+      }
+    });
+  }
+
+  /**
+   * Create a new contact in HubSpot
+   * @param {Object} contactData Contact properties to create
+   * @returns {Promise<string>} Created contact ID
+   */
+  async createContact(contactData) {
+    try {
+      // Validate required properties
+      if (!contactData.properties.email) {
+        throw new Error('Email is required to create a contact');
+      }
+
+      // Prepare contact creation payload
+      const payload = {
+        properties: this.formatProperties(contactData.properties)
+      };
+
+      // Optional: Add company association if provided
+      if (contactData.associatedCompanyId) {
+        payload.associations = [{
+          types: [{
+            associationCategory: 'HUBSPOT_DEFINED',
+            associationTypeId: 1
+          }],
+          details: [{
+            companyId: contactData.associatedCompanyId
+          }]
+        }];
+      }
+
+      const response = await this.client.post('/objects/contacts', payload);
+      return response.data.id;
+    } catch (error) {
+      this.handleError(error);
+    }
+  }
+
+  /**
+   * Update an existing contact in HubSpot
+   * @param {string} contactId ID of the contact to update
+   * @param {Object} contactData Properties to update
+   * @returns {Promise<string>} Updated contact ID
+   */
+  async updateContact(contactId, contactData) {
+    try {
+      const payload = {
+        properties: this.formatProperties(contactData)
+      };
+
+      const response = await this.client.patch(`/objects/contacts/${contactId}`, payload);
+      return response.data.id;
+    } catch (error) {
+      this.handleError(error);
+    }
+  }
+
+  /**
+   * Search for a contact by email
+   * @param {string} email Email to search for
+   * @returns {Promise<Object|null>} Contact details or null
+   */
+  async findContactByEmail(email) {
+    try {
+      const response = await this.client.post('/objects/contacts/search', {
+        filterGroups: [{
+          filters: [{
+            propertyName: 'email',
+            operator: 'EQ',
+            value: email
+          }]
+        }],
+        limit: 1
+      });
+
+      return response.data.results.length > 0
+        ? response.data.results[0]
+        : null;
+    } catch (error) {
+      this.handleError(error);
+    }
+  }
+
+  /**
+   * Format properties for HubSpot API
+   * @param {Object} properties Properties to format
+   * @returns {Array} Formatted properties
+   */
+  formatProperties(properties) {
+    return Object.entries(properties).map(([key, value]) => ({
+      property: key,
+      value: value
+    }));
+  }
+
+  /**
+   * Centralized error handling
+   * @param {Error} error Error to handle
+   * @throws {Error} Formatted error
+   */
+  handleError(error) {
+    if (error.response) {
+      // HubSpot API returned an error response
+      const errorMessage = error.response.data?.message || 'HubSpot API error';
+      const statusCode = error.response.status;
+
+      throw new Error(`HubSpot Error (${statusCode}): ${errorMessage}`);
+    } else if (error.request) {
+      // No response received
+      throw new Error('No response received from HubSpot API');
+    } else {
+      // Error in request setup
+      throw new Error(`Request setup error: ${error.message}`);
+    }
+  }
+}
+
+export default HubSpotService;
+
+```
+
+And here's the corresponding Fastify integration in JavaScript:
+
+```javascript
+import Fastify from 'fastify';
+import HubSpotService from './HubSpotService.js';
+import dotenv from 'dotenv';
+
+// Load environment variables
+dotenv.config();
+
+const fastify = Fastify({ logger: true });
+
+// Register body parsing middleware
+fastify.register(import('@fastify/formbody'));
+
+// Initialize HubSpot Service
+const hubspotService = new HubSpotService({
+  accessToken: process.env.HUBSPOT_ACCESS_TOKEN
+});
+
+// Contact form submission endpoint
+fastify.post('/submit-contact', async (request, reply) => {
+  try {
+    const {
+      firstName,
+      lastName,
+      email,
+      phone,
+      message
+    } = request.body;
+
+    // Check if contact already exists
+    const existingContact = await hubspotService.findContactByEmail(email);
+
+    let contactId;
+    if (existingContact) {
+      // Update existing contact
+      contactId = await hubspotService.updateContact(existingContact.id, {
+        firstname: firstName,
+        lastname: lastName,
+        phone: phone,
+        additional_message__c: message
+      });
+    } else {
+      // Create new contact
+      contactId = await hubspotService.createContact({
+        properties: {
+          firstname: firstName,
+          lastname: lastName,
+          email: email,
+          phone: phone,
+          additional_message__c: message
+        }
+      });
+    }
+
+    reply.status(200).send({
+      success: true,
+      contactId: contactId
+    });
+  } catch (error) {
+    fastify.log.error(error);
+    reply.status(500).send({
+      success: false,
+      message: error.message
+    });
+  }
+});
+
+// Server startup
+const start = async () => {
+  try {
+    await fastify.listen({ port: 3000 });
+    fastify.log.info('Server listening on port 3000');
+  } catch (err) {
+    fastify.log.error(err);
+    process.exit(1);
+  }
+};
+
+start();
+
+```
+
+Key changes from the TypeScript version:
+- Removed type annotations
+- Simplified function signatures
+- Kept the same core functionality
+
+To set up the project:
+
+1. Install dependencies:
+```bash
+npm install fastify axios dotenv @fastify/formbody
+```
+
+2. Create a `.env` file:
+```
+HUBSPOT_ACCESS_TOKEN=your_access_token_here
+```
+
+3. Project structure:
+```
+project/
+├── HubSpotService.js
+├── server.js
+└── .env
+```
+
+Recommendations:
+- Use ESM (import/export) module system
+- Keep sensitive tokens in environment variables
+- Add input validation as needed
+
+Would you like me to explain any part of the implementation or discuss how to customize the integration further?

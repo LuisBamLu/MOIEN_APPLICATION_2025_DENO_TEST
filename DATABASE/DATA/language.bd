@@ -1,0 +1,219 @@
+LANGUAGE
+
+    tag code number name isAvailable isTranslatable
+
+        en
+            ~ en
+            ~ 1
+            ~ English
+              ¨fr:Anglais
+            ~ true
+            ~ false
+
+        fr
+            ~ fr
+            ~ 2
+            ~ French
+              ¨fr:Français
+            ~ true
+            ~ false
+
+        de
+            ~ de
+            ~ 1
+            ~ German
+              ¨fr:Allemand
+            ~ true
+            ~ false
+
+        ja
+            ~ ja
+            ~ 2
+            ~ Japanese
+              ¨fr:Japonais
+            ~ false
+            ~ false
+
+        it
+            ~ it
+            ~ 3
+            ~ Italian
+              ¨fr:Italien
+            ~ false
+            ~ false
+
+        ru
+            ~ ru
+            ~ 4
+            ~ Russian
+              ¨fr:Russe
+            ~ false
+            ~ false
+
+        es
+            ~ es
+            ~ 5
+            ~ Spanish
+              ¨fr:Espagnol
+            ~ false
+            ~ false
+
+        zh
+            ~ zh
+            ~ 6
+            ~ Chinese (Simplified)
+              ¨fr:Chinois (Simplifié)
+            ~ false
+            ~ false
+
+        ar
+            ~ ar
+            ~ 7
+            ~ Arabic
+              ¨fr:Arabe
+            ~ false
+            ~ false
+
+        hi
+            ~ hi
+            ~ 8
+            ~ Hindi
+              ¨fr:Hindi
+            ~ false
+            ~ false
+
+        pt
+            ~ pt
+            ~ 9
+            ~ Portuguese
+              ¨fr:Portugais
+            ~ false
+            ~ false
+
+        tr
+            ~ tr
+            ~ 10
+            ~ Turkish
+              ¨fr:Turc
+            ~ false
+            ~ false
+
+        id
+            ~ id
+            ~ 11
+            ~ Indonesian
+              ¨fr:Indonésien
+            ~ false
+            ~ false
+
+        nl
+            ~ nl
+            ~ 12
+            ~ Dutch
+              ¨fr:Néerlandais
+            ~ false
+            ~ false
+
+        ko
+            ~ ko
+            ~ 13
+            ~ Korean
+              ¨fr:Coréen
+            ~ false
+            ~ false
+
+        th
+            ~ th
+            ~ 14
+            ~ Thai
+              ¨fr:Thaï
+            ~ false
+            ~ false
+
+        el
+            ~ el
+            ~ 15
+            ~ Greek
+              ¨fr:Grec
+            ~ false
+            ~ false
+
+        he
+            ~ he
+            ~ 16
+            ~ Hebrew
+              ¨fr:Hébreu
+            ~ false
+            ~ false
+
+        pl
+            ~ pl
+            ~ 17
+            ~ Polish
+              ¨fr:Polonais
+            ~ false
+            ~ false
+
+        ms
+            ~ ms
+            ~ 18
+            ~ Malay
+              ¨fr:Malais
+            ~ false
+            ~ false
+
+        da
+            ~ da
+            ~ 19
+            ~ Danish
+              ¨fr:Danois
+            ~ false
+            ~ false
+
+        sv
+            ~ sv
+            ~ 20
+            ~ Swedish
+              ¨fr:Suédois
+            ~ false
+            ~ false
+
+        no
+            ~ no
+            ~ 21
+            ~ Norwegian
+              ¨fr:Norvégien
+            ~ false
+            ~ false
+
+        fi
+            ~ fi
+            ~ 22
+            ~ Finnish
+              ¨fr:Finnois
+            ~ false
+            ~ false
+
+        cs
+            ~ cs
+            ~ 23
+            ~ Czech
+              ¨fr:Tchèque
+            ~ false
+            ~ false
+
+        hu
+            ~ hu
+            ~ 24
+            ~ Hungarian
+              ¨fr:Hongrois
+            ~ false
+            ~ false
+
+        uk
+            ~ uk
+            ~ 25
+            ~ Ukrainian
+              ¨fr:Ukrainien
+            ~ false
+            ~ false

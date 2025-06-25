@@ -1,0 +1,45 @@
+#    MMMMMMMM               MMMMMMMM        OOOOOOOOO        IIIIIIIIII   EEEEEEEEEEEEEEEEEEEEEE   NNNNNNNN        NNNNNNNN
+#    M:::::::M             M:::::::M      OO:::::::::OO      I::::::::I   E::::::::::::::::::::E   N:::::::N       N::::::N
+#    M::::::::M           M::::::::M    OO:::::::::::::OO    I::::::::I   E::::::::::::::::::::E   N::::::::N      N::::::N
+#    M:::::::::M         M:::::::::M   O:::::::OOO:::::::O   II::::::II   EE::::::EEEEEEEEE::::E   N:::::::::N     N::::::N
+#    M::::::::::M       M::::::::::M   O::::::O   O::::::O     I::::I       E:::::E       EEEEEE   N::::::::::N    N::::::N
+#    M:::::::::::M     M:::::::::::M   O:::::O     O:::::O     I::::I       E:::::E                N:::::::::::N   N::::::N
+#    M:::::::M::::M   M::::M:::::::M   O:::::O     O:::::O     I::::I       E::::::EEEEEEEEEE      N:::::::N::::N  N::::::N
+#    M::::::M M::::M M::::M M::::::M   O:::::O     O:::::O     I::::I       E:::::::::::::::E      N::::::N N::::N N::::::N
+#    M::::::M  M::::M::::M  M::::::M   O:::::O     O:::::O     I::::I       E:::::::::::::::E      N::::::N  N::::N:::::::N
+#    M::::::M   M:::::::M   M::::::M   O:::::O     O:::::O     I::::I       E::::::EEEEEEEEEE      N::::::N   N:::::::::::N
+#    M::::::M    M:::::M    M::::::M   O:::::O     O:::::O     I::::I       E:::::E                N::::::N    N::::::::::N
+#    M::::::M     MMMMM     M::::::M   O::::::O   O::::::O     I::::I       E:::::E       EEEEEE   N::::::N     N:::::::::N
+#    M::::::M               M::::::M   O:::::::OOO:::::::O   II::::::II   EE::::::EEEEEEEE:::::E   N::::::N      N::::::::N
+#    M::::::M               M::::::M    OO:::::::::::::OO    I::::::::I   E::::::::::::::::::::E   N::::::N       N:::::::N
+#    M::::::M               M::::::M      OO:::::::::OO      I::::::::I   E::::::::::::::::::::E   N::::::N        N::::::N
+#    MMMMMMMM               MMMMMMMM        OOOOOOOOO        IIIIIIIIII   EEEEEEEEEEEEEEEEEEEEEE   NNNNNNNN         NNNNNNN
+#
+#
+# Welcome to Moïen!
+#
+# We’re delighted to have you here at Moïen, your go-to spot for short stays, rentals, and sublets! Whether you’re a guest
+# looking for a cozy place or a friendly bot navigating our site, we’re here to ensure your experience is top-notch.
+#
+# This robots.txt file helps guide our digital visitors on how to interact with our site. For our human guests, enjoy exploring
+# our offerings. And to our bot visitors, thanks for adhering to our guidelines.
+#
+# Make yourself at home and enjoy your stay at Moïen!
+
+
+User-agent: Googlebot
+Disallow: /dashboard/
+
+User-agent: Bingbot
+Disallow: /dashboard/
+
+User-agent: YandexBot
+Disallow: /dashboard/
+
+User-agent: Baiduspider
+Disallow: /dashboard/
+
+User-agent: *
+Disallow: /dashboard/
+
+Sitemap: https://www.moien.com/sitemap.xml

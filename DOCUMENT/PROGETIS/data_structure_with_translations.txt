@@ -1,0 +1,985 @@
+{
+    "status": 200, // Status
+    "error": "", // Error
+    "data": {
+        "hash": "e12865c3256f12df4f002caf3e21e87f", // Hash
+        "structure": {
+            "chauffage": { // Heating
+                "climatisation": { // Air conditioning
+                    "type": "boolean"
+                },
+                "charbon": { // Coal
+                    "type": "boolean"
+                },
+                "granules": { // Pellets
+                    "type": "boolean"
+                },
+                "insert_cheminee": { // Fireplace insert
+                    "type": "boolean"
+                },
+                "cheminee": { // Fireplace
+                    "type": "boolean"
+                },
+                "radiateurs": { // Radiators
+                    "type": "boolean"
+                },
+                "description_energie": { // Energy description
+                    "type": "text"
+                },
+                "eau_chaude": { // Hot water
+                    "type": "string"
+                },
+                "chauffage_gaz": { // Gas heating
+                    "type": "boolean"
+                },
+                "chauffage_mazout": { // Oil heating
+                    "type": "boolean"
+                },
+                "chauffage_elect": { // Electric heating
+                    "type": "boolean"
+                },
+                "chauffage_col": { // Collective heating
+                    "type": "boolean"
+                }
+            },
+            "confort": { // Comfort
+                "ascenseur": { // Elevator
+                    "type": "boolean"
+                },
+                "installation_handicapes": { // Disabled facilities
+                    "type": "boolean"
+                },
+                "antenne_satellite": { // Satellite antenna
+                    "type": "boolean"
+                },
+                "volets_electriques": { // Electric shutters
+                    "type": "boolean"
+                },
+                "volets_roulants": { // Roller shutters
+                    "type": "boolean"
+                },
+                "wellness": { // Wellness
+                    "type": "boolean"
+                }
+            },
+            "description": { // Description
+                "description_fr": { // Description in French
+                    "type": "text"
+                },
+                "description_en": { // Description in English
+                    "type": "text"
+                },
+                "description_lu": { // Description in Luxembourgish
+                    "type": "text"
+                },
+                "description_de": { // Description in German
+                    "type": "text"
+                },
+                "description_pt": { // Description in Portuguese
+                    "type": "text"
+                },
+                "texte_publicite_fr": { // Advertising text in French
+                    "type": "text"
+                },
+                "description_nl": { // Description in Dutch
+                    "type": "text"
+                },
+                "description_situation": { // Situation description
+                    "type": "text"
+                }
+            },
+            "details_pieces": { // Room details
+                "longueur_hall": { // Hall length
+                    "type": "float"
+                },
+                "largeur_hall": { // Hall width
+                    "type": "float"
+                },
+                "surface_hall": { // Hall area
+                    "type": "float"
+                },
+                "etage_hall": { // Hall floor
+                    "type": "int"
+                },
+                "longueur_cuisine": { // Kitchen length
+                    "type": "float"
+                },
+                "largeur_cuisine": { // Kitchen width
+                    "type": "float"
+                },
+                "surface_cuisine": { // Kitchen area
+                    "type": "float"
+                },
+                "etage_cuisine": { // Kitchen floor
+                    "type": "int"
+                },
+                "longueur_sejour": { // Living room length
+                    "type": "float"
+                },
+                "largeur_sejour": { // Living room width
+                    "type": "float"
+                },
+                "surface_sejour": { // Living room area
+                    "type": "float"
+                },
+                "etage_sejour": { // Living room floor
+                    "type": "int"
+                },
+                "longueur_salon": { // Lounge length
+                    "type": "float"
+                },
+                "largeur_salon": { // Lounge width
+                    "type": "float"
+                },
+                "surface_salon": { // Lounge area
+                    "type": "float"
+                },
+                "etage_salon": { // Lounge floor
+                    "type": "int"
+                },
+                "longueur_salle_a_manger": { // Dining room length
+                    "type": "float"
+                },
+                "largeur_salle_a_manger": { // Dining room width
+                    "type": "float"
+                },
+                "surface_salle_a_manger": { // Dining room area
+                    "type": "float"
+                },
+                "etage_salle_a_manger": { // Dining room floor
+                    "type": "int"
+                },
+                "longueur_sejour_double": { // Double living room length
+                    "type": "float"
+                },
+                "largeur_sejour_double": { // Double living room width
+                    "type": "float"
+                },
+                "surface_sejour_double": { // Double living room area
+                    "type": "float"
+                },
+                "etage_sejourDouble": { // Double living room floor
+                    "type": "int"
+                },
+                "longueur_bureau": { // Office length
+                    "type": "float"
+                },
+                "largeur_bureau": { // Office width
+                    "type": "float"
+                },
+                "surface_bureau": { // Office area
+                    "type": "float"
+                },
+                "etage_bureau": { // Office floor
+                    "type": "int"
+                },
+                "longueur_sdb": { // Bathroom length
+                    "type": "float"
+                },
+                "largeur_sdb": { // Bathroom width
+                    "type": "float"
+                },
+                "surface_sdb": { // Bathroom area
+                    "type": "float"
+                },
+                "etage_sdb": { // Bathroom floor
+                    "type": "int"
+                },
+                "longueur_salle_de_douche": { // Shower room length
+                    "type": "float"
+                },
+                "largeur_salle_de_douche": { // Shower room width
+                    "type": "float"
+                },
+                "surface_salle_de_douche": { // Shower room area
+                    "type": "float"
+                },
+                "etage_SalleDeDouche": { // Shower room floor
+                    "type": "int"
+                },
+                "longueur_cave": { // Cellar length
+                    "type": "float"
+                },
+                "largeur_cave": { // Cellar width
+                    "type": "float"
+                },
+                "surface_cave": { // Cellar area
+                    "type": "float"
+                },
+                "longueur_ch1": { // Bedroom 1 length
+                    "type": "float"
+                },
+                "largeur_ch1": { // Bedroom 1 width
+                    "type": "float"
+                },
+                "surface_ch1": { // Bedroom 1 area
+                    "type": "float"
+                },
+                "etage_ch1": { // Bedroom 1 floor
+                    "type": "int"
+                },
+                "longueur_ch2": { // Bedroom 2 length
+                    "type": "float"
+                },
+                "largeur_ch2": { // Bedroom 2 width
+                    "type": "float"
+                },
+                "surface_ch2": { // Bedroom 2 area
+                    "type": "float"
+                },
+                "etage_ch2": { // Bedroom 2 floor
+                    "type": "int"
+                },
+                "longueur_ch3": { // Bedroom 3 length
+                    "type": "float"
+                },
+                "largeur_ch3": { // Bedroom 3 width
+                    "type": "float"
+                },
+                "surface_ch3": { // Bedroom 3 area
+                    "type": "float"
+                },
+                "etage_ch3": { // Bedroom 3 floor
+                    "type": "int"
+                },
+                "longueur_ch4": { // Bedroom 4 length
+                    "type": "float"
+                },
+                "largeur_ch4": { // Bedroom 4 width
+                    "type": "float"
+                },
+                "surface_ch4": { // Bedroom 4 area
+                    "type": "float"
+                },
+                "etage_ch4": { // Bedroom 4 floor
+                    "type": "int"
+                },
+                "longueur_ch5": { // Bedroom 5 length
+                    "type": "float"
+                },
+                "largeur_ch5": { // Bedroom 5 width
+                    "type": "float"
+                },
+                "surface_ch5": { // Bedroom 5 area
+                    "type": "float"
+                },
+                "etage_ch5": { // Bedroom 5 floor
+                    "type": "int"
+                },
+                "longueur_ch6": { // Bedroom 6 length
+                    "type": "float"
+                },
+                "largeur_ch6": { // Bedroom 6 width
+                    "type": "float"
+                },
+                "surface_ch6": { // Bedroom 6 area
+                    "type": "float"
+                },
+                "etage_ch6": { // Bedroom 6 floor
+                    "type": "int"
+                },
+                "longueur_accueil": { // Reception length
+                    "type": "float"
+                },
+                "largeur_accueil": { // Reception width
+                    "type": "float"
+                },
+                "surface_accueil": { // Reception area
+                    "type": "float"
+                },
+                "etage_accueil": { // Reception floor
+                    "type": "int"
+                },
+                "longueur_salle_d_archives": { // Archives room length
+                    "type": "float"
+                },
+                "largeur_salle_d_archives": { // Archives room width
+                    "type": "float"
+                },
+                "surface_salle_d_archives": { // Archives room area
+                    "type": "float"
+                },
+                "etage_salle_d_archives": { // Archives room floor
+                    "type": "int"
+                },
+                "longueur_salle_de_reunion": { // Meeting room length
+                    "type": "float"
+                },
+                "largeur_salle_de_reunion": { // Meeting room width
+                    "type": "float"
+                },
+                "surface_salle_de_reunion": { // Meeting room area
+                    "type": "float"
+                },
+                "etage_salle_de_reunion": { // Meeting room floor
+                    "type": "int"
+                }
+            },
+            "divers": { // Miscellaneous
+                "contrat_de_construction": { // Construction contract
+                    "type": "string"
+                },
+                "copropriete": { // Co-ownership
+                    "type": "boolean"
+                },
+                "nombre_lots_copropriete": { // Number of co-ownership lots
+                    "type": "int"
+                },
+                "nombre_appartements_copropriete": { // Number of co-ownership apartments
+                    "type": "int"
+                },
+                "last_modification": { // Last modification
+                    "type": "datetime"
+                },
+                "mitoyennete": { // Adjacency
+                    "type": "string"
+                },
+                "assainissement": { // Sanitation
+                    "type": "string"
+                },
+                "servitude": { // Easement
+                    "type": "string"
+                },
+                "type_facade": { // Facade type
+                    "type": "string"
+                },
+                "type_toiture": { // Roof type
+                    "type": "string"
+                },
+                "moyen_de_visite": { // Means of visit
+                    "type": "string"
+                },
+                "garantie_bancaire": { // Bank guarantee
+                    "type": "string"
+                },
+                "lot": { // Lot
+                    "type": "string"
+                },
+                "etat_immeuble": { // Building condition
+                    "type": "string"
+                },
+                "numero_cadastral": { // Cadastral number
+                    "type": "string"
+                },
+                "valeur_assurable": { // Insurable value
+                    "type": "string"
+                }
+            },
+            "eco_energie": { // Eco energy
+                "triple_vitrage": { // Triple glazing
+                    "type": "boolean"
+                },
+                "double_vitrage": { // Double glazing
+                    "type": "boolean"
+                },
+                "pompe_a_chaleur": { // Heat pump
+                    "type": "boolean"
+                },
+                "chauffage_au_sol": { // Underfloor heating
+                    "type": "boolean"
+                },
+                "ventilation_mecanique": { // Mechanical ventilation
+                    "type": "boolean"
+                },
+                "geothermie": { // Geothermal
+                    "type": "boolean"
+                },
+                "chaudiere_condensation": { // Condensing boiler
+                    "type": "boolean"
+                },
+                "vmc_double_flux": { // Double flow ventilation
+                    "type": "boolean"
+                },
+                "solaire_thermique": { // Solar thermal
+                    "type": "boolean"
+                },
+                "solaire_photovoltaique": { // Solar photovoltaic
+                    "type": "boolean"
+                },
+                "lineaire_de_vitrine": { // Display linear
+                    "type": "boolean"
+                }
+            },
+            "energie": { // Energy
+                "indice_energetique": { // Energy index
+                    "type": "string"
+                },
+                "valeur_indice_energetique": { // Energy index value
+                    "type": "int"
+                },
+                "indice_isolation": { // Insulation index
+                    "type": "string"
+                },
+                "valeur_indice_isolation": { // Insulation index value
+                    "type": "int"
+                },
+                "indice_co2": { // CO2 index
+                    "type": "string"
+                },
+                "date_fin_ecopass": { // Eco-pass end date
+                    "type": "date"
+                },
+                "numero_ecopass": { // Eco-pass number
+                    "type": "string"
+                },
+                "date_emission_ecopass": { // Eco-pass issue date
+                    "type": "date"
+                },
+                "dpe_energie_valeur": { // DPE energy value
+                    "type": "string"
+                },
+                "dpe_energie_lettre": { // DPE energy letter
+                    "type": "string"
+                },
+                "dpe_co2_valeur": { // DPE CO2 value
+                    "type": "int"
+                },
+                "dpe_co2_lettre": { // DPE CO2 letter
+                    "type": "string"
+                },
+                "peb_energie_valeur": { // PEB energy value
+                    "type": "int"
+                },
+                "peb_energie_lettre": { // PEB energy letter
+                    "type": "string"
+                },
+                "peb_co2_valeur": { // PEB CO2 value
+                    "type": "int"
+                },
+                "dpe_en_cours": { // DPE in progress
+                    "type": "boolean"
+                },
+                "publier_ecopass": { // Publish Eco-pass
+                    "type": "boolean"
+                },
+                "dpe_date": { // DPE date
+                    "type": "date"
+                },
+                "dpe_loi_elan": { // DPE Elan law
+                    "type": "boolean"
+                },
+                "dpe_conso_min": { // DPE minimum consumption
+                    "type": "float"
+                },
+                "dpe_conso_max": { // DPE maximum consumption
+                    "type": "float"
+                },
+                "dpe_annee_conso": { // DPE consumption year
+                    "type": "string"
+                }
+            },
+            "equipements": { // Equipment
+                "lave_linge": { // Washing machine
+                    "type": "boolean"
+                },
+                "seche_linge": { // Dryer
+                    "type": "boolean"
+                },
+                "lave_vaisselle": { // Dishwasher
+                    "type": "boolean"
+                },
+                "micro_ondes": { // Microwave
+                    "type": "boolean"
+                },
+                "television": { // Television
+                    "type": "boolean"
+                },
+                "magnetoscope": { // VCR
+                    "type": "boolean"
+                },
+                "lecteur_dvd": { // DVD player
+                    "type": "boolean"
+                },
+                "chaine_hifi": { // Hi-Fi system
+                    "type": "boolean"
+                },
+                "acces_internet": { // Internet access
+                    "type": "boolean"
+                },
+                "wifi": { // WiFi
+                    "type": "boolean"
+                },
+                "four": { // Oven
+                    "type": "boolean"
+                },
+                "plaque": { // Hob
+                    "type": "boolean"
+                },
+                "vaisselle": { // Dishes
+                    "type": "boolean"
+                },
+                "canape_lit": { // Sofa bed
+                    "type": "boolean"
+                },
+                "refrigerateur": { // Refrigerator
+                    "type": "boolean"
+                },
+                "congelateur": { // Freezer
+                    "type": "boolean"
+                },
+                "rangements": { // Storage
+                    "type": "boolean"
+                },
+                "lit_simple": { // Single bed
+                    "type": "boolean"
+                },
+                "lit_double": { // Double bed
+                    "type": "boolean"
+                },
+                "linge_de_maison": { // Household linen
+                    "type": "boolean"
+                }
+            },
+            "exterieur": { // Exterior
+                "terrasse": { // Terrace
+                    "type": "boolean"
+                },
+                "surface_terrasse": { // Terrace area
+                    "type": "float"
+                },
+                "balcon": { // Balcony
+                    "type": "boolean"
+                },
+                "surface_balcon": { // Balcony area
+                    "type": "float"
+                },
+                "piscine": { // Swimming pool
+                    "type": "boolean"
+                },
+                "jardin": { // Garden
+                    "type": "boolean"
+                },
+                "surface_jardin": { // Garden area
+                    "type": "float"
+                },
+                "cour": { // Courtyard
+                    "type": "boolean"
+                },
+                "veranda": { // Veranda
+                    "type": "boolean"
+                }
+            },
+            "immotop": { // Immotop
+                "pack": { // Pack
+                    "type": "string"
+                }
+            },
+            "info": { // Information
+                "id": { // ID
+                    "type": "string"
+                },
+                "id_parent": { // Parent ID
+                    "type": "string"
+                },
+                "nom_projet": { // Project name
+                    "type": "string"
+                },
+                "id_projet": { // Project ID
+                    "type": "string"
+                },
+                "statut_projet": { // Project status
+                    "type": "string"
+                },
+                "export_site_passerelle": { // Export site gateway
+                    "type": "int"
+                },
+                "reference": { // Reference
+                    "type": "string"
+                },
+                "vente_location": { // Sale/Rental
+                    "type": "string"
+                },
+                "date_entree": { // Entry date
+                    "type": "date"
+                },
+                "titre": { // Title
+                    "type": "string"
+                },
+                "etat": { // State
+                    "type": "string"
+                },
+                "url": { // URL
+                    "type": "string"
+                },
+                "video": { // Video
+                    "type": "string"
+                },
+                "nature": { // Nature
+                    "type": "string"
+                },
+                "sous_nature": { // Sub-nature
+                    "type": "string"
+                },
+                "nature_athome": { // Nature athome
+                    "type": "string"
+                },
+                "achat_type": { // Purchase type
+                    "type": "string"
+                },
+                "nombre_pieces": { // Number of rooms
+                    "type": "int"
+                },
+                "nombre_chambres": { // Number of bedrooms
+                    "type": "int"
+                },
+                "nb_couchages": { // Number of beds
+                    "type": "int"
+                },
+                "coup_coeur": { // Heart stroke
+                    "type": "int"
+                },
+                "type_projet": { // Project type
+                    "type": "string"
+                },
+                "vacances": { // Holidays
+                    "type": "boolean"
+                },
+                "court_terme": { // Short term
+                    "type": "boolean"
+                },
+                "surface": { // Area
+                    "type": "float"
+                },
+                "surface_utile": { // Usable area
+                    "type": "float"
+                },
+                "surface_terrain": { // Land area
+                    "type": "float"
+                },
+                "surface_terrain_ares": { // Land area (ares)
+                    "type": "float"
+                },
+                "surface_totale": { // Total area
+                    "type": "float"
+                },
+                "surface_plancher": { // Floor area
+                    "type": "float"
+                },
+                "surface_emprise_sol": { // Footprint area
+                    "type": "float"
+                },
+                "loi_carrez": { // Carrez law
+                    "type": "string"
+                },
+                "vue": { // View
+                    "type": "string"
+                },
+                "annee_de_construction": { // Year of construction
+                    "type": "string"
+                },
+                "disponibilite": { // Availability
+                    "type": "string"
+                },
+                "date_disponibilite": { // Availability date
+                    "type": "string"
+                },
+                "location_saisonniere": { // Seasonal rental
+                    "type": "string"
+                },
+                "exclusivite": { // Exclusivity
+                    "type": "string"
+                },
+                "visite_virtuelle": { // Virtual visit
+                    "type": "string"
+                },
+                "exclusivite_media": { // Media exclusivity
+                    "type": "boolean"
+                }
+            },
+            "interieur": { // Interior
+                "grenier": { // Attic
+                    "type": "boolean"
+                },
+                "nb_grenier": { // Number of attics
+                    "type": "int"
+                },
+                "orientation": { // Orientation
+                    "type": "string"
+                },
+                "buanderie": { // Laundry room
+                    "type": "boolean"
+                },
+                "meuble": { // Furnished
+                    "type": "boolean"
+                },
+                "renove": { // Renovated
+                    "type": "boolean"
+                },
+                "cave_a_vin": { // Wine cellar
+                    "type": "boolean"
+                },
+                "animaux_acceptes": { // Pets allowed
+                    "type": "boolean"
+                },
+                "piscine": { // Swimming pool
+                    "type": "boolean"
+                },
+                "loggia": { // Loggia
+                    "type": "boolean"
+                }
+            },
+            "localisation": { // Location
+                "adresse_num": { // Address number
+                    "type": "string"
+                },
+                "adresse": { // Address
+                    "type": "string"
+                },
+                "adresse_bis": { // Address bis
+                    "type": "string"
+                },
+                "immeuble": { // Building
+                    "type": "string"
+                },
+                "code_postal": { // Postal code
+                    "type": "string"
+                },
+                "ville": { // City
+                    "type": "string"
+                },
+                "ville_athome": { // City athome
+                    "type": "string"
+                },
+                "pays": { // Country
+                    "type": "string"
+                },
+                "sous_localite": { // Sub-location
+                    "type": "string"
+                },
+                "secteurs": { // Sectors
+                    "type": "string"
+                },
+                "region": { // Region
+                    "type": "string"
+                },
+                "lat": { // Latitude
+                    "type": "string"
+                },
+                "lng": { // Longitude
+                    "type": "string"
+                },
+                "quartier": { // Neighborhood
+                    "type": "string"
+                },
+                "numero_etage": { // Floor number
+                    "type": "int"
+                },
+                "nombre_etage": { // Number of floors
+                    "type": "int"
+                }
+            },
+            "parking": { // Parking
+                "parking_souterrain": { // Underground parking
+                    "type": "int"
+                },
+                "parking_collectif": { // Collective parking
+                    "type": "int"
+                },
+                "garages": { // Garages
+                    "type": "int"
+                },
+                "parking_ouvert": { // Open parking
+                    "type": "int"
+                }
+            },
+            "pieces": { // Rooms
+                "cuisine": { // Kitchen
+                    "type": "boolean"
+                },
+                "cuisine_equipee": { // Equipped kitchen
+                    "type": "boolean"
+                },
+                "cuisine_independante": { // Independent kitchen
+                    "type": "boolean"
+                },
+                "description_cuisine": { // Kitchen description
+                    "type": "text"
+                },
+                "sejour": { // Living room
+                    "type": "boolean"
+                },
+                "description_sejour": { // Living room description
+                    "type": "text"
+                },
+                "salon": { // Lounge
+                    "type": "boolean"
+                },
+                "description_salon": { // Lounge description
+                    "type": "text"
+                },
+                "salle_a_manger": { // Dining room
+                    "type": "boolean"
+                },
+                "description_salle_a_manger": { // Dining room description
+                    "type": "text"
+                },
+                "sejour_double": { // Double living room
+                    "type": "boolean"
+                },
+                "description_sejour_double": { // Double living room description
+                    "type": "text"
+                },
+                "salles_de_bain": { // Bathrooms
+                    "type": "int"
+                },
+                "description_salle_de_bain": { // Bathroom description
+                    "type": "text"
+                },
+                "salle_de_douche": { // Shower rooms
+                    "type": "int"
+                },
+                "description_salle_de_douche": { // Shower room description
+                    "type": "text"
+                },
+                "wc_separe": { // Separate WC
+                    "type": "boolean"
+                },
+                "description_wc": { // WC description
+                    "type": "text"
+                },
+                "placard": { // Closet
+                    "type": "boolean"
+                },
+                "description_placard": { // Closet description
+                    "type": "text"
+                },
+                "cave": { // Cellar
+                    "type": "boolean"
+                },
+                "description_cave": { // Cellar description
+                    "type": "text"
+                },
+                "parc": { // Park
+                    "type": "boolean"
+                },
+                "parc_surface": { // Park area
+                    "type": "string"
+                },
+                "hall": { // Hall
+                    "type": "boolean"
+                },
+                "description_hall": { // Hall description
+                    "type": "text"
+                },
+                "bureau": { // Office
+                    "type": "boolean"
+                },
+                "description_bureau": { // Office description
+                    "type": "text"
+                },
+                "description_ch1": { // Bedroom 1 description
+                    "type": "text"
+                },
+                "description_ch2": { // Bedroom 2 description
+                    "type": "text"
+                },
+                "description_ch3": { // Bedroom 3 description
+                    "type": "text"
+                },
+                "description_ch4": { // Bedroom 4 description
+                    "type": "text"
+                },
+                "description_ch5": { // Bedroom 5 description
+                    "type": "text"
+                },
+                "description_ch6": { // Bedroom 6 description
+                    "type": "text"
+                },
+                "accueil": { // Reception
+                    "type": "boolean"
+                },
+                "description_accueil": { // Reception description
+                    "type": "text"
+                },
+                "salle_d_archives": { // Archives room
+                    "type": "boolean"
+                },
+                "description_salle_d_archives": { // Archives room description
+                    "type": "text"
+                },
+                "salle_de_reunion": { // Meeting room
+                    "type": "boolean"
+                },
+                "description_salle_de_reunion": { // Meeting room description
+                    "type": "text"
+                },
+                "autre_piece": { // Other room
+                    "type": "text"
+                },
+                "autre": { // Other
+                    "type": "text"
+                }
+            },
+            "prix": { // Price
+                "budget": { // Budget
+                    "type": "float"
+                },
+                "prix_m2": { // Price per square meter
+                    "type": "float"
+                },
+                "cacher_prix": { // Hide price
+                    "type": "int"
+                },
+                "charges_mensuelles": { // Monthly charges
+                    "type": "float"
+                },
+                "dispositif_fiscal": { // Fiscal device
+                    "type": "string"
+                },
+                "honoraires_a_charge": { // Fees to be paid by
+                    "type": "string"
+                },
+                "hors_taxe": { // Excluding tax
+                    "type": "boolean"
+                },
+                "tva": { // VAT
+                    "type": "float"
+                },
+                "honoraires_visite": { // Visit fees
+                    "type": "float"
+                },
+                "caution": { // Deposit
+                    "type": "float"
+                },
+                "honoraires_etat_des_lieux": { // Inventory fees
+                    "type": "float"
+                },
+                "taxe_fonciere": { // Property tax
+                    "type": "float"
+                },
+                "taxe_habitation": { // Housing tax
+                    "type": "float"
+                },
+                "prix_net": { // Net price
+                    "type": "float"
+                },
+                "modalites_charges_locataire": { // Tenant charge terms
+                    "type": "string"
+                },
+                "commission": { // Commission
+                    "type": "float"
+                }
+            },
+            "securite": { // Security
+                "digicode": { // Digicode
+                    "type": "boolean"
+                },
+                "gardien": { // Guardian
+                    "type": "boolean"
+                },
+                "porte_blindee": { // Armored door
+                    "type": "boolean"
+                },
+                "parlophone": { // Intercom
+                    "type": "boolean"
+                },
+                "videophone": { // Videophone
+                    "type": "boolean"
+                },
+                "alarme": { // Alarm
+                    "type": "boolean"
+                }
+            }
+        }
+    }
+}

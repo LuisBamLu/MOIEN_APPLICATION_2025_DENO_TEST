@@ -1,0 +1,81 @@
+SPACE
+
+    id propertyId typeId name
+
+        %nice-chalet-by-the-woods-property-first-bedroom-space
+            ~ %nice-chalet-by-the-woods-property
+            ~ bedroom
+            ~ First bedroom
+              ¨fr:Première chambre
+
+        %nice-chalet-by-the-woods-property-second-bedroom-space
+            ~ %nice-chalet-by-the-woods-property
+            ~ bedroom
+            ~ Second bedroom
+              ¨fr:Deuxième chambre
+
+        %nice-chalet-by-the-woods-property-first-bathroom-space
+            ~ %nice-chalet-by-the-woods-property
+            ~ bathroom
+            ~ First bathroom
+              ¨fr:Première salle de bains
+
+        %nice-chalet-by-the-woods-property-second-bathroom-space
+            ~ %nice-chalet-by-the-woods-property
+            ~ bathroom
+            ~ Second bathroom
+              ¨fr:Deuxième salle de bains
+
+        %nice-chalet-by-the-woods-property-living-room-space
+            ~ %nice-chalet-by-the-woods-property
+            ~ living-room
+            ~ Living room
+              ¨fr:Salle de séjour
+
+        %nice-chalet-by-the-woods-property-kitchen-space
+            ~ %nice-chalet-by-the-woods-property
+            ~ kitchen
+            ~ Kitchen
+              ¨fr:Cuisine
+
+        %nice-chalet-by-the-woods-property-dining-room-space
+            ~ %nice-chalet-by-the-woods-property
+            ~ dining-room
+            ~ Dining room
+              ¨fr:Salle à manger
+
+        %nice-chalet-by-the-woods-property-office-space
+            ~ %nice-chalet-by-the-woods-property
+            ~ office
+            ~ Office
+              ¨fr:Bureau
+
+        %nice-chalet-by-the-woods-property-balcony-space
+            ~ %nice-chalet-by-the-woods-property
+            ~ balcony
+            ~ Balcony
+              ¨fr:Balcon
+
+        %nice-chalet-by-the-woods-property-open-garage-space
+            ~ %nice-chalet-by-the-woods-property
+            ~ open-garage
+            ~ Open garage
+              ¨fr:Garage ouvert
+
+        %nice-chalet-by-the-woods-property-terrace-space
+            ~ %nice-chalet-by-the-woods-property
+            ~ terrace
+            ~ Terrace
+              ¨fr:Terrasse
+
+        %nice-chalet-by-the-woods-property-garden-space
+            ~ %nice-chalet-by-the-woods-property
+            ~ garden
+            ~ Garden
+              ¨fr:Jardin
+
+        %nice-chalet-by-the-woods-property-pool-space
+            ~ %nice-chalet-by-the-woods-property
+            ~ pool
+            ~ Pool
+              ¨fr:Piscine

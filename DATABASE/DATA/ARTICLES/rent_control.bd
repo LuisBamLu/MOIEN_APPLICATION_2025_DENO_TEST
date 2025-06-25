@@ -1,0 +1,177 @@
+ARTICLE
+
+    id typeId categoryIdArray slug date number title teaser text imagePath blockIdArray userId metaTitle metaDescription
+
+        %rent-control-article
+            ~ post
+            ~ { all }
+            ~ rent-control-article
+            ~ 2024-12-02
+            ~ 14
+            ~ Rent Control: An Effective Measure or a Barrier to Real Estate Investment?
+                ¨fr:Encadrement des loyers : une mesure efficace ou un frein à l’investissement immobilier ?
+                ¨de:Mietpreisbremse: Eine wirksame Maßnahme oder ein Hindernis für Immobilieninvestitionen?
+            ~ A key measure to curb abusive rent hikes, rent control divides opinions. Is it a protection for tenants or a barrier to investment? Explore the stakes and impacts on the Moïen blog.
+                ¨fr:Mesure phare pour limiter les loyers abusifs, l’encadrement divise. Une protection pour les locataires ou un frein à l’investissement ? Explorez les enjeux et impacts sur le blog de Moïen.
+                ¨de:Ein zentraler Ansatz zur Begrenzung überhöhter Mieten, der kontrovers diskutiert wird. Schützt die Mietpreisbremse Mieter wirklich oder bremst sie Investitionen? Erfahren Sie mehr über die Herausforderungen und Auswirkungen im Blog von Moïen.
+            ~ ×
+            ~ /global/blog/rental_control.avif
+            ~ { %rent-control-article-block-1 ~ %rent-control-article-block-2 ~ %rent-control-article-block-3 ~ %rent-control-article-block-4 ~ %rent-control-article-block-5 ~ %rent-control-article-block-6 ~ %rent-control-article-block-7 }
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+            ~ Rent Control: Issues, Benefits, and Limitations
+                ¨fr:Contrôle des loyers : enjeux, avantages et limites
+            ~ An in-depth analysis of rent control mechanisms, their impact on the real estate market, the benefits for tenants, and the challenges faced by landlords.
+                ¨fr:Analyse approfondie des mécanismes de contrôle des loyers, leurs impacts sur le marché immobilier, les bénéfices pour les locataires et les défis rencontrés par les propriétaires.
+
+BLOCK
+
+    id typeId articleId title text userId
+
+        %rent-control-article-block-1
+            ~ text
+            ~ %rent-control-article
+            ~ Introduction: A Heated Debate in Housing
+                ¨fr:Introduction : un débat au cœur du logement
+                ¨de:Einführung: Eine hitzige Debatte im Wohnungsmarkt
+            ~ Since its implementation in several major French cities, rent control has sparked lively discussions. This measure, which aims to cap rents in "high-demand" zones, divides property owners and tenants. Some see it as an essential safeguard against exploitation, while others argue it stifles real estate investment and compromises housing quality. But what is this policy really about, and how can it be improved to address the needs of all stakeholders in the housing market?
+                ¨fr:Depuis sa mise en place dans plusieurs grandes villes françaises, l’encadrement des loyers suscite de vives réactions. Cette mesure, qui vise à plafonner les loyers dans des zones dites "tendues", divise propriétaires et locataires. Certains y voient une protection essentielle contre les abus, tandis que d’autres dénoncent un frein à l’investissement immobilier et à la qualité des logements. Mais que cache réellement ce dispositif, et comment  pourrait-il être amélioré pour répondre aux attentes des différents acteurs du marché ?
+                ¨de:Seit ihrer Einführung in mehreren großen französischen Städten sorgt die Mietpreisbremse für hitzige Diskussionen. Diese Maßnahme, die darauf abzielt, Mieten in sogenannten „angespannten Gebieten“ zu begrenzen, spaltet Eigentümer und Mieter. Während manche sie als unerlässlichen Schutz gegen Ausbeutung betrachten, kritisieren andere sie als Hemmschuh für Immobilieninvestitionen und Wohnungsqualität. Doch was steckt wirklich hinter dieser Regelung, und wie könnte sie verbessert werden, um die Bedürfnisse aller Beteiligten im Wohnungsmarkt zu erfüllen?
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %rent-control-article-block-2
+            ~ text
+            ~ %rent-control-article
+            ~ What is Rent Control?
+                ¨fr:Qu’est-ce que l’encadrement des loyers ?
+                ¨de:Was ist die Mietpreisbremse?
+            ~ Rent control is a mechanism to cap rents in areas where housing demand significantly exceeds supply. In France, it applies to cities like Paris, Lille, Lyon, Bordeaux, Montpellier, and, as of November 2024, several municipalities in the Basque Country ((https://www.pap.fr/actualites/encadrement-des-loyers-adopte-au-pays-basque-menace-dannulation-a-paris/a26074)(source)).§In these zones, rents for new lease agreements must comply with caps based on local benchmarks. The goal is to prevent excessive hikes and preserve access to housing for lower-income households.
+                ¨fr:L’encadrement des loyers consiste à limiter le montant des loyers dans des zones où la demande de logements est bien supérieure à l’offre. En France, ce dispositif s’applique à des villes comme Paris, Lille, Lyon, Bordeaux, Montpellier, et depuis novembre 2024, à plusieurs communes du Pays Basque ((https://www.pap.fr/actualites/encadrement-des-loyers-adopte-au-pays-basque-menace-dannulation-a-paris/a26074)(source)).§Dans ces zones, les loyers pour les nouveaux contrats de location doivent respecter un plafond calculé en   fonction de références locales. L’objectif : éviter des augmentations jugées excessives et préserver l’accès au logement pour les ménages les plus modestes.
+                ¨de:Die Mietpreisbremse dient dazu, Mieten in Gebieten zu begrenzen, in denen die Nachfrage das Angebot deutlich übersteigt. In Frankreich gilt diese Regelung unter anderem in Städten wie Paris, Lille, Lyon, Bordeaux, Montpellier und seit November 2024 auch in mehreren Gemeinden im Baskenland ((https://www.pap.fr/actualites/encadrement-des-loyers-adopte-au-pays-basque-menace-dannulation-a-paris/a26074)(Quelle)).§In diesen Gebieten müssen die Mietpreise bei neuen Mietverträgen bestimmten Obergrenzen entsprechen, die anhand lokaler Referenzwerte berechnet werden. Ziel ist es, übermäßige Mietsteigerungen zu verhindern und einkommensschwachen Haushalten den Zugang zu Wohnraum zu sichern.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %rent-control-article-block-3
+            ~ text
+            ~ %rent-control-article
+            ~ Arguments in Favor of Rent Control
+                ¨fr:Les arguments en faveur de l’encadrement des loyers
+                ¨de:Argumente für die Mietpreisbremse
+            ~ **1. Protecting Tenants**§For students, young professionals, and modest-income families, this measure provides crucial protection. In cities where rents are skyrocketing, rent control limits exploitation and ensures fairer access to housing.
+                §
+                **2. Reducing Social Inequalities**§Housing represents a significant portion of household expenses. By curbing rent increases, rent control helps reduce economic disparities and preserves social diversity in urban areas.
+                §
+                **3. Combating Real Estate Speculation**§By reducing the profitability of speculative investments, this policy encourages more responsible practices and redirects capital towards long-term projects such as renovations or new housing developments.
+                ¨fr:**1. Protection des locataires**§Pour les étudiants, jeunes actifs et familles modestes, cette mesure offre une protection indispensable. Dans des villes où les loyers s’envolent, l’encadrement limite les abus et garantit un accès plus équitable au logement.
+                    §
+                    **2. Réduction des inégalités sociales**§Le logement représente une part importante des dépenses des ménages. En limitant les hausses, l’encadrement aide à réduire les écarts entre les classes sociales et à préserver la mixité dans les zones urbaines.
+                    §
+                    **3. Lutte contre la spéculation immobilière**§En freinant la rentabilité des investissements purement spéculatifs, cette mesure pourrait encourager des   pratiques plus responsables et orienter les capitaux vers des projets à long terme, comme la rénovation ou la construction de nouveaux logements.
+                ¨de:**1. Schutz der Mieter**§Für Studenten, junge Berufstätige und einkommensschwache Familien bietet diese Maßnahme einen unverzichtbaren Schutz. In Städten mit steigenden Mieten begrenzt die Mietpreisbremse Übergriffe und sorgt für einen gerechteren Zugang zu Wohnraum.
+                    §
+                    **2. Verringerung sozialer Ungleichheiten**§Wohnkosten machen einen großen Teil der Haushaltsausgaben aus. Durch die Begrenzung der Mieten hilft die Mietpreisbremse, wirtschaftliche Ungleichheiten zu verringern und die soziale Vielfalt in städtischen Gebieten zu bewahren.
+                    §
+                    **3. Bekämpfung von Immobilienspekulation**§Durch die Reduzierung der Attraktivität von spekulativen Investitionen könnte die Maßnahme verantwortungsvollere Praktiken fördern und Kapital in langfristige Projekte wie Renovierungen oder den Bau neuer Wohnungen lenken.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %rent-control-article-block-4
+            ~ text
+            ~ %rent-control-article
+            ~ Criticisms of the Policy
+                ¨fr:Les critiques du dispositif
+                ¨de:Kritik an der Regelung
+            ~ **1. Discouraging Investors**§Many property owners argue that rent control significantly reduces their profitability, particularly in areas with high property purchase prices. This results in declining interest in rental investment, which could worsen the housing shortage.
+                §
+                **2. Emergence of a Parallel Rental Market**§Some landlords bypass regulations by artificially inflating charges or opting for short-term rentals through platforms like Airbnb, thus avoiding rent caps.
+                §
+                **3. Impact on Housing Quality**§With capped rents, landlords may hesitate to invest in costly renovations, leading to a decline in the quality of available housing.
+                §
+                **4. Uneven Implementation**§Insufficient enforcement and lack of tenant awareness about their rights create disparities. In some areas, the policy is poorly implemented, causing frustration on both sides.
+                    ¨fr:**1. Découragement des investisseurs**§De nombreux propriétaires dénoncent une baisse significative de leur rentabilité, particulièrement dans des zones où les prix d’achat sont déjà élevés. Résultat : un désintérêt croissant pour l’investissement locatif, qui pourrait accentuer la pénurie de logements disponibles.
+                        §
+                        **2. Émergence d’un marché locatif parallèle**§Certains propriétaires contournent les règles en augmentant artificiellement les charges ou en se tournant vers la location de courte durée via des plateformes comme Airbnb, échappant ainsi à l’encadrement.
+                        §
+                        **3. Impact sur la qualité des logements**§Avec des plafonds de loyers imposés, les propriétaires hésitent parfois à entreprendre des rénovations coûteuses, ce qui nuit à la qualité des logements disponibles sur le marché.
+                        §
+                        **4. Une application inégale**§Le manque de contrôles efficaces et la méconnaissance des droits par certains locataires engendrent des disparités. Dans certaines zones, le dispositif reste peu ou mal appliqué, renforçant la frustration des deux côtés.
+                    ¨de:**1. Abschreckung von Investoren** §Viele Eigentümer argumentieren, dass die Mietpreisbremse ihre Rentabilität erheblich reduziert, insbesondere in Gebieten mit hohen Kaufpreisen. Dies führt zu einem nachlassenden Interesse an Mietinvestitionen, was die Wohnungsknappheit verschärfen könnte.
+                        §
+                        **2. Entstehung eines parallelen Mietmarkts**§Einige Vermieter umgehen die Regelungen, indem sie Nebenkosten künstlich erhöhen oder auf Kurzzeitvermietungen über Plattformen wie Airbnb ausweichen.
+                        §
+                        **3. Auswirkungen auf die Wohnqualität**§Mit festgelegten Mietobergrenzen zögern Vermieter oft, kostspielige Renovierungen durchzuführen, was die Qualität des verfügbaren Wohnraums beeinträchtigt.
+                        §
+                        **4. Uneinheitliche Umsetzung**§Ein Mangel an wirksamen Kontrollen und das fehlende Wissen vieler Mieter über ihre Rechte führen zu Ungleichheiten. In einigen Gebieten wird die Regelung schlecht umgesetzt, was Frustrationen auf beiden Seiten hervorruft.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %rent-control-article-block-5
+            ~ text
+            ~ %rent-control-article
+            ~ Towards a Balance Between Regulation and Market Dynamism
+                ¨fr:Vers un équilibre entre régulation et dynamisme
+                ¨de:Ein Gleichgewicht zwischen Regulierung und Marktdynamik finden
+            ~ While rent control has its merits, its success depends on complementary measures and, most importantly, on ensuring **stability and predictability** for all market participants.
+                §
+                **1. Stabilizing Regulations**§Investors need clear and consistent guidelines to plan for the long term. Frequent changes or unclear legislation increase uncertainty and deter investment.
+                §
+                **2. Encouraging Housing Construction**§Expanding housing supply is crucial to easing market pressure. Tax incentives and streamlined administrative processes could encourage development, alleviating rent inflation.
+                §
+                **3. Supporting Renovations**§Enhanced financial assistance should help landlords modernize their properties while adhering to rent caps.
+                §
+                **4. Strengthening Enforcement**§Strict and fair enforcement is essential to prevent abuses on both sides. Tenants should be well-informed of their rights, and landlords should benefit from transparent and straightforward procedures.
+                §
+                **5. Promoting Dialogue**§Establishing mediation structures between landlords and tenants could foster trust and tailor solutions to individual circumstances.
+                    ¨fr:L’encadrement des loyers, bien qu’imparfait, peut jouer un rôle dans la régulation du marché immobilier. Mais pour être efficace, il doit s’accompagner de mesures complémentaires et surtout garantir **stabilité et visibilité** aux acteurs du secteur.
+                        §
+                        **1. Stabiliser les règles**§Les investisseurs ont besoin de repères clairs et constants pour planifier sur le long terme. Une législation qui change fréquemment ou manque de clarté alimente l’incertitude et freine l’investissement.
+                        §
+                        **2. Inciter à la construction de logements**§L’offre de logements reste le principal levier pour résoudre la tension locative. Des incitations fiscales ou des simplifications administratives pourraient encourager la construction, réduisant ainsi la pression sur les loyers.
+                        §
+                        **3. Encourager les rénovations**§Des aides financières spécifiques devraient être renforcées pour permettre aux propriétaires de moderniser leurs biens tout en respectant les plafonds de loyers.
+                        §
+                        **4. Renforcer les contrôles**§Une application stricte et équitable est essentielle pour éviter les abus des deux côtés. Les locataires doivent être informés de leurs droits, et les propriétaires doivent bénéficier de procédures claires et transparentes.
+                        §
+                    **5. Créer des espaces de dialogue**§Mettre en place des structures de médiation entre propriétaires et locataires pourrait favoriser un climat de confiance et des solutions adaptées à chaque situation.
+                    ¨de:Obwohl die Mietpreisbremse ihre Vorzüge hat, hängt ihr Erfolg von ergänzenden Maßnahmen und vor allem von einer **stabilen und vorhersehbaren Gesetzgebung** ab.
+                        §
+                        **1. Stabilisierung der Regelungen**§Investoren brauchen klare und konstante Richtlinien, um langfristig planen zu können. Häufige Änderungen oder unklare Gesetze schaffen Unsicherheit und schrecken Investitionen ab.
+                        §
+                        **2. Förderung des Wohnungsbaus**§Die Erhöhung des Wohnungsangebots ist entscheidend, um den Druck auf den Markt zu verringern. Steueranreize und vereinfachte Verwaltungsverfahren könnten den Bau neuer Wohnungen fördern.
+                        §
+                        **3. Unterstützung von Renovierungen**§Gezielte finanzielle Anreize sollten verstärkt werden, um Vermietern die Modernisierung ihrer Immobilien zu erleichtern, ohne die Mietobergrenzen zu überschreiten.
+                        §
+                        **4. Stärkung der Kontrollen**§Strenge und faire Kontrollen sind notwendig, um Missbrauch auf beiden Seiten zu verhindern. Mieter sollten über ihre Rechte informiert sein, während Vermieter von transparenten und klaren Prozessen profitieren sollten.
+                        §
+                        **5. Förderung des Dialogs**§Die Einrichtung von Mediationsstrukturen zwischen Vermietern und Mietern könnte Vertrauen aufbauen und individuelle Lösungen fördern.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %rent-control-article-block-6
+            ~ text
+            ~ %rent-control-article
+            ~ Conclusion: A Challenge for Public Policy
+                ¨fr:Conclusion : un défi pour les politiques publiques
+                ¨de:Fazit: Eine Herausforderung für die öffentliche Politik
+            ~ Rent control is both an opportunity and a challenge. While its goal of protecting tenants is commendable, its impact on investment and housing quality raises critical questions.§Achieving a balance between regulation and market dynamism requires a comprehensive approach: stabilizing legislation, increasing housing supply, and fostering a long-term vision to ensure fair access to housing for all.§
+                §
+                📖 Find more insights and innovative solutions on the ((https://www.moien.com/en/blog)(Moïen)).
+                    ¨fr:L’encadrement des loyers est à la fois une opportunité et un défi. Si son objectif de protéger les locataires est louable, ses effets sur l’investissement et la qualité des logements soulèvent des questions. Trouver un  équilibre entre régulation et dynamisme du marché passe par une approche globale : plus de stabilité dans les lois, une offre renforcée, et une vision à long terme pour garantir un accès au logement pour tous.§Et vous, qu’en pensez-vous ? Ce dispositif doit-il être généralisé ou repensé ?
+                        §
+                        📖 Retrouvez plus d’analyses et de solutions innovantes sur le blog de ((https://www.moien.com/fr/blog)(Moïen)).
+                    ¨de:Die Mietpreisbremse ist sowohl eine Chance als auch eine Herausforderung. Während ihr Ziel, Mieter zu schützen, lobenswert ist, werfen ihre Auswirkungen auf Investitionen und Wohnungsqualität wichtige Fragen auf. Ein Gleichgewicht zwischen Regulierung und Marktdynamik zu finden, erfordert einen umfassenden Ansatz: Stabilisierung der Gesetze, Erhöhung des Wohnungsangebots und eine langfristige Vision, um allen einen fairen Zugang zu Wohnraum zu ermöglichen.
+                        §
+                        📖 Entdecken Sie weitere Einblicke und innovative Lösungen im ((https://www.moien.com/en/blog)(Moïen)).
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %rent-control-article-block-7
+            ~ text
+            ~ %rent-control-article
+            ~ References:
+                ¨fr:Références :
+                ¨de:Referenzen:
+            ~ 1. ((https://www.lagazettedescommunes.com/957831/une-censure-sans-consequences-pour-le-dispositif-dencadrement-des-loyers-a-paris/)(A censorship without consequences for the rent control system in Paris))§
+              2. ((https://www.francetransactions.com/actus/immobilier/marche-immo/encadrement-loyers-liste-villes.html)(Rent control: list of cities concerned in 2025))§
+              3. ((https://www.tout-immobilier.fr/encadrement-des-loyers-quel-avenir-pour-linvestissement-locatif/)(Rent control: What future for rental investment?))
+                ¨fr:1. ((https://www.lagazettedescommunes.com/957831/une-censure-sans-consequences-pour-le-dispositif-dencadrement-des-loyers-a-paris/)(Une censure sans conséquences pour le dispositif d’encadrement des loyers à Paris))§
+                    2. ((https://www.francetransactions.com/actus/immobilier/marche-immo/encadrement-loyers-liste-villes.html)(Encadrement des loyers : liste des villes concernées en 2025))§
+                    3. ((https://www.tout-immobilier.fr/encadrement-des-loyers-quel-avenir-pour-linvestissement-locatif/)(Encadrement des loyers : Quel avenir pour l’investissement locatif ?))
+                ¨de:1. ((https://www.lagazettedescommunes.com/957831/une-censure-sans-consequences-pour-le-dispositif-dencadrement-des-loyers-a-paris/)(Eine Zensur ohne Folgen für das Mietpreisbremse-System in Paris))§
+                    2. ((https://www.francetransactions.com/actus/immobilier/marche-immo/encadrement-loyers-liste-villes.html)(Mietpreisbremse: Liste der betroffenen Städte im Jahr 2025))§
+                    3. ((https://www.tout-immobilier.fr/encadrement-des-loyers-quel-avenir-pour-linvestissement-locatif/)(Mietpreisbremse: Welche Zukunft für Mietinvestitionen?))
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66

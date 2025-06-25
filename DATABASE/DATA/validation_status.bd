@@ -1,0 +1,19 @@
+VALIDATION_STATUS
+
+    id name
+
+        pending
+            ~ Pending
+              ¨fr:En attente
+
+        verified
+            ~ Verified
+              ¨fr:Vérifié
+
+        accepted
+            ~ Accepted
+              ¨fr:Accepté
+
+        declined
+            ~ Declined
+              ¨fr:Refusé

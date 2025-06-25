@@ -1,0 +1,51 @@
+USER_ROLE
+
+    id number name slug permissionSlugArray
+
+        guest
+            ~ 1
+            ~ Guest
+              ¨fr:Invité
+              ¨de:Gast
+            ~ guest
+            ~ {}
+
+        host
+            ~ 2
+            ~ Host
+              ¨fr:Hôte
+              ¨de:Gastgeber
+            ~ host
+            ~ {}
+
+        administrator
+            ~ 3
+            ~ Administrator
+              ¨fr:Administrateur
+              ¨de:Verwalter
+            ~ administrator
+            ~ { list-user ~ set-user ~ add-user ~ remove-user ~ list-blog ~ set-blog ~ add-blog ~ remove-blog ~ list-notification ~ set-notification ~ add-notification ~ remove-notification ~ list-email-template ~ set-email-template ~ add-email-template ~ remove-email-template ~ list-user-right ~ set-user-right ~ add-user-right ~ remove-user-right ~ list-document-type ~ set-document-type ~ add-document-type ~ remove-document-type ~ list-payment-type ~ set-payment-type ~ add-payment-type ~ remove-payment-type ~ list-payment-method ~ set-payment-method ~ add-payment-method ~ remove-payment-method ~ list-property-type ~ set-property-type ~ add-property-type ~ remove-property-type ~ list-property-status ~ set-property-status ~ add-property-status ~ remove-property-status ~ list-text ~ set-text ~ add-text ~ remove-text ~ list-space-type ~ set-space-type ~ add-space-type ~ remove-space-type ~ list-cancellation-policy ~ set-cancellation-policy ~ add-cancellation-policy ~ remove-cancellation-policy ~ list-bill-type ~ set-bill-type ~ add-bill-type ~ remove-bill-type ~ list-notification-type ~ set-notification-type ~ add-notification-type ~ remove-notification-type ~ list-notification-medium ~ set-notification-medium ~ add-notification-medium ~ remove-notification-medium ~ list-dashboard ~ set-dashboard ~ add-dashboard ~ remove-dashboard ~ list-statistics ~ set-statistics ~ add-statistics ~ remove-statistics ~ list-visit ~ set-visit ~ add-visit ~ list-review ~ set-review ~ add-review ~ list-notification-permission ~ set-notification-permission ~ add-notification-permission ~ list-invoice ~ set-invoice ~ add-invoice ~ list-rental-booking-status ~ set-rental-booking-status ~ add-rental-booking-status ~ list-rental-booking ~ set-rental-booking ~ add-rental-booking ~ list-payment-method-status ~ set-payment-method-status ~ add-payment-method-status ~ list-payment-status ~ set-payment-status ~ add-payment-status ~ list-subscription ~ set-subscription ~ add-subscription ~ list-document ~ set-document ~ add-document ~ list-payment ~ set-payment ~ add-payment ~ list-message ~ set-message ~ add-message ~ list-diagnosis ~ set-diagnosis ~ add-diagnosis ~ list-bed ~ set-bed ~ add-bed ~ list-space ~ set-space ~ list-property ~ set-property ~ list-inventory ~ set-inventory ~ add-inventory ~ remove-inventory ~ list-rental-announcement ~ set-rental-announcement ~ add-rental-announcement ~ remove-rental-announcement ~ list-rental-cost ~ set-rental-cost ~ add-rental-cost ~ remove-rental-cost ~ list-lease-signatory ~ set-lease-signatory ~ add-lease-signatory ~ remove-lease-signatory ~ list-lease-contract ~ set-lease-contract ~ add-lease-contract ~ remove-lease-contract ~ list-connection ~ set-connection ~ add-connection ~ remove-connection ~ list-image ~ set-image ~ add-image ~ remove-image ~ list-service }
+
+        backoffice-senior
+            ~ 4
+            ~ Backoffice Senior
+              ¨fr:Backoffice Senior
+              ¨de:Backoffice Senior
+            ~ backoffice-senior
+            ~ { add-blog ~ remove-blog ~ list-blog ~ add-notification ~ remove-notification ~ list-notification ~ add-document-type ~ remove-document-type ~ list-document-type ~ add-payment-type ~ remove-payment-type ~ list-payment-type ~ add-payment-method ~ remove-payment-method ~ list-payment-method ~ add-property-type ~ remove-property-type ~ list-property-type ~ add-property-status ~ remove-property-status ~ list-property-status ~ add-space-type ~ remove-space-type ~ list-space-type ~ add-cancellation-policy ~ remove-cancellation-policy ~ list-cancellation-policy ~ add-bill-type ~ remove-bill-type ~ list-bill-type ~ add-notification-type ~ remove-notification-type ~ list-notification-type ~ add-notification-medium ~ remove-notification-medium ~ list-notification-medium }
+
+        backoffice
+            ~ 5
+            ~ Backoffice
+              ¨fr:Backoffice
+              ¨de:Backoffice
+            ~ backoffice
+            ~ { add-blog ~ remove-blog ~ list-blog ~ add-notification ~ remove-notification ~ list-notification ~ add-document-type ~ remove-document-type ~ list-document-type ~ add-property-type ~ remove-property-type ~ list-property-type ~ add-property-status ~ remove-property-status ~ list-property-status ~ add-space-type ~ remove-space-type ~ list-space-type ~ add-cancellation-policy ~ remove-cancellation-policy ~ list-cancellation-policy ~ add-bill-type ~ remove-bill-type ~ list-bill-type ~ add-notification-type ~ remove-notification-type ~ list-notification-type ~ add-notification-medium ~ remove-notification-medium ~ list-notification-medium }
+
+        agency
+            ~ 6
+            ~ Agency
+              ¨fr:Agence
+              ¨de:Agentur
+            ~ agency
+            ~ { list-user ~ list-dashboard ~ list-statistics }

@@ -1,0 +1,24 @@
+NOTIFICATION_EVENT_STATUS
+
+    id name number color
+
+        pending
+            ~ Pending
+                ¨fr:En attente
+                ¨de:Anhängig
+            ~ 1
+            ~ orange
+        
+        done
+            ~ Done
+                ¨fr:Terminé
+                ¨de:Erledigt
+            ~ 2
+            ~ green
+        
+        failed
+            ~ Failed
+                ¨fr:Échec
+                ¨de:Gescheitert
+            ~ 3
+            ~ red

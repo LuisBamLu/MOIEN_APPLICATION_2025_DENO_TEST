@@ -1,0 +1,47 @@
+DOCUMENT
+
+    id userId name typeId validationStatusId filePath countryIdArray
+
+        %payroll
+            ~ 0eb438f5-de6c-4b41-bf71-acc21fdd14ba
+            ~ Payroll
+            ~ payroll
+            ~ declined
+            ~ /image/document/placeholder.avif
+            ~
+            {
+                FR
+            }
+
+        %proof-of-residence
+            ~ 0eb438f5-de6c-4b41-bf71-acc21fdd14ba
+            ~ Proof of Residence
+            ~ proof-of-residence
+            ~ pending
+            ~ /image/document/placeholder.avif
+            ~
+            {
+                FR
+            }
+
+        %identity-card
+            ~ 0eb438f5-de6c-4b41-bf71-acc21fdd14ba
+            ~ Identity Card
+            ~ id-card
+            ~ accepted
+            ~ /image/document/placeholder.avif
+            ~
+            {
+                FR
+            }
+
+        %tax-sheet
+            ~ 0eb438f5-de6c-4b41-bf71-acc21fdd14ba
+            ~ Tax Sheet
+            ~ tax-sheet
+            ~ accepted
+            ~ /image/document/placeholder.avif
+            ~
+            {
+                FR
+            }

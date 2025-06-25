@@ -1,0 +1,20 @@
+{
+  "appId": "com.moien",
+  "appName": "Moien",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "http",
+    "allowNavigation": ["192.168.178.69:3000"]
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    },
+    "CapacitorCookies": {
+      "enabled": true
+    },
+    "FirebaseMessaging": {
+      "presentationOptions": ["badge", "sound", "alert"]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+RENTAL_RECORD | dropped
+
+id : TUID
+userId : PROFILE.id
+adultCount : INT64
+childrenCount : INT64
+infantCount : INT64
+hasPet : BOOL
+
+EMPLOYMENT_STATUS | dropped
+
+id : STRING
+number : FLOAT64
+name : STRING
+creationTimestamp : TIMESTAMP | generated
+updateTimestamp : TIMESTAMP | generated, updated
+
+SIGNATORY | dropped
+
+id : TUID
+rentalRecordId : RENTAL_RECORD.id
+monthlyIncome : FLOAT64
+employmentStatus : EMPLOYMENT_STATUS.id
+hasGuarantor : BOOL
+
+PROPERTY_RENTAL_CRITERIA | dropped
+
+id : TUID
+propertyId : PROPERTY.id
+documentTypeIdList : [ DOCUMENT_TYPE.id ]
+requireCompleteRentalRecord : BOOL
+minimumMonthlyIncome : FLOAT64

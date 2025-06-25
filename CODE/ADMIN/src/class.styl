@@ -1,0 +1,258 @@
+// -- IMPORTS
+
+@import 'senselogic-flow/class.styl';
+@import 'senselogic-flow/DatePicker.styl';
+@import 'senselogic-flow/SortableList.styl';
+@import 'senselogic-flow/Switch.styl';
+@import 'senselogic-flow/ValuePicker.styl';
+
+// -- CLASSES
+
+defineDisplayClasses( flex inline-block );
+defineJustifyContentClasses( center flex-start flex-end normal space-between space-around space-evenly stretch );
+defineAlignItemsClasses( center flex-start flex-end baseline );
+defineFlexDirectionClasses( column );
+defineGapClasses( 50 100 );
+defineMarginTopClasses( 25 50 100 150 200 250 300 );
+defineMarginVerticalClasses( 50 100 150 200 250 300 );
+defineMarginLateralClasses( 50 100 150 200 250 300 );
+defineSizeClasses( 50 90 100 150 200 250 );
+defineHeightClasses( 100 150 200 250 550 );
+defineWidthClasses( 100 150 200 250 );
+defineWidthMediaClasses( 2000 2500 3000, phone desktop );
+definePaddingClasses( 100 150 200 250 300 350 400 );
+definePaddingVerticalClasses( 100 200 300 400 500 );
+defineMarginLeftClasses( 100 );
+defineBorderRadiusClasses( 999 );
+defineTextAlignClasses( center );
+definePaddingLateralClasses( 100 200 );
+definePaddingLateralMediaClasses( 200, small medium large xlarge xxlarge );
+defineBackgroundColorClass( 'red', 'red' );
+defineFontSizeClasses( 50 75 80 100 150 200 250 300 );
+defineFontWeightClasses( 500 600 700 900 );
+defineColorClasses( 'gray', 'gray', 100 300 );
+defineColorClass( 'red', 'red' );
+defineColorClass( 'blue', 'blue' );
+defineColorClasses( 'green', 'green', 300 500 );
+defineColorHoverClasses( 'green', 'green', 500 );
+defineIconClass( add, '/admin/image/icon/plus_circle.svg' );
+defineIconClass( grid, '/admin/image/icon/squares_four.svg' );
+defineIconClass( rows, '/admin/image/icon/rows.svg' );
+defineIconClass( edit, '/admin/image/icon/pencil_simple.svg' );
+defineIconClass( delete, '/admin/image/icon/trash_simple.svg' );
+defineIconClass( blocks, '/admin/image/icon/blocks.svg' );
+defineIconClass( news, '/admin/image/icon/news.svg' );
+defineIconClass( articles, '/admin/image/icon/articles.svg' );
+defineIconClass( close, '/admin/image/icon/close.svg' );
+defineIconClass( check, '/admin/image/icon/check.svg' );
+defineIconClass( decrease, '/admin/image/icon/decrease.svg' );
+defineIconClass( increase, '/admin/image/icon/increase.svg' );
+defineIconClass( eye, '/admin/image/icon/eye.svg' );
+defineIconClass( moien-logo, '/admin/image/icon/moien_logo.svg' );
+defineIconClass( moien, '/admin/image/icon/moien.svg' );
+defineIconClass( eye-slash, '/admin/image/icon/eye_slash.svg' );
+defineIconClass( search, '/admin/image/icon/search.svg' );
+defineIconClass( success, '/image/icon/success.svg' );
+defineIconClass( error, '/image/icon/error.svg' );
+defineIconClass( filter, '/admin/image/icon/filter.svg' );
+defineIconClass( plus, '/image/icon/plus.svg' );
+defineIconClass( settings, '/image/icon/settings.svg' );
+defineIconClass( map, '/image/icon/map.svg' );
+defineIconClass( statistics, '/image/icon/statistics.svg' );
+defineIconClass( dashboard, '/image/icon/dashboard.svg' );
+defineIconClass( logout, '/image/icon/logout.svg' );
+defineIconClass( blog, '/image/icon/blog.svg' );
+defineIconClass( doctype, '/image/icon/doctype.svg' );
+defineIconClass( email, '/image/icon/email.svg' );
+defineIconClass( rights, '/image/icon/rights.svg' );
+defineIconClass( wallet, '/image/icon/wallet.svg' );
+defineIconClass( cardholder, '/image/icon/cardholder.svg' );
+defineIconClass( property, '/image/icon/property.svg' );
+defineIconClass( build, '/image/icon/build.svg' );
+defineIconClass( energy, '/image/icon/energy.svg' );
+defineIconClass( note, '/image/icon/note.svg' );
+defineIconClass( card, '/image/icon/card.svg' );
+defineIconClass( documents, '/image/icon/documents.svg' );
+defineIconClass( users, '/image/icon/users.svg' );
+defineIconClass( house, '/image/icon/house.svg' );
+defineIconClass( space, '/image/icon/space.svg' );
+defineIconClass( bed, '/image/icon/bed.svg' );
+defineIconClass( chats, '/image/icon/chats.svg' );
+defineIconClass( back, '/image/icon/back.svg' );
+defineIconClass( elipsis-vertical, '/image/icon/elipsis_vertical.svg' );
+defineIconClass( policy, '/image/icon/policy.svg' );
+defineIconClass( text, '/image/icon/text.svg' );
+defineIconClass( subscription, '/image/icon/subscription.svg' );
+defineIconClass( payment-status, '/image/icon/payment_status.svg' );
+defineIconClass( payment-method-status, '/image/icon/payment_method_status.svg' );
+defineIconClass( rental-booking, '/image/icon/rental_booking.svg' );
+defineIconClass( rental-booking-status, '/image/icon/rental_booking_status.svg' );
+defineIconClass( permission, '/image/icon/permission.svg' );
+defineIconClass( review, '/image/icon/review.svg' );
+defineIconClass( medium, '/image/icon/medium.svg' );
+defineIconClass( visit, '/image/icon/visit.svg' );
+defineIconClass( heading, '/image/icon/heading.svg' );
+defineIconClass( save, '/image/icon/save.svg' );
+defineIconClass( clock, '/image/icon/clock.svg' );
+defineIconClass( upload, '/image/icon/upload.svg' );
+defineIconClass( lease-contract, '/image/icon/lease_contract.svg' );
+defineIconClass( lease-signatory, '/image/icon/lease_signatory.svg' );
+defineIconClass( rental-cost, '/image/icon/rental_cost.svg' );
+defineIconClass( rental-announcements, '/image/icon/rental_announcements.svg' );
+defineIconClass( inventory, '/image/icon/inventory.svg' );
+defineColorIconClass( gray-hamburger, grayColor, '/image/icon/hamburger.svg' );
+defineColorIconClass( white-trash, whiteColor, '/admin/image/icon/trash.svg' );
+defineColorIconClass( invoice, blueColor, '/admin/image/icon/invoice.svg' );
+defineColorIconClass( blue-chevron, blueColor, '/image/icon/chevron.svg' );
+defineColorIconClass( blue-add, blueColor ,'/admin/image/icon/plus_circle.svg' );
+defineColorIconClass( blue-grid, blueColor ,'/admin/image/icon/squares_four.svg' );
+defineColorIconClass( blue-rows, blueColor ,'/admin/image/icon/rows.svg' );
+defineColorIconClass( blue-edit, blueColor ,'/admin/image/icon/pencil_simple.svg' );
+defineColorIconClass( gray-edit, grayColorTransparent70 ,'/admin/image/icon/pencil_simple.svg' );
+defineColorIconClass( red-500-delete, redColor500 , '/admin/image/icon/trash_simple.svg' );
+defineColorIconClass( blue-blocks, blueColor, '/admin/image/icon/blocks.svg' );
+defineColorIconClass( blue-news, blueColor, '/admin/image/icon/news.svg' );
+defineColorIconClass( blue-articles, blueColor, '/admin/image/icon/articles.svg' );
+defineColorIconClass( blue-mailbox, blueColor, '/admin/image/icon/mailbox.svg' );
+defineColorIconClass( blue-service, blueColor, '/admin/image/icon/service.svg' );
+defineColorIconClass( white-close, whiteColor, '/admin/image/icon/close.svg' );
+defineColorIconClass( gray-close, grayColor, '/admin/image/icon/close.svg' );
+defineColorIconClass( gray-decrease, grayColor, '/admin/image/icon/decrease.svg' );
+defineColorIconClass( green-increase, greenColor, '/admin/image/icon/increase.svg' );
+defineColorIconClass( gray-eye, grayColorTransparent70, '/admin/image/icon/eye.svg' );
+defineColorIconClass( blue-eye, blueColor, '/admin/image/icon/eye.svg' );
+defineColorIconClass( gray-eye-slash, grayColorTransparent70, '/admin/image/icon/eye-slash.svg' );
+defineColorIconClass( gray-search, grayColorTransparent70, '/admin/image/icon/search.svg' );
+defineColorIconClass( green-search, greenColor, '/admin/image/icon/search.svg' );
+defineColorIconClass( blue-search, blueColor500, '/admin/image/icon/search.svg' );
+defineColorIconClass( gray-question-mark, grayColorTransparent70, '/admin/image/icon/question_mark.svg' );
+defineColorIconClass( blue-plus-circle, blueColor500, '/image/icon/plus_circle.svg' );
+defineColorIconClass( green-plus-circle, greenColor, '/image/icon/plus_circle.svg' );
+defineColorIconClass( green-100-check, greenColor100, '/image/icon/check.svg' );
+defineColorIconClass( red-400-close, redColor300, '/image/icon/close.svg' );
+defineColorIconClass( green-100-device-mobile, greenColor100, '/image/icon/device_mobile_camera.svg' );
+defineColorIconClass( green-100-device-tablet, greenColor100, '/image/icon/device_tablet_camera.svg' );
+defineColorIconClass( green-100-desktop, greenColor100, '/image/icon/desktop.svg' );
+defineColorIconClass( green-device-mobile, greenColor, '/image/icon/device_mobile_camera.svg' );
+defineColorIconClass( green-device-tablet, greenColor, '/image/icon/device_tablet_camera.svg' );
+defineColorIconClass( green-desktop, greenColor, '/image/icon/desktop.svg' );
+defineColorIconClass( blue-users, blueColor, '/admin/image/icon/users.svg' );
+defineColorIconClass( blue-text, blueColor, '/admin/image/icon/text_aa.svg' );
+defineColorIconClass( blue-scroll, blueColor, '/admin/image/icon/scroll.svg' );
+defineColorIconClass( blue-bed, blueColor, '/admin/image/icon/bed.svg' );
+defineColorIconClass( blue-lightbulb, blueColor, '/admin/image/icon/lightbulb.svg' );
+defineColorIconClass( blue-chats, blueColor, '/admin/image/icon/chats.svg' );
+defineColorIconClass( green-filter, greenColor, '/admin/image/icon/filter.svg' );
+defineColorIconClass( green-400-filter, greenColor500, '/admin/image/icon/filter.svg' );
+defineColorIconClass( white-plus, whiteColor, '/image/icon/plus.svg' );
+defineColorIconClass( blue-space, blueColor, '/admin/image/icon/space.svg' );
+defineColorIconClass( blue-house, blueColor, '/admin/image/icon/house.svg' );
+defineColorIconClass( blue-payment, blueColor, '/admin/image/icon/payment.svg' );
+defineColorIconClass( green-settings, greenColor, '/admin/image/icon/settings.svg' );
+defineColorIconClass( green-map, greenColor, '/admin/image/icon/map.svg' );
+defineColorIconClass( green-statistics, greenColor, '/admin/image/icon/statistics.svg' );
+defineColorIconClass( gray-elipsis, grayColor700, '/admin/image/icon/elipsis.svg' );
+defineColorIconClass( gray-policy, grayColor100, '/admin/image/icon/policy.svg' );
+defineColorIconClass( gray-text, grayColor100, '/admin/image/icon/text.svg' );
+defineColorIconClass( gray-subscription, grayColor100, '/admin/image/icon/subscription.svg' );
+defineColorIconClass( gray-payment-status, grayColor100, '/admin/image/icon/payment_status.svg' );
+defineColorIconClass( gray-payment-method-status, grayColor100, '/admin/image/icon/payment_method_status.svg' );
+defineColorIconClass( gray-rental-booking, grayColor100, '/admin/image/icon/rental_booking.svg' );
+defineColorIconClass( gray-rental-booking-status, grayColor100, '/admin/image/icon/rental_booking_status.svg' );
+defineColorIconClass( gray-note, grayColor100, '/admin/image/icon/note.svg' );
+defineColorIconClass( green-chevron, greenColor, '/admin/image/icon/chevron.svg' );
+defineColorIconClass( green-chevron-right, greenColor, '/admin/image/icon/chevron_right.svg' );
+defineColorIconClass( green-chevron-left, greenColor, '/admin/image/icon/chevron_left.svg' );
+defineColorIconClass( blue-link, blueColor, '/admin/image/icon/link.svg' );
+defineColorIconClass( gray-link, grayColorTransparent70, '/admin/image/icon/link.svg' );
+defineColorIconClass( blue-download, blueColor, '/admin/image/icon/download.svg' );
+defineColorIconClass( gray-download, grayColorTransparent70, '/admin/image/icon/download.svg' );
+defineColorIconClass( blue-drag, blueColor500, '/admin/image/icon/drag.svg' );
+defineColorIconClass( blue-100-move, blueColor100, '/admin/image/icon/move.svg' );
+defineColorIconClass( blue-100-crop, blueColor100, '/admin/image/icon/crop.svg' );
+defineColorIconClass( blue-100-zoom-in, blueColor100, '/admin/image/icon/zoom_in.svg' );
+defineColorIconClass( blue-100-zoom-out, blueColor100, '/admin/image/icon/zoom_out.svg' );
+defineColorIconClass( blue-100-rotate-left, blueColor100, '/admin/image/icon/rotate_left.svg' );
+defineColorIconClass( blue-100-rotate-right, blueColor100, '/admin/image/icon/rotate_right.svg' );
+defineColorIconClass( blue-100-flip-horizontal, blueColor100, '/admin/image/icon/flip_horizontal.svg' );
+defineColorIconClass( blue-100-flip-vertical, blueColor100, '/admin/image/icon/flip_vertical.svg' );
+defineColorIconClass( gray-100-image, grayColor100, '/admin/image/icon/image.svg' );
+defineColorIconClass( blue-100-power, blueColor100, '/admin/image/icon/power.svg' );
+defineColorIconClass( warning, orangeColor500, '/admin/image/icon/warning.svg' );
+defineColorIconClass( info, blueColor500, '/admin/image/icon/info.svg' );
+defineColorIconClass( orange-filled-warning, orangeColor, '/admin/image/icon/filled_warning.svg' );
+defineColorIconClass( red-clock, redColor100, '/image/icon/clock.svg' );
+defineColorIconClass( blue-edit-outlined, blueColor300, '/image/icon/edit_outlined.svg' );
+defineColorIconClass( green-toggle, greenColor, '/image/icon/toggle.svg' );
+defineColorIconClass( gray-100-bell, grayColor100, '/image/icon/bell.svg' );
+defineColorIconClass( gray-100-cards, grayColor100, '/image/icon/cards.svg' );
+defineColorIconClass( gray-100-bell-ringing, grayColor100, '/image/icon/bell_ringing.svg' );
+defineColorIconClass( gray-100-notification, grayColor100, '/image/icon/notification.svg' );
+defineColorIconClass( gray-100-address-book, grayColor100, '/image/icon/address_book.svg' );
+defineColorIconClass( gray-100-plug, grayColor100, '/image/icon/plug.svg' );
+defineColorIconClass( gray-100-mailchimp, grayColor100, '/image/icon/mailchimp.svg' );
+
+// ~~
+
+.title
+{
+    font-size: 2rem;
+    font-weight: 700;
+
+    +media( tablet )
+    {
+        font-size: 2.5rem;
+    }
+
+    +media( desktop )
+    {
+        font-size: 3rem;
+    }
+}
+
+.title.is-subtitle
+{
+    font-size: 1.5rem;
+    font-weight: 500;
+
+    +media( tablet )
+    {
+        font-size: 2rem;
+    }
+
+    +media( desktop )
+    {
+        font-size: 2.5rem;
+    }
+}
+
+.date-picker
+{
+    container-type: inline-size;
+    overflow: auto;
+
+    justify-content: center;
+}
+
+@container ( max-width: 36em )
+{
+    .date-picker .calendar:nth-child(2),
+    .date-picker .calendar:nth-child(3)
+    {
+        display: none;
+    }
+}
+
+@container ( max-width: 54em )
+{
+    .date-picker
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .date-picker .calendar:nth-child(3)
+    {
+        display: none;
+    }
+}

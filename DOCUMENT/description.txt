@@ -1,0 +1,36 @@
+Moien is a hybrid web and mobile application developed in Luxembourg by Moien S.A.
+
+The web version is hosted on the domain moien.com, where it will integrate Google Analytics for tracking user engagement and providing insights into user behavior.
+
+The mobile application is available on both Android and iOS devices.
+
+Moien serves as a comprehensive property rental platform, offering features similar to Airbnb but with additional functionality for a wider range of users.
+
+The platform supports short-term vacation rentals, long-term leases, and property sales, catering to property owners, tenants, guests, and buyers alike.
+
+Key Features:
+
+* For Property Owners:
+
+  - List properties for rent, either for short-term vacations or long-term leases.
+  - Manage payments for both short-term and long-term rentals.
+
+* For Tenants:
+
+  - Search for long-term rental properties.
+  - Schedule property viewings.
+  - Sign long-term lease agreements.
+  - Pay monthly rent directly through the platform.
+  - Sublet rooms for short-term stays, with the landlord's signed authorization.
+
+* For Guests:
+
+  - Discover and book short-term rental properties.
+  - Pay for rentals seamlessly through the platform.
+
+* For Buyers:
+
+  - Browse properties for sale via partnerships with real estate companies in France, Germany, Belgium, and Luxembourg.
+  - Schedule property viewings for potential purchases.
+
+All payment transactions on Moien are powered by the Mangopay platform.

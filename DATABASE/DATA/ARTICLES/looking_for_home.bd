@@ -1,0 +1,124 @@
+ARTICLE
+
+    id typeId categoryIdArray slug date number title teaser text imagePath blockIdArray userId metaTitle metaDescription
+
+        %looking-for-a-home
+            ~ post
+            ~ { all }
+            ~ looking-for-a-home
+            ~ 2024-10-03
+            ~ 3
+            ~ Looking for a home? Prepare your rental application: The essential documents for a perfect file
+                ¨fr:Vous cherchez un logement? Préparez votre dossier de location: Les documents essentiels pour un dossier parfait
+                ¨de:Auf der Suche nach einer Wohnung? Bereiten Sie Ihre Mietbewerbung vor: Die wesentlichen Dokumente für eine perfekte Bewerbung
+            ~ Are you searching for a rental property and want to stand out from other applicants? A well-prepared rental application is the key. Discover which documents are essential and some tips to reassure landlords and maximize your chances of success.
+                ¨fr:Vous recherchez un logement et vous voulez vous démarquer des autres candidats? Un dossier de location bien préparé est la clé. Découvrez quels documents sont indispensables et quelques astuces pour rassurer les propriétaires et maximiser vos chances de succès.
+                ¨de:Suchen Sie eine Mietwohnung und möchten sich von anderen Bewerbern abheben? Eine gut vorbereitete Mietbewerbung ist der Schlüssel. Entdecken Sie, welche Dokumente unerlässlich sind und erhalten Sie Tipps, um Vermieter zu überzeugen und Ihre Erfolgschancen zu maximieren.
+            ~ Are you searching for a rental property and want to stand out from other applicants? A well-prepared rental application is the key. Discover which documents are essential and some tips to reassure landlords and maximize your chances of success.
+                ¨fr:Vous recherchez un logement et vous voulez vous démarquer des autres candidats? Un dossier de location bien préparé est la clé. Découvrez quels documents sont indispensables et quelques astuces pour rassurer les propriétaires et maximiser vos chances de succès.
+                ¨de:Suchen Sie eine Mietwohnung und möchten sich von anderen Bewerbern abheben? Eine gut vorbereitete Mietbewerbung ist der Schlüssel. Entdecken Sie, welche Dokumente unerlässlich sind und erhalten Sie Tipps, um Vermieter zu überzeugen und Ihre Erfolgschancen zu maximieren.
+            ~ /global/blog/looking_for_a_home_prepare_your_rental_application_the_essential_documents_for_a_perfect_file.avif
+            ~ { %looking-for-a-home-block-1 ~ %looking-for-a-home-block-2 ~ %looking-for-a-home-block-3 ~ %looking-for-a-home-block-4 ~ %looking-for-a-home-block-5 ~ %looking-for-a-home-block-6 ~ %looking-for-a-home-block-7 }
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+            ~ Finding a Home: A Complete Guide to Your Housing Search
+                ¨fr:Trouver un logement : guide complet pour votre recherche immobilière
+            ~ Explore our practical tips and effective strategies to simplify your housing search and find the perfect home that meets your needs.
+                ¨fr:Découvrez nos conseils pratiques et stratégies efficaces pour faciliter votre recherche de logement et trouver la maison idéale qui correspond à vos besoins.
+BLOCK
+
+    id typeId articleId title text userId
+
+        %looking-for-a-home-block-1
+            ~ text
+            ~ %looking-for-a-home
+            ~ Documents You Should Not Forget in Your Rental Application
+                ¨fr:Les documents à ne pas oublier dans votre dossier de location
+                ¨de:Die wichtigen Dokumente für Ihre Mietbewerbung
+            ~ Finding a home can be a real challenge, especially in highly sought-after areas. The best way to set yourself apart from other candidates? A complete and well-organized rental application. Here are the essential documents you need to create a file that gives you the best chance.
+                ¨fr:La recherche d’un logement peut être un véritable parcours du combattant, surtout dans les zones très demandées. La meilleure manière de vous démarquer des autres candidats ? **Un dossier de location complet et bien organisé**. Voici les documents indispensables pour constituer un dossier qui mettra toutes les chances de votre côté.
+                ¨de:Die Wohnungssuche kann besonders in gefragten Gegenden eine echte Herausforderung sein. Wie können Sie sich von den anderen Bewerbern abheben? Mit einer vollständigen und gut organisierten Mietbewerbung. Hier sind die wichtigsten Dokumente, die Sie benötigen, um eine aussagekräftige Bewerbung zu erstellen.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %looking-for-a-home-block-2
+            ~ text
+            ~ %looking-for-a-home
+            ~ 1. A Valid ID
+                ¨fr:1. Une pièce d’identité en cours de validité
+                ¨de:1. Ein gültiger Identitätsnachweis
+            ~ - Passport, ID card, or driver’s license.
+                ¨fr:- Passeport, carte d'identité ou permis de conduire.
+                ¨de:- Reisepass, Personalausweis oder Führerschein.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %looking-for-a-home-block-3
+            ~ text
+            ~ %looking-for-a-home
+            ~ 2. Recent Proof of Address
+                ¨fr:2. Justificatif de domicile récent
+                ¨de:2. Aktueller Adressnachweis
+            ~ - Utility bills (electricity, gas, phone, or internet) dated within the last 3 months, or a proof of accommodation.
+                ¨fr:- Facture d’électricité, gaz, téléphone ou internet datant de moins de 3 mois, ou attestation d’hébergement.
+                ¨de:- Strom-, Gas-, Telefon- oder Internetrechnung aus den letzten 3 Monaten, oder eine Unterkunftsbescheinigung.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %looking-for-a-home-block-4
+            ~ text
+            ~ %looking-for-a-home
+            ~ 3. Proof of Income
+                ¨fr:3. Justificatif de revenus
+                ¨de:3. Einkommensnachweis
+            ~ - **Employee**: The last three payslips, a work contract, or an employer’s certificate.§
+              - **Self-employed**: Latest tax returns or proof of business income.§
+              - **Student**: Scholarship certificate or proof of financial support (parents, guarantor, etc.).
+                ¨fr:- **Salarié** : Les trois derniers bulletins de salaire, un contrat de travail ou une attestation employeur.§
+                    - **Indépendant** : Dernier bilan comptable ou justificatif de revenus d’activité.§
+                    - **Étudiant** : Attestation de bourse ou document prouvant des ressources financières (parents, garant, etc.).
+                ¨de:- **Angestellte**: Die letzten drei Gehaltsabrechnungen, ein Arbeitsvertrag oder eine Arbeitgeberbescheinigung.§
+                    - **Selbstständige**: Der letzte Steuerbescheid oder ein Nachweis über Geschäftseinnahmen.§
+                    - **Studierende**: Stipendienbescheid oder Nachweis über finanzielle Unterstützung (Eltern, Bürge, etc.).
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %looking-for-a-home-block-5
+            ~ text
+            ~ %looking-for-a-home
+            ~ 4. Tax Statement or Latest Tax Return
+                ¨fr:4. Relevé fiscal ou dernier avis d’imposition
+                ¨de:4. Steuerbescheid oder letzte Steuererklärung
+            ~ - Providing a tax statement can reassure the landlord about your ability to pay the rent.
+                ¨fr:- Fournir un justificatif fiscal peut rassurer sur votre capacité à payer le loyer.
+                ¨de:- Ein Steuerbescheid kann den Vermieter über Ihre Zahlungsfähigkeit beruhigen.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %looking-for-a-home-block-6
+            ~ text
+            ~ %looking-for-a-home
+            ~ 5. Previous Rental Receipts
+                ¨fr:5. Dernières quittances de loyer
+                ¨de:5. Letzte Mietzahlungsnachweise
+            ~ - If you were a previous tenant, include your last rental receipts to show that you’ve always paid your rent on time.
+                ¨fr:- Si vous avez déjà été locataire, incluez vos dernières quittances pour prouver que vous avez toujours été à jour dans vos paiements.
+                ¨de:- Wenn Sie bereits Mieter waren, fügen Sie die letzten Mietquittungen bei, um zu zeigen, dass Sie Ihre Miete immer pünktlich gezahlt haben.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %looking-for-a-home-block-7
+            ~ text
+            ~ %looking-for-a-home
+            ~ Tips to Make Your Application Stand Out
+                ¨fr:Quelques astuces pour vous démarquer
+                ¨de:Tipps, um Ihre Bewerbung hervorzuheben
+            ~ - **Add Recommendations**: A letter from your previous landlord or employer can make a difference.§
+              - **Polish the Presentation**: Organize your documents in a neat and clear folder. You can even add a cover letter with a short personal introduction.§
+              - **Prepare a Digital Version**: A PDF version that can be emailed or sent through specialized platforms can streamline the process.§
+              §
+              With these documents and tips in hand, you’ll have a strong rental application, ready to impress any landlord!
+                ¨fr:- **Ajoutez des recommandations** : Une lettre de votre ancien propriétaire ou de votre employeur peut faire la différence.§
+                    - **Soignez la présentation** : Rangez vos documents dans une pochette claire et bien organisée. Vous pouvez même ajouter une page de garde avec une courte présentation personnelle.§
+                    - **Préparez une version numérique** : Un dossier au format PDF à envoyer par mail ou via des plateformes spécialisées peut faciliter vos démarches.§
+                    §
+                    Avec ces documents et ces astuces en main, vous aurez un dossier de location solide, prêt à impressionner n’importe quel propriétaire !
+                ¨de:- **Empfehlungsschreiben hinzufügen**: Ein Schreiben von Ihrem vorherigen Vermieter oder Arbeitgeber kann den Unterschied machen.§
+                    - **Präsentation optimieren**: Organisieren Sie Ihre Dokumente in einer ordentlichen und übersichtlichen Mappe. Sie können auch ein Deckblatt mit einer kurzen persönlichen Vorstellung hinzufügen.§
+                    - **Digitale Version vorbereiten**: Eine PDF-Version, die Sie per E-Mail oder über spezialisierte Plattformen versenden können, erleichtert den Bewerbungsprozess.§
+                    §
+                    Mit diesen Dokumenten und Tipps in der Hand haben Sie eine starke Mietbewerbung, die jeden Vermieter beeindrucken wird!
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66

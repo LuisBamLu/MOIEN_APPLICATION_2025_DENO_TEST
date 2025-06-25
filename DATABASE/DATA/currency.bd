@@ -1,0 +1,19 @@
+CURRENCY
+
+    code number singularName pluralName symbol
+
+        EUR
+            ~ 1
+            ~ Euro
+              ¨fr:Euro
+            ~ Euros
+              ¨fr:Euros
+            ~ €
+
+        USD
+            ~ 2
+            ~ Dollar
+              ¨fr:Dollar
+            ~ Dollars
+              ¨fr:Dollars
+            ~ $

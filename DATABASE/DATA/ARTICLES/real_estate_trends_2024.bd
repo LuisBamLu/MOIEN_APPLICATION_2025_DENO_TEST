@@ -1,0 +1,138 @@
+ARTICLE
+
+    id typeId categoryIdArray slug date number title teaser text imagePath blockIdArray userId metaTitle metaDescription
+
+        %latest-trends-in-the-real-estate-market
+            ~ post
+            ~ { all }
+            ~ latest-trends-in-the-real-estate-market
+            ~ 2024-10-10
+            ~ 7
+            ~ The real estate trends of 2024 and how they influence renting in France, Luxembourg, and Belgium
+                ¨fr:Les tendances immobilières 2024 et comment elles influencent la location en France, au Luxembourg et en Belgique
+                ¨de:Die Immobilien-Trends 2024 und wie sie das Mieten in Frankreich, Luxemburg und Belgien beeinflussen
+            ~ Facing the rapid evolution of the real estate market in 2024, discover how price increases, new regulations, and energy challenges impact your rental options in France, Luxembourg, and Belgium. Prepare now for 2025.
+                ¨fr:Face à l'évolution rapide du marché immobilier en 2024, découvrez comment les hausses de prix, les nouvelles réglementations et les enjeux énergétiques impactent vos options de location en France, au Luxembourg et en Belgique. Préparez-vous dès maintenant pour 2025.
+                ¨de:Angesichts der rasanten Entwicklung des Immobilienmarktes im Jahr 2024 erfahren Sie, wie Preissteigerungen, neue Vorschriften und Energieherausforderungen Ihre Mietoptionen in Frankreich, Luxemburg und Belgien beeinflussen. Bereiten Sie sich jetzt auf 2025 vor.
+            ~ Facing the rapid evolution of the real estate market in 2024, discover how price increases, new regulations, and energy challenges impact your rental options in France, Luxembourg, and Belgium. Prepare now for 2025.
+                ¨fr:Face à l'évolution rapide du marché immobilier en 2024, découvrez comment les hausses de prix, les nouvelles réglementations et les enjeux énergétiques impactent vos options de location en France, au Luxembourg et en Belgique. Préparez-vous dès maintenant pour 2025.
+                ¨de:Angesichts der rasanten Entwicklung des Immobilienmarktes im Jahr 2024 erfahren Sie, wie Preissteigerungen, neue Vorschriften und Energieherausforderungen Ihre Mietoptionen in Frankreich, Luxemburg und Belgien beeinflussen. Bereiten Sie sich jetzt auf 2025 vor.
+            ~ /global/blog/the_latest_trends_in_the_real_estate_market_in_2024.avif
+            ~ { %latest-trends-in-the-real-estate-market-block-1 ~ %latest-trends-in-the-real-estate-market-block-2 ~ %latest-trends-in-the-real-estate-market-block-3 ~ %latest-trends-in-the-real-estate-market-block-4 ~ %latest-trends-in-the-real-estate-market-block-5 ~ %latest-trends-in-the-real-estate-market-block-6 }
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+            ~ Latest Real Estate Market Trends: What You Need to Know
+                ¨fr:Dernières tendances du marché immobilier : ce qu’il faut savoir
+            ~ Explore recent developments in the real estate market, the factors influencing prices, and opportunities for investors and buyers.
+                ¨fr:Explorez les évolutions récentes du marché immobilier, les facteurs influençant les prix et les opportunités à saisir pour les investisseurs et les acheteurs.
+
+BLOCK
+
+    id typeId articleId title text userId
+
+        %latest-trends-in-the-real-estate-market-block-1
+            ~ text
+            ~ %latest-trends-in-the-real-estate-market
+            ~ Key real estate market trends in 2024: What are the consequences for renting?
+                ¨fr:Les tendances clés du marché immobilier en 2024 : quelles conséquences pour la location?
+                ¨de:Wichtige Immobilienmarkt-Trends 2024: Welche Konsequenzen hat das für das Mieten?
+            ~ The year 2024 sees major changes emerging in the rental market in **France**, **Luxembourg**, and **Belgium**. Rising rental prices, changing living habits, and increasing environmental demands are redefining the choices of tenants and landlords. This article reveals how these trends influence your decisions and what the prospects are for 2025.
+                ¨fr:L’année 2024 voit émerger des changements majeurs dans le marché de la location immobilière en **France**, au **Luxembourg** et en **Belgique**. L'augmentation des prix des loyers, la transformation des habitudes de vie, ainsi que la montée des exigences environnementales redéfinissent les choix des locataires et des propriétaires. Cet article vous dévoile comment ces tendances influencent vos décisions et quelles sont les perspectives pour 2025.
+                ¨de:Das Jahr 2024 bringt bedeutende Veränderungen auf dem Mietmarkt in **Frankreich**, **Luxemburg** und **Belgien** mit sich. Steigende Mietpreise, veränderte Lebensgewohnheiten und zunehmende Umweltanforderungen definieren die Entscheidungen von Mietern und Vermietern neu. Dieser Artikel zeigt, wie diese Trends Ihre Entscheidungen beeinflussen und welche Aussichten es für 2025 gibt.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %latest-trends-in-the-real-estate-market-block-2
+            ~ text
+            ~ %latest-trends-in-the-real-estate-market
+            ~ 1. Rising rental prices: a challenge for tenants
+                ¨fr:1. Prix de location en hausse : un défi pour les locataires
+                ¨de:1. Steigende Mietpreise: eine Herausforderung für Mieter
+            ~ In 2024, rental prices continue to climb, especially in large cities and border regions. This phenomenon is fueled by ever-increasing demand and a limited supply of housing. According to data from ((SeLoger)(https://www.seloger.com/)), rents in French metropolises like **Paris**, **Lyon**, and **Marseille** are rising significantly. But that's not all: even medium-sized cities like **Nantes** and **Toulouse** are feeling this pressure.§
+              §
+              In **Luxembourg**, the situation is even more strained, with rents among the highest in Europe. The Luxembourg capital and its surroundings are experiencing high demand, particularly for housing intended for cross-border workers. ((Paperjam)(https://www.paperjam.lu/)) reports a continuous rise in rents, both in the city center and in the suburbs.§
+              §
+              In **Belgium**, **Brussels** and **Antwerp** remain tight markets, while cities like **Liège** are gaining popularity. ((Immoweb)(https://www.immoweb.be/)) indicates that the demand for well-located and energy-efficient housing is particularly strong.
+                ¨fr:En 2024, les prix des loyers continuent de grimper, particulièrement dans les grandes villes et les régions frontalières. Ce phénomène est alimenté par une demande toujours plus forte et une offre limitée de logements. Selon les données de ((SeLoger)(https://www.seloger.com/)), les loyers dans les métropoles françaises comme **Paris**, **Lyon** et **Marseille** augmentent significativement. Mais ce n’est pas tout : même des villes moyennes comme **Nantes** et **Toulouse** ressentent cette pression.§
+                    §
+                    Au **Luxembourg**, la situation est encore plus tendue, avec des loyers parmi les plus élevés d'Europe. La capitale luxembourgeoise et ses alentours connaissent une forte demande, en particulier pour des logements destinés aux travailleurs transfrontaliers. ((Paperjam)(https://www.paperjam.lu/)) rapporte une hausse continue des loyers, tant en centre-ville qu'en périphérie.§
+                    §
+                    En **Belgique**, **Bruxelles** et **Anvers** restent des marchés tendus, tandis que des villes comme **Liège** gagnent en popularité. ((Immoweb)(https://www.immoweb.be/)) indique que la demande pour des logements bien situés et performants énergétiquement est particulièrement forte.
+                ¨de:Im Jahr 2024 steigen die Mietpreise weiter, insbesondere in Großstädten und Grenzregionen. Dieses Phänomen wird durch eine ständig wachsende Nachfrage und ein begrenztes Wohnungsangebot befeuert. Laut Daten von ((SeLoger)(https://www.seloger.com/)) steigen die Mieten in französischen Metropolen wie **Paris**, **Lyon** und **Marseille** erheblich. Aber das ist noch nicht alles: Auch mittelgroße Städte wie **Nantes** und **Toulouse** spüren diesen Druck.§
+                    §
+                    In **Luxemburg** ist die Situation noch angespannter, mit den höchsten Mieten in Europa. Die Hauptstadt Luxemburg und ihre Umgebung verzeichnen eine hohe Nachfrage, insbesondere nach Wohnungen für Grenzgänger. ((Paperjam)(https://www.paperjam.lu/)) berichtet von einem kontinuierlichen Anstieg der Mieten, sowohl im Stadtzentrum als auch in den Vororten.§
+                    §
+                    In **Belgien** bleiben **Brüssel** und **Antwerpen** enge Märkte, während Städte wie **Lüttich** an Beliebtheit gewinnen. ((Immoweb)(https://www.immoweb.be/)) gibt an, dass die Nachfrage nach gut gelegenen und energieeffizienten Wohnungen besonders stark ist.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %latest-trends-in-the-real-estate-market-block-3
+            ~ text
+            ~ %latest-trends-in-the-real-estate-market
+            ~ 2. Prospects for 2025: towards stabilization or continued increase?
+                ¨fr:2. Les perspectives pour 2025 : vers une stabilisation ou une poursuite de la hausse?
+                ¨de:2. Aussichten für 2025: stabilisierung oder weiterer anstieg?
+            ~ While the housing supply remains limited in 2024, experts estimate that 2025 could mark a turning point. Several factors will influence the evolution of rents:§
+              §
+              * **Energy efficiency regulations* **: In France, properties classified F or G in the **DPE** (Energy Performance Diagnosis) will need to be renovated or removed from the rental market by 2025. This measure, highlighted by **Le Monde**, could reduce the available housing supply, increasing rent pressure.§
+              * **New construction projects* **: France, Luxembourg, and Belgium have announced initiatives to increase the supply of new housing. However, as noted by ((Les Échos)(https://www.lesechos.fr/)), the impact of these measures on the market will likely be limited in the short term due to high construction costs.§
+              * **Inflation and cost of living* **: Rising prices of materials and energy are likely to lead to higher rents, especially for properties requiring renovations, according to **Capital**.
+                ¨fr:Alors que l’offre de logements reste limitée en 2024, les experts estiment que 2025 pourrait marquer un tournant. Plusieurs facteurs viendront influencer l’évolution des loyers :§
+                    §
+                    * **Réglementations sur l’efficacité énergétique* ** : En France, les biens classés F ou G au **DPE** (Diagnostic de Performance Énergétique) devront être rénovés ou retirés du marché locatif d’ici 2025. Cette mesure, mise en avant par **Le Monde**, pourrait réduire l’offre de logements disponibles, augmentant la pression sur les loyers.§
+                    * **Nouveaux projets de construction* ** : La France, le Luxembourg et la Belgique ont annoncé des initiatives pour augmenter l'offre de logements neufs. Cependant, comme le souligne ((Les Échos)(https://www.lesechos.fr/)), l’impact de ces mesures sur le marché sera probablement limité à court terme en raison des coûts élevés de construction.§
+                    * **Inflation et coût de la vie* ** : La hausse des prix des matériaux et de l’énergie risque d’entraîner une augmentation des loyers, surtout pour les logements nécessitant des rénovations, selon **Capital**.
+                ¨de:Während das Wohnungsangebot im Jahr 2024 begrenzt bleibt, schätzen Experten, dass 2025 einen Wendepunkt markieren könnte. Mehrere Faktoren werden die Entwicklung der Mieten beeinflussen:§
+                    §
+                    * **Energieeffizienz-Vorschriften* **: In Frankreich müssen Immobilien, die im **DPE** (Energieausweis) als F oder G eingestuft sind, bis 2025 renoviert oder vom Mietmarkt genommen werden. Diese Maßnahme, hervorgehoben von **Le Monde**, könnte das verfügbare Wohnungsangebot reduzieren und den Mietdruck erhöhen.§
+                    * **Neue Bauprojekte* **: Frankreich, Luxemburg und Belgien haben Initiativen angekündigt, um das Angebot an neuen Wohnungen zu erhöhen. Wie von ((Les Échos)(https://www.lesechos.fr/)) betont, wird der Einfluss dieser Maßnahmen auf den Markt jedoch wahrscheinlich kurzfristig begrenzt sein, da die Baukosten hoch sind.§
+                    * **Inflation und Lebenshaltungskosten* **: Steigende Preise für Materialien und Energie werden wahrscheinlich zu höheren Mieten führen, insbesondere für Immobilien, die renoviert werden müssen, so **Capital**.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %latest-trends-in-the-real-estate-market-block-4
+            ~ text
+            ~ %latest-trends-in-the-real-estate-market
+            ~ 3. Renting in 2024: how to maximize your chances of finding a home?
+                ¨fr:3. Locataire en 2024 : comment maximiser vos chances de trouver un logement?
+                ¨de:3. Mieten im Jahr 2024: wie maximieren Sie Ihre Chancen, eine Wohnung zu finden?
+            ~ Finding a home in 2024 is more challenging than ever, especially in large cities and border areas. Here are some tips to increase your chances of success:§
+              §
+              * **Act Quickly* **: Competition is fierce. Set up alerts on sites like **Le Bon Coin** or ((Immoweb)(https://www.immoweb.be/)) to be among the first to respond to new listings.§
+              * **Prepare a Complete File* **: Given the high demand, it is essential to have a well-prepared file (pay slips, guarantors, etc.). Landlords are increasingly demanding in their selection criteria.§
+              * **Opt for Energy Efficiency* **: Well-insulated homes are not only more environmentally friendly but also allow for savings on rising energy costs. **BFM Immo** reports that the demand for energy-efficient housing is booming.
+                ¨fr:La recherche d'un logement en 2024 est plus difficile que jamais, notamment dans les grandes villes et les zones frontalières. Voici quelques conseils pour augmenter vos chances de succès:§
+                    §
+                    * **Réagissez vite* ** : La concurrence est féroce. Activez des alertes sur des sites comme **Le Bon Coin** ou ((Immoweb)(https://www.immoweb.be/)) pour être parmi les premiers à répondre aux nouvelles annonces.§
+                    * **Préparez un dossier complet* ** : Face à la forte demande, il est essentiel d'avoir un dossier bien préparé (bulletins de salaire, garants, etc.). Les propriétaires sont de plus en plus exigeants sur les critères de sélection.§
+                    * **Optez pour l’efficacité énergétique* ** : Les logements bien isolés sont non seulement plus respectueux de l’environnement, mais permettent aussi de réaliser des économies sur les charges énergétiques, qui augmentent. **BFM Immo** rapporte que la demande pour des logements performants énergétiquement est en plein essor.
+                ¨de:Eine Wohnung im Jahr 2024 zu finden, ist schwieriger denn je, insbesondere in Großstädten und Grenzgebieten. Hier sind einige Tipps, um Ihre Erfolgschancen zu erhöhen:§
+                    §
+                    * **Schnell handeln* **: Der Wettbewerb ist hart. Richten Sie Benachrichtigungen auf Websites wie **Le Bon Coin** oder ((Immoweb)(https://www.immoweb.be/)) ein, um zu den Ersten zu gehören, die auf neue Anzeigen reagieren.§
+                    * **Bereiten Sie eine vollständige Akte vor* **: Angesichts der hohen Nachfrage ist es wichtig, eine gut vorbereitete Akte (Gehaltsabrechnungen, Bürgen usw.) zu haben. Vermieter sind bei ihren Auswahlkriterien zunehmend anspruchsvoller.§
+                    * **Setzen Sie auf Energieeffizienz* **: Gut isolierte Wohnungen sind nicht nur umweltfreundlicher, sondern ermöglichen auch Einsparungen bei den steigenden Energiekosten. **BFM Immo** berichtet, dass die Nachfrage nach energieeffizienten Wohnungen boomt.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %latest-trends-in-the-real-estate-market-block-5
+            ~ text
+            ~ %latest-trends-in-the-real-estate-market
+            ~ 4. Trends to watch for 2025: rental flexibility
+                ¨fr:4. Les tendances à suivre pour 2025 : la flexibilité locative
+                ¨de:4. Trends für 2025: Mietflexibilität
+            ~ With changing living and working habits, especially thanks to remote work, flexibility is becoming a key asset for tenants. **Furnished rentals** and **flexible leases** continue to gain popularity, particularly among young professionals and expatriates.§
+              §
+              Rental platforms like **Moïen** play a crucial role in this transformation by offering subletting and short-term rental options, perfectly suited to the needs of modern tenants.
+                ¨fr:Avec l’évolution des habitudes de vie et de travail, notamment grâce au télétravail, la flexibilité devient un atout clé pour les locataires. Les **locations meublées** et les **baux flexibles** continuent de gagner en popularité, notamment auprès des jeunes actifs et des expatriés.§
+                    §
+                    Les plateformes de location, comme **Moïen**, jouent un rôle crucial dans cette transformation en proposant des options de sous-location et de location de courte durée, parfaitement adaptées aux besoins des locataires modernes.
+                ¨de:Mit den sich ändernden Lebens- und Arbeitsgewohnheiten, insbesondere dank der Telearbeit, wird Flexibilität zu einem wichtigen Vorteil für Mieter. **Möblierte Mietwohnungen** und **flexible Mietverträge** gewinnen weiterhin an Beliebtheit, insbesondere bei jungen Berufstätigen und Expats.§
+                    §
+                    Mietplattformen wie **Moïen** spielen eine entscheidende Rolle bei dieser Transformation, indem sie Untermiet- und Kurzzeitmietoptionen anbieten, die perfekt auf die Bedürfnisse moderner Mieter zugeschnitten sind.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %latest-trends-in-the-real-estate-market-block-6
+            ~ text
+            ~ %latest-trends-in-the-real-estate-market
+            ~ Conclusion
+                ¨fr:Conclusion
+                ¨de:Fazit
+            ~ The rental market in **France**, **Luxembourg**, and **Belgium** continues to evolve rapidly. Rising rents, energy demands, and rental supply challenges make the situation complex for tenants, but solutions exist. Prepare now for 2025 by staying informed about trends and adopting flexible strategies. For more analysis and advice, visit our ((Moïen blog)(https://www.moien.lu/)).
+                ¨fr:Le marché locatif en **France**, au **Luxembourg** et en **Belgique** continue de se transformer rapidement. Les hausses de loyers, les exigences énergétiques et les défis de l’offre locative rendent la situation complexe pour les locataires, mais des solutions existent. Préparez-vous dès maintenant pour 2025 en restant informé des tendances et en adoptant des stratégies flexibles. Pour plus d’analyses et de conseils, rendez-vous sur notre ((blog Moïen)(https://www.moien.lu/)).
+                ¨de:Der Mietmarkt in **Frankreich**, **Luxemburg** und **Belgien** entwickelt sich weiterhin rasant. Steigende Mieten, Energieanforderungen und Herausforderungen beim Mietangebot machen die Situation für Mieter komplex, aber es gibt Lösungen. Bereiten Sie sich jetzt auf 2025 vor, indem Sie über Trends informiert bleiben und flexible Strategien anwenden. Für weitere Analysen und Ratschläge besuchen Sie unseren ((Moïen-Blog)(https://www.moien.lu/)).
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66

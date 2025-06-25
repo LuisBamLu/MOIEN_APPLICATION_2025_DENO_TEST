@@ -1,0 +1,78 @@
+Moien Connectivity
+
+    Purpose
+        Provides walk/bus/driving time to a given address
+
+    Reference
+        https://zoopla.co.uk
+
+    API
+        Google Directions
+            https://developers.google.com/maps/documentation/directions/overview
+
+Moien Around
+
+    Purpose
+        Shows nearby bus stations, schools, supermarkets and criminality
+
+    Reference
+        https://zoopla.co.uk
+
+    API
+        Google Places
+            https://developers.google.com/maps/documentation/places/web-service
+
+    Data
+        National criminality databases in CSV format
+
+Moïen View
+
+    Purpose
+        Shows the street view of the property address
+
+    API
+        Google Street View
+            https://developers.google.com/streetview
+            https://developers.google.com/maps/documentation/streetview/
+            https://developers.google.com/maps/documentation/javascript/streetview
+            Pay-as-you-go pricing model
+
+
+Moïen Analytics
+
+    Purpose
+        Shows the property rental and sale prices in the neighborhood
+
+    Data
+        National databases in CSV format
+
+Pricing
+
+    Google Maps Platform
+
+        https://mapsplatform.google.com/pricing/#pricing-grid
+        https://developers.google.com/maps/billing-and-pricing/billing
+            Crédit mensuel récurrent de 200 $
+
+            Maps / Directions
+                https://developers.google.com/maps/documentation/directions/usage-and-billing
+                    Price per call per monthly volume range
+                        0–100,000 : 5 $/1000
+                        100,001–500,000 500,000+ : 4 $/1000
+
+            Places / Nearby Search (Basic)
+                https://developers.google.com/maps/documentation/places/web-service/usage-and-billing
+                    Price per call per monthly volume range
+                        0–100,000 : 32 $/1000
+                        100,001–500,000 500,000+ : 25.60 $/1000
+
+            Maps / Static Street View
+                https://developers.google.com/maps/documentation/streetview/usage-and-billing
+                    Price per panorama per monthly volume range
+                        0–100,000 : 7.00 $/1000
+                        100,001–500,000 500,000+ : 5.60 $/1000
+
+            Maps / Dynamic Street View
+                https://developers.google.com/maps/documentation/streetview/usage-and-billing
+                    Price per panorama per monthly volume range
+                        0–100,000 : 14.00 $/1000

@@ -1,0 +1,14 @@
+Flexible : Annulation gratuite jusqu’à 24h avant l’arrivée, Au-delà, avant l’arrivée, la 1ere nuit et les frais de services sont dûs
+
+Modérée : Annulation gratuite jusqu’à 5 jours avant l’arrivée, au-delà avant l’arrivée, la 1ere nuit, les frais de services et 50% de la réservation sont dûs
+
+Strictes : l’annulation est gratuite pendant les 48h qui suivent la réservation, Au-delà, 14 jours avant l’arrivée, la 1ere nuit, les frais de services et 50% de la réservation sont dûs, Au-delà, 7 jours avant l’arrivée, plus de remboursement possible.
+
+---
+
+Flexible: Free cancellation up to 24 hours before arrival, beyond that, before arrival, the 1st night and service charges are due.
+
+Moderate: Free cancellation up to 5 days before arrival, beyond that, the 1st night, service charges and 50% of the reservation are due.
+
+Strict: free cancellation within 48 hours of reservation, beyond 14 days prior to arrival, 1st night, service charge and 50% of reservation are due, beyond 7 days prior to arrival, no refund possible.
+

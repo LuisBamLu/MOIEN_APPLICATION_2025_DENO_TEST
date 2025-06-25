@@ -1,0 +1,55 @@
+BED_TYPE
+
+    id name
+
+        single-bed
+            ~ Single bed
+              ¨fr:Lit simple
+
+        double-bed
+            ~ Double bed (140cm)
+              ¨fr:Lit double (140cm)
+
+        queen-bed
+            ~ Queen bed (160cm)
+              ¨fr:Lit double (160cm)
+
+        king-bed
+            ~ King bed (>160cm)
+              ¨fr:Lit King (>160cm)
+
+        bunk-bed
+            ~ Bunk bed
+              ¨fr:Lit superposé
+
+        sofa-bed
+            ~ Sofa bed
+              ¨fr:Canapé-lit
+
+        futon
+            ~ Futon
+              ¨fr:Futon
+
+        air-mattress
+            ~ Air mattress
+              ¨fr:Matelas pneumatique
+
+        crib
+            ~ Crib
+              ¨fr:Lit d'enfant
+
+        toddler-bed
+            ~ Toddler bed
+              ¨fr:Lit d'enfant
+
+        hammock
+            ~ Hammock
+              ¨fr:Hamac
+
+        water-bed
+            ~ Water bed
+              ¨fr:Lit à eau
+
+        floor-mattress
+            ~ Floor mattress
+              ¨fr:Matelas de sol

@@ -1,0 +1,23 @@
+COMPANY_TYPE
+
+    id name
+
+        limited-liability-company
+            ~ Limited liability company
+              ¨fr:Société à responsabilité limitée
+
+        public-limited-company
+            ~ Public limited company
+              ¨fr:Société anonyme
+
+        general-partnership
+            ~ General partnership
+              ¨fr:Société en nom collectif
+
+        limited-partnership
+            ~ Limited partnership
+              ¨fr:Société en commandite simple
+
+        limited-partnership-by-shares
+            ~ Limited partnership by shares
+              ¨fr:Société en commandite par actions

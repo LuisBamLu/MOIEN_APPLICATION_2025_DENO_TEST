@@ -1,0 +1,495 @@
+FEATURE
+
+    propertyId typeId value
+
+        %nice-chalet-by-the-woods-property
+            ~ room-count
+            ~ 11
+
+        %nice-chalet-by-the-woods-property
+            ~ bedroom-count
+            ~ 3
+
+        %nice-chalet-by-the-woods-property
+            ~ bathroom-count
+            ~ 2
+
+        %nice-chalet-by-the-woods-property
+            ~ living-room-count
+            ~ 1
+
+        %nice-chalet-by-the-woods-property
+            ~ kitchen-count
+            ~ 1
+
+        %nice-chalet-by-the-woods-property
+            ~ dining-room-count
+            ~ 1
+
+        %nice-chalet-by-the-woods-property
+            ~ office-count
+            ~ 1
+
+        %nice-chalet-by-the-woods-property
+            ~ game-room-count
+            ~ 0
+
+        %nice-chalet-by-the-woods-property
+            ~ other-room-count
+            ~ 1
+
+        %nice-chalet-by-the-woods-property
+            ~ lavatory-count
+            ~ 1
+
+        %nice-chalet-by-the-woods-property
+            ~ room-area
+            ~ 100
+
+        %nice-chalet-by-the-woods-property
+            ~ property-area
+            ~ 200
+
+        %nice-chalet-by-the-woods-property
+            ~ has-garden
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ garden-area
+            ~ 100
+
+        %nice-chalet-by-the-woods-property
+            ~ has-balcony
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ balcony-area
+            ~ 30
+
+        %nice-chalet-by-the-woods-property
+            ~ has-terrace
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ terrace-area
+            ~ 30
+
+        %nice-chalet-by-the-woods-property
+            ~ has-nice-view
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-closed-garage
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ closed-garage-space-count
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-open-garage
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ open-garage-space-count
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-cellar
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ is-renovated
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ renovation-date
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ long-term-maximum-day-count
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ long-term-monthly-rent
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ long-term-monthly-charges
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-long-term-guardian-expenses
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-long-term-hot-water-expenses
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-long-term-heating-expenses
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-long-term-internet-expenses
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-long-term-electricity-expenses
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ long-term-annual-taxes
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ long-term-availability-date
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ long-term-agency-fee
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ long-term-monthly-salary-requested
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ long-term-profit-sharing
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ long-term-monthly-total
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ short-term-maximum-day-count
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ short-term-daily-rent
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ short-term-cleaning-fee
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ short-term-sheets-fee
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ short-term-towels-fee
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ short-term-other-fee
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ maximum-adult-count
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ maximum-child-count
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-bathtub
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-fireplace
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-oven
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-microwave
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-fridge
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-freezer
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-baking-trays
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-washing-machine
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-dryer
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-wine-cellar
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-carbon-monoxy-detector
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-smoke-detector
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-alarm
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ floor-count
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-elevator
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ is-adapted-for-reduced-mobility
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-barbecue
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-swimming-pool
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-jacuzzi
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-sauna
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-hamam
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-gym
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-tennis
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-slopes-within-1-km
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-lake-within-1-km
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-beach-within-1-km
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-city-center-within-1-km
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-touristic-site-within-1-km
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-cinema-within-1-km
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-theater-within-1-km
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-shops-within-1-km
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-sports-offer-within-1-km
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-ski-station-within-10-minutes
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-lake-within-10-minutes
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-beach-within-10-minutes
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-city-center-within-10-minutes
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-major-tourist-site-within-10-minutes
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-cinema-within-10-minutes
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-theater-within-10-minutes
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-shops-within-10-minutes
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-sports-offer-within-10-minutes
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ is-furnished
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-sheets
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-bath-towels
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-hair-dryer
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-kitchen-towels
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-dishes
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-cooking-tools
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-coffee-machine
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-internet-wifi
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-printer
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-cable-tv
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-television-without-cable
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-dvd-player
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-game-console
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-board-games
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-outdoor-games
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-baby-bed
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-high-chair
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-changing-table
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-cleaning-service
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-laundry-service
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ has-baby-sitting-service
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ can-be-visited
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ is-non-refundable
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ non-refundable-discount
+            ~ 0.1
+
+        %nice-chalet-by-the-woods-property
+            ~ cancellation-policy
+            ~ firm
+
+        %nice-chalet-by-the-woods-property
+            ~ taxation
+            ~ luxembourg
+
+        %nice-chalet-by-the-woods-property
+            ~ currency-code
+            ~ eu
+
+        %nice-chalet-by-the-woods-property
+            ~ check-in-time
+            ~ [ 13:00, 17:00 ]
+
+        %nice-chalet-by-the-woods-property
+            ~ allows-children
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ allows-babies
+            ~ true
+
+        %nice-chalet-by-the-woods-property
+            ~ allows-pets
+            ~ false
+
+        %nice-chalet-by-the-woods-property
+            ~ allows-smoking
+            ~ false
+
+        %nice-chalet-by-the-woods-property
+            ~ allows-parties
+            ~ true

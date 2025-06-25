@@ -1,0 +1,1080 @@
+URI : 2022-05-16 14:46:08 GET /update-properties
+GET : []
+POST : []
+FILES : []
+SESSION : {
+    "User": null,
+    "UserIsConnected": false,
+    "UserRole": "",
+    "Captcha": "F7XY23"
+}
+SERVER : {
+    "USER": "bamtesd",
+    "SCRIPT_NAME": "\/index.php",
+    "REQUEST_URI": "\/update-properties",
+    "QUERY_STRING": "",
+    "REQUEST_METHOD": "GET",
+    "SERVER_PROTOCOL": "HTTP\/1.1",
+    "GATEWAY_INTERFACE": "CGI\/1.1",
+    "REDIRECT_URL": "\/update-properties",
+    "REMOTE_PORT": "48592",
+    "SCRIPT_FILENAME": "\/home\/bamtesd\/www\/index.php",
+    "SERVER_ADMIN": "postmaster@bam-test.lu",
+    "DOCUMENT_ROOT": "\/home\/bamtesd\/www",
+    "REMOTE_ADDR": "2a02:2788:6b8:595:357e:c382:bde9:71eb",
+    "SERVER_PORT": "443",
+    "SERVER_ADDR": "10.31.20.20",
+    "SERVER_NAME": "bam-test.lu",
+    "SERVER_SOFTWARE": "Apache",
+    "SERVER_SIGNATURE": "",
+    "HTTP_REMOTE_IP": "2a02:2788:6b8:595:357e:c382:bde9:71eb",
+    "HTTP_SEC_FETCH_USER": "?1",
+    "HTTP_SEC_FETCH_SITE": "none",
+    "HTTP_SEC_FETCH_MODE": "navigate",
+    "HTTP_SEC_FETCH_DEST": "document",
+    "HTTP_UPGRADE_INSECURE_REQUESTS": "1",
+    "HTTP_ACCEPT_ENCODING": "gzip, deflate, br",
+    "HTTP_ACCEPT_LANGUAGE": "fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3",
+    "HTTP_ACCEPT": "text\/html,application\/xhtml+xml,application\/xml;q=0.9,image\/avif,image\/webp,*\/*;q=0.8",
+    "HTTP_USER_AGENT": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko\/20100101 Firefox\/100.0",
+    "HTTP_X_OVHREQUEST_ID": "7eb0469ecd590288f83b2a7390a35bfd",
+    "HTTP_X_FORWARDED_PROTO": "https",
+    "HTTP_X_FORWARDED_FOR": "2a02:2788:6b8:595:357e:c382:bde9:71eb",
+    "HTTP_X_PREDICTOR": "1",
+    "HTTP_COOKIE": "_ga_ABCDEFGHIJ=GS1.1.1652705048.32.1.1652705086.0; _ga=GA1.1.769355998.1649863784; PHPSESSID=ca1d9d58e264965b0a71434e3d70f5e3",
+    "HTTP_HOST": "bam-test.lu",
+    "ENVIRONMENT": "production",
+    "CFG_CLUSTER": "cluster031",
+    "HTTPS": "on",
+    "SCRIPT_URI": "https:\/\/bam-test.lu:443\/update-properties",
+    "SCRIPT_URL": "\/update-properties",
+    "UNIQUE_ID": "YoJHkEA2m3eltkLumiukXgAAAFE",
+    "REDIRECT_STATUS": "200",
+    "FCGI_ROLE": "RESPONDER",
+    "PHP_SELF": "\/index.php",
+    "REQUEST_TIME_FLOAT": 1652705168.036128,
+    "REQUEST_TIME": 1652705168,
+    "argv": [],
+    "argc": 0
+}
+Found 5 properties
+
+Reading property : 15, 15, DIFFERDANGE
+Index : 1
+Reference : 15
+Title : Differdange
+Primary nature : Appartement
+Secondary nature : Appartement
+Sale or rental : location
+Street address : 
+House number : 
+City code : 
+City name : Differdange
+Floor : 3
+Surface : 59.75
+Budget : 1350
+Price : 
+Charges : 250.00
+Parkings : 
+Open parking : 
+Underground parking : 
+Shared parking : 0
+Availability date : 
+English description : 
+French description : En plein coeur des rives du Clausen,  M IMMOBILIER vous propose à la location ce très bel appartement.<br><br>Situé à quelques minutes du centre ville et de toutes les commodités, ce bien meublé de 59,75 m2 saura vous séduire par son emplacement et sa terrasse. <br><br>Très lumineux, il se situe au 3ème étage d'une résidence sans ascenseur.<br><br>Il se compose d'un hall d'entrée, d'un living donnant sur une terrasse ensoleillée, d'une cuisine fermée équipée, d'une chambre à coucher, d'une salle de bains avec douche et wc.<br><br>Disponible immédiatement.<br><br>Conditions de location : <br>- Caution 3 mois de loyer,<br>- 1er mois de loyer payable d'avance,<br><br>Pour plus de renseignements n'hésitez pas à nous contacter au +352 43 33 33 1
+
+Updating property : 15, 15, Differdange
+
+Reading image : 1
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6260105af06633_34665018[.jpeg]
+Name : _6260105af06633_34665018.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6260105af06633_34665018[.jpeg]
+Building image : upload/image/progetis-differdange-15-_6260105af06633_34665018.jpg
+Updating image : upload/image/progetis-differdange-15-_6260105af06633_34665018.jpg
+
+Reading image : 2
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6260105d7d2323_28733802[.jpeg]
+Name : _6260105d7d2323_28733802.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6260105d7d2323_28733802[.jpeg]
+Building image : upload/image/progetis-differdange-15-_6260105d7d2323_28733802.jpg
+Updating image : upload/image/progetis-differdange-15-_6260105d7d2323_28733802.jpg
+
+Reading image : 3
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62601060211c65_89665615[.jpeg]
+Name : _62601060211c65_89665615.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62601060211c65_89665615[.jpeg]
+Building image : upload/image/progetis-differdange-15-_62601060211c65_89665615.jpg
+Updating image : upload/image/progetis-differdange-15-_62601060211c65_89665615.jpg
+
+Reading image : 4
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62601062a92621_50855640[.jpeg]
+Name : _62601062a92621_50855640.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62601062a92621_50855640[.jpeg]
+Building image : upload/image/progetis-differdange-15-_62601062a92621_50855640.jpg
+Updating image : upload/image/progetis-differdange-15-_62601062a92621_50855640.jpg
+
+Reading property : 14, 14, OFFICE CENTER
+Index : 2
+Reference : 14
+Title : Office Center
+Primary nature : Bureau
+Secondary nature : Bureau
+Sale or rental : location
+Street address : 
+House number : 
+City code : 
+City name : Luxembourg-Clausen
+Floor : 
+Surface : 335.23
+Budget : 35
+Price : 
+Charges : 5.00
+Parkings : 
+Open parking : 
+Underground parking : 
+Shared parking : 0
+Availability date : 
+English description : 
+French description : M Immobilier propose un espace de bureaux modulables à louer, au coeur du centre historique de la ville de Luxembourg.<br><br>Cet espace dispose de WC, d'une kitchenette, de 2 salles de réunion équipées et d'emplacements pour les archives.<br><br>Chaque espace dispose de l'air conditionné et est prééquipé de 2 bureaux avec caisson, armoire et fauteuil.<br><br>Montant du loyer : 35 euros par m2 par mois<br>Montant des charges : 5 euros par m2 par mois<br><br>Les salles de réunion sont disponibles, sur réservation, en sus du prix de location du bureau.<br><br>- Disponibilité immédiate<br>- TVA en sus du loyer<br>- Parking public attenant<br>- WIFI gratuit<br><br>Conditions de location : <br>- 6 mois de garantie bancaire<br>- Durée de location minimum : 3 mois
+
+Updating property : 14, 14, Office Center
+
+Reading image : 1
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624efb377dc188_23019450[.JPG]
+Name : _624efb377dc188_23019450.JPG
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624efb377dc188_23019450[.JPG]
+Building image : upload/image/progetis-office-center-14-_624efb377dc188_23019450.jpg
+Updating image : upload/image/progetis-office-center-14-_624efb377dc188_23019450.jpg
+
+Reading image : 2
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624efb34c9ea86_01966027[.JPG]
+Name : _624efb34c9ea86_01966027.JPG
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624efb34c9ea86_01966027[.JPG]
+Building image : upload/image/progetis-office-center-14-_624efb34c9ea86_01966027.jpg
+Updating image : upload/image/progetis-office-center-14-_624efb34c9ea86_01966027.jpg
+
+Reading image : 3
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624efb3e6d36a9_81379973[.JPG]
+Name : _624efb3e6d36a9_81379973.JPG
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624efb3e6d36a9_81379973[.JPG]
+Building image : upload/image/progetis-office-center-14-_624efb3e6d36a9_81379973.jpg
+Updating image : upload/image/progetis-office-center-14-_624efb3e6d36a9_81379973.jpg
+
+Reading property : 12, 12, RIVES DE CLAUSEN
+Index : 3
+Reference : 12
+Title : Rives De Clausen
+Primary nature : Bureau
+Secondary nature : Bureau
+Sale or rental : location
+Street address : 
+House number : 
+City code : 
+City name : Luxembourg-Clausen
+Floor : 0
+Surface : 96.50
+Budget : 1700
+Price : 
+Charges : 250.00
+Parkings : 
+Open parking : 
+Underground parking : 
+Shared parking : 0
+Availability date : 
+English description : 
+French description : En plein coeur des rives du Clausen,  M IMMOBILIER vous propose à la location cet espace aménageable en bureau.<br><br>Situé à quelques minutes du centre ville et de toutes les commodités, ce bien de 96,5 m2 saura vous séduire par son emplacement et sa superficie. <br><br>Très lumineux, il se situe au rez de chaussée d'une résidence rénovée.<br><br>Il se compose d'un espace pouvant accueillir environ 6 bureaux, d'une kitchenette, d'une salle de bains avec baignoire, d'un wc séparé, d'un espace pour la machine à laver.<br><br>Disponible immédiatement.<br><br>Conditions de location : <br>- Caution 3 mois de loyer,<br>- 1er mois de loyer payable d'avance,<br><br>Pour plus de renseignements n'hésitez pas à nous contacter au +352 43 33 33 1
+
+Updating property : 12, 12, Rives De Clausen
+
+Reading image : 1
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62223a0fe05bf3_54057192[.jpeg]
+Name : _62223a0fe05bf3_54057192.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62223a0fe05bf3_54057192[.jpeg]
+Building image : upload/image/progetis-rives-de-clausen-12-_62223a0fe05bf3_54057192.jpg
+Updating image : upload/image/progetis-rives-de-clausen-12-_62223a0fe05bf3_54057192.jpg
+
+Reading image : 2
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62223a21f15e82_04322545[.jpeg]
+Name : _62223a21f15e82_04322545.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62223a21f15e82_04322545[.jpeg]
+Building image : upload/image/progetis-rives-de-clausen-12-_62223a21f15e82_04322545.jpg
+Updating image : upload/image/progetis-rives-de-clausen-12-_62223a21f15e82_04322545.jpg
+
+Reading image : 3
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62223a4abe2e56_22761703[.jpeg]
+Name : _62223a4abe2e56_22761703.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62223a4abe2e56_22761703[.jpeg]
+Building image : upload/image/progetis-rives-de-clausen-12-_62223a4abe2e56_22761703.jpg
+Updating image : upload/image/progetis-rives-de-clausen-12-_62223a4abe2e56_22761703.jpg
+
+Reading property : 7, 7, RIVES DE CLAUSEN
+Index : 4
+Reference : 7
+Title : Rives De Clausen
+Primary nature : Appartement
+Secondary nature : Studio
+Sale or rental : location
+Street address : 
+House number : 
+City code : 
+City name : Luxembourg-Clausen
+Floor : 1
+Surface : 81.50
+Budget : 1500
+Price : 
+Charges : 250.00
+Parkings : 
+Open parking : 
+Underground parking : 
+Shared parking : 0
+Availability date : 
+English description : 
+French description : En plein coeur des rives du Clausen, M IMMOBILIER vous propose à la location ce bel appartement meublé.<br><br>Situé à quelques minutes du centre ville et de toutes les commodités, ce bien de 81,5 m2 saura vous charmer.<br><br>Lumineux, il se situe au 1er étage avec ascenseur.<br><br>Il se compose d'un hall d'entrée, d'un living avec cuisine ouverte aménagée et équipée, d'une chambre à coucher et d'une salle de douche avec wc intégré.<br><br>La salle de douche bénéficie d'un raccordement pour la machine à laver et le sèche linge.<br><br>Disponible immédiatement.<br><br>Conditions de location : <br>- Caution 3 mois de loyer,<br>- 1er mois de loyer payable d'avance,<br><br>Pour plus de renseignements n'hésitez pas à nous contacter au +352 43 33 33 1
+
+Updating property : 7, 7, Rives De Clausen
+
+Reading image : 1
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6274c020e104f5_05533004[.jpeg]
+Name : _6274c020e104f5_05533004.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6274c020e104f5_05533004[.jpeg]
+Building image : upload/image/progetis-rives-de-clausen-7-_6274c020e104f5_05533004.jpg
+Updating image : upload/image/progetis-rives-de-clausen-7-_6274c020e104f5_05533004.jpg
+
+Reading image : 2
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6274c025247f49_55732585[.jpeg]
+Name : _6274c025247f49_55732585.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6274c025247f49_55732585[.jpeg]
+Building image : upload/image/progetis-rives-de-clausen-7-_6274c025247f49_55732585.jpg
+Updating image : upload/image/progetis-rives-de-clausen-7-_6274c025247f49_55732585.jpg
+
+Reading image : 3
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6274c022c46e98_07515976[.jpeg]
+Name : _6274c022c46e98_07515976.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6274c022c46e98_07515976[.jpeg]
+Building image : upload/image/progetis-rives-de-clausen-7-_6274c022c46e98_07515976.jpg
+Updating image : upload/image/progetis-rives-de-clausen-7-_6274c022c46e98_07515976.jpg
+
+Reading property : 10, 10, X SEPTEMBRE
+Index : 5
+Reference : 10
+Title : X Septembre
+Primary nature : Appartement
+Secondary nature : Appartement
+Sale or rental : location
+Street address : 
+House number : 
+City code : 
+City name : Luxembourg-Belair
+Floor : 2
+Surface : 66.45
+Budget : 1700
+Price : 
+Charges : 200.00
+Parkings : 
+Open parking : 
+Underground parking : 
+Shared parking : 0
+Availability date : 
+English description : 
+French description : Situé dans le quartier résidentiel très prisé de Belair, M IMMOBILIER vous propose à la location ce très bel appartement.<br><br>Situé à quelques minutes du centre ville et de toutes les commodités, ce bien de 66,45 m2 a été entièrement rénové avec goût.<br><br>Lumineux, il se situe au 2ème étage.<br><br>Il se compose d'un hall d'entrée, d'un living avec une cuisine équipée ouverte, de deux chambres à coucher, d'une salle de douche avec wc intégré.<br><br>Disponible immédiatement.<br><br>Conditions de location : <br>- Caution 3 mois de loyer,<br>- 1er mois de loyer payable d'avance,<br><br>Pour plus de renseignements n'hésitez pas à nous contacter au +352 43 33 33 1
+
+Updating property : 10, 10, X Septembre
+
+Reading image : 1
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600ee76b5007_85668018[.jpeg]
+Name : _62600ee76b5007_85668018.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600ee76b5007_85668018[.jpeg]
+Building image : upload/image/progetis-x-septembre-10-_62600ee76b5007_85668018.jpg
+Updating image : upload/image/progetis-x-septembre-10-_62600ee76b5007_85668018.jpg
+
+Reading image : 2
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f26c262f9_63421490[.jpeg]
+Name : _62600f26c262f9_63421490.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f26c262f9_63421490[.jpeg]
+Building image : upload/image/progetis-x-septembre-10-_62600f26c262f9_63421490.jpg
+Updating image : upload/image/progetis-x-septembre-10-_62600f26c262f9_63421490.jpg
+
+Reading image : 3
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f3901db42_72427765[.jpeg]
+Name : _62600f3901db42_72427765.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f3901db42_72427765[.jpeg]
+Building image : upload/image/progetis-x-septembre-10-_62600f3901db42_72427765.jpg
+Updating image : upload/image/progetis-x-septembre-10-_62600f3901db42_72427765.jpg
+
+Reading image : 4
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f3aa1c1f7_06590132[.jpeg]
+Name : _62600f3aa1c1f7_06590132.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f3aa1c1f7_06590132[.jpeg]
+Building image : upload/image/progetis-x-septembre-10-_62600f3aa1c1f7_06590132.jpg
+Updating image : upload/image/progetis-x-septembre-10-_62600f3aa1c1f7_06590132.jpg
+
+Reading image : 5
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624fdbd6637975_64591215[.jpg]
+Name : _624fdbd6637975_64591215.jpg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624fdbd6637975_64591215[.jpg]
+Building image : upload/image/progetis-x-septembre-10-_624fdbd6637975_64591215.jpg
+Updating image : upload/image/progetis-x-septembre-10-_624fdbd6637975_64591215.jpg
+
+Reading image : 6
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f3f2a2921_98591557[.jpeg]
+Name : _62600f3f2a2921_98591557.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f3f2a2921_98591557[.jpeg]
+Building image : upload/image/progetis-x-septembre-10-_62600f3f2a2921_98591557.jpg
+Updating image : upload/image/progetis-x-septembre-10-_62600f3f2a2921_98591557.jpg
+
+URI : 2022-05-16 15:03:24 POST /update-properties
+GET : []
+POST : {
+    "multiple": "1",
+    "data": [
+        {
+            "id": "15",
+            "action": "add"
+        }
+    ]
+}
+FILES : []
+SESSION : []
+SERVER : {
+    "USER": "bamtesd",
+    "SCRIPT_NAME": "\/index.php",
+    "REQUEST_URI": "\/update-properties",
+    "QUERY_STRING": "",
+    "REQUEST_METHOD": "POST",
+    "SERVER_PROTOCOL": "HTTP\/1.1",
+    "GATEWAY_INTERFACE": "CGI\/1.1",
+    "REDIRECT_URL": "\/update-properties",
+    "REMOTE_PORT": "59912",
+    "SCRIPT_FILENAME": "\/home\/bamtesd\/www\/index.php",
+    "SERVER_ADMIN": "postmaster@www.bam-test.lu",
+    "DOCUMENT_ROOT": "\/home\/bamtesd\/www",
+    "REMOTE_ADDR": "2001:41d0:303:36eb::",
+    "SERVER_PORT": "443",
+    "SERVER_ADDR": "10.31.20.20",
+    "SERVER_NAME": "www.bam-test.lu",
+    "SERVER_SOFTWARE": "Apache",
+    "SERVER_SIGNATURE": "",
+    "HTTP_REMOTE_IP": "2001:41d0:303:36eb::",
+    "CONTENT_TYPE": "application\/x-www-form-urlencoded",
+    "HTTP_USER_AGENT": "Z16 platform",
+    "HTTP_ACCEPT_ENCODING": "gzip, deflate",
+    "CONTENT_LENGTH": "61",
+    "HTTP_X_OVHREQUEST_ID": "27a8cb3166d14425b5eee64bf9ab06cc",
+    "HTTP_X_FORWARDED_PROTO": "https",
+    "HTTP_X_FORWARDED_FOR": "2001:41d0:303:36eb::",
+    "HTTP_X_PREDICTOR": "1",
+    "HTTP_HOST": "www.bam-test.lu",
+    "ENVIRONMENT": "production",
+    "CFG_CLUSTER": "cluster031",
+    "HTTPS": "on",
+    "SCRIPT_URI": "https:\/\/www.bam-test.lu:443\/update-properties",
+    "SCRIPT_URL": "\/update-properties",
+    "UNIQUE_ID": "YoJLnDlufQIRAKtnRG1WzQAAAM0",
+    "REDIRECT_STATUS": "200",
+    "FCGI_ROLE": "RESPONDER",
+    "PHP_SELF": "\/index.php",
+    "REQUEST_TIME_FLOAT": 1652706204.560623,
+    "REQUEST_TIME": 1652706204,
+    "argv": [],
+    "argc": 0
+}
+Found 5 properties
+
+Reading property : 15, 15, DIFFERDANGE
+Index : 1
+Reference : 15
+Title : Differdange
+Primary nature : Appartement
+Secondary nature : Appartement
+Sale or rental : location
+Street address : 
+House number : 
+City code : 
+City name : Differdange
+Floor : 3
+Surface : 59.75
+Budget : 1350
+Price : 
+Charges : 250.00
+Parkings : 
+Open parking : 
+Underground parking : 
+Shared parking : 0
+Availability date : 
+English description : 
+French description : En plein coeur des rives du Clausen ,  M IMMOBILIER vous propose à la location ce très bel appartement.<br><br>Situé à quelques minutes du centre ville et de toutes les commodités, ce bien meublé de 59,75 m2 saura vous séduire par son emplacement et sa terrasse. <br><br>Très lumineux, il se situe au 3ème étage d'une résidence sans ascenseur.<br><br>Il se compose d'un hall d'entrée, d'un living donnant sur une terrasse ensoleillée, d'une cuisine fermée équipée, d'une chambre à coucher, d'une salle de bains avec douche et wc.<br><br>Disponible immédiatement.<br><br>Conditions de location : <br>- Caution 3 mois de loyer,<br>- 1er mois de loyer payable d'avance,<br><br>Pour plus de renseignements n'hésitez pas à nous contacter au +352 43 33 33 1
+
+Updating property : 15, 15, Differdange
+
+Reading image : 1
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6260105af06633_34665018[.jpeg]
+Name : _6260105af06633_34665018.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6260105af06633_34665018[.jpeg]
+Building image : upload/image/progetis-differdange-15-_6260105af06633_34665018.jpg
+Updating image : upload/image/progetis-differdange-15-_6260105af06633_34665018.jpg
+
+Reading image : 2
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6260105d7d2323_28733802[.jpeg]
+Name : _6260105d7d2323_28733802.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6260105d7d2323_28733802[.jpeg]
+Building image : upload/image/progetis-differdange-15-_6260105d7d2323_28733802.jpg
+Updating image : upload/image/progetis-differdange-15-_6260105d7d2323_28733802.jpg
+
+Reading image : 3
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62601060211c65_89665615[.jpeg]
+Name : _62601060211c65_89665615.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62601060211c65_89665615[.jpeg]
+Building image : upload/image/progetis-differdange-15-_62601060211c65_89665615.jpg
+Updating image : upload/image/progetis-differdange-15-_62601060211c65_89665615.jpg
+
+Reading image : 4
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62601062a92621_50855640[.jpeg]
+Name : _62601062a92621_50855640.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62601062a92621_50855640[.jpeg]
+Building image : upload/image/progetis-differdange-15-_62601062a92621_50855640.jpg
+Updating image : upload/image/progetis-differdange-15-_62601062a92621_50855640.jpg
+
+Reading property : 14, 14, OFFICE CENTER
+Index : 2
+Reference : 14
+Title : Office Center
+Primary nature : Bureau
+Secondary nature : Bureau
+Sale or rental : location
+Street address : 
+House number : 
+City code : 
+City name : Luxembourg-Clausen
+Floor : 
+Surface : 335.23
+Budget : 35
+Price : 
+Charges : 5.00
+Parkings : 
+Open parking : 
+Underground parking : 
+Shared parking : 0
+Availability date : 
+English description : 
+French description : M Immobilier propose un espace de bureaux modulables à louer, au coeur du centre historique de la ville de Luxembourg.<br><br>Cet espace dispose de WC, d'une kitchenette, de 2 salles de réunion équipées et d'emplacements pour les archives.<br><br>Chaque espace dispose de l'air conditionné et est prééquipé de 2 bureaux avec caisson, armoire et fauteuil.<br><br>Montant du loyer : 35 euros par m2 par mois<br>Montant des charges : 5 euros par m2 par mois<br><br>Les salles de réunion sont disponibles, sur réservation, en sus du prix de location du bureau.<br><br>- Disponibilité immédiate<br>- TVA en sus du loyer<br>- Parking public attenant<br>- WIFI gratuit<br><br>Conditions de location : <br>- 6 mois de garantie bancaire<br>- Durée de location minimum : 3 mois
+
+Updating property : 14, 14, Office Center
+
+Reading image : 1
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624efb377dc188_23019450[.JPG]
+Name : _624efb377dc188_23019450.JPG
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624efb377dc188_23019450[.JPG]
+Building image : upload/image/progetis-office-center-14-_624efb377dc188_23019450.jpg
+Updating image : upload/image/progetis-office-center-14-_624efb377dc188_23019450.jpg
+
+Reading image : 2
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624efb34c9ea86_01966027[.JPG]
+Name : _624efb34c9ea86_01966027.JPG
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624efb34c9ea86_01966027[.JPG]
+Building image : upload/image/progetis-office-center-14-_624efb34c9ea86_01966027.jpg
+Updating image : upload/image/progetis-office-center-14-_624efb34c9ea86_01966027.jpg
+
+Reading image : 3
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624efb3e6d36a9_81379973[.JPG]
+Name : _624efb3e6d36a9_81379973.JPG
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624efb3e6d36a9_81379973[.JPG]
+Building image : upload/image/progetis-office-center-14-_624efb3e6d36a9_81379973.jpg
+Updating image : upload/image/progetis-office-center-14-_624efb3e6d36a9_81379973.jpg
+
+Reading property : 12, 12, RIVES DE CLAUSEN
+Index : 3
+Reference : 12
+Title : Rives De Clausen
+Primary nature : Bureau
+Secondary nature : Bureau
+Sale or rental : location
+Street address : 
+House number : 
+City code : 
+City name : Luxembourg-Clausen
+Floor : 0
+Surface : 96.50
+Budget : 1700
+Price : 
+Charges : 250.00
+Parkings : 
+Open parking : 
+Underground parking : 
+Shared parking : 0
+Availability date : 
+English description : 
+French description : En plein coeur des rives du Clausen,  M IMMOBILIER vous propose à la location cet espace aménageable en bureau.<br><br>Situé à quelques minutes du centre ville et de toutes les commodités, ce bien de 96,5 m2 saura vous séduire par son emplacement et sa superficie. <br><br>Très lumineux, il se situe au rez de chaussée d'une résidence rénovée.<br><br>Il se compose d'un espace pouvant accueillir environ 6 bureaux, d'une kitchenette, d'une salle de bains avec baignoire, d'un wc séparé, d'un espace pour la machine à laver.<br><br>Disponible immédiatement.<br><br>Conditions de location : <br>- Caution 3 mois de loyer,<br>- 1er mois de loyer payable d'avance,<br><br>Pour plus de renseignements n'hésitez pas à nous contacter au +352 43 33 33 1
+
+Updating property : 12, 12, Rives De Clausen
+
+Reading image : 1
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62223a0fe05bf3_54057192[.jpeg]
+Name : _62223a0fe05bf3_54057192.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62223a0fe05bf3_54057192[.jpeg]
+Building image : upload/image/progetis-rives-de-clausen-12-_62223a0fe05bf3_54057192.jpg
+Updating image : upload/image/progetis-rives-de-clausen-12-_62223a0fe05bf3_54057192.jpg
+
+Reading image : 2
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62223a21f15e82_04322545[.jpeg]
+Name : _62223a21f15e82_04322545.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62223a21f15e82_04322545[.jpeg]
+Building image : upload/image/progetis-rives-de-clausen-12-_62223a21f15e82_04322545.jpg
+Updating image : upload/image/progetis-rives-de-clausen-12-_62223a21f15e82_04322545.jpg
+
+Reading image : 3
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62223a4abe2e56_22761703[.jpeg]
+Name : _62223a4abe2e56_22761703.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62223a4abe2e56_22761703[.jpeg]
+Building image : upload/image/progetis-rives-de-clausen-12-_62223a4abe2e56_22761703.jpg
+Updating image : upload/image/progetis-rives-de-clausen-12-_62223a4abe2e56_22761703.jpg
+
+Reading property : 7, 7, RIVES DE CLAUSEN
+Index : 4
+Reference : 7
+Title : Rives De Clausen
+Primary nature : Appartement
+Secondary nature : Studio
+Sale or rental : location
+Street address : 
+House number : 
+City code : 
+City name : Luxembourg-Clausen
+Floor : 1
+Surface : 81.50
+Budget : 1500
+Price : 
+Charges : 250.00
+Parkings : 
+Open parking : 
+Underground parking : 
+Shared parking : 0
+Availability date : 
+English description : 
+French description : En plein coeur des rives du Clausen, M IMMOBILIER vous propose à la location ce bel appartement meublé.<br><br>Situé à quelques minutes du centre ville et de toutes les commodités, ce bien de 81,5 m2 saura vous charmer.<br><br>Lumineux, il se situe au 1er étage avec ascenseur.<br><br>Il se compose d'un hall d'entrée, d'un living avec cuisine ouverte aménagée et équipée, d'une chambre à coucher et d'une salle de douche avec wc intégré.<br><br>La salle de douche bénéficie d'un raccordement pour la machine à laver et le sèche linge.<br><br>Disponible immédiatement.<br><br>Conditions de location : <br>- Caution 3 mois de loyer,<br>- 1er mois de loyer payable d'avance,<br><br>Pour plus de renseignements n'hésitez pas à nous contacter au +352 43 33 33 1
+
+Updating property : 7, 7, Rives De Clausen
+
+Reading image : 1
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6274c020e104f5_05533004[.jpeg]
+Name : _6274c020e104f5_05533004.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6274c020e104f5_05533004[.jpeg]
+Building image : upload/image/progetis-rives-de-clausen-7-_6274c020e104f5_05533004.jpg
+Updating image : upload/image/progetis-rives-de-clausen-7-_6274c020e104f5_05533004.jpg
+
+Reading image : 2
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6274c025247f49_55732585[.jpeg]
+Name : _6274c025247f49_55732585.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6274c025247f49_55732585[.jpeg]
+Building image : upload/image/progetis-rives-de-clausen-7-_6274c025247f49_55732585.jpg
+Updating image : upload/image/progetis-rives-de-clausen-7-_6274c025247f49_55732585.jpg
+
+Reading image : 3
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6274c022c46e98_07515976[.jpeg]
+Name : _6274c022c46e98_07515976.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6274c022c46e98_07515976[.jpeg]
+Building image : upload/image/progetis-rives-de-clausen-7-_6274c022c46e98_07515976.jpg
+Updating image : upload/image/progetis-rives-de-clausen-7-_6274c022c46e98_07515976.jpg
+
+Reading property : 10, 10, X SEPTEMBRE
+Index : 5
+Reference : 10
+Title : X Septembre
+Primary nature : Appartement
+Secondary nature : Appartement
+Sale or rental : location
+Street address : 
+House number : 
+City code : 
+City name : Luxembourg-Belair
+Floor : 2
+Surface : 66.45
+Budget : 1700
+Price : 
+Charges : 200.00
+Parkings : 
+Open parking : 
+Underground parking : 
+Shared parking : 0
+Availability date : 
+English description : 
+French description : Situé dans le quartier résidentiel très prisé de Belair, M IMMOBILIER vous propose à la location ce très bel appartement.<br><br>Situé à quelques minutes du centre ville et de toutes les commodités, ce bien de 66,45 m2 a été entièrement rénové avec goût.<br><br>Lumineux, il se situe au 2ème étage.<br><br>Il se compose d'un hall d'entrée, d'un living avec une cuisine équipée ouverte, de deux chambres à coucher, d'une salle de douche avec wc intégré.<br><br>Disponible immédiatement.<br><br>Conditions de location : <br>- Caution 3 mois de loyer,<br>- 1er mois de loyer payable d'avance,<br><br>Pour plus de renseignements n'hésitez pas à nous contacter au +352 43 33 33 1
+
+Updating property : 10, 10, X Septembre
+
+Reading image : 1
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600ee76b5007_85668018[.jpeg]
+Name : _62600ee76b5007_85668018.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600ee76b5007_85668018[.jpeg]
+Building image : upload/image/progetis-x-septembre-10-_62600ee76b5007_85668018.jpg
+Updating image : upload/image/progetis-x-septembre-10-_62600ee76b5007_85668018.jpg
+
+Reading image : 2
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f26c262f9_63421490[.jpeg]
+Name : _62600f26c262f9_63421490.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f26c262f9_63421490[.jpeg]
+Building image : upload/image/progetis-x-septembre-10-_62600f26c262f9_63421490.jpg
+Updating image : upload/image/progetis-x-septembre-10-_62600f26c262f9_63421490.jpg
+
+Reading image : 3
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f3901db42_72427765[.jpeg]
+Name : _62600f3901db42_72427765.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f3901db42_72427765[.jpeg]
+Building image : upload/image/progetis-x-septembre-10-_62600f3901db42_72427765.jpg
+Updating image : upload/image/progetis-x-septembre-10-_62600f3901db42_72427765.jpg
+
+Reading image : 4
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f3aa1c1f7_06590132[.jpeg]
+Name : _62600f3aa1c1f7_06590132.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f3aa1c1f7_06590132[.jpeg]
+Building image : upload/image/progetis-x-septembre-10-_62600f3aa1c1f7_06590132.jpg
+Updating image : upload/image/progetis-x-septembre-10-_62600f3aa1c1f7_06590132.jpg
+
+Reading image : 5
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624fdbd6637975_64591215[.jpg]
+Name : _624fdbd6637975_64591215.jpg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624fdbd6637975_64591215[.jpg]
+Building image : upload/image/progetis-x-septembre-10-_624fdbd6637975_64591215.jpg
+Updating image : upload/image/progetis-x-septembre-10-_624fdbd6637975_64591215.jpg
+
+Reading image : 6
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f3f2a2921_98591557[.jpeg]
+Name : _62600f3f2a2921_98591557.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f3f2a2921_98591557[.jpeg]
+Building image : upload/image/progetis-x-septembre-10-_62600f3f2a2921_98591557.jpg
+Updating image : upload/image/progetis-x-septembre-10-_62600f3f2a2921_98591557.jpg
+
+URI : 2022-05-16 15:05:27 POST /update-properties
+GET : []
+POST : {
+    "multiple": "1",
+    "data": [
+        {
+            "id": "15",
+            "action": "add"
+        }
+    ]
+}
+FILES : []
+SESSION : []
+SERVER : {
+    "USER": "bamtesd",
+    "SCRIPT_NAME": "\/index.php",
+    "REQUEST_URI": "\/update-properties",
+    "QUERY_STRING": "",
+    "REQUEST_METHOD": "POST",
+    "SERVER_PROTOCOL": "HTTP\/1.1",
+    "GATEWAY_INTERFACE": "CGI\/1.1",
+    "REDIRECT_URL": "\/update-properties",
+    "REMOTE_PORT": "62792",
+    "SCRIPT_FILENAME": "\/home\/bamtesd\/www\/index.php",
+    "SERVER_ADMIN": "postmaster@www.bam-test.lu",
+    "DOCUMENT_ROOT": "\/home\/bamtesd\/www",
+    "REMOTE_ADDR": "2001:41d0:303:36eb::",
+    "SERVER_PORT": "443",
+    "SERVER_ADDR": "10.31.20.20",
+    "SERVER_NAME": "www.bam-test.lu",
+    "SERVER_SOFTWARE": "Apache",
+    "SERVER_SIGNATURE": "",
+    "HTTP_REMOTE_IP": "2001:41d0:303:36eb::",
+    "CONTENT_TYPE": "application\/x-www-form-urlencoded",
+    "HTTP_USER_AGENT": "Z16 platform",
+    "HTTP_ACCEPT_ENCODING": "gzip, deflate",
+    "CONTENT_LENGTH": "61",
+    "HTTP_X_OVHREQUEST_ID": "522f3a4b978663e7ad6b58789eee9405",
+    "HTTP_X_FORWARDED_PROTO": "https",
+    "HTTP_X_FORWARDED_FOR": "2001:41d0:303:36eb::",
+    "HTTP_X_PREDICTOR": "1",
+    "HTTP_HOST": "www.bam-test.lu",
+    "ENVIRONMENT": "production",
+    "CFG_CLUSTER": "cluster031",
+    "HTTPS": "on",
+    "SCRIPT_URI": "https:\/\/www.bam-test.lu:443\/update-properties",
+    "SCRIPT_URL": "\/update-properties",
+    "UNIQUE_ID": "YoJMFzlufQIRAKtnRG1Y4gAAAOM",
+    "REDIRECT_STATUS": "200",
+    "FCGI_ROLE": "RESPONDER",
+    "PHP_SELF": "\/index.php",
+    "REQUEST_TIME_FLOAT": 1652706327.278699,
+    "REQUEST_TIME": 1652706327,
+    "argv": [],
+    "argc": 0
+}
+Found 5 properties
+
+Reading property : 15, 15, DIFFERDANGE
+Index : 1
+Reference : 15
+Title : Differdange
+Primary nature : Appartement
+Secondary nature : Appartement
+Sale or rental : location
+Street address : 
+House number : 
+City code : 
+City name : Differdange
+Floor : 3
+Surface : 59.75
+Budget : 1350
+Price : 
+Charges : 250.00
+Parkings : 
+Open parking : 
+Underground parking : 
+Shared parking : 0
+Availability date : 
+English description : 
+French description : En plein coeur des rives du Clausen,  M IMMOBILIER vous propose à la location ce très bel appartement.<br><br>Situé à quelques minutes du centre ville et de toutes les commodités, ce bien meublé de 59,75 m2 saura vous séduire par son emplacement et sa terrasse. <br><br>Très lumineux, il se situe au 3ème étage d'une résidence sans ascenseur.<br><br>Il se compose d'un hall d'entrée, d'un living donnant sur une terrasse ensoleillée, d'une cuisine fermée équipée, d'une chambre à coucher, d'une salle de bains avec douche et wc.<br><br>Disponible immédiatement.<br><br>Conditions de location : <br>- Caution 3 mois de loyer,<br>- 1er mois de loyer payable d'avance,<br><br>Pour plus de renseignements n'hésitez pas à nous contacter au +352 43 33 33 1
+
+Updating property : 15, 15, Differdange
+
+Reading image : 1
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6260105af06633_34665018[.jpeg]
+Name : _6260105af06633_34665018.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6260105af06633_34665018[.jpeg]
+Building image : upload/image/progetis-differdange-15-_6260105af06633_34665018.jpg
+Updating image : upload/image/progetis-differdange-15-_6260105af06633_34665018.jpg
+
+Reading image : 2
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6260105d7d2323_28733802[.jpeg]
+Name : _6260105d7d2323_28733802.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6260105d7d2323_28733802[.jpeg]
+Building image : upload/image/progetis-differdange-15-_6260105d7d2323_28733802.jpg
+Updating image : upload/image/progetis-differdange-15-_6260105d7d2323_28733802.jpg
+
+Reading image : 3
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62601060211c65_89665615[.jpeg]
+Name : _62601060211c65_89665615.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62601060211c65_89665615[.jpeg]
+Building image : upload/image/progetis-differdange-15-_62601060211c65_89665615.jpg
+Updating image : upload/image/progetis-differdange-15-_62601060211c65_89665615.jpg
+
+Reading image : 4
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62601062a92621_50855640[.jpeg]
+Name : _62601062a92621_50855640.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62601062a92621_50855640[.jpeg]
+Building image : upload/image/progetis-differdange-15-_62601062a92621_50855640.jpg
+Updating image : upload/image/progetis-differdange-15-_62601062a92621_50855640.jpg
+
+Reading property : 14, 14, OFFICE CENTER
+Index : 2
+Reference : 14
+Title : Office Center
+Primary nature : Bureau
+Secondary nature : Bureau
+Sale or rental : location
+Street address : 
+House number : 
+City code : 
+City name : Luxembourg-Clausen
+Floor : 
+Surface : 335.23
+Budget : 35
+Price : 
+Charges : 5.00
+Parkings : 
+Open parking : 
+Underground parking : 
+Shared parking : 0
+Availability date : 
+English description : 
+French description : M Immobilier propose un espace de bureaux modulables à louer, au coeur du centre historique de la ville de Luxembourg.<br><br>Cet espace dispose de WC, d'une kitchenette, de 2 salles de réunion équipées et d'emplacements pour les archives.<br><br>Chaque espace dispose de l'air conditionné et est prééquipé de 2 bureaux avec caisson, armoire et fauteuil.<br><br>Montant du loyer : 35 euros par m2 par mois<br>Montant des charges : 5 euros par m2 par mois<br><br>Les salles de réunion sont disponibles, sur réservation, en sus du prix de location du bureau.<br><br>- Disponibilité immédiate<br>- TVA en sus du loyer<br>- Parking public attenant<br>- WIFI gratuit<br><br>Conditions de location : <br>- 6 mois de garantie bancaire<br>- Durée de location minimum : 3 mois
+
+Updating property : 14, 14, Office Center
+
+Reading image : 1
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624efb377dc188_23019450[.JPG]
+Name : _624efb377dc188_23019450.JPG
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624efb377dc188_23019450[.JPG]
+Building image : upload/image/progetis-office-center-14-_624efb377dc188_23019450.jpg
+Updating image : upload/image/progetis-office-center-14-_624efb377dc188_23019450.jpg
+
+Reading image : 2
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624efb34c9ea86_01966027[.JPG]
+Name : _624efb34c9ea86_01966027.JPG
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624efb34c9ea86_01966027[.JPG]
+Building image : upload/image/progetis-office-center-14-_624efb34c9ea86_01966027.jpg
+Updating image : upload/image/progetis-office-center-14-_624efb34c9ea86_01966027.jpg
+
+Reading image : 3
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624efb3e6d36a9_81379973[.JPG]
+Name : _624efb3e6d36a9_81379973.JPG
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624efb3e6d36a9_81379973[.JPG]
+Building image : upload/image/progetis-office-center-14-_624efb3e6d36a9_81379973.jpg
+Updating image : upload/image/progetis-office-center-14-_624efb3e6d36a9_81379973.jpg
+
+Reading property : 12, 12, RIVES DE CLAUSEN
+Index : 3
+Reference : 12
+Title : Rives De Clausen
+Primary nature : Bureau
+Secondary nature : Bureau
+Sale or rental : location
+Street address : 
+House number : 
+City code : 
+City name : Luxembourg-Clausen
+Floor : 0
+Surface : 96.50
+Budget : 1700
+Price : 
+Charges : 250.00
+Parkings : 
+Open parking : 
+Underground parking : 
+Shared parking : 0
+Availability date : 
+English description : 
+French description : En plein coeur des rives du Clausen,  M IMMOBILIER vous propose à la location cet espace aménageable en bureau.<br><br>Situé à quelques minutes du centre ville et de toutes les commodités, ce bien de 96,5 m2 saura vous séduire par son emplacement et sa superficie. <br><br>Très lumineux, il se situe au rez de chaussée d'une résidence rénovée.<br><br>Il se compose d'un espace pouvant accueillir environ 6 bureaux, d'une kitchenette, d'une salle de bains avec baignoire, d'un wc séparé, d'un espace pour la machine à laver.<br><br>Disponible immédiatement.<br><br>Conditions de location : <br>- Caution 3 mois de loyer,<br>- 1er mois de loyer payable d'avance,<br><br>Pour plus de renseignements n'hésitez pas à nous contacter au +352 43 33 33 1
+
+Updating property : 12, 12, Rives De Clausen
+
+Reading image : 1
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62223a0fe05bf3_54057192[.jpeg]
+Name : _62223a0fe05bf3_54057192.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62223a0fe05bf3_54057192[.jpeg]
+Building image : upload/image/progetis-rives-de-clausen-12-_62223a0fe05bf3_54057192.jpg
+Updating image : upload/image/progetis-rives-de-clausen-12-_62223a0fe05bf3_54057192.jpg
+
+Reading image : 2
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62223a21f15e82_04322545[.jpeg]
+Name : _62223a21f15e82_04322545.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62223a21f15e82_04322545[.jpeg]
+Building image : upload/image/progetis-rives-de-clausen-12-_62223a21f15e82_04322545.jpg
+Updating image : upload/image/progetis-rives-de-clausen-12-_62223a21f15e82_04322545.jpg
+
+Reading image : 3
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62223a4abe2e56_22761703[.jpeg]
+Name : _62223a4abe2e56_22761703.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62223a4abe2e56_22761703[.jpeg]
+Building image : upload/image/progetis-rives-de-clausen-12-_62223a4abe2e56_22761703.jpg
+Updating image : upload/image/progetis-rives-de-clausen-12-_62223a4abe2e56_22761703.jpg
+
+Reading property : 7, 7, RIVES DE CLAUSEN
+Index : 4
+Reference : 7
+Title : Rives De Clausen
+Primary nature : Appartement
+Secondary nature : Studio
+Sale or rental : location
+Street address : 
+House number : 
+City code : 
+City name : Luxembourg-Clausen
+Floor : 1
+Surface : 81.50
+Budget : 1500
+Price : 
+Charges : 250.00
+Parkings : 
+Open parking : 
+Underground parking : 
+Shared parking : 0
+Availability date : 
+English description : 
+French description : En plein coeur des rives du Clausen, M IMMOBILIER vous propose à la location ce bel appartement meublé.<br><br>Situé à quelques minutes du centre ville et de toutes les commodités, ce bien de 81,5 m2 saura vous charmer.<br><br>Lumineux, il se situe au 1er étage avec ascenseur.<br><br>Il se compose d'un hall d'entrée, d'un living avec cuisine ouverte aménagée et équipée, d'une chambre à coucher et d'une salle de douche avec wc intégré.<br><br>La salle de douche bénéficie d'un raccordement pour la machine à laver et le sèche linge.<br><br>Disponible immédiatement.<br><br>Conditions de location : <br>- Caution 3 mois de loyer,<br>- 1er mois de loyer payable d'avance,<br><br>Pour plus de renseignements n'hésitez pas à nous contacter au +352 43 33 33 1
+
+Updating property : 7, 7, Rives De Clausen
+
+Reading image : 1
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6274c020e104f5_05533004[.jpeg]
+Name : _6274c020e104f5_05533004.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6274c020e104f5_05533004[.jpeg]
+Building image : upload/image/progetis-rives-de-clausen-7-_6274c020e104f5_05533004.jpg
+Updating image : upload/image/progetis-rives-de-clausen-7-_6274c020e104f5_05533004.jpg
+
+Reading image : 2
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6274c025247f49_55732585[.jpeg]
+Name : _6274c025247f49_55732585.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6274c025247f49_55732585[.jpeg]
+Building image : upload/image/progetis-rives-de-clausen-7-_6274c025247f49_55732585.jpg
+Updating image : upload/image/progetis-rives-de-clausen-7-_6274c025247f49_55732585.jpg
+
+Reading image : 3
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6274c022c46e98_07515976[.jpeg]
+Name : _6274c022c46e98_07515976.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_6274c022c46e98_07515976[.jpeg]
+Building image : upload/image/progetis-rives-de-clausen-7-_6274c022c46e98_07515976.jpg
+Updating image : upload/image/progetis-rives-de-clausen-7-_6274c022c46e98_07515976.jpg
+
+Reading property : 10, 10, X SEPTEMBRE
+Index : 5
+Reference : 10
+Title : X Septembre
+Primary nature : Appartement
+Secondary nature : Appartement
+Sale or rental : location
+Street address : 
+House number : 
+City code : 
+City name : Luxembourg-Belair
+Floor : 2
+Surface : 66.45
+Budget : 1700
+Price : 
+Charges : 200.00
+Parkings : 
+Open parking : 
+Underground parking : 
+Shared parking : 0
+Availability date : 
+English description : 
+French description : Situé dans le quartier résidentiel très prisé de Belair, M IMMOBILIER vous propose à la location ce très bel appartement.<br><br>Situé à quelques minutes du centre ville et de toutes les commodités, ce bien de 66,45 m2 a été entièrement rénové avec goût.<br><br>Lumineux, il se situe au 2ème étage.<br><br>Il se compose d'un hall d'entrée, d'un living avec une cuisine équipée ouverte, de deux chambres à coucher, d'une salle de douche avec wc intégré.<br><br>Disponible immédiatement.<br><br>Conditions de location : <br>- Caution 3 mois de loyer,<br>- 1er mois de loyer payable d'avance,<br><br>Pour plus de renseignements n'hésitez pas à nous contacter au +352 43 33 33 1
+
+Updating property : 10, 10, X Septembre
+
+Reading image : 1
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600ee76b5007_85668018[.jpeg]
+Name : _62600ee76b5007_85668018.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600ee76b5007_85668018[.jpeg]
+Building image : upload/image/progetis-x-septembre-10-_62600ee76b5007_85668018.jpg
+Updating image : upload/image/progetis-x-septembre-10-_62600ee76b5007_85668018.jpg
+
+Reading image : 2
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f26c262f9_63421490[.jpeg]
+Name : _62600f26c262f9_63421490.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f26c262f9_63421490[.jpeg]
+Building image : upload/image/progetis-x-septembre-10-_62600f26c262f9_63421490.jpg
+Updating image : upload/image/progetis-x-septembre-10-_62600f26c262f9_63421490.jpg
+
+Reading image : 3
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f3901db42_72427765[.jpeg]
+Name : _62600f3901db42_72427765.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f3901db42_72427765[.jpeg]
+Building image : upload/image/progetis-x-septembre-10-_62600f3901db42_72427765.jpg
+Updating image : upload/image/progetis-x-septembre-10-_62600f3901db42_72427765.jpg
+
+Reading image : 4
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f3aa1c1f7_06590132[.jpeg]
+Name : _62600f3aa1c1f7_06590132.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f3aa1c1f7_06590132[.jpeg]
+Building image : upload/image/progetis-x-septembre-10-_62600f3aa1c1f7_06590132.jpg
+Updating image : upload/image/progetis-x-septembre-10-_62600f3aa1c1f7_06590132.jpg
+
+Reading image : 5
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624fdbd6637975_64591215[.jpg]
+Name : _624fdbd6637975_64591215.jpg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_624fdbd6637975_64591215[.jpg]
+Building image : upload/image/progetis-x-septembre-10-_624fdbd6637975_64591215.jpg
+Updating image : upload/image/progetis-x-septembre-10-_624fdbd6637975_64591215.jpg
+
+Reading image : 6
+URL : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f3f2a2921_98591557[.jpeg]
+Name : _62600f3f2a2921_98591557.jpeg
+Title : 
+
+Downloading image : https://api-production.easy2pilot-v8.com/stored-photo/5d036031-eea8-11eb-a86d-a4bf0117bba2/_62600f3f2a2921_98591557[.jpeg]
+Building image : upload/image/progetis-x-septembre-10-_62600f3f2a2921_98591557.jpg
+Updating image : upload/image/progetis-x-septembre-10-_62600f3f2a2921_98591557.jpg
+

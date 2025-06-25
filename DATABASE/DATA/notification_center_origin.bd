@@ -1,0 +1,14 @@
+NOTIFICATION_EVENT_ORIGIN
+
+     id name number
+
+        administrator
+            ~ Administrator
+                ¨fr:Administrateur
+                ¨de:Verwalter
+            ~ 1
+        
+        system
+            ~ System
+                ¨fr:Système
+            ~ 2

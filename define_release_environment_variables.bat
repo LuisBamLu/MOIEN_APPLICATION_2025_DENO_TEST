@@ -1,0 +1,6 @@
+setx MOIEN_DATABASE_HOST "db.ripmolshugpqpadlluex.supabase.co"
+setx MOIEN_DATABASE_PASSWORD "6Rs36Uyhnd0tevnrITIdIr7Ttzd7g2uC"
+setx MOIEN_DATABASE_URL "https://ripmolshugpqpadlluex.supabase.co"
+setx MOIEN_DATABASE_KEY "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJpcG1vbHNodWdwcXBhZGxsdWV4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjYyNDMzNDAsImV4cCI6MjA0MTgxOTM0MH0.qzBsTEvwUqm5Hrs-X8EFlW2dkQCqK5GwRh2Vv1D7HMg"
+setx MOIEN_STORAGE_URL "https://ripmolshugpqpadlluex.supabase.co/storage/v1/object/public"
+pause

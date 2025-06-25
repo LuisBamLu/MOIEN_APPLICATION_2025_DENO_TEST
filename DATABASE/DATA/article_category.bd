@@ -1,0 +1,28 @@
+ARTICLE_CATEGORY
+
+    id name
+
+        all
+            ~ All
+              ¨fr:Tous
+              ¨de:Alle
+
+        guest
+            ~ Guests
+              ¨fr:Invités
+              ¨de:Gäste
+
+        host
+            ~ Host
+              ¨fr:Hôte
+              ¨de:Host
+
+        owner
+            ~ Owners
+              ¨fr:Propriétaires
+              ¨de:Eigentümer
+
+        agency
+            ~ Agencies
+              ¨fr:Agences
+              ¨de:Agenturen

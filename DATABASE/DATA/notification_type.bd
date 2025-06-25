@@ -1,0 +1,15 @@
+NOTIFICATION_TYPE
+
+    id number name
+
+        partner-ads
+            ~ 0
+            ~ Partner ads
+        
+        appointment-reminder
+            ~ 1
+            ~ Appointment reminder
+        
+        optional-services
+            ~ 2
+            ~ Optional services

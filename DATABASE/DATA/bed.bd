@@ -1,0 +1,24 @@
+BED
+
+    id propertyId spaceId typeId personCount count
+
+        %nice-chalet-by-the-woods-property-first-bedroom-space-bed
+            ~ %nice-chalet-by-the-woods-property
+            ~ %nice-chalet-by-the-woods-property-first-bedroom-space
+            ~ double-bed
+            ~ 2
+            ~ 1
+
+        %nice-chalet-by-the-woods-property-second-bedroom-space-bed
+            ~ %nice-chalet-by-the-woods-property
+            ~ %nice-chalet-by-the-woods-property-second-bedroom-space
+            ~ single-bed
+            ~ 1
+            ~ 2
+
+        %nice-chalet-by-the-woods-property-living-room-space-bed
+            ~ %nice-chalet-by-the-woods-property
+            ~ %nice-chalet-by-the-woods-property-living-room-space
+            ~ sofa-bed
+            ~ 2
+            ~ 1

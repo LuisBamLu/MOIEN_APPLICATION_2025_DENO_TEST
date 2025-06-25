@@ -1,0 +1,24 @@
+TAXATION
+
+    id number name countryCode rate
+
+        luxembourg
+            ~ 1
+            ~ Luxembourg
+              ¨fr:Luxembourg
+            ~ LU
+            ~ 0.05
+
+        france
+            ~ 2
+            ~ France
+              ¨fr:France
+            ~ FR
+            ~ 0.05
+
+        belgium
+            ~ 3
+            ~ Belgium
+              ¨fr:Belgique
+            ~ BE
+            ~ 0.05

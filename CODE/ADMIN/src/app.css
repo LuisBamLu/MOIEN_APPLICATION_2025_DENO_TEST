@@ -1,0 +1,131 @@
+:root
+{
+    --sv-min-height: 38px;
+    --sv-bg: #fff;
+    --sv-disabled-bg: #eee;
+    --sv-border: 2px solid #e5e5e5;
+    --sv-border-radius: 12px;
+    --sv-general-padding: 0.9em 0.875rem;
+    --sv-control-bg: var(--sv-bg);
+    --sv-item-wrap-padding: 3px 3px 3px 6px;
+    --sv-item-selected-bg: #CCE5E1;
+    --sv-item-btn-color: #F0384A;
+    --sv-item-btn-color-hover: #F0384A;
+    --sv-item-btn-bg: #CCE5E1;
+    --sv-item-btn-bg-hover: #40DCB6;
+    --sv-icon-color: #bbb;
+    --sv-icon-color-hover: #777;
+    --sv-icon-bg: transparent;
+    --sv-icon-size: 20px;
+    --sv-separator-bg: #ccc;
+    --sv-btn-border: 0;
+    --sv-placeholder-color: #ccccd6;
+    --sv-dropdown-bg: var(--sv-bg);
+    --sv-dropdown-offset: 1px;
+    --sv-dropdown-border: 1px solid rgba(0,0,0,0.15);
+    --sv-dropdown-width: auto;
+    --sv-dropdown-shadow: 0 6px 12px #0000002d;
+    --sv-dropdown-height: 120px;
+    --sv-dropdown-active-bg: #F2F5F8;
+    --sv-dropdown-selected-bg: #ECF3F9;
+    --sv-create-kbd-border: 1px solid #efefef;
+    --sv-create-kbd-bg: #fff;
+    --sv-create-disabled-bg: #fcbaba;
+    --sv-loader-border: 2px solid #ccc;
+}
+
+#bp_container>.bp-x
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html
+{
+    font-size: 100%;
+
+    @media( max-width: 1080px )
+    {
+        font-size: 93.75%;
+    }
+
+    @media( max-width: 720px )
+    {
+        font-size: 87.5%;
+    }
+}
+
+.edit-modal-form
+{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.input-row
+{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.input-row.space-between
+{
+    justify-content: space-between;
+    padding: 0.75em 0.5em 1em 0;
+}
+
+.input-row.inline
+{
+    flex-direction: row;
+}
+
+.input-row.flex-grow
+{
+    flex-grow: 1;
+}
+
+@keyframes fade-in
+{
+	from
+    {
+		opacity: 0;
+	}
+}
+
+@keyframes fade-out
+{
+	to
+    {
+		opacity: 0;
+	}
+}
+
+:root::view-transition-old( admin-card-list ),
+:root::view-transition-old( manager-page )
+{
+	animation: 90ms cubic-bezier(0.4, 0, 1, 1) both fade-out;
+}
+
+:root::view-transition-new( admin-card-list ),
+:root::view-transition-new( manager-page )
+{
+	animation: 210ms cubic-bezier(0, 0, 0.2, 1) 90ms both fade-in;
+}
+
+@media ( prefers-reduced-motion )
+{
+	::view-transition-group( * ),
+	::view-transition-old( * ),
+	::view-transition-new( * )
+    {
+		animation: none !important;
+	}
+}

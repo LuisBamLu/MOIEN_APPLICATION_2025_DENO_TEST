@@ -1,0 +1,74 @@
+FEATURE_VALUE_TYPE
+
+    id number name
+
+        boolean
+            ~ 1
+            ~ Boolean
+              ¨fr:Booléen
+
+        integer
+            ~ 2
+            ~ Integer
+              ¨fr:Entier
+
+        real
+            ~ 3
+            ~ Real
+              ¨fr:Réel
+
+        text
+            ~ 4
+            ~ Text
+              ¨fr:Texte
+
+        date
+            ~ 5
+            ~ Date
+              ¨fr:Date
+
+        heating-type
+            ~ 6
+            ~ Heating type
+              ¨fr:Type de chauffage
+
+        energy-diagnosis
+            ~ 7
+            ~ Energy diagnosis
+              ¨fr:Diagnostic énergétique
+
+        rental-type
+            ~ 8
+            ~ Rental type
+              ¨fr:Type de location
+
+        cancellation-policy
+            ~ 9
+            ~ Cancellation policy
+              ¨fr:Politique d'annulation
+
+        taxation
+            ~ 10
+            ~ Taxation
+              ¨fr:Fiscalité
+
+        currency-code
+            ~ 11
+            ~ Currency
+              ¨fr:Monnaie
+
+        booking-option
+            ~ 12
+            ~ Booking option
+              ¨fr:Option de réservation
+
+        employment-status
+            ~ 13
+            ~ Employment status
+              ¨fr:Situation professionnelle
+
+        time-range
+            ~ 14
+            ~ Time range
+              ¨fr:Plage de temps
+

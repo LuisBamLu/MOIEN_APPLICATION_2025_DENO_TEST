@@ -1,0 +1,343 @@
+Koyeb
+    https://app.koyeb.com
+        admin@groupbam.com / 9FRRE,ZP8B3ae6UIfYroAgRKPJZd0YhV
+
+        https://moien.com/
+
+            moien-application-2024-release-frankfurt
+                release.moien.com
+                moien-application-2024-release-frankfurt.moien-release.internal:8000
+                    f57e2329-e113-4d1f-abff-f92561774793.cname.koyeb.app
+
+Render
+    https://dashboard.render.com
+        admin@groupbam.com / 6BxYqs4CMGeJGEcmziT7fGz6ypTQj57h
+
+            MOIEN_APPLICATION_2024
+                www.moien.com
+                moien-application-2024-master-frankfurt.moien-master.internal:8000
+                    f57e2329-e113-4d1f-abff-f92561774793.cname.koyeb.app
+
+Supabase
+    https://supabase.com/dashboard/sign-in
+        admin@groupbam.com / 6bmMyjqczAzPdG7naxMGCUh_MbEDk3Hr
+
+            https://rvmaltqvxnmtvljlghlx.supabase.co
+                moien / XFwDDY6uj2uhCrqFr6cJjaFQyjuaR8L7
+                (moien-master-frankfurt)
+                eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ2bWFsdHF2eG5tdHZsamxnaGx4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTU2MzAxNDIsImV4cCI6MjAxMTIwNjE0Mn0.qjhCx3-VpASYblLdm_GSZmNWEHj5tTUU3LPL04X2N8Q
+
+            https://ripmolshugpqpadlluex.supabase.co/
+                moien-release-frankfurt / 6Rs36Uyhnd0tevnrITIdIr7Ttzd7g2uC
+                eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJpcG1vbHNodWdwcXBhZGxsdWV4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjYyNDMzNDAsImV4cCI6MjA0MTgxOTM0MH0.qzBsTEvwUqm5Hrs-X8EFlW2dkQCqK5GwRh2Vv1D7HMg
+
+            https://cjspwqqhdpkjmqycwxys.supabase.co
+                moien-develop-frankfurt / K5iKvPWRk0BjI9xF0Y6IzUU4F4YN1YLX
+                eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNqc3B3cXFoZHBram1xeWN3eHlzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mjg0ODg5OTAsImV4cCI6MjA0NDA2NDk5MH0.59mnZJedyZKfdLm74rS2PqBHgavueQWscu34A311F-Y
+
+    https://supabase.com/dashboard/project/rvmaltqvxnmtvljlghlx/auth/users
+
+        74b22c29-9fa8-4bd2-8e56-ae9c71376f97
+            admin@groupbam.com / Lukuv?Yxojina}GO0Tp5O6
+
+        a6e246fc-fb75-4497-bbbf-e8e5c1a758a2
+            eric@groupbam.com / Gamor$Ecohehe/G2J3L0W2
+
+    https://supabase.com/dashboard/project/rvmaltqvxnmtvljlghlx/settings/auth
+
+        SMTP settings
+            host : ssl0.ovh.net
+            port number : 465
+            username : contact@groupbam.com
+            password : qX3xrtHXJVegmUahX4X5T!Hyrfc
+
+Bunny
+    https://bunny.net/
+        admin@groupbam.com / 2QqWFwVm0pUhOo!EPTA1!yKLYi:04KhO
+
+    https://storage.bunnycdn.com/moien/
+
+    FTP
+        host : storage.bunnycdn.com
+        user : moien
+        password : 69742a4d-ce06-47fa-96f7fe27528b-28ad-4252
+        connection : passive
+        port : 21
+
+Mangopay
+    https://hub.mangopay.com/auth-log-in
+        o.raguin@crossfunding.org / OLEane+911
+
+Confluence
+    https://menzao.atlassian.net/
+        olivier@moien.com / Crossfunding1234
+
+InVision
+    https://www.invisionapp.com/
+        olivier@moien.com / Crossfunding1234
+
+        https://projects.invisionapp.com/d/main#/projects/prototypes/20292113
+        https://projects.invisionapp.com/d/main#/projects/prototypes/20341223
+        https://projects.invisionapp.com/d/main#/projects/prototypes/21775362
+
+Easy2Pilot
+    Documentation
+        https://documentation-apiv4.easy2deploy.com/
+            groupbam / [@3sQWE6qp
+        https://documentation-apiv4.easy2deploy.com/
+            crossfunding / OoY26TMRg#
+    Backoffice
+        https://test1234.easy-serveur54.com/
+            olivier@moien.com / CF1234
+    API
+        https://middleware-production.easy2pilot-v8.com/api/ada09975-77b3-11e9-937e-a4bf0117bba2
+            CrossFunding / Pj587TdCx
+
+Google Search console
+    https://search.google.com/search-console
+        root@moien.com / d9MK7IK4wbGkfJ$QH8wv9meQ4N!6kRqywD
+        root.moien.2024@gmail.com / d9MK7IK4wbGkfJ$QH8wv9meQ4N!6kRqywD
+
+        Sitemaps > https://moien.com/sitemap.xml
+
+Google Analytics
+    https://analytics.google.com
+        root@moien.com / d9MK7IK4wbGkfJ$QH8wv9meQ4N!6kRqywD
+        root.moien.2024@gmail.com / d9MK7IK4wbGkfJ$QH8wv9meQ4N!6kRqywD
+            account : 196247727
+                Moien_Website
+                    275995463
+                        Gear > Data collection > Data streams
+                            Moien Website
+                                Url : https://www.moien.com
+                                Id : 2656070183
+                                Measure Id : G-FJBRVRX6QJ
+
+                                <!-- Google tag (gtag.js) -->
+                                <script async src="https://www.googletagmanager.com/gtag/js?id=G-FJBRVRX6QJ"></script>
+                                <script>
+                                  window.dataLayer = window.dataLayer || [];
+                                  function gtag(){dataLayer.push(arguments);}
+                                  gtag('js', new Date());
+
+                                  gtag('config', 'G-FJBRVRX6QJ');
+                                </script>
+                Moien_App (bad)
+                    211209959
+                        Gear > Data collection > Data streams
+                            Moien website
+                                Url : https://www.moien.com
+                                Id : 9719548656
+                                Measure id : G-71NEHZH51V
+
+Google Cloud Platform
+    https://console.cloud.google.com/
+        root@moien.com / d9MK7IK4wbGkfJ$QH8wv9meQ4N!6kRqywD
+        root.moien.2024@gmail.com / d9MK7IK4wbGkfJ$QH8wv9meQ4N!6kRqywD
+
+    Project > https://console.cloud.google.com/welcome?project=moienapp-ad3aa
+Google Mail
+    mail.google.com
+        moiensandbox@gmail.com / Crossfunding1234!
+        olivier.Raguin@oraconseil.com / OLEane+912
+        root@moien.com / d9MK7IK4wbGkfJ$QH8wv9meQ4N!6kRqywD
+        root.moien.2024@gmail.com / d9MK7IK4wbGkfJ$QH8wv9meQ4N!6kRqywD
+        dev.admin@crossfunding.org / i3.zU_Ilwrk0k4.Xlqhu90iWcz#lQdQ0
+
+Email
+    admin@moien.com / OtTcpaoJJLKQ;HPfVCqYck4Z7uf+BPq1kh
+        XR5ftJz3DryeUUfATyCoYGb_Xdm4ciC1
+    contact@moien.com / nDRmwDRHJc96J:EnA6T3d1fvK$9nOdPV4j
+    noreply@moien.com / loXaE8MK_vAl9iDbL3Ey_Q0Z6XRjV3JS05
+    dev.admin@crossfunding.org / Crossfunding1234
+        gvBNvDhMKGQMI16AOTG6qSolO4;grLUf
+
+Mailchimp
+    https://login.mailchimp.com/
+        contact@moien.com / PcnVCRa1+GLxDFQwcHrX1jYKFi0Lg6Tj
+
+    Marketing API key
+        Moien web app / 0f594a03eb19cdd0eb8292211eb111cd-us11
+
+OVH
+    https://www.ovh.com/auth/
+        o.raguin@crossfunding.org / CasBerMar1982!
+
+    DNS
+        Domain  TTL Type    Target
+
+        moien.com.
+        0   NS  dns111.ovh.net.
+
+        moien.com.
+        0   NS  ns111.ovh.net.
+
+        moien.com.
+        0   MX  0 moien-com.mail.protection.outlook.com.
+
+        autodiscover.moien.com.
+        3600    CNAME   autodiscover.outlook.com.
+
+        sip.moien.com.
+        3600    CNAME   sipdir.online.lync.com.
+
+        lyncdiscover.moien.com.
+        3600    CNAME   webdir.online.lync.com.
+
+        enterpriseregistration.moien.com.
+        3600    CNAME   enterpriseregistration.windows.net.
+
+        enterpriseenrollment.moien.com.
+        3600    CNAME   enterpriseenrollment-s.manage.microsoft.com.
+
+        _sip._tls.moien.com.
+        3600    SRV 100 1 443 sipdir.online.lync.com.
+
+        _sipfederationtls._tcp.moien.com.
+        3600    SRV 100 1 5061 sipdir.online.lync.com.
+
+        moien.com.
+        3600    TXT "v=spf1 include:spf.protection.outlook.com -all"
+
+        www.moien.com.
+        0   CNAME   f57e2329-e113-4d1f-abff-f92561774793.cname.koyeb.app.
+
+        release.moien.com.
+        0   CNAME   f57e2329-e113-4d1f-abff-f92561774793.cname.koyeb.app.
+
+        moien.com.
+        0   A   213.186.33.5
+
+        moien.com.
+        60  TXT "4|www.moien.com"
+
+        moien.com.
+        0   TXT "google-site-verification=tiUmT7IDhJ-5UeYAQ0qvauSImz5E6LutD_IRNmWMryc"
+
+    Redirections
+        Domain  Type    Target
+        autodiscover.moien.com  To a domain (CNAME) autodiscover.outlook.com
+        sip.moien.com   To a domain (CNAME) sipdir.online.lync.com
+        lyncdiscover.moien.com  To a domain (CNAME) webdir.online.lync.com
+        enterpriseregistration.moien.com    To a domain (CNAME) enterpriseregistration.windows.net
+        enterpriseenrollment.moien.com  To a domain (CNAME) enterpriseenrollment-s.manage.microsoft.com
+        www.moien.com   To a domain (CNAME) f57e2329-e113-4d1f-abff-f92561774793.cname.koyeb.app
+        release.moien.com   To a domain (CNAME) f57e2329-e113-4d1f-abff-f92561774793.cname.koyeb.app
+        moien.com   Permanent visible redirection   www.moien.com
+
+    Old DNS
+        Domain  TTL Type    Target
+
+        moien.com.
+        0   NS  dns111.ovh.net.
+
+        moien.com.
+        0   NS  ns111.ovh.net.
+
+        www.moien.com.
+        0   A   46.101.243.19
+
+        testbo.moien.com.
+        60  A   46.101.243.19
+
+        moien.com.
+        0   MX  0 moien-com.mail.protection.outlook.com.
+
+        testfo.moien.com.
+        0   A   46.101.243.19
+
+        api.moien.com.
+        0   A   46.101.243.19
+
+        autodiscover.moien.com.
+        3600    CNAME   autodiscover.outlook.com.
+
+        sip.moien.com.
+        3600    CNAME   sipdir.online.lync.com.
+
+        lyncdiscover.moien.com.
+        3600    CNAME   webdir.online.lync.com.
+
+        enterpriseregistration.moien.com.
+        3600    CNAME   enterpriseregistration.windows.net.
+
+        enterpriseenrollment.moien.com.
+        3600    CNAME   enterpriseenrollment-s.manage.microsoft.com.
+
+        _sip._tls.moien.com.
+        3600    SRV 100 1 443 sipdir.online.lync.com.
+
+        _sipfederationtls._tcp.moien.com.
+        3600    SRV 100 1 5061 sipdir.online.lync.com.
+
+        blog.moien.com.
+        0   A   46.101.243.19
+
+        moien.com.
+        3600    TXT "v=spf1 include:spf.protection.outlook.com -all"
+
+    Old Redirection
+        Domain  Type    Target
+        www.moien.com   To a server (IPv4 - A)  46.101.243.19
+        testbo.moien.com    To a server (IPv4 - A)  46.101.243.19
+        testfo.moien.com    To a server (IPv4 - A)  46.101.243.19
+        api.moien.com   To a server (IPv4 - A)  46.101.243.19
+        blog.moien.com  To a server (IPv4 - A)  46.101.243.19
+        autodiscover.moien.com  To a domain (CNAME) autodiscover.outlook.com
+        sip.moien.com   To a domain (CNAME) sipdir.online.lync.com
+        lyncdiscover.moien.com  To a domain (CNAME) webdir.online.lync.com
+        enterpriseregistration.moien.com    To a domain (CNAME) enterpriseregistration.windows.net
+        enterpriseenrollment.moien.com  To a domain (CNAME) enterpriseenrollment-s.manage.microsoft.com
+
+    DNS server
+        ns111.ovh.net
+        dns111.ovh.net
+
+OneSignal
+    o.raguin@crossfunding.org / moien2020!
+
+Apple
+    a.bornert@crossfunding.org / Crossfunding1234
+
+    moiensandbox@gmail.com / Crossfunding1234!
+        Secret Question : crossfundung
+        Secret Answer : moienc
+
+    Apple account:
+        dev.admin@crossfunding.org / oojzXOTmutqlSxy8vnDD.t6qgOjX8%U4
+            Phone numbers:
+                +55 11 97845 0648 (BAM Brasil)
+                +352 691 338 826 (O. Raguin)
+            Trusted devices:
+
+Android
+    Test user for Moien Android app
+        android.testing@moien.com / 42TestingAndroid(#¨¨#)42
+
+    upload-keystore
+        Location : C:\PROJECT\APPLICATION\MOIEN\MOIEN_APPLICATION_2024\DOCUMENT\upload-keystore.jks
+        storepass : nd7ZaBG9hbFQuI#JququY124sZ-LWWNm
+
+        upload-key
+            Alias : upload
+            keypass : FnunKcOAQDXbWqe46dtzMElGdj0QXxTK
+
+            Creation date: Jan 14, 2025
+            Entry type: PrivateKeyEntry
+            Certificate chain length: 1
+            Certificate[1]:
+            Owner: C=BR, ST=SP, L=Sao Paulo, O=Bam Brasil LTDA, OU=IT, CN=Luís Silva
+            Issuer: C=BR, ST=SP, L=Sao Paulo, O=Bam Brasil LTDA, OU=IT, CN=Luís Silva
+            Serial number: 1
+            Valid from: Tue Jan 14 15:49:07 BRT 2025 until: Sat Jan 08 15:49:07 BRT 2050
+            Certificate fingerprints:
+                    SHA1: C6:94:4A:D4:FC:6C:16:B5:86:EC:AD:36:7C:48:3F:1C:D6:29:50:E4
+                    SHA256: E0:70:9B:80:54:07:C7:1D:6A:D2:38:80:B7:2C:2B:BB:F9:24:5C:21:59:3C:39:AE:CA:D9:EB:5B:7B:8F:63:AA
+            Signature algorithm name: SHA256withRSA
+            Subject Public Key Algorithm: 2048-bit RSA key
+            Version: 1
+
+Hubspot
+    https://app.hubspot.com/login
+        admin@groupbam.com / whvhIpoJtzZNaC-YoorL:XEEbwsm71Wu
+        adrien@groupbam.com / 7K;i9UwpXehhbjrAMve2ras.Z6IMIPrz

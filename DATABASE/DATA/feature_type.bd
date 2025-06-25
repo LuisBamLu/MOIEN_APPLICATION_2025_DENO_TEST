@@ -1,0 +1,1779 @@
+FEATURE_TYPE
+
+    id iconImagePath name text valueSuffix categoryId subcategoryId number valueTypeId defaultValue minimumValue maximumValue
+
+        room-area
+            ~ /image/icon/feature/room_area.svg
+            ~ Room area
+              ¨fr:Surface habitable
+            ~ \{value\} m² of rooms
+              ¨fr:\{value\} m² de pièces
+            ~ m²
+            ~ description-and-equipment
+            ~
+            ~ 1
+            ~ real
+            ~ 0
+            ~ 0
+            ~ 100
+
+        property-area
+            ~ /image/icon/feature/property_area.svg
+            ~ Property area
+              ¨fr:Surface de la propriété
+            ~ \{value\} m² of property
+              ¨fr:\{value\} m² de propriété
+            ~ m²
+            ~ description-and-equipment
+            ~
+            ~ 1
+            ~ real
+            ~ 0
+            ~ 0
+            ~ 100
+
+        garden-area
+            ~ /image/icon/feature/garden_area.svg
+            ~ Garden area
+              ¨fr:Surface du jardin
+            ~ \{value\} m² of garden
+              ¨fr:\{value\} m² de jardin
+            ~ m²
+            ~ description-and-equipment
+            ~
+            ~ 1
+            ~ real
+            ~ 0
+            ~ 0
+            ~ 100
+
+        balcony-area
+            ~ /image/icon/feature/balcony_area.svg
+            ~ Balcony area
+              ¨fr:Surface du balcon
+            ~ \{value\} m² of balcony
+              ¨fr:\{value\} m² de balcon
+            ~ m²
+            ~ description-and-equipment
+            ~
+            ~ 1
+            ~ real
+            ~ 0
+            ~ 0
+            ~ 100
+
+        terrace-area
+            ~ /image/icon/feature/terrace_area.svg
+            ~ Terrace area
+              ¨fr:Surface de la terrasse
+            ~ \{value\} m² of terrace
+              ¨fr:\{value\} m² de terrasse
+            ~ m²
+            ~ description-and-equipment
+            ~
+            ~ 1
+            ~ real
+            ~ 0
+            ~ 0
+            ~ 100
+
+    id iconImagePath name text categoryId subcategoryId number valueTypeId defaultValue minimumValue maximumValue
+
+        room-count
+            ~ /image/icon/feature/room_count.svg
+            ~ Room count
+              ¨fr:Pièces
+            ~ \{value\} rooms
+              ¨fr:\{value\} pièces
+            ~ description-and-equipment
+            ~ composition
+            ~ 1
+            ~ integer
+            ~ 0
+            ~ 0
+            ~ 10
+
+        bedroom-count
+            ~ /image/icon/feature/bedroom_count.svg
+            ~ Bedroom count
+              ¨fr:Chambres
+            ~ \{value\} bedrooms
+              ¨fr:\{value\} chambres
+            ~ description-and-equipment
+            ~ composition
+            ~ 1
+            ~ integer
+            ~ 0
+            ~ 0
+            ~ 10
+
+        bathroom-count
+            ~ /image/icon/feature/bathroom_count.svg
+            ~ Bathroom count
+              ¨fr:Salles de bain
+            ~ \{value\} bathrooms
+              ¨fr:\{value\} salles de bain
+            ~ description-and-equipment
+            ~ composition
+            ~ 1
+            ~ integer
+            ~ 0
+            ~ 0
+            ~ 10
+
+        living-room-count
+            ~ /image/icon/feature/living_room_count.svg
+            ~ Living room count
+              ¨fr:Salons
+            ~ \{value\} living rooms
+              ¨fr:\{value\} salons
+            ~ description-and-equipment
+            ~ composition
+            ~ 1
+            ~ integer
+            ~ 0
+            ~ 0
+            ~ 10
+
+        kitchen-count
+            ~ /image/icon/feature/kitchen_count.svg
+            ~ Kitchen count
+              ¨fr:Cuisines
+            ~ \{value\} kitchen
+              ¨fr:\{value\} cuisines
+            ~ description-and-equipment
+            ~ composition
+            ~ 1
+            ~ integer
+            ~ 0
+            ~ 0
+            ~ 10
+
+        dining-room-count
+            ~ /image/icon/feature/dining_room_count.svg
+            ~ Dining room count
+              ¨fr:Salles à manger
+            ~ \{value\} dining room
+              ¨fr:\{value\} salles à manger
+            ~ description-and-equipment
+            ~ composition
+            ~ 1
+            ~ integer
+            ~ 0
+            ~ 0
+            ~ 10
+
+        office-count
+            ~ /image/icon/feature/office_count.svg
+            ~ Office count
+              ¨fr:Bureaux
+            ~ \{value\} offices
+              ¨fr:\{value\} bureaux
+            ~ description-and-equipment
+            ~ composition
+            ~ 1
+            ~ integer
+            ~ 0
+            ~ 0
+            ~ 10
+
+        game-room-count
+            ~ /image/icon/feature/game_room_count.svg
+            ~ Game room count
+              ¨fr:Salles de jeux
+            ~ \{value\} game rooms
+              ¨fr:\{value\} salles de jeux
+            ~ description-and-equipment
+            ~ composition
+            ~ 1
+            ~ integer
+            ~ 0
+            ~ 0
+            ~ 10
+
+        other-room-count
+            ~ /image/icon/feature/other_room_count.svg
+            ~ Other room count
+              ¨fr:Autres pièces
+            ~ \{value\} other rooms
+              ¨fr:\{value\} autres pièces
+            ~ description-and-equipment
+            ~ composition
+            ~ 1
+            ~ integer
+            ~ 0
+            ~ 0
+            ~ 10
+
+        lavatory-count
+            ~ /image/icon/feature/lavatory_count.svg
+            ~ Lavatory count
+              ¨fr:Toilettes
+            ~ \{value\} lavatories
+              ¨fr:\{value\} toilettes
+            ~ description-and-equipment
+            ~ composition
+            ~ 1
+            ~ integer
+            ~ 0
+            ~ 0
+            ~ 10
+
+        closed-garage-space-count
+            ~ /image/icon/feature/closed_garage_space_count.svg
+            ~ Closed garage space count
+              ¨fr:Garages fermés
+            ~ \{value\} closed garages
+              ¨fr:\{value\} garages fermés
+            ~ description-and-equipment
+            ~ composition
+            ~ 1
+            ~ integer
+            ~ 0
+            ~ 0
+            ~ 10
+
+        open-garage-space-count
+            ~ /image/icon/feature/open_garage_space_count.svg
+            ~ Open garage space count
+              ¨fr:Garages ouverts
+            ~ \{value\} open garages
+              ¨fr:\{value\} garage ouverts
+            ~ description-and-equipment
+            ~ composition
+            ~ 1
+            ~ integer
+            ~ 0
+            ~ 0
+            ~ 10
+
+        long-term-maximum-day-count
+            ~ /image/icon/feature/long_term_maximum_day_count.svg
+            ~ Long term maximum day count
+              ¨fr:Nombre de jours maximum à long terme
+            ~ \{value\} days maximum long term
+              ¨fr:\{value\} jours maximum à long terme
+            ~ booking-options
+            ~ long-term-rental
+            ~ 1
+            ~ integer
+            ~ 0
+            ~ 0
+            ~ 10
+
+        maximum-adult-count
+            ~ /image/icon/feature/maximum_adult_count.svg
+            ~ Maximum adult count
+              ¨fr:Nombre maximum d'adultes
+            ~ \{value\} adults maximum
+              ¨fr:\{value\} adultes maximum
+            ~ booking-options
+            ~
+            ~ 1
+            ~ integer
+            ~ 0
+            ~ 0
+            ~ 10
+
+        maximum-child-count
+            ~ /image/icon/feature/maximum_child_count.svg
+            ~ Maximum child count
+              ¨fr:Nombre maximal d'enfants
+            ~ \{value\} Maximum child count
+              ¨fr:\{value\} Nombre maximal d'enfants
+            ~ booking-options
+            ~
+            ~ 1
+            ~ integer
+            ~ 0
+            ~ 0
+            ~ 10
+
+        floor-count
+            ~ /image/icon/feature/floor_count.svg
+            ~ Floor count
+              ¨fr:Étages
+            ~ \{value\} Floor count
+              ¨fr:\{value\} Étages
+            ~ accessibility-features
+            ~ guest-entrance-and-parking
+            ~ 1
+            ~ integer
+            ~ 0
+            ~ 0
+            ~ 10
+
+        bed-count
+            ~ /image/icon/feature/bed_count.svg
+            ~ Bed count
+              ¨fr:Nombre de lits
+            ~ \{value\} Bed count
+              ¨fr:\{value\} Nombre de lits
+            ~ description-and-equipment
+            ~ composition
+            ~ 1
+            ~ integer
+            ~ 0
+            ~ 0
+            ~ 10
+
+    id iconImagePath name text categoryId subcategoryId number valueTypeId defaultValue
+
+        has-garden
+            ~ /image/icon/feature/has_garden.svg
+            ~ Has garden
+              ¨fr:A un jardin
+            ~ Garden
+              ¨fr:Jardin
+            ~ equipment-and-services
+            ~ exterior
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-balcony
+            ~ /image/icon/feature/has_balcony.svg
+            ~ Has balcony
+              ¨fr:A un balcon
+            ~ Balcony
+              ¨fr:Balcon
+            ~ equipment-and-services
+            ~ exterior
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-terrace
+            ~ /image/icon/feature/has_terrace.svg
+            ~ Has terrace
+              ¨fr:A une terrasse
+            ~ Terrace
+              ¨fr:Terrasse
+            ~ equipment-and-services
+            ~ exterior
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-nice-view
+            ~ /image/icon/feature/has_nice_view.svg
+            ~ Has nice view
+              ¨fr:A une belle vue
+            ~ Nice view
+              ¨fr:Belle vue
+            ~ equipment-and-services
+            ~ exterior
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-closed-garage
+            ~ /image/icon/feature/has_closed_garage.svg
+            ~ Has closed garage
+              ¨fr:A un garage fermé
+            ~ Closed garage
+              ¨fr:Garage fermé
+            ~ equipment-and-services
+            ~ exterior
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-open-garage
+            ~ /image/icon/feature/has_open_garage.svg
+            ~ Has open garage
+              ¨fr:A un garage ouvert
+            ~ Open garage
+              ¨fr:Garage ouvert
+            ~ equipment-and-services
+            ~ exterior
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-cellar
+            ~ /image/icon/feature/has_cellar.svg
+            ~ Has cellar
+              ¨fr:A une cave
+            ~ Cellar
+              ¨fr:Cave
+            ~ equipment-and-services
+            ~ exterior
+            ~ 1
+            ~ boolean
+            ~ false
+
+        is-renovated
+            ~ /image/icon/feature/is_renovated.svg
+            ~ Is renovated
+              ¨fr:Est rénové
+            ~ Renovated
+              ¨fr:Rénové
+            ~ equipments
+            ~ features
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-long-term-guardian-expenses
+            ~ /image/icon/feature/has_long_term_guardian_expenses.svg
+            ~ Has long term guardian expenses
+              ¨fr:A des frais de gardiennage à long terme
+            ~ Long term guardian expenses
+              ¨fr:Frais de gardiennage à long terme
+            ~ booking-options
+            ~ long-term-charges
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-long-term-hot-water-expenses
+            ~ /image/icon/feature/has_long_term_hot_water_expenses.svg
+            ~ Has long term hot water expenses
+              ¨fr:A des dépenses à long terme pour l'eau chaude
+            ~ Long term hot water expenses
+              ¨fr:Dépenses à long terme pour l'eau chaude
+            ~ booking-options
+            ~ long-term-charges
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-long-term-heating-expenses
+            ~ /image/icon/feature/has_long_term_heating_expenses.svg
+            ~ Has long term heating expenses
+              ¨fr:A des dépenses de chauffage à long terme
+            ~ Long term heating expenses
+              ¨fr:Dépenses de chauffage à long terme
+            ~ booking-options
+            ~ long-term-charges
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-long-term-internet-expenses
+            ~ /image/icon/feature/has_long_term_internet_expenses.svg
+            ~ Has long term internet expenses
+              ¨fr:A des dépenses internet à long terme
+            ~ Long term internet expenses
+              ¨fr:Dépenses internet à long terme
+            ~ booking-options
+            ~ long-term-charges
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-long-term-electricity-expenses
+            ~ /image/icon/feature/has_long_term_electricity_expenses.svg
+            ~ Has long term electricity expenses
+              ¨fr:A des dépenses d'électricité à long terme
+            ~ Long term electricity expenses
+              ¨fr:Dépenses d'électricité à long terme
+            ~ booking-options
+            ~ long-term-charges
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-bathtub
+            ~ /image/icon/feature/has_bathtub.svg
+            ~ Has bathtub
+              ¨fr:A une baignoire
+            ~ Bathtub
+              ¨fr:Baignoire
+            ~ equipments
+            ~ essentials
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-fireplace
+            ~ /image/icon/feature/has_fireplace.svg
+            ~ Has fireplace
+              ¨fr:A une cheminée
+            ~ Fireplace
+              ¨fr:Cheminée
+            ~ equipments
+            ~ essentials
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-oven
+            ~ /image/icon/feature/has_oven.svg
+            ~ Has oven
+              ¨fr:A un four
+            ~ Oven
+              ¨fr:Four
+            ~ equipments
+            ~ essentials
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-microwave
+            ~ /image/icon/feature/has_microwave.svg
+            ~ Has microwave
+              ¨fr:A un four à micro-ondes
+            ~ Microwave
+              ¨fr:Four à micro-ondes
+            ~ equipments
+            ~ essentials
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-fridge
+            ~ /image/icon/feature/has_fridge.svg
+            ~ Has fridge
+              ¨fr:A un réfrigérateur
+            ~ Fridge
+              ¨fr:Réfrigérateur
+            ~ equipments
+            ~ essentials
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-freezer
+            ~ /image/icon/feature/has_freezer.svg
+            ~ Has freezer
+              ¨fr:A un congélateur
+            ~ Freezer
+              ¨fr:Congélateur
+            ~ equipments
+            ~ essentials
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-baking-trays
+            ~ /image/icon/feature/has_baking_trays.svg
+            ~ Has baking trays
+              ¨fr:A des plaques de cuisson
+            ~ Baking trays
+              ¨fr:Plaques de cuisson
+            ~ equipments
+            ~ essentials
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-washing-machine
+            ~ /image/icon/feature/has_washing_machine.svg
+            ~ Has washing machine
+              ¨fr:A un lave-linge
+            ~ Washing machine
+              ¨fr:Lave-linge
+            ~ equipments
+            ~ essentials
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-dryer
+            ~ /image/icon/feature/has_dryer.svg
+            ~ Has dryer
+              ¨fr:A un sèche-linge
+            ~ Dryer
+              ¨fr:Sèche-linge
+            ~ equipments
+            ~ essentials
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-wine-cellar
+            ~ /image/icon/feature/has_wine_cellar.svg
+            ~ Has wine cellar
+              ¨fr:A une cave à vin
+            ~ Wine cellar
+              ¨fr:Cave à vin
+            ~ equipments
+            ~ essentials
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-carbon-monoxy-detector
+            ~ /image/icon/feature/has_carbon_monoxy_detector.svg
+            ~ Has carbon monoxy detector
+              ¨fr:A un détecteur de monoxyde de carbone
+            ~ Carbon monoxy detector
+              ¨fr:Détecteur de monoxyde de carbone
+            ~ equipments
+            ~ safety
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-smoke-detector
+            ~ /image/icon/feature/has_smoke_detector.svg
+            ~ Has smoke detector
+              ¨fr:A un détecteur de fumée
+            ~ Smoke detector
+              ¨fr:Détecteur de fumée
+            ~ equipments
+            ~ safety
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-alarm
+            ~ /image/icon/feature/has_alarm.svg
+            ~ Has alarm
+              ¨fr:A une alarme
+            ~ Alarm
+              ¨fr:Alarme
+            ~ equipments
+            ~ safety
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-elevator
+            ~ /image/icon/feature/has_elevator.svg
+            ~ Has elevator
+              ¨fr:A un ascenseur
+            ~ Elevator
+              ¨fr:Ascenseur
+            ~ accessibility-features
+            ~ guest-entrance-and-parking
+            ~ 1
+            ~ boolean
+            ~ false
+
+        is-adapted-for-reduced-mobility
+            ~ /image/icon/feature/is_adapted_for_reduced_mobility.svg
+            ~ Is adapted for reduced mobility
+              ¨fr:Est adapté à la mobilité réduite
+            ~ Adapted for reduced mobility
+              ¨fr:Adapté à la mobilité réduite
+            ~ accessibility-features
+            ~ guest-entrance-and-parking
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-barbecue
+            ~ /image/icon/feature/has_barbecue.svg
+            ~ Has barbecue
+              ¨fr:A un barbecue
+            ~ Barbecue
+              ¨fr:Barbecue
+            ~ equipments
+            ~ recreational-facilities
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-swimming-pool
+            ~ /image/icon/feature/has_swimming_pool.svg
+            ~ Has swimming pool
+              ¨fr:A une piscine
+            ~ Swimming pool
+              ¨fr:Piscine
+            ~ equipment-and-services
+            ~ recreational-facilities
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-jacuzzi
+            ~ /image/icon/feature/has_jacuzzi.svg
+            ~ Has jacuzzi
+              ¨fr:A un jacuzzi
+            ~ Jacuzzi
+              ¨fr:Jacuzzi
+            ~ equipment-and-services
+            ~ recreational-facilities
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-sauna
+            ~ /image/icon/feature/has_sauna.svg
+            ~ Has sauna
+              ¨fr:A un sauna
+            ~ Sauna
+              ¨fr:Sauna
+            ~ equipment-and-services
+            ~ recreational-facilities
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-hamam
+            ~ /image/icon/feature/has_hamam.svg
+            ~ Has hamam
+              ¨fr:A un hamam
+            ~ Hamam
+              ¨fr:Hamam
+            ~ equipment-and-services
+            ~ recreational-facilities
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-gym
+            ~ /image/icon/feature/has_gym.svg
+            ~ Has gym
+              ¨fr:A une salle de sport
+            ~ Gym
+              ¨fr:Salle de sport
+            ~ equipment-and-services
+            ~ recreational-facilities
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-tennis
+            ~ /image/icon/feature/has_tennis.svg
+            ~ Has tennis
+              ¨fr:A un tennis
+            ~ Tennis court
+              ¨fr:Terrain de tennis
+            ~ equipment-and-services
+            ~ recreational-facilities
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-slopes-within-1-km
+            ~ /image/icon/feature/has_slopes_within_1_km.svg
+            ~ Has slopes within 1 km
+              ¨fr:Pistes à moins de 1 km
+            ~ Slopes within 1 km
+              ¨fr:Pistes de ski à moins de 1 km
+            ~ equipments
+            ~ location
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-lake-within-1-km
+            ~ /image/icon/feature/has_lake_within_1_km.svg
+            ~ Has lake within 1 km
+              ¨fr:A un lac à moins de 1 km
+            ~ Lake within 1 km
+              ¨fr:Lac à moins de 1 km
+            ~ equipments
+            ~ location
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-beach-within-1-km
+            ~ /image/icon/feature/has_beach_within_1_km.svg
+            ~ Has beach within 1 km
+              ¨fr:A une plage à moins de 1 km
+            ~ Beach within 1 km
+              ¨fr:Plage à moins de 1 km
+            ~ equipments
+            ~ location
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-city-center-within-1-km
+            ~ /image/icon/feature/has_city_center_within_1_km.svg
+            ~ Has city center within 1 km
+              ¨fr:A un centre ville à moins de 1 km
+            ~ City center within 1 km
+              ¨fr:Centre ville à moins de 1 km
+            ~ equipments
+            ~ location
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-touristic-site-within-1-km
+            ~ /image/icon/feature/has_touristic_site_within_1_km.svg
+            ~ Has touristic site within 1 km
+              ¨fr:A un site touristique à moins de 1 km
+            ~ Has touristic site within 1 km
+              ¨fr:A un site touristique à moins de 1 km
+            ~ equipments
+            ~ location
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-cinema-within-1-km
+            ~ /image/icon/feature/has_cinema_within_1_km.svg
+            ~ Has cinema within 1 km
+              ¨fr:A un cinéma à moins de 1 km
+            ~ Cinema within 1 km
+              ¨fr:Cinéma à moins de 1 km
+            ~ equipments
+            ~ location
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-theater-within-1-km
+            ~ /image/icon/feature/has_theater_within_1_km.svg
+            ~ Has theater within 1 km
+              ¨fr:A un théâtre à moins de 1 km
+            ~ Theater within 1 km
+              ¨fr:Théâtre à moins de 1 km
+            ~ equipments
+            ~ location
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-shops-within-1-km
+            ~ /image/icon/feature/has_shops_within_1_km.svg
+            ~ Has shops within 1 km
+              ¨fr:A des magasins à moins de 1 km
+            ~ Shops within 1 km
+              ¨fr:Magasins à moins de 1 km
+            ~ equipments
+            ~ location
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-sports-offer-within-1-km
+            ~ /image/icon/feature/has_sports_offer_within_1_km.svg
+            ~ Has sports offer within 1 km
+              ¨fr:A une offre de sport à moins de 1 km
+            ~ Sports offer within 1 km
+              ¨fr:Offre de sport à moins de 1 km
+            ~ equipments
+            ~ location
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-ski-station-within-10-minutes
+            ~ /image/icon/feature/has_ski_station_within_10_minutes.svg
+            ~ Has ski station within 10 minutes
+              ¨fr:A une station de ski à 10 minutes
+            ~ Ski station within 10 minutes
+              ¨fr:Station de ski à 10 minutes
+            ~ equipments
+            ~ location
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-lake-within-10-minutes
+            ~ /image/icon/feature/has_lake_within_10_minutes.svg
+            ~ Has lake within 10 minutes
+              ¨fr:A un lac à moins de 10 minutes
+            ~ Lake within 10 minutes
+              ¨fr:Lac à moins de 10 minutes
+            ~ equipments
+            ~ location
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-beach-within-10-minutes
+            ~ /image/icon/feature/has_beach_within_10_minutes.svg
+            ~ Has beach within 10 minutes
+              ¨fr:A une plage dans les 10 minutes
+            ~ Beach within 10 minutes
+              ¨fr:Plage dans les 10 minutes
+            ~ equipments
+            ~ location
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-city-center-within-10-minutes
+            ~ /image/icon/feature/has_in_the_city_center_within_10_minutes.svg
+            ~ Has city center within 10 minutes
+              ¨fr:A un centre ville dans les 10 minutes
+            ~ City center within 10 minutes
+              ¨fr:Centre ville dans les 10 minutes
+            ~ equipments
+            ~ location
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-major-tourist-site-within-10-minutes
+            ~ /image/icon/feature/has_major_tourist_site_within_10_minutes.svg
+            ~ Has major tourist site within 10 minutes
+              ¨fr:A un site touristique majeur à moins de 10 minutes
+            ~ Major tourist site within 10 minutes
+              ¨fr:Site touristique majeur à moins de 10 minutes
+            ~ equipments
+            ~ location
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-cinema-within-10-minutes
+            ~ /image/icon/feature/has_cinema_within_10_minutes.svg
+            ~ Has cinema within 10 minutes
+              ¨fr:A un cinéma à moins de 10 minutes
+            ~ Cinema within 10 minutes
+              ¨fr:A un cinéma à moins de 10 minutes
+            ~ equipments
+            ~ location
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-theater-within-10-minutes
+            ~ /image/icon/feature/has_theater_within_10_minutes.svg
+            ~ Has theater within 10 minutes
+              ¨fr:A un théâtre à moins de 10 minutes
+            ~ Theater within 10 minutes
+              ¨fr:Théâtre à moins de 10 minutes
+            ~ equipments
+            ~ location
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-shops-within-10-minutes
+            ~ /image/icon/feature/has_shops_within_10_minutes.svg
+            ~ Has shops within 10 minutes
+              ¨fr:A des magasins à moins de 10 minutes
+            ~ Shops within 10 minutes
+              ¨fr:Magasins à moins de 10 minutes
+            ~ equipments
+            ~ location
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-sports-offer-within-10-minutes
+            ~ /image/icon/feature/has_sports_offer_within_10_minutes.svg
+            ~ Has sports offer within 10 minutes
+              ¨fr:A une offre de sport à moins de 10 minutes
+            ~ Sports offer within 10 minutes
+              ¨fr:Offre de sport à moins de 10 minutes
+            ~ equipments
+            ~ location
+            ~ 1
+            ~ boolean
+            ~ false
+
+        is-furnished
+            ~ /image/icon/feature/is_furnished.svg
+            ~ Is furnished
+              ¨fr:Est meublé
+            ~ Furnished
+              ¨fr:Meublé
+            ~ equipments
+            ~ features
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-sheets
+            ~ /image/icon/feature/has_sheets.svg
+            ~ Has sheets
+              ¨fr:A des draps
+            ~ Sheets
+              ¨fr:Draps
+            ~ equipment-and-services
+            ~ linen-kitchen-and-bath
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-bath-towels
+            ~ /image/icon/feature/has_bath_towels.svg
+            ~ Has bath towels
+              ¨fr:A des serviettes de bain
+            ~ Bath towels
+              ¨fr:Serviettes de bain
+            ~ equipment-and-services
+            ~ linen-kitchen-and-bath
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-hair-dryer
+            ~ /image/icon/feature/has_hair_dryer.svg
+            ~ Has hair dryer
+              ¨fr:A un sèche-cheveux
+            ~ Hair dryer
+              ¨fr:Sèche-cheveux
+            ~ equipment-and-services
+            ~ linen-kitchen-and-bath
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-kitchen-towels
+            ~ /image/icon/feature/has_kitchen_towels.svg
+            ~ Has kitchen towels
+              ¨fr:A des torchons de cuisine
+            ~ Kitchen towels
+              ¨fr:Torchons de cuisine
+            ~ equipment-and-services
+            ~ linen-kitchen-and-bath
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-dishes
+            ~ /image/icon/feature/has_dishes.svg
+            ~ Has dishes
+              ¨fr:A de la vaisselle
+            ~ Has dishes
+              ¨fr:A de la vaisselle
+            ~ equipment-and-services
+            ~ linen-kitchen-and-bath
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-cooking-tools
+            ~ /image/icon/feature/has_cooking_tools.svg
+            ~ Has cooking tools
+              ¨fr:A des ustensiles de cuisine
+            ~ Cooking tools
+              ¨fr:Ustensiles de cuisine
+            ~ equipment-and-services
+            ~ linen-kitchen-and-bath
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-coffee-machine
+            ~ /image/icon/feature/has_coffee_machine.svg
+            ~ Has coffee machine
+              ¨fr:A une machine à café
+            ~ Has coffee machine
+              ¨fr:A une machine à café
+            ~ equipment-and-services
+            ~ linen-kitchen-and-bath
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-internet-wifi
+            ~ /image/icon/feature/has_internet_wifi.svg
+            ~ Has internet wifi
+              ¨fr:A une connexion internet wifi
+            ~ Has internet wifi
+              ¨fr:A une connexion internet wifi
+            ~ equipment-and-services
+            ~ recreation-and-connectivity
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-printer
+            ~ /image/icon/feature/has_printer.svg
+            ~ Has printer
+              ¨fr:A une imprimante
+            ~ Has printer
+              ¨fr:A une imprimante
+            ~ equipment-and-services
+            ~ recreation-and-connectivity
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-cable-tv
+            ~ /image/icon/feature/has_cable_tv.svg
+            ~ Has cable TV
+              ¨fr:A la TV par câble
+            ~ Cable TV
+              ¨fr:TV par câble
+              ¨de:Kabelfernsehen
+            ~ equipment-and-services
+            ~ recreation-and-connectivity
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-television-without-cable
+            ~ /image/icon/feature/has_television_without_cable.svg
+            ~ Has television without cable
+              ¨fr:A une télévision sans câble
+            ~ Has television without cable
+              ¨fr:A une télévision sans câble
+            ~ equipment-and-services
+            ~ recreation-and-connectivity
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-dvd-player
+            ~ /image/icon/feature/has_dvd_player.svg
+            ~ Has DVD player
+              ¨fr:A un lecteur DVD
+            ~ DVD player
+              ¨fr:Lecteur DVD
+            ~ equipment-and-services
+            ~ recreation-and-connectivity
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-game-console
+            ~ /image/icon/feature/has_game_console.svg
+            ~ Has game console
+              ¨fr:A une console de jeux
+            ~ Has game console
+              ¨fr:A une console de jeux
+            ~ equipment-and-services
+            ~ recreation-and-connectivity
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-board-games
+            ~ /image/icon/feature/has_board_games.svg
+            ~ Has board games
+              ¨fr:A des jeux de société
+            ~ Board games
+              ¨fr:Jeux de société
+            ~ equipment-and-services
+            ~ equipment-for-children
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-outdoor-games
+            ~ /image/icon/feature/has_outdoor_games.svg
+            ~ Has outdoor games
+              ¨fr:A des jeux d'extérieur
+            ~ Outdoor games
+              ¨fr:Jeux d'extérieur
+            ~ equipment-and-services
+            ~ equipment-for-children
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-baby-bed
+            ~ /image/icon/feature/has_baby_bed.svg
+            ~ Has baby bed
+              ¨fr:A un lit pour bébé
+            ~ Baby bed
+              ¨fr:Lit pour bébé
+            ~ equipment-and-services
+            ~ equipment-for-children
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-high-chair
+            ~ /image/icon/feature/has_high_chair.svg
+            ~ Has high chair
+              ¨fr:A une chaise haute
+            ~ Has high chair
+              ¨fr:A une chaise haute
+            ~ equipment-and-services
+            ~ equipment-for-children
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-changing-table
+            ~ /image/icon/feature/has_changing_table.svg
+            ~ Has changing table
+              ¨fr:A une table à langer
+            ~ Has changing table
+              ¨fr:A une table à langer
+            ~ equipment-and-services
+            ~ equipment-for-children
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-cleaning-service
+            ~ /image/icon/feature/has_cleaning_service.svg
+            ~ Has cleaning service
+              ¨fr:A un service de nettoyage
+            ~ Cleaning service
+              ¨fr:Service de nettoyage
+            ~ equipment-and-services
+            ~ available-services
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-laundry-service
+            ~ /image/icon/feature/has_laundry_service.svg
+            ~ Has laundry service
+              ¨fr:A un service de blanchisserie
+            ~ Laundry service
+              ¨fr:Service de blanchisserie
+            ~ equipment-and-services
+            ~ available-services
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-baby-sitting-service
+            ~ /image/icon/feature/has_baby_sitting_service.svg
+            ~ Has baby sitting service
+              ¨fr:A un service de baby sitting
+            ~ Baby sitting service
+              ¨fr:Service de baby sitting
+            ~ equipment-and-services
+            ~ available-services
+            ~ 1
+            ~ boolean
+            ~ false
+
+        can-be-visited
+            ~ /image/icon/feature/can_be_visited.svg
+            ~ Can be visited
+              ¨fr:Peut être visité
+            ~ Can be visited
+              ¨fr:Peut être visité
+            ~ equipments
+            ~ features
+            ~ 1
+            ~ boolean
+            ~ false
+
+        is-non-refundable
+            ~ /image/icon/feature/is_non_refundable.svg
+            ~ Is non refundable
+              ¨fr:N'est pas remboursable
+            ~ Is non refundable
+              ¨fr:N'est pas remboursable
+            ~ equipments
+            ~ features
+            ~ 1
+            ~ boolean
+            ~ false
+
+    id iconImagePath name text categoryId subcategoryId number valueTypeId defaultValue minimumValue maximumValue
+
+        non-refundable-discount
+            ~ /image/icon/feature/non_refundable_discount.svg
+            ~ Non refundable discount
+              ¨fr:Remise non remboursable
+            ~ Non refundable discount
+              ¨fr:Remise non remboursable
+            ~ equipment-and-services
+            ~ general
+            ~ 1
+            ~ real
+            ~ 0
+            ~ 0
+            ~ 100
+
+        long-term-monthly-rent
+            ~ /image/icon/feature/long_term_monthly_rent.svg
+            ~ Long term monthly rent
+              ¨fr:Loyer mensuel à long terme
+            ~ Long term monthly rent
+              ¨fr:Loyer mensuel à long terme
+            ~ booking-options
+            ~ long-term-charges
+            ~ 1
+            ~ real
+            ~ 0
+            ~ 0
+            ~ 100
+
+        long-term-monthly-charges
+            ~ /image/icon/feature/long_term_monthly_charges.svg
+            ~ Long term monthly charges
+              ¨fr:Charges mensuelles à long terme
+            ~ Long term monthly charges
+              ¨fr:Charges mensuelles à long terme
+            ~ booking-options
+            ~ long-term-charges
+            ~ 1
+            ~ real
+            ~ 0
+            ~ 0
+            ~ 100
+
+        long-term-annual-taxes
+            ~ /image/icon/feature/long_term_annual_taxes.svg
+            ~ Long term annual taxes
+              ¨fr:Taxes annuelles à long terme
+            ~ Long term annual taxes
+              ¨fr:Taxes annuelles à long terme
+            ~ booking-options
+            ~ long-term-charges
+            ~ 1
+            ~ real
+            ~ 0
+            ~ 0
+            ~ 100
+
+        long-term-agency-fee
+            ~ /image/icon/feature/long_term_agency_fee.svg
+            ~ Long term agency fee
+              ¨fr:Frais d'agence à long terme
+            ~ Long term agency fee
+              ¨fr:Frais d'agence à long terme
+            ~ booking-options
+            ~ long-term-charges
+            ~ 1
+            ~ real
+            ~ 0
+            ~ 0
+            ~ 100
+
+        long-term-monthly-salary-requested
+            ~ /image/icon/feature/long_term_monthly_salary_requested.svg
+            ~ Long term monthly salary requested
+              ¨fr:Salaire mensuel à long terme demandé
+            ~ Long term monthly salary requested
+              ¨fr:Salaire mensuel à long terme demandé
+            ~ booking-options
+            ~ rental-file
+            ~ 1
+            ~ real
+            ~ 0
+            ~ 0
+            ~ 100
+
+        long-term-profit-sharing
+            ~ /image/icon/feature/long_term_profit_sharing.svg
+            ~ Long term profit sharing
+              ¨fr:Participation aux bénéfices à long terme
+            ~ Long term profit sharing
+              ¨fr:Participation aux bénéfices à long terme
+            ~ booking-options
+            ~ rental-file
+            ~ 1
+            ~ real
+            ~ 0
+            ~ 0
+            ~ 100
+
+        long-term-monthly-total
+            ~ /image/icon/feature/long_term_monthly_total.svg
+            ~ Long term monthly total
+              ¨fr:Total mensuel à long terme
+            ~ Long term monthly total
+              ¨fr:Total mensuel à long terme
+            ~ booking-options
+            ~ long-term-charges
+            ~ 1
+            ~ real
+            ~ 0
+            ~ 0
+            ~ 100
+
+        short-term-maximum-day-count
+            ~ /image/icon/feature/short_term_maximum_day_count.svg
+            ~ Short term maximum day count
+              ¨fr:Compte journalier maximum à court terme
+            ~ Short term maximum day count
+              ¨fr:Compte journalier maximum à court terme
+            ~ booking-options
+            ~ short-term-rental
+            ~ 1
+            ~ integer
+            ~ 2
+            ~ 90
+            ~ 100
+
+        short-term-daily-rent
+            ~ /image/icon/feature/short_term_daily_rent.svg
+            ~ Short term daily rent
+              ¨fr:Location journalière à court terme
+            ~ Short term daily rent
+              ¨fr:Location journalière à court terme
+            ~ booking-options
+            ~ short-term-charges
+            ~ 1
+            ~ real
+            ~ 0
+            ~ 0
+            ~ 100
+
+        short-term-cleaning-fee
+            ~ /image/icon/feature/short_term_cleaning_fee.svg
+            ~ Short term cleaning fee
+              ¨fr:Frais de nettoyage à court terme
+            ~ Short term cleaning fee : \{value\}
+              ¨fr:Frais de nettoyage à court terme : \{value\}
+            ~ booking-options
+            ~ short-term-charges
+            ~ 1
+            ~ real
+            ~ 0
+            ~ 0
+            ~ 100
+
+        short-term-sheets-fee
+            ~ /image/icon/feature/short_term_sheets_fee.svg
+            ~ Short term sheets fee
+              ¨fr:Frais de draps à court terme
+            ~ Short term sheets fee : \{value\}
+              ¨fr:Frais de draps à court terme : \{value\}
+            ~ booking-options
+            ~ short-term-charges
+            ~ 1
+            ~ real
+            ~ 0
+            ~ 0
+            ~ 100
+
+        short-term-towels-fee
+            ~ /image/icon/feature/short_term_towels_fee.svg
+            ~ Short term towels fee
+              ¨fr:Location de serviettes à court terme
+            ~ Short term towels fee : \{value\}
+              ¨fr:Location de serviettes à court terme : \{value\}
+            ~ booking-options
+            ~ short-term-charges
+            ~ 1
+            ~ real
+            ~ 0
+            ~ 0
+            ~ 100
+
+        short-term-other-fee
+            ~ /image/icon/feature/short_term_other_fee.svg
+            ~ Short term other fee
+              ¨fr:Autres frais à court terme
+            ~ Short term other fee : \{value\}
+              ¨fr:Autres frais à court terme : \{value\}
+            ~ booking-options
+            ~ short-term-charges
+            ~ 1
+            ~ real
+            ~ 0
+            ~ 0
+            ~ 100
+
+    id iconImagePath name text categoryId subcategoryId number valueTypeId defaultValue
+
+        long-term-availability-date
+            ~ /image/icon/feature/long_term_availability_date.svg
+            ~ Long term availability date
+              ¨fr:Date de début
+            ~ Long term availability date : \{value\}
+              ¨fr:Date de début : \{value\}
+            ~ booking-options
+            ~ long-term-rental
+            ~ 1
+            ~ date
+            ~ 2023-01-01
+
+        renovation-date
+            ~ /image/icon/feature/renovation_date.svg
+            ~ Renovation date
+              ¨fr:Date de rénovation
+            ~ Renovation date : \{value\}
+              ¨fr:Date de rénovation : \{value\}
+            ~ equipment-and-services
+            ~ general
+            ~ 1
+            ~ date
+            ~ 2023-01-01
+
+        cancellation-policy
+            ~ /image/icon/feature/cancellation_policy.svg
+            ~ Cancellation policy
+              ¨fr:Politique d'annulation
+            ~ Cancellation policy : \{value\}
+              ¨fr:Politique d'annulation : \{value\}
+            ~ equipment-and-services
+            ~ general
+            ~ 1
+            ~ cancellation-policy
+            ~ firm
+
+        taxation
+            ~ /image/icon/feature/taxation.svg
+            ~ Taxation
+              ¨fr:Fiscalité
+            ~ Taxation : \{value\}
+              ¨fr:Fiscalité : \{value\}
+            ~ equipment-and-services
+            ~ general
+            ~ 1
+            ~ taxation
+            ~ luxembourg
+
+        currency-code
+            ~ /image/icon/feature/currency_code.svg
+            ~ Currency
+              ¨fr:Monnaie
+            ~ Currency : \{value\}
+              ¨fr:Monnaie : \{value\}
+            ~ equipment-and-services
+            ~ general
+            ~ 1
+            ~ currency-code
+            ~ eu
+
+    id iconImagePath name text categoryId subcategoryId number valueTypeId defaultValue
+
+        has-air-conditioning
+            ~ /image/icon/feature/has_air_conditioning.svg
+            ~ Has air conditioning
+              ¨fr:A une climatisation
+            ~ Air conditioning
+              ¨fr:Climatisation
+            ~ equipments
+            ~ essentials
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-kitchen
+            ~ /image/icon/feature/has_kitchen.svg
+            ~ Has kitchen
+              ¨fr:A une cuisine
+            ~ Kitchen
+              ¨fr:Cuisine
+            ~ equipments
+            ~ essentials
+            ~ 2
+            ~ boolean
+            ~ false
+
+        has-pool
+            ~ /image/icon/feature/has_pool.svg
+            ~ Has pool
+              ¨fr:A une piscine
+            ~ Pool
+              ¨fr:Piscine
+            ~ equipments
+            ~ recreational-facilities
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-hot-tub
+            ~ /image/icon/feature/has_hot_tub.svg
+            ~ Has hot tub
+              ¨fr:A un bain à remous
+            ~ Hot tub
+              ¨fr:Bain à remous
+            ~ equipments
+            ~ recreational-facilities
+            ~ 2
+            ~ boolean
+            ~ false
+
+    id iconImagePath name text categoryId subcategoryId number valueTypeId defaultValue
+
+        has-waterfront
+            ~ /image/icon/feature/has_waterfront.svg
+            ~ Has waterfront
+              ¨fr:Est au bord de l'eau
+            ~ Waterfront
+              ¨fr:Au bord de l'eau
+            ~ equipments
+            ~ location
+            ~ 1
+            ~ boolean
+            ~ false
+
+    id iconImagePath name text categoryId subcategoryId number valueTypeId defaultValue
+
+        has-smoke-alarm
+            ~ /image/icon/feature/has_smoke_alarm.svg
+            ~ Has smoke alarm
+              ¨fr:A un détecteur de fumée
+            ~ Smoke alarm
+              ¨fr:Alarme de fumée
+            ~ equipments
+            ~ safety
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-carbon-monoxide-alarm
+            ~ /image/icon/feature/has_carbon_monoxide_alarm.svg
+            ~ Has carbon monoxide alarm
+              ¨fr:A une alarme de monoxyde de carbone
+            ~ Carbon monoxide alarm
+              ¨fr:Alarme de monoxyde de carbone
+            ~ equipments
+            ~ safety
+            ~ 2
+            ~ boolean
+            ~ false
+
+    id iconImagePath name text categoryId subcategoryId number valueTypeId defaultValue
+
+        has-instant-booking
+            ~ /image/icon/feature/has_instant_booking.svg
+            ~ Has instant booking
+              ¨fr:A la réservation instantanée
+            ~ Instant booking
+              ¨fr:Réservation instantanée
+            ~ booking-options
+            ~
+            ~ 1
+            ~ booking-option
+            ~ false
+
+        has-self-check-in
+            ~ /image/icon/feature/has_self_check_in.svg
+            ~ Has self check-in
+              ¨fr:A l'enregistrement automatique
+            ~ Self check-in
+              ¨fr:Enregistrement automatique
+            ~ booking-options
+            ~
+            ~ 2
+            ~ booking-option
+            ~ false
+
+    id iconImagePath name text categoryId subcategoryId number valueTypeId defaultValue
+
+        has-step-free-guest-entrance
+            ~ /image/icon/feature/has_step_free_guest_entrance.svg
+            ~ Has step-free guest entrance
+              ¨fr:A une entrée sans marche
+            ~ Step-free guest entrance
+              ¨fr:Entrée sans marche
+            ~ accessibility-features
+            ~ guest-entrance-and-parking
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-guest-entrance-wider-than-80-cm
+            ~ /image/icon/feature/has_guest_entrance_wider_than_32_inches.svg
+            ~ Has guest entrance wider than 80cm
+              ¨fr:A une entrée plus large que 80cm
+            ~ Guest entrance wider than 80cm
+              ¨fr:Entrée plus large que 80cm
+            ~ accessibility-features
+            ~ guest-entrance-and-parking
+            ~ 2
+            ~ boolean
+            ~ false
+
+        has-accesible-parking-lot
+            ~ /image/icon/feature/has_accesible_parking_lot.svg
+            ~ Has accessible parking lot
+              ¨fr:A un stationnement accessible
+            ~ Accessible parking lot
+              ¨fr:Stationnement accessible
+            ~ accessibility-features
+            ~ guest-entrance-and-parking
+            ~ 3
+            ~ boolean
+            ~ false
+
+        has-step-free-path-to-the-guest-entrance
+            ~ /image/icon/feature/has_step_free_path_to_the_guest_entrance.svg
+            ~ Has step free path to the guest entrance
+              ¨fr:A un accès sans marche à l'entrée
+            ~ Step free path to the guest entrance
+              ¨fr:Accès sans marche à l'entrée
+            ~ accessibility-features
+            ~ guest-entrance-and-parking
+            ~ 4
+            ~ boolean
+            ~ false
+
+        has-step-free-bedroom-access
+            ~ /image/icon/feature/has_step_free_bedroom_access.svg
+            ~ Has step-free bedroom access
+              ¨fr:A un accès à la chambre sans marche
+            ~ Step-free bedroom access
+              ¨fr:Accès à la chambre sans marche
+            ~ accessibility-features
+            ~ bedroom
+            ~ 1
+            ~ boolean
+            ~ false
+
+        has-ceiling-or-mobile-hoist
+            ~ /image/icon/feature/has_ceiling_or_mobile_hoist.svg
+            ~ Has ceiling or mobile hoist
+              ¨fr:A un plafond ou treuil mobile
+            ~ Ceiling or mobile hoist
+              ¨fr:Plafond ou treuil mobile
+            ~ accessibility-features
+            ~ adaptative-equipment
+            ~ 1
+            ~ boolean
+            ~ false
+
+        check-in-time
+          ~ /image/icon/feature/check_in_time.svg
+          ~ Check-in time
+            ¨fr:Heure d’enregistrement
+            ¨de:Check-in-Zeit
+          ~ Check-in time
+            ¨fr:Heure d’enregistrement
+            ¨de:Check-in-Zeit
+          ~ description-and-equipment
+          ~ rules
+          ~ 1
+          ~ time-range
+          ~ [ 16:00, 22:00 ]
+
+        allows-children
+          ~ /image/icon/feature/allows_children.svg
+          ~ Allows children
+            ¨fr:Enfants acceptés
+            ¨de:Erlaubt Kindern
+          ~ Allows children
+            ¨fr:Enfants acceptés
+            ¨de:Erlaubt Kindern
+          ~ description-and-equipment
+          ~ rules
+          ~ 2
+          ~ boolean
+          ~ false
+
+        allows-babies
+          ~ /image/icon/feature/allows_babies.svg
+          ~ Allows babies
+            ¨fr:Bébés acceptés
+            ¨de:Ermöglicht Babys
+          ~ Allows babies
+            ¨fr:Bébés acceptés
+            ¨de:Ermöglicht Babys
+          ~ description-and-equipment
+          ~ rules
+          ~ 3
+          ~ boolean
+          ~ false
+
+        allows-pets
+          ~ /image/icon/feature/allows_pets.svg
+          ~ Allows pets
+            ¨fr:Animaux acceptés
+            ¨de:Haustiere erlaubt
+          ~ Allows pets
+            ¨fr:Animaux acceptés
+            ¨de:Haustiere erlaubt
+          ~ description-and-equipment
+          ~ rules
+          ~ 4
+          ~ boolean
+          ~ false
+
+        allows-smoking
+          ~ /image/icon/feature/allows_smoking.svg
+          ~ Allows smoking
+            ¨fr:Fumeurs acceptés
+            ¨de:Erlaubt das Rauchen
+          ~ Allows smoking
+            ¨fr:Fumeurs acceptés
+            ¨de:Erlaubt das Rauchen
+          ~ description-and-equipment
+          ~ rules
+          ~ 5
+          ~ boolean
+          ~ false
+
+        allows-parties
+          ~ /image/icon/feature/allows_parties.svg
+          ~ Allows parties
+            ¨fr:Fêtes acceptés
+            ¨de:Erlaubt Parteien
+          ~ Allows parties and events
+            ¨fr:Fêtes ou evenements autotisés
+            ¨de:Ermöglicht Partys und Veranstaltungen
+          ~ description-and-equipment
+          ~ rules
+          ~ 6
+          ~ boolean
+          ~ false

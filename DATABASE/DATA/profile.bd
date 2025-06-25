@@ -1,0 +1,33 @@
+PROFILE
+
+    userId firstName lastName email emailValidationStatusId
+
+        74b22c29-9fa8-4bd2-8e56-ae9c71376f97
+            ~ June
+            ~ Svenson
+            ~ admin@groupbam.com
+            ~ validated
+
+        a407933d-8013-4725-80d2-73852cd99612
+            ~ Daniel
+            ~ Stanton
+            ~ daniel@groupbam.com
+            ~ validated
+
+        a6e246fc-fb75-4497-bbbf-e8e5c1a758a2
+            ~ Eric
+            ~ Hansdorf
+            ~ eric@groupbam.com
+            ~ validated
+
+        4bca4308-3f61-4d56-b765-6003019b6018
+            ~ Daniel
+            ~ Amorim
+            ~ daniel97dias@gmail.com
+            ~ validated
+
+        0eb438f5-de6c-4b41-bf71-acc21fdd14ba
+            ~ Fernando
+            ~ Ribeiro
+            ~ fernando@groupbam.com
+            ~ validated

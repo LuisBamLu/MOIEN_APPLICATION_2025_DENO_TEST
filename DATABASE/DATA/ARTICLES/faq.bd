@@ -1,0 +1,1644 @@
+ARTICLE
+
+    id typeId categoryIdArray slug date number title teaser text imagePath blockIdArray userId metaTitle metaDescription
+
+        %faq-page
+            ~ post
+            ~ { info-page }
+            ~ faq-page
+            ~ 2025-03-07
+            ~ 1
+            ~ FAQ
+            ~ **What is Moïen and how is it different from other rental platforms?**§
+                §Moïen is an innovative real estate rental platform that allows individuals to offer and rent properties for **short-term, long-term, and subletting** on a single interface. Unlike other platforms, Moïen **reconciles** the flexibility of short-term rentals with the stability of long-term rentals, offering a more flexible and suitable alternative for the needs of both owners and tenants.
+                    ¨fr:**Qu’est-ce que Moïen et en quoi est-ce différent des autres plateformes de location ?**§
+                        §Moïen est une plateforme innovante de location immobilière qui permet aux particuliers de proposer et de louer des biens en **court terme, long terme et sous-location** sur une seule et même interface. Contrairement aux autres plateformes, Moïen **réconcilie** la flexibilité de la location courte durée avec la stabilité de la location longue durée, offrant ainsi une alternative plus souple et adaptée aux besoins des propriétaires et des locataires.
+                    ¨de:**Was ist Moïen und wie unterscheidet es sich von anderen Mietplattformen?**§
+                        §Moïen ist eine innovative Immobilienmietplattform, die es Privatpersonen ermöglicht, Immobilien für **Kurzzeit-, Langzeit- und Untermiete** auf einer einzigen Schnittstelle anzubieten und zu mieten. Im Gegensatz zu anderen Plattformen **vereint** Moïen die Flexibilität von Kurzzeitmieten mit der Stabilität von Langzeitmieten und bietet so eine flexiblere und geeignetere Alternative für die Bedürfnisse von Eigentümern und Mietern.
+            ~ 
+            ~ /global/faq/faq_page.avif
+            ~ { %faq-block-1 ~ %faq-block-2 ~ %faq-block-3 ~ %faq-block-4 ~ %faq-block-5 ~ %faq-block-6 ~ %faq-block-7 ~ %faq-block-8 ~ %faq-block-9 ~ %faq-block-10 ~ %faq-block-11 ~ %faq-block-12 ~ %faq-block-13 ~ %faq-block-14 ~ %faq-block-15 ~ %faq-block-16 ~ %faq-block-17 ~ %faq-block-18 ~ %faq-block-19 ~ %faq-block-20 ~  }
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+            ~ FAQ
+            ~ FAQ
+
+BLOCK
+
+    id typeId articleId title text userId
+
+        %faq-block-1
+            ~ text
+            ~ %faq-page
+            ~ What sets Moïen apart from other platforms:
+                ¨fr:Ce qui distingue Moïen des autres plateformes :
+                ¨de:Was Moïen von anderen Plattformen unterscheidet:
+            ~ ✅ **A hybrid model**: the possibility to alternate between short-term and long-term rentals based on needs.
+                    \n✅ **A virtuous circle**: better utilization of available housing, with a positive impact on the rental supply.
+                    \n✅ **Empowerment of actors**: raising awareness among travelers about their carbon footprint.
+                    \n✅ **Local and human approach**: founded by Luxembourgers, the platform aims to provide a solution adapted to the European and Luxembourgish markets.
+
+                    \n\nMoïen aims to be a response to the new dynamics of housing, combining flexibility, simplicity, and responsibility.
+                    \n\nMoïen also stands out for its **transparent pricing**: the displayed price is **the right price**, without excessive surcharges related to the connection. Unlike some platforms that apply high commissions, Moïen guarantees fair and balanced fees, allowing tenants not to feel like they are overpaying, while ensuring optimal remuneration for owners.
+                    \n\nThus, Moïen offers an alternative where **every euro is justified**, with a clear and fair economic model, fostering a relationship of trust between users.
+                        ¨fr:✅ **Un modèle hybride** : possibilité d'alterner entre location courte et longue durée en fonction des besoins.
+                            \n✅ **Un cercle vertueux** : meilleure utilisation des logements disponibles, avec un impact positif sur l'offre locative.
+                            \n✅ **Responsabilisation des acteurs** : sensibilisation des voyageurs à leur empreinte carbone.
+                            \n✅ **Approche locale et humaine** : fondée par des Luxembourgeois, la plateforme vise à apporter une solution adaptée aux marchés européen et luxembourgeois.
+
+                            \n\nMoïen se veut être une réponse aux nouvelles dynamiques du logement, alliant flexibilité, simplicité et responsabilité.
+                            \n\nMoïen se distingue également par sa **transparence tarifaire** : le prix affiché est **le bon prix**, sans surcoût excessif lié à la mise en relation. Contrairement à certaines plateformes qui appliquent des commissions élevées, Moïen garantit des frais justes et équilibrés, permettant aux locataires de ne pas avoir l'impression de payer trop cher, tout en assurant aux propriétaires une rémunération optimale.
+                            \n\nAinsi, Moïen propose une alternative où **chaque euro est justifié**, avec un modèle économique clair et équitable, favorisant une relation de confiance entre les utilisateurs.
+                        ¨de:✅ **Ein hybrides Modell**: die Möglichkeit, je nach Bedarf zwischen Kurzzeit- und Langzeitmieten zu wechseln.
+                            \n✅ **Ein positiver Kreislauf**: bessere Nutzung des verfügbaren Wohnraums mit positiven Auswirkungen auf das Mietangebot.
+                            \n✅ **Bewusstseinsbildung der Akteure**: Sensibilisierung der Reisenden für ihren CO2-Fußabdruck.
+                            \n✅ **Lokaler und menschlicher Ansatz**: gegründet von Luxemburgern, zielt die Plattform darauf ab, eine Lösung zu bieten, die an die europäischen und luxemburgischen Märkte angepasst ist.
+
+                            \n\nMoïen will eine Antwort auf die neuen Dynamiken des Wohnens sein, indem es Flexibilität, Einfachheit und Verantwortung kombiniert.
+                            \n\nMoïen zeichnet sich auch durch seine **transparente Preisgestaltung** aus: der angezeigte Preis ist **der richtige Preis**, ohne übermäßige Zuschläge für die Vermittlung. Im Gegensatz zu einigen Plattformen, die hohe Provisionen erheben, garantiert Moïen faire und ausgewogene Gebühren, sodass Mieter nicht das Gefühl haben, zu viel zu bezahlen, während den Eigentümern eine optimale Vergütung gewährleistet wird.
+                            \n\nSo bietet Moïen eine Alternative, bei der **jeder Euro gerechtfertigt ist**, mit einem klaren und fairen Wirtschaftsmodell, das eine vertrauensvolle Beziehung zwischen den Nutzern fördert.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+        
+        %faq-block-2
+            ~ text
+            ~ %faq-page
+            ~ How does Moïen work for tenants and owners?
+                ¨fr:Comment fonctionne Moïen pour les locataires et les propriétaires ?
+                ¨de:Wie funktioniert Moïen für Mieter und Vermieter?
+            ~ 🔹**For tenants**
+
+               \n➡️**Short-term rental (vacations, business trips, temporary stays)**
+
+                \n  * **Quick booking**: Find a property available immediately for a few nights to several weeks.
+                \n  * **Transparent pricing**: No unpleasant surprises, the displayed price is **the right price**.
+                \n  * **Total flexibility**: Choose your dates freely, without long-term commitment.
+                \n  * **Authentic local experience**: Stay with locals in homes often warmer than hotels.
+                \n  * **Secure process**: Booking and payment guaranteed via Moïen.
+
+                \n\n➡️**Long-term rental (students, expatriates, families, workers)**
+
+                \n  * **Adapted search**: Access properties available for several months or years.
+                \n  * **Fair rent**: Moïen ensures balanced rates, without hidden surcharges.
+                \n  * **Secure contracts**: Documents compliant with local regulations for more peace of mind.
+                \n  * **Easy communication**: Direct contact with the owner to discuss terms.
+                \n  * **Stability and comfort**: Ideal for settling in long-term with clear conditions from the start.
+
+                \n\n🔹**For owners**
+
+                \n➡️**Short-term rental**
+
+                \n✔️ **Maximize your income** by renting to travelers for short periods.
+                \n✔️ **Total flexibility**: Choose when and how long to rent your property.
+                \n✔️ **Easy management**: Moïen secures payments and helps optimize your calendar.
+                \n✔️ **100% free listing**: You can publish your property without any fees.
+                \n✔️ **Secure contracts**: Moïen provides contracts validated by **independent lawyers**, adapted to local regulations.
+
+                \n\n➡️**Long-term rental**
+
+                \n✔️ **Financial stability** with tenants committed for several months or years.
+                \n✔️ **Less management**: Less turnover, less maintenance, and less administrative work.
+                \n✔️ **Transparent pricing**: A fair model, without high commissions.
+                \n✔️ **Free listing**: No commission on listing your property.
+                \n✔️ **Solid legal contracts**: Benefit from documents validated by real estate law experts.
+
+                \n\n💡 **With Moïen, you rent your property with peace of mind, for free, and in full compliance!**
+                    ¨fr:🔹**Pour les locataires**
+                        \n➡️ **Location courte durée (vacances, déplacements professionnels, séjours temporaires)**
+                          \n  * **Réservation rapide** : Trouvez un logement disponible immédiatement pour quelques nuits à plusieurs semaines.
+                          \n  * **Prix transparent** : Pas de mauvaises surprises, le prix affiché est **le bon prix**.
+                          \n  * **Flexibilité totale** : Choisissez vos dates librement, sans engagement sur le long terme.
+                          \n  * **Expérience locale authentique** : Séjournez chez des particuliers avec des logements souvent plus chaleureux que l’hôtel.
+                          \n  * **Processus sécurisé** : Réservation et paiement garantis via Moïen.
+                        \n\n➡️ **Location longue durée (étudiants, expatriés, familles, travailleurs)**
+                          \n  * **Recherche adaptée** : Accédez à des logements disponibles pour plusieurs mois ou années.
+                          \n  * **Un loyer juste** : Moïen veille à des tarifs équilibrés, sans surcoût caché.
+                          \n  * **Contrats sécurisés** : Documents conformes aux réglementations locales pour plus de sérénité.
+                          \n  * **Facilité de communication** : Contact direct avec le propriétaire pour discuter des modalités.
+                          \n  * **Stabilité et confort** : Idéal pour s’installer durablement avec des conditions claires dès le départ.
+
+                    \n\n🔹**Pour les propriétaires**
+                      \n➡️ **Location courte durée**
+                        \n✔️ **Maximisez vos revenus** en louant à des voyageurs sur de courtes périodes.
+                        \n✔️ **Flexibilité totale** : Choisissez quand et combien de temps louer votre bien.
+                        \n✔️ **Gestion facilitée** : Moïen sécurise les paiements et permet d’optimiser votre calendrier.
+                        \n✔️ **Annonce 100% gratuite** : Vous pouvez publier votre bien sans aucun frais.
+                        \n✔️ **Contrats sécurisés** : Moïen fournit des contrats validés par des **juristes indépendants**, adaptés aux réglementations locales.
+                      \n\n➡️ **Location longue durée**
+                        \n✔️ **Stabilité financière** avec des locataires engagés sur plusieurs mois ou années.
+                        \n✔️ **Moins de gestion** : Moins de rotation, moins de maintenance et moins d’administratif.
+                        \n✔️ **Tarification transparente** : Un modèle juste, sans commissions élevées.
+                        \n✔️ **Annonce gratuite** : Aucune commission sur la mise en ligne de votre bien.
+                        \n✔️ **Contrats juridiques solides** : Bénéficiez de documents validés par des experts du droit immobilier.
+
+                    \n\n💡 **Avec Moïen, vous louez votre bien en toute sérénité, gratuitement et en toute conformité !**
+                    ¨de:🔹**Für Mieter**  
+
+                        \n➡️**Kurzzeitmiete (Urlaub, Geschäftsreisen, temporäre Aufenthalte)**  
+
+                        \n  * **Schnelle Buchung**: Finden Sie eine Unterkunft, die sofort für einige Nächte bis mehrere Wochen verfügbar ist.  
+                        \n  * **Transparente Preise**: Keine unangenehmen Überraschungen, der angezeigte Preis ist **der richtige Preis**.  
+                        \n  * **Maximale Flexibilität**: Wählen Sie Ihre Daten frei, ohne langfristige Verpflichtungen.  
+                        \n  * **Authentisches lokales Erlebnis**: Übernachten Sie bei Einheimischen in oft gemütlicheren Unterkünften als Hotels.  
+                        \n  * **Sicherer Buchungsprozess**: Buchung und Zahlung sind über Moïen garantiert.  
+
+                        \n\n➡️**Langzeitmiete (Studenten, Expats, Familien, Berufstätige)**  
+
+                        \n  * **Gezielte Suche**: Zugriff auf Unterkünfte, die für mehrere Monate oder Jahre verfügbar sind.  
+                        \n  * **Faire Mietpreise**: Moïen sorgt für faire Tarife ohne versteckte Gebühren.  
+                        \n  * **Sichere Verträge**: Dokumente, die den lokalen Vorschriften entsprechen, für mehr Sicherheit.  
+                        \n  * **Einfache Kommunikation**: Direkter Kontakt mit dem Vermieter zur Klärung der Bedingungen.  
+                        \n  * **Stabilität und Komfort**: Ideal für eine langfristige Ansiedlung mit klaren Bedingungen von Anfang an.  
+
+                        \n\n🔹**Für Vermieter**  
+
+                        \n➡️**Kurzzeitmiete**  
+
+                        \n✔️ **Maximieren Sie Ihr Einkommen**, indem Sie an Reisende für kurze Zeiträume vermieten.  
+                        \n✔️ **Totale Flexibilität**: Entscheiden Sie, wann und wie lange Sie Ihre Immobilie vermieten möchten.  
+                        \n✔️ **Einfache Verwaltung**: Moïen sichert Zahlungen und hilft bei der Optimierung Ihres Kalenders.  
+                        \n✔️ **100% kostenlose Anzeige**: Sie können Ihre Immobilie ohne Gebühren veröffentlichen.  
+                        \n✔️ **Sichere Verträge**: Moïen stellt von **unabhängigen Juristen** geprüfte Verträge bereit, die den lokalen Vorschriften entsprechen.  
+
+                        \n\n➡️**Langzeitmiete**  
+
+                        \n✔️ **Finanzielle Stabilität** mit Mietern, die sich für mehrere Monate oder Jahre verpflichten.  
+                        \n✔️ **Weniger Verwaltungsaufwand**: Weniger Mieterwechsel, weniger Wartung und weniger Bürokratie.  
+                        \n✔️ **Transparente Preisgestaltung**: Ein faires Modell ohne hohe Provisionen.  
+                        \n✔️ **Kostenlose Anzeige**: Keine Gebühren für die Veröffentlichung Ihrer Immobilie.  
+                        \n✔️ **Rechtssichere Verträge**: Profitieren Sie von Dokumenten, die von Experten für Immobilienrecht geprüft wurden.  
+
+                        \n\n💡 **Mit Moïen vermieten Sie Ihre Immobilie sorgenfrei, kostenlos und in voller Übereinstimmung mit den Vorschriften!**
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+        
+        %faq-block-3
+            ~ text
+            ~ %faq-page
+            ~ Is Moïen available everywhere or only in certain countries?
+                ¨fr:Moïen est-il disponible partout ou uniquement dans certains pays ?
+                ¨de:Ist Moïen überall verfügbar oder nur in bestimmten Ländern?
+            ~ Moïen is currently available in **Luxembourg** and **France**, with an ambition for progressive expansion in Europe.
+
+                \n\n📍 **Why these countries first?**
+
+                \n  * **Luxembourg**: The rental market is tight, and Moïen offers a flexible solution adapted to local needs.
+                \n  * **France**: A dynamic market with high demand for hybrid rental solutions (short and long-term).
+
+                \n\n💡 **Coming soon to other countries!** Moïen aims to expand in Europe to offer its innovative model in other markets where rental flexibility is a key issue.
+
+                \n\n👉 Stay connected to be informed about upcoming launches! 🚀
+                    ¨fr:Moïen est actuellement disponible au **Luxembourg** et en **France**, avec une ambition d’expansion progressive en Europe.
+
+                        \n\n📍 **Pourquoi ces pays en priorité ?**
+
+                        \n  * **Luxembourg** : Le marché locatif y est tendu, et Moïen offre une solution flexible et adaptée aux besoins locaux.
+                        \n  * **France** : Un marché dynamique avec une forte demande pour des solutions de location hybride (courte et longue durée).
+
+                        \n\n💡 **Bientôt dans d'autres pays !** Moïen a pour objectif de s'étendre en Europe afin de proposer son modèle innovant dans d’autres marchés où la flexibilité locative est un enjeu clé.
+
+                        \n\n👉 Restez connectés pour être informés des prochains lancements ! 🚀
+                    ¨de:Moïen ist derzeit in **Luxemburg** und **Frankreich** verfügbar, mit der Ambition einer schrittweisen Expansion in Europa.
+
+                        \n\n📍 **Warum diese Länder zuerst?**
+
+                        \n  * **Luxemburg**: Der Mietmarkt ist angespannt, und Moïen bietet eine flexible Lösung, die an die lokalen Bedürfnisse angepasst ist.
+                        \n  * **Frankreich**: Ein dynamischer Markt mit hoher Nachfrage nach hybriden Mietlösungen (kurz- und langfristig).
+
+                        \n\n💡 **Bald in anderen Ländern!** Moïen plant, sich in Europa zu erweitern, um sein innovatives Modell in anderen Märkten anzubieten, in denen Mietflexibilität ein zentrales Thema ist.
+
+                        \n\n👉 Bleiben Sie verbunden, um über bevorstehende Markteinführungen informiert zu werden! 🚀
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+        
+        %faq-block-4
+            ~ text
+            ~ %faq-page
+            ~ 🔎 How to search and book a property on Moïen?
+                ¨fr:🔎 Comment rechercher et réserver un logement sur Moïen ?
+                ¨de:🔎 Wie sucht und bucht man eine Unterkunft auf Moïen?
+            ~ **1. Search for a property**
+
+                \n\n📍 **Define your criteria**:
+
+                \n  * Desired city or region
+                \n  * Type of rental (**short or long-term**)
+                \n  * Budget
+                \n  * Number of rooms and amenities
+
+                \n\n🔎 **Browse listings**:
+
+                \n  * Verified properties, with photos and detailed descriptions
+                \n  * A **transparent price**, without hidden fees
+                \n  * Flexible options adapted to your needs
+
+                \n\n💬 **Contact owners directly** to ask your questions or specify your request.
+
+                \n\n**2. Book with ease**
+
+                \n✅ **Select your dates** and confirm your booking online.
+                \n✅ **Electronic contract signing**: Moïen provides **contracts validated by independent lawyers** to ensure a secure rental.
+                \n✅ **Secure payment**: Moïen protects your transactions for total peace of mind.
+
+                \n\n💡 **With Moïen, you find and book a property quickly, at the right price, and securely**
+                    ¨fr:**1. Rechercher un logement**
+
+                        \n\n📍 **Définissez vos critères** :
+
+                        \n  * Ville ou région souhaitée
+                        \n  * Type de location (**courte ou longue durée**)
+                        \n  * Budget
+                        \n  * Nombre de chambres et équipements
+
+                        \n\n🔎 **Parcourez les annonces** :
+
+                        \n  * Des logements vérifiés, avec photos et descriptions détaillées
+                        \n  * Un **prix transparent**, sans frais cachés
+                        \n  * Des options flexibles adaptées à vos besoins
+
+                        \n\n💬 **Contactez directement les propriétaires** pour poser vos questions ou préciser votre demande.
+
+                        \n\n**2. Réserver en toute simplicité**
+
+                        \n✅ **Sélectionnez vos dates** et validez votre réservation en ligne.
+                        \n✅ **Signature électronique du contrat** : Moïen fournit des **contrats validés par des juristes indépendants** pour garantir une location sécurisée.
+                        \n✅ **Paiement sécurisé** : Moïen protège vos transactions pour une tranquillité d'esprit totale.
+
+                        \n\n💡 **Avec Moïen, vous trouvez et réservez un logement rapidement, au juste prix, et en toute sécurité**
+                    ¨de:**1. Unterkunft suchen**  
+
+                        \n\n📍 **Legen Sie Ihre Kriterien fest**:  
+                        
+                        \n  * Gewünschte Stadt oder Region  
+                        \n  * Art der Miete (**Kurz- oder Langzeitmiete**)  
+                        \n  * Budget  
+                        \n  * Anzahl der Zimmer und gewünschte Ausstattung  
+                        
+                        \n\n🔎 **Durchsuchen Sie die Angebote**:  
+                        
+                        \n  * Geprüfte Unterkünfte mit Fotos und detaillierten Beschreibungen  
+                        \n  * **Transparente Preise**, ohne versteckte Gebühren  
+                        \n  * Flexible Optionen, die Ihren Bedürfnissen entsprechen  
+                        
+                        \n\n💬 **Kontaktieren Sie die Vermieter direkt**, um Fragen zu stellen oder Ihre Anfrage zu präzisieren.  
+                        
+                        \n\n**2. Einfach buchen**  
+                        
+                        \n✅ **Wählen Sie Ihre Daten** und bestätigen Sie Ihre Buchung online.  
+                        \n✅ **Elektronische Vertragsunterzeichnung**: Moïen stellt **von unabhängigen Juristen geprüfte Verträge** bereit, um eine sichere Vermietung zu gewährleisten.  
+                        \n✅ **Sichere Zahlung**: Moïen schützt Ihre Transaktionen für absolute Sicherheit.  
+                        
+                        \n\n💡 **Mit Moïen finden und buchen Sie eine Unterkunft schnell, zum richtigen Preis und absolut sicher.**
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+        
+        %faq-block-5
+            ~ text
+            ~ %faq-page
+            ~ 💳 What payment methods are accepted on Moïen?
+                ¨fr:💳 Quels sont les moyens de paiement acceptés sur Moïen ?
+                ¨de:💳 Welche Zahlungsmethoden werden auf Moïen akzeptiert?
+            ~ Moïen offers several secure payment options to facilitate your transactions:
+
+                \n✅ **Credit card** (Visa, Mastercard, American Express) – for quick validation and secure payment.
+                \n✅ **Bank transfer** – ideal for long-term payments or larger amounts.
+                \n✅ **Electronic wallets** (Google Pay, Apple Pay) – for a quick and smooth transaction.
+
+                \n\n🔒 **Security first**: All transactions are protected through certified payment solutions to ensure a risk-free experience for tenants and owners.
+
+                \n\n💡 **Moïen ensures that every payment is simple, fast, and secure!**
+                    ¨fr:Moïen propose plusieurs options de paiement sécurisées pour faciliter vos transactions :
+
+                        \n✅ **Carte bancaire** (Visa, Mastercard, American Express) – pour une validation rapide et un paiement sécurisé.
+                        \n✅ **Virement bancaire** – idéal pour les paiements de longue durée ou les montants plus élevés.
+                        \n✅ **Portefeuilles électroniques** (Google Pay, Apple Pay) – pour une transaction rapide et fluide.
+
+                        \n\n🔒 **Sécurité avant tout** : Toutes les transactions sont protégées via des solutions de paiement certifiées pour garantir une expérience sans risque pour les locataires et les propriétaires.
+
+                        \n\n💡 **Moïen s'assure que chaque paiement est simple, rapide et sécurisé !**
+                    ¨de:Moïen bietet mehrere sichere Zahlungsmöglichkeiten, um Ihre Transaktionen zu erleichtern:  
+
+                        \n✅ **Kreditkarte** (Visa, Mastercard, American Express) – für eine schnelle Bestätigung und sichere Zahlung.  
+                        \n✅ **Banküberweisung** – ideal für Langzeitzahlungen oder größere Beträge.  
+                        \n✅ **Elektronische Geldbörsen** (Google Pay, Apple Pay) – für eine schnelle und reibungslose Transaktion.  
+
+                        \n\n🔒 **Sicherheit an erster Stelle**: Alle Transaktionen sind durch zertifizierte Zahlungslösungen geschützt, um ein risikofreies Erlebnis für Mieter und Eigentümer zu gewährleisten.  
+
+                        \n\n💡 **Moïen stellt sicher, dass jede Zahlung einfach, schnell und sicher ist!**  
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+        
+        %faq-block-6
+            ~ text
+            ~ %faq-page
+            ~ ❌ What happens if a reservation is canceled?
+                ¨fr:❌ Que se passe-t-il en cas d’annulation d’une réservation ?
+                ¨de:❌ Was passiert, wenn eine Reservierung storniert wird?
+            ~ The cancellation of a reservation on Moïen depends on the conditions set by the owner and the timing of the cancellation.
+
+               \n\n **1. Cancellation by the tenant**
+
+                \nDepending on the refund policy chosen by the owner, several scenarios are possible:
+
+                \n  * **Flexible**: Full refund if the cancellation occurs a certain number of days before arrival.
+                \n  * **Moderate**: Partial refund if the cancellation occurs a few days before the scheduled date.
+                \n  * **Strict**: No refund if the cancellation occurs too late.
+
+                \n\n📌 **Cancellation conditions are clearly indicated before booking.**
+
+                \n\n**2. Cancellation by the owner**
+
+                \nIf an owner cancels a reservation, the tenant receives:
+
+                \n✅ A **full refund** of the amount paid.
+
+                \n\n**3. Exceptional cases**
+
+                \nIf a cancellation is due to **unforeseen circumstances** (e.g., medical emergency, natural disaster), Moïen will review each case individually to propose a fair solution.
+
+                \n\n💡 **Moïen ensures transparency and protection for all parties, with clear and fair cancellation conditions.**
+                    ¨fr:L’annulation d’une réservation sur Moïen dépend des conditions définies par le propriétaire et du moment où l’annulation a lieu.
+
+                        \n\n**1. Annulation par le locataire**
+
+                        \nSelon la politique de remboursement choisie par le propriétaire, plusieurs scénarios sont possibles :
+
+                        \n  * **Flexible** : Remboursement intégral si l’annulation intervient un certain nombre de jours avant l’arrivée.
+                        \n  * **Modérée** : Remboursement partiel si l’annulation a lieu quelques jours avant la date prévue.
+                        \n  * **Stricte** : Aucun remboursement si l’annulation survient trop tard.
+
+                        \n\n📌 **Les conditions d’annulation sont clairement indiquées avant la réservation.**
+
+                        \n\n**2. Annulation par le propriétaire**
+
+                        \nSi un propriétaire annule une réservation, le locataire reçoit :
+
+                        \n✅ Un **remboursement intégral** du montant payé.
+
+                        \n\n**3. Cas exceptionnels**
+
+                        \nSi une annulation est due à des **circonstances imprévues** (ex : urgence médicale, catastrophe naturelle), Moïen étudiera chaque cas individuellement pour proposer une solution équitable.
+
+                        \n\n💡 **Moïen assure transparence et protection pour toutes les parties, avec des conditions d’annulation claires et équitables.**
+                    ¨de:Die Stornierung einer Reservierung auf Moïen hängt von den vom Eigentümer festgelegten Bedingungen und dem Zeitpunkt der Stornierung ab.  
+
+                        \n\n**1. Stornierung durch den Mieter**  
+                        
+                        \nJe nach der vom Eigentümer gewählten Rückerstattungsrichtlinie sind mehrere Szenarien möglich:  
+                        
+                        \n  * **Flexibel**: Volle Rückerstattung, wenn die Stornierung eine bestimmte Anzahl von Tagen vor der Anreise erfolgt.  
+                        \n  * **Moderat**: Teilweise Rückerstattung, wenn die Stornierung einige Tage vor dem geplanten Datum erfolgt.  
+                        \n  * **Strikt**: Keine Rückerstattung, wenn die Stornierung zu spät erfolgt.  
+                        
+                        \n\n📌 **Die Stornierungsbedingungen werden vor der Buchung klar angegeben.**  
+                        
+                        \n\n**2. Stornierung durch den Eigentümer**  
+                        
+                        \nWenn ein Eigentümer eine Reservierung storniert, erhält der Mieter:  
+                        
+                        \n✅ Eine **vollständige Rückerstattung** des gezahlten Betrags.  
+                        
+                        \n\n**3. Ausnahmefälle**  
+                        
+                        \nWenn eine Stornierung aufgrund **unvorhersehbarer Umstände** (z. B. medizinischer Notfall, Naturkatastrophe) erfolgt, wird Moïen jeden Fall individuell prüfen, um eine faire Lösung vorzuschlagen.  
+                        
+                        \n\n💡 **Moïen sorgt für Transparenz und Schutz aller Parteien mit klaren und fairen Stornierungsbedingungen.**  
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+        
+        %faq-block-7
+            ~ text
+            ~ %faq-page
+            ~ ✅ Are the properties verified before being listed on Moïen?
+                ¨fr:✅ Les logements sont-ils vérifiés avant d’être mis en ligne sur Moïen ?
+                ¨de:✅ Werden die Immobilien vor der Veröffentlichung auf Moïen überprüft?
+            ~ Yes, **Moïen implements a rigorous verification process** before listing properties to ensure the reliability of the properties and the safety of users.
+
+                \n\n🔍 **Ad verification**:
+
+                \n✔️ **Verification of information** provided by the owner (address, property characteristics, photos, etc.).
+                \n✔️ **Contracts validated by independent lawyers**, ensuring legal compliance.
+                \n✔️ **Ad moderation** to avoid fraudulent or misleading content.
+
+                \n\n👤 **Owner verification**:
+
+                \n✔️ **Identity authentication** to limit the risk of scams.
+                \n✔️ **User history and reviews** to ensure trust between tenants and owners.
+
+                \n\n📌 **Why is this important?**
+                \nThis process ensures that **every property on Moïen is reliable and meets tenants' expectations**, while protecting owners from potential abuse.
+
+                \n\n💡 **With Moïen, you book a property with peace of mind, without any unpleasant surprises!**
+                    ¨fr:Oui, **Moïen met en place un processus de vérification rigoureux** avant la mise en ligne des annonces afin d’assurer la fiabilité des logements et la sécurité des utilisateurs.
+
+                        \n\n🔍 **Contrôle des annonces** :
+
+                        \n✔️ **Vérification des informations** fournies par le propriétaire (adresse, caractéristiques du bien, photos, etc.).
+                        \n✔️ **Contrats validés par des juristes indépendants**, garantissant une conformité légale.
+                        \n✔️ **Modération des annonces** pour éviter les contenus frauduleux ou trompeurs.
+
+                        \n\n👤 **Vérification des propriétaires** :
+
+                        \n✔️ **Authentification de l’identité** pour limiter les risques d’arnaque.
+                        \n✔️ **Historique et avis des utilisateurs** pour assurer la confiance entre locataires et propriétaires.
+
+                        \n\n📌 **Pourquoi c’est important ?**
+
+                        \nCe processus garantit que **chaque logement sur Moïen est fiable et conforme aux attentes des locataires**, tout en protégeant les propriétaires contre d’éventuels abus.
+
+                        \n\n💡 **Avec Moïen, vous réservez un logement en toute sérénité, sans mauvaise surprise !**
+                    ¨de:Ja, **Moïen setzt einen strengen Verifizierungsprozess** ein, bevor Immobilien gelistet werden, um die Zuverlässigkeit der Objekte und die Sicherheit der Nutzer zu gewährleisten.  
+
+                        \n\n🔍 **Überprüfung der Anzeigen**:  
+                        
+                        \n✔️ **Überprüfung der vom Eigentümer bereitgestellten Informationen** (Adresse, Eigenschaften der Immobilie, Fotos usw.).  
+                        \n✔️ **Von unabhängigen Juristen geprüfte Verträge**, die die rechtliche Konformität sicherstellen.  
+                        \n✔️ **Moderation der Anzeigen**, um betrügerische oder irreführende Inhalte zu vermeiden.  
+                        
+                        \n\n👤 **Überprüfung der Eigentümer**:  
+                        
+                        \n✔️ **Identitätsprüfung**, um das Risiko von Betrug zu minimieren.  
+                        \n✔️ **Nutzerhistorie und Bewertungen**, um Vertrauen zwischen Mietern und Eigentümern zu gewährleisten.  
+                        
+                        \n\n📌 **Warum ist das wichtig?**  
+                        
+                        \nDieser Prozess stellt sicher, dass **jede Unterkunft auf Moïen zuverlässig ist und den Erwartungen der Mieter entspricht**, während Eigentümer vor möglichen Missbräuchen geschützt werden.  
+                        
+                        \n\n💡 **Mit Moïen buchen Sie eine Unterkunft sorgenfrei und ohne unangenehme Überraschungen!**
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+        
+        %faq-block-8
+            ~ text
+            ~ %faq-page
+            ~ 📞 How to contact an owner before booking on Moïen?
+                ¨fr:📞 Comment contacter un propriétaire avant de réserver sur Moïen ?
+                ¨de:📞 Wie kontaktiere ich einen Vermieter vor der Buchung auf Moïen?
+            ~ Before finalizing your booking, Moïen allows you to **easily contact the owner** to ask your questions or get clarifications. Here's how:
+
+                \n\n**1. Via the integrated messaging system**
+
+                \n  * **Access the listing** of the property you are interested in.
+                \n  * **Use Moïen's secure messaging** to send a direct message to the owner. You can ask all your questions about the amenities, availability, or any other necessary information before booking.
+
+                \n\n**2. Request clarifications on conditions**
+
+                \n  * You can also ask for details on **rental conditions**, **cancellation policies**, or **payment terms**.
+
+                \n\n**3. Real-time responses**
+
+                \n  * **Owners usually respond quickly**, allowing you to make an informed decision before confirming your booking.
+
+                \n\n💡 **Moïen facilitates direct and secure communication with owners to offer you a transparent and serene experience.**
+                    ¨fr:Avant de finaliser votre réservation, Moïen vous permet de **contacter facilement le propriétaire** pour poser vos questions ou obtenir des précisions. Voici comment faire :
+
+                       \n\n **1. Via le système de messagerie intégré**
+
+                        \n  * **Accédez à l’annonce** du logement qui vous intéresse.
+                        \n  * **Utilisez la messagerie sécurisée** de Moïen pour envoyer un message direct au propriétaire. Vous pourrez poser toutes vos questions concernant les équipements, la disponibilité, ou toute autre information nécessaire avant de réserver.
+
+                        \n\n**2. Demande de précisions sur les conditions**
+
+                        \n  * Vous pouvez également demander des détails sur les **conditions de location**, les **politique d’annulation**, ou les **modalités de paiement**.
+
+                        \n\n**3. Réponses en temps réel**
+
+                        \n  * **Les propriétaires répondent généralement rapidement**, ce qui vous permet de prendre une décision éclairée avant de confirmer votre réservation.
+
+                        \n\n💡 **Moïen facilite la communication directe et sécurisée avec les propriétaires pour vous offrir une expérience transparente et sereine.**
+                    ¨de:Bevor Sie Ihre Buchung abschließen, ermöglicht Ihnen Moïen, **den Eigentümer einfach zu kontaktieren**, um Ihre Fragen zu stellen oder Klarstellungen zu erhalten. So geht’s:  
+
+                        \n\n**1. Über das integrierte Nachrichtensystem**  
+                        
+                        \n  * **Rufen Sie das Inserat** der gewünschten Unterkunft auf.  
+                        \n  * **Nutzen Sie die sichere Nachrichtenfunktion von Moïen**, um dem Eigentümer eine direkte Nachricht zu senden. Sie können Fragen zu Ausstattung, Verfügbarkeit oder anderen wichtigen Informationen stellen, bevor Sie buchen.  
+                        
+                        \n\n**2. Klärung der Mietbedingungen**  
+                        
+                        \n  * Sie können sich auch über **Mietkonditionen**, **Stornierungsrichtlinien** oder **Zahlungsmodalitäten** informieren.  
+                        
+                        \n\n**3. Antworten in Echtzeit**  
+                        
+                        \n  * **Eigentümer antworten in der Regel schnell**, sodass Sie eine fundierte Entscheidung treffen können, bevor Sie Ihre Buchung bestätigen.  
+                        
+                        \n\n💡 **Moïen erleichtert die direkte und sichere Kommunikation mit Eigentümern und sorgt für eine transparente und sorgenfreie Erfahrung.**
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+        
+        %faq-block-9
+            ~ text
+            ~ %faq-page
+            ~ ✅ Can I sublet a property via Moïen if I am a tenant?
+                ¨fr:✅ Puis-je sous-louer un bien via Moïen si je suis locataire ?
+                ¨de:✅ Kann ich eine Immobilie über Moïen untervermieten, wenn ich Mieter bin?
+            ~ Yes, **Moïen allows subletting**, but it requires prior approval from your landlord. Here are the steps to follow:
+
+                \n\n**1. Request the landlord's approval via the platform**
+
+                \nBefore subletting, you must obtain your **landlord's** approval.
+
+                \n  * You can **send a request directly via the Moïen platform** to get their consent. Just specify your subletting intentions and wait for their response.
+
+                \n\n**2. Subletting conditions**
+
+                \n  * **Sublease contract**: Moïen provides **contracts validated by independent lawyers**, adapted to subletting, to ensure the legality of the operation.
+                \n  * **Subletting duration**: You can sublet for short or long periods, according to the conditions agreed with the landlord.
+
+                \n\n**3. Security and transparency**
+
+                \n  * **Verification of subtenants**: Moïen ensures security by verifying subtenants' profiles.
+                \n  * **Clear conditions**: The rent, obligations, and rights of each party are clearly defined.
+
+                \n\n💡 **Moïen offers you the possibility to sublet flexibly and securely, ensuring that all steps are validated and transparent!**
+                    ¨fr:Oui, **Moïen permet la sous-location**, mais cela nécessite l'accord préalable de votre propriétaire. Voici les étapes à suivre :
+
+                        \n\n**1. Demander l’accord du propriétaire via la plateforme**
+
+                        \nAvant de sous-louer, vous devez obtenir l'accord de votre **propriétaire**.
+
+                        \n  * Vous pouvez **envoyer une demande directement via la plateforme Moïen** pour obtenir son consentement. Il vous suffit de préciser vos intentions de sous-location et d’attendre sa réponse.
+
+                        \n\n**2. Conditions de sous-location**
+
+                        \n  * **Contrat de sous-location** : Moïen fournit des **contrats validés par des juristes indépendants**, adaptés à la sous-location, pour garantir la légalité de l'opération.
+                        \n  * **Durée de la sous-location** : Vous pouvez sous-louer pour des périodes courtes ou longues, selon les conditions convenues avec le propriétaire.
+
+                        \n\n**3. Sécurité et transparence**
+
+                        \n  * **Vérification des sous-locataires** : Moïen s'assure de la sécurité en vérifiant les profils des sous-locataires.
+                        \n  * **Conditions claires** : Le loyer, les obligations et les droits de chaque partie sont clairement définis.
+
+                        \n\n💡 **Moïen vous offre la possibilité de sous-louer de manière flexible et sécurisée, tout en garantissant que toutes les étapes sont validées et transparentes !**
+                    ¨de:Ja, **Moïen erlaubt die Untervermietung**, jedoch ist die vorherige Zustimmung Ihres Vermieters erforderlich. Hier sind die Schritte, die Sie befolgen müssen:  
+
+                        \n\n**1. Zustimmung des Vermieters über die Plattform einholen**  
+                        
+                        \nBevor Sie untervermieten, müssen Sie die **Erlaubnis Ihres Vermieters** einholen.  
+                        
+                        \n  * Sie können **eine Anfrage direkt über die Moïen-Plattform senden**, um seine Zustimmung zu erhalten. Geben Sie einfach Ihre Absichten zur Untervermietung an und warten Sie auf die Antwort.  
+                        
+                        \n\n**2. Bedingungen für die Untervermietung**  
+                        
+                        \n  * **Untervermietungsvertrag**: Moïen stellt **von unabhängigen Juristen geprüfte Verträge** bereit, die speziell für die Untervermietung angepasst sind und die Rechtmäßigkeit der Vereinbarung gewährleisten.  
+                        \n  * **Dauer der Untervermietung**: Sie können für kurze oder lange Zeiträume untervermieten, je nach den mit dem Vermieter vereinbarten Bedingungen.  
+                        
+                        \n\n**3. Sicherheit und Transparenz**  
+                        
+                        \n  * **Überprüfung der Untermieter**: Moïen sorgt für Sicherheit durch die Verifizierung der Untermieterprofile.  
+                        \n  * **Klare Bedingungen**: Die Miete, Verpflichtungen und Rechte aller Parteien sind klar definiert.  
+                        
+                        \n\n💡 **Moïen bietet Ihnen die Möglichkeit, flexibel und sicher unterzuvermieten, mit vollständiger Transparenz und validierten Schritten!**
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+        
+        %faq-block-10
+            ~ text
+            ~ %faq-page
+            ~ 🏡 How to list my property for rent on Moïen?
+                ¨fr:🏡 Comment mettre mon bien en location sur Moïen ?
+                ¨de:🏡 Wie kann ich meine Immobilie auf Moïen zur Miete anbieten?
+            ~ Listing your property for rent on Moïen is simple and quick. Here are the steps to follow:
+
+                \n\n**1. Create a Moïen account**
+
+                \nIf you don't have an account yet, start by signing up on the Moïen platform by filling in your personal information and validating your email address.
+
+                \n\n**2. Publish your listing**
+
+                \nOnce your account is created, you can publish your property:
+
+                \n  * **Describe your property**: Provide information about the size, number of rooms, amenities, and location.
+                \n  * **Add photos**: Upload quality images to showcase your property at its best. The more attractive the photos, the more likely you are to capture tenants' attention.
+                \n  * **Set your prices**: Determine the rental price, considering market rates, and specify associated fees (cleaning, security deposit, etc.).
+                \n  * **Define availability**: Indicate the available dates for rental (whether for short or long-term rental).
+
+                \n\n**3. Define your conditions**
+
+                \n  * **Cancellation policy**: Choose whether you want a flexible, moderate, or strict cancellation policy.
+                \n  * **Specific conditions**: Mention particular conditions such as pet acceptance, the number of authorized people, etc.
+
+                \n\n**4. If you wish to sublet:**
+
+                \nIf you are a tenant and wish to sublet your property, **you need to obtain your landlord's approval via the Moïen application**. You can easily send a subletting request directly from the platform to get their consent.
+
+                \n\n**5. Verification and validation**
+
+                \nMoïen verifies the information in your listing to ensure it meets quality and safety standards. Once your listing is validated, it will be published and accessible to tenants.
+
+                \n\n**6. Manage bookings**
+
+                \nOnce your property is online, you will receive booking requests. You can choose to accept or decline each request according to your preferences.
+
+                \n\n💡 **Moïen simplifies the process of listing your property, with an intuitive and secure platform to ensure a smooth experience for you and your tenants.**
+                    ¨fr:Mettre votre bien en location sur Moïen est simple et rapide. Voici les étapes à suivre :
+
+                        \n\n**1. Créez un compte Moïen**
+
+                        \nSi vous n’avez pas encore de compte, commencez par vous inscrire sur la plateforme Moïen en remplissant vos informations personnelles et en validant votre adresse email.
+
+                        \n\n**2. Publiez votre annonce**
+
+                        \nUne fois votre compte créé, vous pouvez publier votre bien :
+
+                        \n  * **Décrivez votre bien** : Renseignez des informations sur la taille, le nombre de chambres, les équipements et la localisation.
+                        \n  * **Ajoutez des photos** : Téléchargez des images de qualité pour présenter votre bien sous son meilleur jour. Plus les photos sont attractives, plus vous avez de chances de capter l’attention des locataires.
+                        \n  * **Fixez vos prix** : Déterminez le prix de la location, en tenant compte des tarifs du marché, et précisez les frais associés (nettoyage, dépôt de garantie, etc.).
+                        \n  * **Définissez la disponibilité** : Indiquez les dates disponibles pour la location (que ce soit pour une location courte ou longue durée).
+
+                        \n\n**3. Définissez vos conditions**
+
+                        \n  * **Politique d’annulation** : Choisissez si vous souhaitez avoir une politique d’annulation flexible, modérée, ou stricte.
+                        \n  * **Conditions spécifiques** : Mentionnez des conditions particulières comme l’acceptation des animaux, le nombre de personnes autorisées, etc.
+
+                        \n\n**4. Si vous souhaitez sous-louer :**
+
+                        \nSi vous êtes locataire et souhaitez sous-louer votre bien, **il vous faut obtenir l’accord de votre propriétaire via l’application Moïen**. Vous pouvez facilement envoyer une demande de sous-location directement à partir de la plateforme pour obtenir son consentement.
+
+                        \n\n**5. Vérification et validation**
+
+                        \nMoïen vérifie les informations de votre annonce pour garantir qu’elles respectent les standards de qualité et de sécurité. Une fois votre annonce validée, elle sera mise en ligne et accessible aux locataires.
+
+                        \n\n**6. Gérer les réservations**
+
+                        \nUne fois votre bien en ligne, vous recevrez des demandes de réservation. Vous pouvez choisir d'accepter ou de refuser chaque demande selon vos préférences.
+
+                        \n\n💡 **Moïen simplifie la mise en location de votre bien, avec une plateforme intuitive et sécurisée pour garantir une expérience fluide pour vous et vos locataires.**
+                    ¨de:Das Vermieten Ihrer Immobilie auf Moïen ist einfach und schnell. Hier sind die Schritte, die Sie befolgen müssen:  
+
+                        \n\n**1. Erstellen Sie ein Moïen-Konto**  
+                        
+                        \nFalls Sie noch kein Konto haben, melden Sie sich auf der Moïen-Plattform an, indem Sie Ihre persönlichen Daten eingeben und Ihre E-Mail-Adresse bestätigen.  
+                        
+                        \n\n**2. Veröffentlichen Sie Ihr Inserat**  
+                        
+                        \nSobald Ihr Konto erstellt ist, können Sie Ihre Immobilie inserieren:  
+                        
+                        \n  * **Beschreiben Sie Ihre Immobilie**: Geben Sie Informationen zu Größe, Anzahl der Zimmer, Ausstattung und Lage an.  
+                        \n  * **Fügen Sie Fotos hinzu**: Laden Sie hochwertige Bilder hoch, um Ihre Immobilie bestmöglich zu präsentieren. Je ansprechender die Fotos, desto größer die Chance, potenzielle Mieter anzusprechen.  
+                        \n  * **Legen Sie Ihre Preise fest**: Bestimmen Sie den Mietpreis unter Berücksichtigung der Marktpreise und geben Sie zusätzliche Gebühren (Reinigung, Kaution usw.) an.  
+                        \n  * **Definieren Sie die Verfügbarkeit**: Geben Sie die verfügbaren Mietzeiträume an (Kurzzeit- oder Langzeitmiete).  
+                        
+                        \n\n**3. Legen Sie Ihre Bedingungen fest**  
+                        
+                        \n  * **Stornierungsrichtlinie**: Wählen Sie, ob Sie eine flexible, moderate oder strikte Stornierungsrichtlinie anbieten möchten.  
+                        \n  * **Spezifische Bedingungen**: Geben Sie besondere Bedingungen an, wie z. B. Haustiererlaubnis oder maximale Personenzahl.  
+                        
+                        \n\n**4. Falls Sie untervermieten möchten:**  
+                        
+                        \nWenn Sie Mieter sind und Ihre Immobilie untervermieten möchten, **müssen Sie die Zustimmung Ihres Vermieters über die Moïen-App einholen**. Sie können einfach eine Anfrage direkt über die Plattform senden, um dessen Zustimmung zu erhalten.  
+                        
+                        \n\n**5. Überprüfung und Validierung**  
+                        
+                        \nMoïen überprüft die Angaben in Ihrem Inserat, um sicherzustellen, dass sie den Qualitäts- und Sicherheitsstandards entsprechen. Sobald Ihr Inserat genehmigt ist, wird es veröffentlicht und für Mieter sichtbar.  
+                        
+                        \n\n**6. Buchungen verwalten**  
+                        
+                        \nSobald Ihre Immobilie online ist, erhalten Sie Buchungsanfragen. Sie können jede Anfrage nach Ihren Präferenzen annehmen oder ablehnen.  
+                        
+                        \n\n💡 **Moïen vereinfacht das Vermieten Ihrer Immobilie mit einer intuitiven und sicheren Plattform, die Ihnen und Ihren Mietern eine reibungslose Erfahrung bietet.**
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+        
+        %faq-block-11
+            ~ text
+            ~ %faq-page
+            ~ 🏡 What types of rentals are possible on Moïen?
+                ¨fr:🏡 Quels types de locations sont possibles sur Moïen ?
+                ¨de:🏡 Welche Arten von Vermietungen sind auf Moïen möglich?
+            ~ Moïen offers great flexibility in terms of rentals, allowing both tenants and owners to choose the type of contract that suits their needs. Here are the types of rentals available:
+
+                \n\n**1. Short-term rental**
+
+                \n  * **Duration**: Ideal for stays of a few days to a few weeks.
+                \n  * **Target audience**: Perfect for travelers, business travelers, or those looking for a temporary solution.
+                \n  * **Advantages**: Flexibility and rates adapted to short-term stay needs.
+
+                \n\n**2. Long-term rental**
+
+                \n  * **Duration**: Suitable for stays of several months or years.
+                \n  * **Target audience**: For people seeking stability, such as expatriates, students, or families in transition.
+                \n  * **Advantages**: Longer contracts, often at reduced monthly rates, with the possibility to customize conditions according to tenants' needs.
+
+                \n\n**3. Subletting**
+
+                \n  * **Duration**: Variable, depending on the duration authorized by the owner.
+                \n  * **Conditions**: If you are a tenant and wish to sublet a property, you must obtain the owner's approval via the Moïen platform.
+                \n  * **Advantages**: Flexibility for tenants who wish to sublet all or part of their accommodation for a defined period.
+
+                \n\n💡 **Moïen therefore offers rental solutions adapted to different types of needs, whether for short stays, long stays, or subletting, while ensuring a secure and transparent experience for all parties.**
+                    ¨fr:Moïen offre une grande flexibilité en matière de locations, permettant à la fois aux locataires et aux propriétaires de choisir le type de contrat qui correspond à leurs besoins. Voici les types de locations disponibles :
+
+                        \n\n**1. Location court terme**
+                        
+                        \n  * **Durée** : Idéale pour des séjours de quelques jours à quelques semaines.
+                        \n  * **Public cible** : Parfait pour les voyageurs, les personnes en déplacement professionnel ou ceux cherchant une solution temporaire.
+                        \n  * **Avantages** : Flexibilité et tarifs adaptés aux besoins de séjour à court terme.
+                        
+                        \n\n**2. Location long terme**
+                        
+                        \n  * **Durée** : Adaptée aux séjours de plusieurs mois ou années.
+                        \n  * **Public cible** : Pour les personnes cherchant une stabilité, comme des expatriés, des étudiants ou des familles en transition.
+                        \n  * **Avantages** : Des contrats plus longs, souvent à des tarifs mensuels réduits, avec la possibilité de personnaliser les conditions selon les besoins des locataires.
+                        
+                        \n\n**3. Sous-location**
+                        
+                        \n  * **Durée** : Variable, en fonction de la durée autorisée par le propriétaire.
+                        \n  * **Conditions** : Si vous êtes locataire et souhaitez sous-louer un bien, vous devez obtenir l’accord de votre propriétaire via la plateforme Moïen.
+                        \n  * **Avantages** : Flexibilité pour les locataires qui souhaitent sous-louer tout ou une partie de leur logement pour une période définie.
+                        
+                        \n\n💡 **Moïen offre donc des solutions de location adaptées à différents types de besoins, qu’il s’agisse de séjours courts, longs ou de sous-location, tout en garantissant une expérience sécurisée et transparente pour toutes les parties.**
+                    ¨de:Moïen bietet große Flexibilität bei der Vermietung und ermöglicht es sowohl Mietern als auch Eigentümern, den Vertragstyp zu wählen, der ihren Bedürfnissen entspricht. Hier sind die verfügbaren Mietoptionen:  
+
+                        \n\n**1. Kurzzeitmiete**  
+                        
+                        \n  * **Dauer**: Ideal für Aufenthalte von wenigen Tagen bis zu mehreren Wochen.  
+                        \n  * **Zielgruppe**: Perfekt für Reisende, Geschäftsreisende oder Personen, die eine temporäre Lösung suchen.  
+                        \n  * **Vorteile**: Flexibilität und angepasste Preise für kurzfristige Aufenthalte.  
+                        
+                        \n\n**2. Langzeitmiete**  
+                        
+                        \n  * **Dauer**: Geeignet für Aufenthalte von mehreren Monaten bis hin zu Jahren.  
+                        \n  * **Zielgruppe**: Für Personen, die Stabilität suchen, wie Expatriates, Studierende oder Familien im Übergang.  
+                        \n  * **Vorteile**: Längere Verträge, oft zu reduzierten monatlichen Raten, mit der Möglichkeit, die Bedingungen an die Bedürfnisse der Mieter anzupassen.  
+                        
+                        \n\n**3. Untervermietung**  
+                        
+                        \n  * **Dauer**: Variabel, abhängig von der vom Eigentümer genehmigten Dauer.  
+                        \n  * **Bedingungen**: Wenn Sie Mieter sind und eine Immobilie untervermieten möchten, müssen Sie die Zustimmung des Eigentümers über die Moïen-Plattform einholen.  
+                        \n  * **Vorteile**: Flexibilität für Mieter, die ihr gesamtes oder einen Teil ihres Wohnraums für einen bestimmten Zeitraum untervermieten möchten.  
+                        
+                        \n\n💡 **Moïen bietet somit maßgeschneiderte Mietlösungen für verschiedene Bedürfnisse – sei es für Kurzzeit-, Langzeitmieten oder Untervermietungen – und sorgt für eine sichere und transparente Erfahrung für alle Beteiligten.**  
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+        
+        %faq-block-12
+            ~ text
+            ~ %faq-page
+            ~ 💸 How to set the price of my property on Moïen?
+                ¨fr:💸 Comment fixer le prix de mon logement sur Moïen ?
+                ¨de:💸 Wie lege ich den Preis meiner Immobilie auf Moïen fest?
+            ~ Setting a fair and competitive price for renting your property is essential to attract tenants while maximizing your income. Here are some steps and tips to determine the price of your property on Moïen:
+
+                \n\n**1. Market analysis**
+
+                \n  * **Check similar prices**: Before setting your price, examine similar properties in your area. Compare characteristics such as size, location, number of rooms, amenities, and rental duration.
+                \n  * **Research tools**: Moïen allows you to check approximate prices for similar properties to guide your decision.
+
+                \n\n**2. Type of rental and duration**
+
+                \n  * **Short-term rental**: Prices can be higher due to flexibility and short stay duration. Remember to adjust your price according to seasonality (e.g., holiday periods or local events may justify a higher rate).
+                \n  * **Long-term rental**: Monthly prices are often lower but guarantee a stable source of income. You can offer discounts for long-term commitments.
+                \n  * **Subletting**: If you are a tenant and wish to sublet, you must also consider market prices while respecting the limits imposed by your landlord.
+
+                \n\n**3. Additional costs to consider**
+
+                \n  * **Cleaning fees**: If you offer a cleaning service at the end of each stay, you can add this cost to the rental price.
+                \n  * **Security deposit**: You can include a security deposit to cover potential damages, but it should not be too high to avoid deterring tenants.
+
+                \n\n**4. Price flexibility**
+
+                \n  * **Discounts for long stays**: Offer more advantageous rates for long-term bookings to attract long-term tenants.
+                \n  * **Dynamic pricing**: If you can adjust your prices based on demand (e.g., increasing prices during high-demand periods), this can optimize your income.
+
+                \n\n**5. Monitoring and adjustment**
+
+                \n  * **Performance monitoring**: If you notice that your property remains unoccupied for a long period, it may mean that your price is too high compared to demand. Do not hesitate to adjust your price based on feedback and market trends.
+                \n  * **Comments and evaluation**: Tenants who appreciate the quality of your property and the rental experience can leave positive reviews that will help you justify a slightly higher price.
+
+                \n\n💡 **Setting a competitive price on Moïen requires a good market analysis and understanding of your tenants' specific needs. Offering a good experience and adjusting your prices based on demand is essential for success in rental.**
+                    ¨fr:Fixer un prix juste et compétitif pour la location de votre bien est essentiel pour attirer des locataires tout en maximisant vos revenus. Voici quelques étapes et conseils pour déterminer le prix de votre logement sur Moïen :
+
+                        \n\n**1. Analyse du marché**
+                        \n  * **Consultez les prix similaires** : Avant de fixer votre prix, examinez les logements similaires dans votre région. Comparez les caractéristiques comme la taille, l'emplacement, le nombre de chambres, les équipements, et la durée de location.
+                        \n  * **Outils de recherche** : Moïen vous permet de consulter des prix approximatifs pour des logements similaires afin de vous guider dans votre décision.
+
+                        \n\n**2. Type de location et durée**
+                        \n  * **Location court terme** : Les prix peuvent être plus élevés en raison de la flexibilité et de la courte durée de séjour. N'oubliez pas d’ajuster votre prix selon la saisonnalité (par exemple, les périodes de vacances ou d'événements locaux peuvent justifier un tarif plus élevé).
+                        \n  * **Location long terme** : Les prix mensuels sont souvent plus bas, mais garantissent une source de revenus stable. Vous pouvez offrir des réductions pour des engagements à long terme.
+                        \n  * **Sous-location** : Si vous êtes locataire et souhaitez sous-louer, vous devrez également prendre en compte les prix du marché, tout en respectant les limites imposées par votre propriétaire.
+
+                        \n\n**3. Coûts supplémentaires à considérer**
+                        \n  * **Frais de nettoyage** : Si vous offrez un service de nettoyage à la fin de chaque séjour, vous pouvez ajouter ce coût au prix de la location.
+                        \n  * **Dépôt de garantie** : Vous pouvez inclure un dépôt de garantie pour couvrir d’éventuels dommages, mais celui-ci ne doit pas être trop élevé afin de ne pas dissuader les locataires.
+
+                        \n\n**4. Flexibilité des prix**
+                        \n  * **Réductions pour les séjours longs** : Offrez des tarifs plus avantageux pour les réservations de longue durée afin d'attirer les locataires à long terme.
+                        \n  * **Tarification dynamique** : Si vous avez la possibilité de modifier vos prix en fonction de la demande (par exemple, augmenter les prix pendant les périodes de haute demande), cela peut optimiser vos revenus.
+
+                        \n\n**5. Suivi et ajustement**
+                        \n  * **Suivi des performances** : Si vous constatez que votre bien reste inoccupé pendant une longue période, cela peut signifier que votre prix est trop élevé par rapport à la demande. N’hésitez pas à ajuster votre prix en fonction des retours et des tendances du marché.
+                        \n  * **Commentaires et évaluation** : Les locataires qui apprécient la qualité de votre bien et l'expérience de location peuvent laisser des avis positifs qui vous aideront à justifier un prix légèrement plus élevé.
+
+                        \n\n💡 **Fixer un prix compétitif sur Moïen nécessite une bonne analyse du marché et des besoins spécifiques de vos locataires. Offrir une bonne expérience et ajuster vos prix en fonction de la demande est essentiel pour réussir dans la location.**
+                    ¨de:Einen fairen und wettbewerbsfähigen Preis für die Vermietung Ihrer Immobilie festzulegen, ist entscheidend, um Mieter anzuziehen und gleichzeitig Ihr Einkommen zu maximieren. Hier sind einige Schritte und Tipps, um den Preis Ihrer Immobilie auf Moïen zu bestimmen:
+                    
+                        \n\n**1. Marktanalyse**
+
+                        \n  * **Vergleichen Sie ähnliche Preise**: Bevor Sie Ihren Preis festlegen, untersuchen Sie ähnliche Immobilien in Ihrer Umgebung. Vergleichen Sie Merkmale wie Größe, Lage, Anzahl der Zimmer, Ausstattung und Mietdauer.
+                        \n  * **Recherche-Tools**: Moïen ermöglicht es Ihnen, ungefähre Preise für ähnliche Immobilien einzusehen, um Ihre Entscheidung zu unterstützen.
+        
+                        \n\n**2. Art der Vermietung und Dauer**
+        
+                        \n  * **Kurzzeitmiete**: Die Preise können aufgrund der Flexibilität und der kurzen Mietdauer höher sein. Denken Sie daran, den Preis je nach Saison (z.B. Feiertagszeiten oder lokale Veranstaltungen) anzupassen.
+                        \n  * **Langzeitmiete**: Monatliche Preise sind oft niedriger, garantieren jedoch eine stabile Einkommensquelle. Sie können Rabatte für langfristige Verpflichtungen anbieten.
+                        \n  * **Untervermietung**: Wenn Sie Mieter sind und untervermieten möchten, müssen Sie ebenfalls die Marktpreise berücksichtigen und die vom Vermieter festgelegten Grenzen einhalten.
+        
+                        \n\n**3. Zusätzliche Kosten berücksichtigen**
+        
+                        \n  * **Reinigungsgebühren**: Wenn Sie einen Reinigungsservice am Ende jedes Aufenthalts anbieten, können Sie diese Kosten zum Mietpreis hinzufügen.
+                        \n  * **Kaution**: Sie können eine Kaution verlangen, um mögliche Schäden abzudecken, jedoch sollte diese nicht zu hoch sein, um potenzielle Mieter nicht abzuschrecken.
+        
+                        \n\n**4. Preisflexibilität**
+        
+                        \n  * **Rabatte für längere Aufenthalte**: Bieten Sie günstigere Tarife für Langzeitbuchungen an, um langfristige Mieter anzulocken.
+                        \n  * **Dynamische Preisgestaltung**: Wenn Sie Ihre Preise je nach Nachfrage anpassen können (z.B. die Preise während hochfrequenter Zeiten erhöhen), kann dies Ihr Einkommen optimieren.
+        
+                        \n\n**5. Überwachung und Anpassung**
+        
+                        \n  * **Leistungsüberwachung**: Wenn Sie feststellen, dass Ihre Immobilie längere Zeit unvermietet bleibt, kann dies darauf hinweisen, dass Ihr Preis im Vergleich zur Nachfrage zu hoch ist. Zögern Sie nicht, Ihren Preis basierend auf Feedback und Marktentwicklungen anzupassen.
+                        \n  * **Kommentare und Bewertungen**: Mieter, die die Qualität Ihrer Immobilie und die Miet-Erfahrung schätzen, können positive Bewertungen hinterlassen, die Ihnen helfen, einen etwas höheren Preis zu rechtfertigen.
+        
+                        \n\n💡 **Ein wettbewerbsfähiger Preis auf Moïen erfordert eine gute Marktanalyse und das Verständnis für die spezifischen Bedürfnisse Ihrer Mieter. Eine gute Erfahrung zu bieten und Ihre Preise basierend auf der Nachfrage anzupassen, ist entscheidend für den Erfolg in der Vermietung.**
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+        
+        %faq-block-13
+            ~ text
+            ~ %faq-page
+            ~ 💳 How does rent payment work on Moïen?
+                ¨fr:💳 Comment fonctionne le paiement des loyers sur Moïen ?
+                ¨de:💳 Wie funktioniert die Mietzahlung auf Moïen?
+            ~ Moïen offers three types of rentals: **short-term**, **long-term**, and **subletting**. The payment process varies depending on the type of rental. Here are the details:
+
+                \n\n**1. Short-term rental**
+
+                \n  * **Duration**: Stays of a few days to a few weeks.
+                \n  * **Payment process for the tenant**:
+                \n    * Payment is made **at the time of booking** via the Moïen platform. The total amount of the stay is charged in advance, and it may include additional fees, such as cleaning fees or tourist tax.
+                \n  * **Payment process for the owner**:
+                \n    * **Payment is made once the stay has started**, ensuring that the tenant has arrived and the stay is confirmed.
+                \n    * Moïen charges a commission, and the balance is transferred to the owner's bank account.
+
+                \n\n**2. Long-term rental**
+
+                \n  * **Duration**: Stays of several months to years.
+                \n  * **Payment process for the tenant**:
+                \n    * Payment is generally made **monthly** and can be settled by bank transfer, credit card, or other options agreed upon between the tenant and the owner.
+                \n  * **Payment process for the owner**:
+                \n    * Payment is made **at the beginning of each month** for the duration of the contract. The amounts are transferred directly to the owner's bank account according to the agreed terms.
+
+                \n\n**3. Subletting**
+
+                \n  * **Duration**: Flexible, depending on demand and the agreement between tenant and owner.
+                \n  * **Payment process for the tenant (subtenant)**:
+                \n    * Payment is made **at the time of booking**, just like for short-term rental.
+                \n  * **Payment process for the owner**:
+                \n    * **Payment is made when the sublet stay has started**. The platform ensures that the tenant has arrived and the rental is proceeding as planned.
+                \n    * If you are a subtenant, you must first obtain the owner's approval via the Moïen platform before you can sublet the property.
+
+                \n\n**4. Securing payments**
+
+                \n  * **Secure platform**: All payments are processed through a secure platform to ensure the protection of banking information and transactions.
+                \n  * **Assistance in case of problems**: If problems arise with the payment or the stay, Moïen offers support to resolve disputes.
+
+                \n\n💡 **Thus, for short-term rentals and subletting, payment is made when the stay begins, while for long-term rentals, it is made monthly. Moïen guarantees secure transactions and transparency for both parties through its payment partner Mangopay.**
+                    ¨fr:Moïen propose trois types de locations : **court terme**, **long terme**, et **sous-location**. Le processus de paiement varie en fonction du type de location. Voici les détails :
+
+                        \n\n**1. Location court terme**
+                        \n  * **Durée** : Séjours de quelques jours à quelques semaines.
+                        \n  * **Processus de paiement pour le locataire** :
+                        \n    * Le paiement est effectué **au moment de la réservation**, via la plateforme Moïen. Le montant total du séjour est prélevé à l'avance, et il peut inclure des frais supplémentaires, comme les frais de nettoyage ou la taxe de séjour.
+                        \n  * **Processus de paiement pour le propriétaire** :
+                        \n    * Le paiement est effectué **une fois que le séjour a débuté**, garantissant ainsi que le locataire est bien arrivé et le séjour est confirmé.
+                        \n    * Moïen prélève une commission, et le solde est transféré sur le compte bancaire du propriétaire.
+
+                        \n\n**2. Location long terme**
+                        \n  * **Durée** : Séjours de plusieurs mois à années.
+                        \n  * **Processus de paiement pour le locataire** :
+                        \n    * Le paiement est généralement effectué **mensuellement**, et peut être réglé par virement bancaire, carte de crédit, ou autres options convenues entre le locataire et le propriétaire.
+                        \n  * **Processus de paiement pour le propriétaire** :
+                        \n    * Le paiement est effectué **au début de chaque mois** pour la durée du contrat. Les montants sont transférés directement sur le compte bancaire du propriétaire, selon les modalités convenues.
+
+                        \n\n**3. Sous-location**
+                        \n  * **Durée** : Flexible, en fonction de la demande et de l'accord entre locataire et propriétaire.
+                        \n  * **Processus de paiement pour le locataire (sous-locataire)** :
+                        \n    * Le paiement est effectué **au moment de la réservation**, tout comme pour la location courte durée.
+                        \n  * **Processus de paiement pour le propriétaire** :
+                        \n    * Le paiement est effectué **lorsque le séjour sous-loué a débuté**. La plateforme garantit que le locataire est arrivé et que la location se déroule comme prévu.
+                        \n    * Si vous êtes sous-locataire, vous devez d'abord obtenir l'accord du propriétaire via la plateforme Moïen avant de pouvoir sous-louer le bien.
+
+                        \n\n**4. Sécurisation des paiements**
+                        \n  * **Plateforme sécurisée** : Tous les paiements sont traités via une plateforme sécurisée pour garantir la protection des informations bancaires et des transactions.
+                        \n  * **Assistance en cas de problème** : Si des problèmes surviennent avec le paiement ou le séjour, Moïen offre un support pour résoudre les différends.
+
+                        \n\n💡 **Ainsi, pour les locations court terme et sous-location, le paiement est effectué lorsque le séjour débute, tandis que pour la location long terme, il est effectué mensuellement. Moïen garantit des transactions sécurisées et transparence pour les deux parties via son partenaire de paiement Mangopay.**
+                    ¨de:Moïen bietet drei Arten von Vermietungen an: **Kurzzeit**, **Langzeit** und **Untermiete**. Der Zahlungsprozess variiert je nach Art der Vermietung. Hier sind die Details:
+                        \n\n**1. Kurzzeitmiete**
+
+                        \n  * **Dauer**: Aufenthalte von wenigen Tagen bis zu mehreren Wochen.
+                        \n  * **Zahlungsprozess für den Mieter**:
+                        \n    * Die Zahlung erfolgt **zum Zeitpunkt der Buchung** über die Moïen-Plattform. Der Gesamtbetrag für den Aufenthalt wird im Voraus berechnet und kann zusätzliche Gebühren wie Reinigungsgebühren oder Touristensteuer enthalten.
+                        \n  * **Zahlungsprozess für den Eigentümer**:
+                        \n    * Die Zahlung erfolgt **nach Beginn des Aufenthalts**, um sicherzustellen, dass der Mieter angekommen ist und der Aufenthalt bestätigt wurde.
+                        \n    * Moïen erhebt eine Provision, der Restbetrag wird auf das Bankkonto des Eigentümers überwiesen.
+
+                        \n\n**2. Langzeitmiete**
+
+                        \n  * **Dauer**: Aufenthalte von mehreren Monaten bis Jahren.
+                        \n  * **Zahlungsprozess für den Mieter**:
+                        \n    * Die Zahlung erfolgt in der Regel **monatlich** und kann per Banküberweisung, Kreditkarte oder anderen zwischen Mieter und Eigentümer vereinbarten Optionen beglichen werden.
+                        \n  * **Zahlungsprozess für den Eigentümer**:
+                        \n    * Die Zahlung erfolgt **zu Beginn jedes Monats** für die Dauer des Vertrags. Die Beträge werden direkt auf das Bankkonto des Eigentümers gemäß den vereinbarten Bedingungen überwiesen.
+
+                        \n\n**3. Untervermietung**
+
+                        \n  * **Dauer**: Flexibel, je nach Nachfrage und Vereinbarung zwischen Mieter und Eigentümer.
+                        \n  * **Zahlungsprozess für den Mieter (Untermieter)**:
+                        \n    * Die Zahlung erfolgt **zum Zeitpunkt der Buchung**, genauso wie bei der Kurzzeitmiete.
+                        \n  * **Zahlungsprozess für den Eigentümer**:
+                        \n    * Die Zahlung erfolgt **nach Beginn des Untermietaufenthaltes**. Die Plattform stellt sicher, dass der Mieter angekommen ist und die Vermietung wie geplant verläuft.
+                        \n    * Wenn Sie Untermieter sind, müssen Sie zuerst die Zustimmung des Eigentümers über die Moïen-Plattform einholen, bevor Sie die Immobilie untervermieten können.
+
+                        \n\n**4. Absicherung der Zahlungen**
+
+                        \n  * **Sichere Plattform**: Alle Zahlungen werden über eine sichere Plattform abgewickelt, um die Sicherheit der Bankdaten und Transaktionen zu gewährleisten.
+                        \n  * **Hilfe bei Problemen**: Falls Probleme mit der Zahlung oder dem Aufenthalt auftreten, bietet Moïen Unterstützung zur Lösung von Streitigkeiten.
+
+                        \n\n💡 **Für Kurzzeitmieten und Untervermietungen erfolgt die Zahlung zu Beginn des Aufenthalts, während bei Langzeitmieten die Zahlung monatlich erfolgt. Moïen garantiert sichere Transaktionen und Transparenz für beide Parteien über seinen Zahlungsanbieter Mangopay.**
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+        
+        %faq-block-14
+            ~ text
+            ~ %faq-page
+            ~ ⚖️ What are the legal obligations to comply with when renting on Moïen?
+                ¨fr:⚖️ Quelles sont les obligations légales à respecter pour louer sur Moïen ?
+                ¨de:⚖️ Welche gesetzlichen Verpflichtungen sind bei der Vermietung auf Moïen zu beachten?
+            ~ When renting a property via Moïen, it is important to comply with certain legal obligations to ensure the conformity and security of transactions. Here are the main obligations for **owners** and **tenants**:
+
+                \n\n**1️. For owners**
+
+                \n  * **Rental contract**:
+                \n    * You must provide a clear rental contract detailing all conditions related to the duration, rent amount, additional fees, and obligations of each party.
+                \n    * Long-term rental contracts (more than 3 months) must be validated by an independent lawyer to ensure their compliance with local legislation.
+                \n  * **Compliance with safety standards**:
+                \n    * You must ensure that your property complies with current safety standards, such as the installation of smoke detectors, compliance of electrical and gas installations, and the absence of risks for tenants.
+                \n    * For short-term rentals, it may be necessary to obtain administrative authorization according to the legislation of your city or region, especially in tourist areas or high-demand zones.
+                \n  * **Compliance with local rental rules**:
+                \n    * Depending on the country or city, there may be specific rules regarding short-term rentals (e.g., limitations on the number of annual rental days, or additional requirements for subletting).
+                \n  * **Right to sublet**:
+                \n    * If you allow subletting, you must ensure that the main tenant has written permission from their own landlord to sublet the property, in accordance with local rules.
+
+                \n\n**2️. For tenants**
+
+                \n  * **Compliance with the rental contract**:
+                \n    * You must comply with the terms of the rental contract, including paying the rent, respecting the stay dates, and properly using the premises.
+                \n  * **Declaration obligation for subletting**:
+                \n    * If you are a tenant and wish to sublet a property, you must obtain written permission from your landlord via the Moïen platform.
+                \n    * Short-term rental rules also apply to subletting. This means you must comply with local subletting legislation requirements, such as obtaining necessary permits or declarations, depending on local rules.
+
+                \n\n**3️. Fiscal and administrative obligations**
+
+                \n  * **Declaration of rental income**:
+                \n    * As an owner, you must declare your rental income to the tax authorities of your country. Moïen provides clear invoicing for each rental, which you can use to complete your tax returns.
+                \n  * **Compliance with anti-fraud and anti-money laundering laws**:
+                \n    * Moïen implements anti-fraud and anti-money laundering procedures. As an owner, you must provide all necessary information to verify your identity and tax status.
+                \n  * **Compliance with local rent legislation**:
+                \n    * Rents must be fair and comply with local price regulations, including price limits or caps in certain areas to avoid tenant exploitation.
+
+                \n\n**4️. Additional obligations for short-term rentals**
+
+                \n  * **Rental permit**:
+                \n    * Some cities or regions may require a specific permit or registration to rent short-term. Make sure you know the local regulations.
+                \n  * **Tourist tax**:
+                \n    * Depending on the location, you may be required to collect a tourist tax from tenants and remit it to local authorities.
+
+                \n\n💡 **In summary, for any rental (including subletting), you must comply with local legal obligations regarding contracts, safety, taxation, and regulatory compliance. Short-term rental rules also apply to subletting, and the landlord's approval is mandatory via the Moïen platform.**
+                    ¨fr:Lorsque vous louez un bien via Moïen, il est important de respecter certaines obligations légales pour assurer la conformité et la sécurité des transactions. Voici les principales obligations pour les **propriétaires** et les **locataires** :
+
+                        \n\n**1. Pour les propriétaires**
+                        \n  * **Contrat de location** :
+                        \n    * Vous devez proposer un contrat de location clair, détaillant toutes les conditions relatives à la durée, au montant du loyer, aux frais supplémentaires et aux obligations de chaque partie.
+                        \n    * Les **contrats de location à long terme** (plus de 3 mois) doivent être validés par un **juriste indépendant** pour garantir leur conformité avec la législation locale.
+                        \n  * **Respect des normes de sécurité** :
+                        \n    * Vous devez vous assurer que votre bien respecte les normes de sécurité en vigueur, comme l’installation de détecteurs de fumée, la conformité des installations électriques et de gaz, et l’absence de risques pour les locataires.
+                        \n    * Pour les locations **court terme**, il peut être nécessaire d’obtenir une **autorisation administrative** selon la législation de votre ville ou région, notamment dans les zones touristiques ou à forte demande.
+                        \n  * **Conformité avec les règles locales de location** :
+                        \n    * En fonction du pays ou de la ville, il peut y avoir des règles spécifiques concernant la **location de courte durée** (par exemple, des limitations sur le nombre de jours de location annuelle, ou des exigences supplémentaires pour la sous-location).
+
+                        \n- **Droit de sous-location** :
+                        \n    * Si vous autorisez la sous-location, vous devez vous assurer que le **locataire principal** a l’accord écrit de son propre propriétaire pour sous-louer le bien, conformément aux règles locales.
+
+                        \n\n**2. Pour les locataires**
+
+                        \n  * **Respect du contrat de location** :
+                        \n    * Vous devez respecter les termes du contrat de location, y compris le paiement du loyer, le respect des dates de séjour, et la bonne utilisation des lieux.
+                        \n  * **Obligation de déclaration pour la sous-location** :
+                        \n    * Si vous êtes locataire et que vous souhaitez **sous-louer** un bien, vous devez obtenir l'accord **écrit** de votre propriétaire via la plateforme Moïen.
+                        \n    * **Les règles de location court terme** s’appliquent également à la sous-location. Cela signifie que vous devez respecter les exigences de la législation locale en matière de sous-location, telles que l’obtention de permis ou de déclarations nécessaires, en fonction des règles locales.
+
+                        \n\n**3. Obligations fiscales et administratives**
+
+                        \n  * **Déclaration des revenus locatifs** :
+                        \n    * En tant que propriétaire, vous devez déclarer vos **revenus locatifs** aux autorités fiscales de votre pays. Moïen fournit une facturation claire de chaque location, que vous pouvez utiliser pour remplir vos déclarations fiscales.
+                        \n  * **Respect des lois anti-fraude et de blanchiment d'argent** :
+                        \n    * Moïen met en place des procédures anti-fraude et anti-blanchiment d’argent. En tant que propriétaire, vous devez fournir toutes les informations nécessaires pour vérifier votre identité et votre statut fiscal.
+                        \n  * **Respect de la législation locale concernant les loyers** :
+                        \n    * Les loyers doivent être **justes et conformes** aux réglementations locales sur les prix, notamment les limites de prix ou les plafonds dans certaines régions pour éviter l’**exploitation des locataires**.
+
+                        \n\n**4. Obligations supplémentaires pour les locations à court terme**
+
+                        \n  * **Permis de location** :
+                        \n    * Certaines villes ou régions peuvent exiger un **permis spécifique** ou une **inscription** pour louer à court terme. Assurez-vous de connaître les régulations locales.
+                        \n  * **Taxe de séjour** :
+                        \n    * En fonction de l’emplacement, vous pourriez être tenu de collecter une **taxe de séjour** auprès des locataires et de la remettre aux autorités locales.
+
+                        \n\n💡 **En résumé, pour toute location (y compris sous-location), vous devez respecter les obligations légales locales concernant les contrats, la sécurité, la fiscalité, et la conformité avec les régulations. Les règles de location court terme s’appliquent également pour la sous-location, et l’accord du propriétaire est obligatoire via la plateforme Moïen.**
+                    ¨de:Wenn Sie eine Immobilie über Moïen mieten, ist es wichtig, bestimmte gesetzliche Verpflichtungen zu erfüllen, um die Konformität und Sicherheit der Transaktionen zu gewährleisten. Hier sind die wichtigsten Verpflichtungen für **Eigentümer** und **Mieter**:
+
+                        \n\n**1️. Für Eigentümer**
+        
+                        \n  * **Mietvertrag**:
+                        \n    * Sie müssen einen klaren Mietvertrag anbieten, der alle Bedingungen in Bezug auf die Dauer, die Miethöhe, zusätzliche Gebühren und die Verpflichtungen jeder Partei festlegt.
+                        \n    * Langfristige Mietverträge (mehr als 3 Monate) müssen von einem **unabhängigen Anwalt** geprüft werden, um ihre Übereinstimmung mit den lokalen Gesetzen sicherzustellen.
+                        \n  * **Einhaltung der Sicherheitsstandards**:
+                        \n    * Sie müssen sicherstellen, dass Ihre Immobilie den aktuellen Sicherheitsstandards entspricht, wie zum Beispiel der Installation von Rauchmeldern, der Übereinstimmung der Elektro- und Gasinstallationen und der Abwesenheit von Risiken für die Mieter.
+                        \n    * Für Kurzzeitvermietungen kann es erforderlich sein, eine **administrative Genehmigung** gemäß den Gesetzen Ihrer Stadt oder Region zu erhalten, insbesondere in touristischen Gebieten oder Zonen mit hoher Nachfrage.
+                        \n  * **Einhaltung der lokalen Mietregeln**:
+                        \n    * Je nach Land oder Stadt können spezifische Regeln für **Kurzzeitvermietungen** gelten (z. B. Beschränkungen der Anzahl der jährlichen Miettage oder zusätzliche Anforderungen für die Untervermietung).
+                        \n  * **Recht zur Untervermietung**:
+                        \n    * Wenn Sie Untervermietung erlauben, müssen Sie sicherstellen, dass der **Hauptmieter** die schriftliche Erlaubnis seines eigenen Vermieters zur Untervermietung der Immobilie hat, gemäß den lokalen Vorschriften.
+        
+                        \n\n**2️. Für Mieter**
+        
+                        \n  * **Einhaltung des Mietvertrags**:
+                        \n    * Sie müssen die Bedingungen des Mietvertrags einhalten, einschließlich der Mietzahlung, der Einhaltung der Aufenthaltsdaten und der ordnungsgemäßen Nutzung der Räumlichkeiten.
+                        \n  * **Erklärungspflicht für Untervermietung**:
+                        \n    * Wenn Sie Mieter sind und eine Immobilie untervermieten möchten, müssen Sie die schriftliche Genehmigung Ihres Vermieters über die Moïen-Plattform einholen.
+                        \n    * **Die Regeln für Kurzzeitvermietungen** gelten auch für Untervermietungen. Das bedeutet, dass Sie die Anforderungen der lokalen Gesetzgebung für Untervermietungen einhalten müssen, wie z. B. die Einholung der erforderlichen Genehmigungen oder Erklärungen, je nach den lokalen Vorschriften.
+        
+                        \n\n**3️. Steuerliche und administrative Verpflichtungen**
+        
+                        \n  * **Erklärung der Mieteinnahmen**:
+                        \n    * Als Eigentümer müssen Sie Ihre **Mieteinnahmen** den Steuerbehörden Ihres Landes melden. Moïen stellt für jede Vermietung eine klare Abrechnung zur Verfügung, die Sie zur Ausfüllung Ihrer Steuererklärung verwenden können.
+                        \n  * **Einhaltung der Gesetze gegen Betrug und Geldwäsche**:
+                        \n    * Moïen setzt Verfahren zur Bekämpfung von Betrug und Geldwäsche um. Als Eigentümer müssen Sie alle erforderlichen Informationen zur Überprüfung Ihrer Identität und Steuerstatus bereitstellen.
+                        \n  * **Einhaltung der lokalen Mietgesetzgebung**:
+                        \n    * Mieten müssen **fair** sein und den lokalen Preisvorschriften entsprechen, einschließlich Preisobergrenzen oder -grenzen in bestimmten Regionen, um eine **Ausbeutung der Mieter** zu vermeiden.
+        
+                        \n\n**4️. Zusätzliche Verpflichtungen für Kurzzeitvermietungen**
+        
+                        \n  * **Mietgenehmigung**:
+                        \n    * Einige Städte oder Regionen können eine **spezifische Genehmigung** oder Registrierung für Kurzzeitvermietungen verlangen. Stellen Sie sicher, dass Sie die lokalen Vorschriften kennen.
+                        \n  * **Touristensteuer**:
+                        \n    * Je nach Standort können Sie verpflichtet sein, eine **Touristensteuer** von den Mietern zu erheben und an die lokalen Behörden abzuführen.
+        
+                        \n\n💡 **Zusammenfassung: Für jede Vermietung (einschließlich Untervermietung) müssen Sie die lokalen gesetzlichen Verpflichtungen in Bezug auf Verträge, Sicherheit, Steuern und die Einhaltung von Vorschriften beachten. Die Regeln für Kurzzeitvermietungen gelten auch für Untervermietungen, und die Zustimmung des Vermieters ist über die Moïen-Plattform erforderlich.**
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+        
+        %faq-block-15
+            ~ text
+            ~ %faq-page
+            ~ 🔒 How does Moïen ensure the security of payments and transactions?
+                ¨fr:🔒 Comment Moïen garantit-il la sécurité des paiements et des transactions ?
+                ¨de:🔒 Wie gewährleistet Moïen die Sicherheit von Zahlungen und Transaktionen?
+            ~ Moïen takes the security of payments and transactions very seriously and implements several measures to ensure the protection of its users. Here are the main guarantees:
+
+                \n\n**1️. Secure payments via MangoPay**
+
+                \nMoïen uses **MangoPay**, a reputable and secure payment provider that complies with the strictest security standards, such as the **PCI DSS** (Payment Card Industry Data Security Standard). MangoPay ensures that all banking information and payments are processed confidentially and securely.
+
+                \n\n**2️. Encryption of sensitive data**
+
+                \nAll sensitive data, such as payment information, is **encrypted** to prevent interception or hacking. This ensures that your personal and banking information is protected throughout the transaction.
+
+                \n\n**3️. User identity verification**
+
+                \nTo prevent fraud, Moïen implements an **identity verification** system for owners and tenants. This includes verifying the identity of people registered on the platform, as well as additional checks to ensure that profiles are authentic.
+
+                \n\n**4️. Securing transactions via a guaranteed deposit system**
+
+                \nMoïen uses a **guaranteed deposit** system for payments. This means that the money is **held** by Moïen during the reservation period and is **released** to the owner once the stay has started, ensuring security for both parties. If a problem arises, Moïen acts as an intermediary to resolve the dispute.
+
+                \n\n**5️. Protection of funds in case of dispute**
+
+                \nIn case of a dispute between a tenant and an owner, Moïen has a clear **conflict resolution** process, and payments are protected until the dispute is resolved. This gives each party peace of mind that their funds will not be released until all conditions are met.
+
+                \n\n**6️. Fee transparency**
+
+                \nMoïen guarantees **total transparency** on the fees applied to each transaction. Users know exactly how much they are paying and what the fees are for, whether it is service fees, cleaning fees, or other additional fees.
+
+                \n\n**7️. Customer support in case of problems**
+
+                \nIn case of a problem with a payment or transaction, Moïen provides a **responsive customer service** to quickly resolve issues. Support can intervene to help verify transactions, resolve disputes, and provide solutions as quickly as possible.
+
+                \n\n💡 **In summary, Moïen uses MangoPay to ensure secure and transparent payments. Thanks to this trusted provider and robust security measures, the platform offers a secure rental experience for tenants and owners.**
+                    ¨fr:Moïen prend la sécurité des paiements et des transactions très au sérieux et met en place plusieurs mesures pour assurer la protection de ses utilisateurs. Voici les principales garanties :
+
+                        \n\n1. **Paiements sécurisés via MangoPay** :
+                        \nMoïen utilise **MangoPay**, un prestataire de paiement réputé et sécurisé, qui respecte les normes de sécurité les plus strictes, telles que la **norme PCI DSS** (Payment Card Industry Data Security Standard). MangoPay garantit que toutes les informations bancaires et les paiements sont traités de manière confidentielle et sécurisée.
+
+                        \n\n2. **Cryptage des données sensibles** :
+                        \nToutes les données sensibles, telles que les informations de paiement, sont **cryptées** pour éviter toute interception ou piratage. Cela permet d’assurer que vos informations personnelles et bancaires sont protégées pendant toute la durée de la transaction.
+
+                        \n\n3. **Vérification de l’identité des utilisateurs** :
+                        \nAfin de prévenir la fraude, Moïen met en place un système de **vérification d'identité** pour les propriétaires et les locataires. Cela inclut la vérification de l’identité des personnes inscrites sur la plateforme, ainsi que des contrôles supplémentaires pour garantir que les profils sont authentiques.
+
+                        \n\n4. **Sécurisation des transactions via un système de dépôt garanti** :
+                        \nMoïen utilise un système de **dépôt garanti** pour les paiements. Cela signifie que l'argent est **retenu** par Moïen pendant la durée de la réservation, et il est **libéré** au propriétaire une fois que le séjour a débuté, assurant ainsi une sécurité pour les deux parties. Si un problème survient, Moïen agit en tant qu'intermédiaire pour résoudre le différend.
+
+                        \n\n5. **Protection des fonds en cas de litige** :
+                        \nEn cas de litige entre un locataire et un propriétaire, Moïen dispose d'un processus clair de **résolution des conflits**, et les paiements sont protégés jusqu'à ce que le différend soit résolu. Cela donne à chaque partie la tranquillité d'esprit que ses fonds ne seront pas libérés tant que toutes les conditions ne sont pas respectées.
+
+                        \n\n6. **Transparence des frais** :
+                        \nMoïen garantit une **transparence totale** sur les frais appliqués à chaque transaction. Les utilisateurs savent exactement combien ils paient et à quoi les frais sont destinés, qu'il s'agisse de frais de service, de frais de nettoyage ou d'autres frais supplémentaires.
+
+                        \n\n7. **Support client en cas de problème** :
+                        \nEn cas de problème avec un paiement ou une transaction, Moïen met à disposition un **service client réactif** pour résoudre rapidement les problèmes. Le support peut intervenir pour aider à vérifier les transactions, résoudre les différends et fournir des solutions dans les plus brefs délais.
+
+                        \n\n💡 **En résumé, Moïen utilise MangoPay pour garantir des paiements sécurisés et transparents. Grâce à ce prestataire de confiance et à des mesures de sécurité robustes, la plateforme offre une expérience de location sécurisée pour les locataires et les propriétaires.**
+                    ¨de:Moïen nimmt die Sicherheit von Zahlungen und Transaktionen sehr ernst und implementiert verschiedene Maßnahmen, um den Schutz seiner Nutzer zu gewährleisten. Hier sind die wichtigsten Garantien:
+
+                        \n\n**1️. Sichere Zahlungen über MangoPay**
+
+                        \nMoïen nutzt **MangoPay**, einen renommierten und sicheren Zahlungsanbieter, der die strengsten Sicherheitsstandards wie den **PCI DSS** (Payment Card Industry Data Security Standard) einhält. MangoPay stellt sicher, dass alle Bankinformationen und Zahlungen vertraulich und sicher verarbeitet werden.
+
+                        \n\n**2️. Verschlüsselung sensibler Daten**
+
+                        \nAlle sensiblen Daten, wie Zahlungsinformationen, werden **verschlüsselt**, um eine Abhörung oder ein Hacking zu verhindern. So wird sichergestellt, dass Ihre persönlichen und bankbezogenen Informationen während der gesamten Transaktion geschützt sind.
+
+                        \n\n**3️. Identitätsprüfung der Nutzer**
+
+                        \nZur Vermeidung von Betrug führt Moïen ein **Identitätsprüfungsverfahren** für Eigentümer und Mieter ein. Dies umfasst die Überprüfung der Identität der Personen, die sich auf der Plattform registriert haben, sowie zusätzliche Kontrollen, um sicherzustellen, dass die Profile authentisch sind.
+
+                        \n\n**4️. Sicherung von Transaktionen über ein garantiertes Einzahlungssystem**
+
+                        \nMoïen nutzt ein **garantiertes Einzahlungssystem** für Zahlungen. Das bedeutet, dass das Geld während des Buchungszeitraums von Moïen **gehalten** wird und erst an den Eigentümer **freigegeben** wird, wenn der Aufenthalt begonnen hat, um so Sicherheit für beide Parteien zu gewährleisten. Sollte ein Problem auftreten, fungiert Moïen als Vermittler zur Lösung des Konflikts.
+
+                        \n\n**5️. Schutz der Gelder im Falle eines Streits**
+
+                        \nIm Falle eines Streits zwischen einem Mieter und einem Eigentümer hat Moïen einen klaren **Konfliktlösungsprozess** und Zahlungen sind bis zur Klärung des Streits geschützt. Dies gibt beiden Parteien die Sicherheit, dass ihre Gelder nicht freigegeben werden, bis alle Bedingungen erfüllt sind.
+
+                        \n\n**6️. Transparenz der Gebühren**
+
+                        \nMoïen garantiert **vollständige Transparenz** bei den Gebühren, die für jede Transaktion erhoben werden. Die Nutzer wissen genau, wie viel sie bezahlen und wofür die Gebühren erhoben werden, ob es sich um Servicegebühren, Reinigungsgebühren oder andere zusätzliche Gebühren handelt.
+
+                        \n\n**7️. Kundenservice im Falle von Problemen**
+
+                        \nIm Falle eines Problems mit einer Zahlung oder Transaktion bietet Moïen einen **reaktiven Kundenservice**, um Probleme schnell zu lösen. Der Support kann eingreifen, um Transaktionen zu überprüfen, Streitigkeiten zu lösen und so schnell wie möglich Lösungen anzubieten.
+
+                        \n\n💡 **Zusammengefasst, Moïen nutzt MangoPay, um sichere und transparente Zahlungen zu gewährleisten. Dank dieses vertrauenswürdigen Anbieters und robuster Sicherheitsmaßnahmen bietet die Plattform ein sicheres Vermietungserlebnis für Mieter und Eigentümer.**
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+        
+        %faq-block-16
+            ~ text
+            ~ %faq-page
+            ~ ✅ What are the selection criteria for tenants and owners?
+                ¨fr:✅ Quels sont les critères de sélection des locataires et des propriétaires ?
+                ¨de:✅ Was sind die Auswahlkriterien für Mieter und Vermieter?
+            ~ Moïen places great importance on ensuring the quality of exchanges between tenants and owners. To protect both parties and ensure that each rental experience is pleasant and secure, several selection criteria are applied.
+
+                \n\n**1️. Selection criteria for owners**
+                
+                \n  * **Identity verification**:  
+                \n    * Each owner must go through an identity verification process to ensure the authenticity of their profile. This includes submitting official documents to confirm their identity.
+                \n  * **Compliance with safety standards**:  
+                \n    * The property offered for rent must comply with local safety and habitability standards, including safety equipment such as smoke detectors, compliance of electrical and gas installations.
+                \n  * **Transparency and reliability of listings**:  
+                \n    * Listings must be complete, transparent, and accurately reflect the condition of the property (recent photos, precise description, amenities, etc.). Moïen also evaluates reviews and feedback left by other tenants on the owners to ensure their reliability.
+                
+                \n\n**2️. Selection criteria for tenants**
+                
+                \n  * **Identity verification**:  
+                \n    * As with owners, tenants must go through an identity verification process to ensure they are who they claim to be. This also helps prevent fraud and abuse.
+                \n  * **Tenant history**:  
+                \n    * Moïen examines the rental history of tenants, including their reviews and feedback left by previous owners. Tenants with a good reputation and respectful behavior are preferred.
+                \n  * **Behavior and respect for rules**:  
+                \n    * Moïen encourages respectful behavior from tenants. Tenants must comply with house rules and those set by the owner, including cleanliness, respect for neighbors, and adherence to stay dates.
+                \n  * **Ability to meet payments**:  
+                \n    * Moïen also verifies that tenants have a reliable payment history. Tenants must prove their ability to pay their rent on time and reliably.
+                
+                \n\n**3️. Common criteria for tenants and owners**
+                
+                \n  * **Commitment to safety**:  
+                \n    * Both tenants and owners must commit to safe and honest practices. This includes protecting personal data and complying with local rental legislation.
+                \n  * **Respect for deadlines and commitments**:  
+                \n    * Moïen places particular emphasis on respecting commitments from each party, whether it is respecting booking dates, payments, or departure. Tenants and owners must demonstrate seriousness and punctuality.
+                
+                \n\n**4️. Additional selection process for subletting**
+                
+                \n  * **Approval from the main owner**:  
+                \n    * If a tenant wishes to sublet a property, they must obtain written approval from their main owner via the Moïen platform. Subletting conditions must comply with the short-term rental rules mentioned earlier.
+                
+                \n\n💡 **In summary, Moïen selects tenants and owners by ensuring they are reliable, respectful, and meet safety and legal criteria. The user verification and evaluation process guarantees a secure and pleasant rental experience for all parties involved.**
+                    ¨fr:Moïen met un point d'honneur à garantir la qualité des échanges entre locataires et propriétaires. Afin de protéger les deux parties et de s'assurer que chaque expérience de location soit agréable et sécurisée, plusieurs critères de sélection sont appliqués.
+
+                        \n\n**1. Critères de sélection des propriétaires**
+                        \n  * **Vérification de l’identité** :
+                        \n    * Chaque propriétaire doit passer par un processus de vérification d'identité pour garantir l’authenticité de son profil. Cela inclut la soumission de documents officiels pour confirmer son identité.
+                        \n  * **Conformité aux normes de sécurité** :
+                        \n    * Le logement proposé à la location doit respecter les normes de sécurité et d’habitabilité locales, incluant l’équipement de sécurité comme les détecteurs de fumée, la conformité des installations électriques et de gaz.
+                        \n  * **Transparence et fiabilité des annonces** :
+                        \n    * Les annonces doivent être complètes, transparentes, et refléter fidèlement l’état du bien (photos récentes, description précise, équipements, etc.). Moïen évalue également les évaluations et les avis laissés par d'autres locataires sur les propriétaires pour garantir leur fiabilité.
+
+                        \n\n**2. Critères de sélection des locataires**
+                        \n  * **Vérification de l’identité** :
+                        \n    * Comme pour les propriétaires, les locataires doivent passer un processus de vérification d'identité pour garantir qu'ils sont bien ceux qu'ils prétendent être. Cela permet également de prévenir les fraudes et les abus.
+                        \n  * **Historique des locataires** :
+                        \n    * Moïen examine l’historique de location des locataires, y compris leurs avis et évaluations laissés par les propriétaires précédents. Les locataires ayant une bonne réputation et un comportement respectueux sont privilégiés.
+                        \n  * **Comportement et respect des règles** :
+                        \n    * Moïen encourage un comportement respectueux de la part des locataires. Les locataires doivent respecter les règles de la maison et celles définies par le propriétaire, notamment en ce qui concerne la propreté, le respect du voisinage et le respect des dates de séjour.
+                        \n  * **Capacité à respecter les paiements** :
+                        \n    * Moïen vérifie également que les locataires ont un **historique de paiements fiable**. Les locataires doivent prouver leur capacité à payer leur loyer à temps et de manière fiable.
+
+                        \n\n**3. Critères communs pour les locataires et les propriétaires**
+                        \n  * **Engagement envers la sécurité** :
+                        \n    * Tant les locataires que les propriétaires doivent s’engager à respecter des pratiques sûres et honnêtes. Cela inclut la protection des données personnelles et la conformité avec la législation locale en matière de location.
+                        \n  * **Respect des délais et des engagements** :
+                        \n    * Moïen met un accent particulier sur le respect des engagements de chaque partie, qu'il s'agisse de respecter les dates de réservation, de paiement ou de départ. Les locataires et les propriétaires doivent faire preuve de sérieux et de ponctualité.
+
+                        \n\n**4. Processus de sélection supplémentaire pour la sous-location**
+                        \n  * **Accord du propriétaire principal** :
+                        \n    * Si un locataire souhaite sous-louer un bien, il doit obtenir l'accord **écrit** de son **propriétaire principal** via la plateforme Moïen. Les conditions de sous-location doivent respecter les règles de location à court terme mentionnées précédemment.
+
+                        \n\n💡 **En résumé, Moïen sélectionne les locataires et les propriétaires en s'assurant qu'ils sont fiables, respectueux et qu'ils remplissent les critères de sécurité et de légalité. Le processus de vérification et d’évaluation des utilisateurs garantit une expérience de location sécurisée et agréable pour toutes les parties impliquées.** 
+                    ¨de:Moïen legt großen Wert darauf, die Qualität der Austauschbeziehungen zwischen Mietern und Eigentümern sicherzustellen. Zum Schutz beider Parteien und um zu gewährleisten, dass jede Miet-Erfahrung angenehm und sicher ist, werden mehrere Auswahlkriterien angewendet.
+
+                        \n\n**1. Auswahlkriterien für Eigentümer**
+                        
+                        \n  * **Identitätsprüfung**:  
+                        \n    * Jeder Eigentümer muss einen Identitätsprüfungsprozess durchlaufen, um die Authentizität seines Profils zu gewährleisten. Dies umfasst das Einreichen offizieller Dokumente zur Bestätigung seiner Identität.
+                        \n  * **Einhaltung der Sicherheitsstandards**:  
+                        \n    * Die angebotene Mietimmobilie muss den lokalen Sicherheits- und Habitabilitätsstandards entsprechen, einschließlich Sicherheitsausstattungen wie Rauchmeldern, der Übereinstimmung der elektrischen und gasbetriebenen Installationen.
+                        \n  * **Transparenz und Zuverlässigkeit der Angebote**:  
+                        \n    * Die Anzeigen müssen vollständig, transparent und exakt den Zustand der Immobilie widerspiegeln (aktuelle Fotos, präzise Beschreibung, Annehmlichkeiten usw.). Moïen bewertet auch die Bewertungen und Rückmeldungen von anderen Mietern zu den Eigentümern, um deren Zuverlässigkeit sicherzustellen.
+                        
+                        \n\n**2. Auswahlkriterien für Mieter**
+                        
+                        \n  * **Identitätsprüfung**:  
+                        \n    * Wie bei den Eigentümern müssen auch Mieter einen Identitätsprüfungsprozess durchlaufen, um sicherzustellen, dass sie die Personen sind, für die sie sich ausgeben. Dies hilft auch, Betrug und Missbrauch zu verhindern.
+                        \n  * **Mieterhistorie**:  
+                        \n    * Moïen prüft die Miethistorie der Mieter, einschließlich ihrer Bewertungen und Rückmeldungen von früheren Eigentümern. Mieter mit einem guten Ruf und respektvollem Verhalten werden bevorzugt.
+                        \n  * **Verhalten und Respekt vor den Regeln**:  
+                        \n    * Moïen fördert respektvolles Verhalten von Mietern. Mieter müssen die Hausregeln und die vom Eigentümer festgelegten Regeln einhalten, einschließlich Sauberkeit, Respekt gegenüber Nachbarn und Einhaltung der Aufenthaltsdaten.
+                        \n  * **Fähigkeit, Zahlungen zu leisten**:  
+                        \n    * Moïen prüft auch, ob Mieter eine zuverlässige Zahlungshistorie haben. Mieter müssen ihre Fähigkeit nachweisen, ihre Miete pünktlich und zuverlässig zu bezahlen.
+                        
+                        \n\n**3. Gemeinsame Kriterien für Mieter und Eigentümer**
+                        
+                        \n  * **Engagement für Sicherheit**:  
+                        \n    * Sowohl Mieter als auch Eigentümer müssen sich zu sicheren und ehrlichen Praktiken verpflichten. Dazu gehört der Schutz persönlicher Daten und die Einhaltung der lokalen Mietgesetze.
+                        \n  * **Respekt vor Fristen und Verpflichtungen**:  
+                        \n    * Moïen legt besonderen Wert auf die Einhaltung der Verpflichtungen von beiden Parteien, sei es bei der Einhaltung der Buchungsdaten, Zahlungen oder Abreise. Mieter und Eigentümer müssen Seriosität und Pünktlichkeit zeigen.
+                        
+                        \n\n**4. Zusätzlicher Auswahlprozess für Untermietverhältnisse**
+                        
+                        \n  * **Zustimmung des Hauptvermieters**:  
+                        \n    * Wenn ein Mieter eine Immobilie untervermieten möchte, muss er die **schriftliche Zustimmung** seines **Hauptvermieters** über die Moïen-Plattform einholen. Die Bedingungen für die Untermiete müssen den zuvor genannten Kurzzeitmietregeln entsprechen.
+                        
+                        \n\n💡 **Zusammengefasst, Moïen wählt Mieter und Eigentümer aus, indem sichergestellt wird, dass sie zuverlässig, respektvoll und den Sicherheits- und rechtlichen Kriterien entsprechen. Der Verifizierungs- und Bewertungsprozess der Nutzer garantiert eine sichere und angenehme Miet-Erfahrung für alle beteiligten Parteien.**
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+        
+        %faq-block-17
+            ~ text
+            ~ %faq-page
+            ~ ⚖️ What to do in case of a dispute or problem with a rental?
+                ¨fr:⚖️ Que faire en cas de litige ou de problème avec une location ?
+                ¨de:⚖️ Was tun bei einem Streit oder Problem mit einer Vermietung?
+            ~ Moïen has several measures in place to ensure a quick and fair resolution of disputes or problems that may arise during a rental. Here are the steps to follow if you are faced with a difficult situation:
+
+                \n\n**1️. Contact the other party (tenant or owner) first**
+
+                \n  * **Direct communication**:  
+                \n    * Initially, it is recommended to try to **resolve the issue directly** with the other party, whether you are a tenant or an owner. Sometimes a misunderstanding can be easily resolved through a cordial exchange. Clearly explain the situation, listen to the other party, and try to find an amicable solution.
+
+                \n\n**2️. If the problem persists, contact Moïen support**
+
+                \n  * **Online assistance**:  
+                \n    * If the situation is not resolved between you and the other party, you can contact **Moïen customer support** via the platform interface. Moïen has a dedicated team to help resolve conflicts and find a fair solution for both parties.
+
+                \n\n**3️. Mediation process**
+
+                \n  * **Dispute resolution**:  
+                \n    * If the dispute persists despite support intervention, Moïen offers a **mediation** process to help resolve conflicts. This process may include an investigation of the facts, an analysis of the evidence, and a proposed solution based on the contract terms.
+
+                \n\n**4️. Verification of conditions and contracts**
+
+                \n  * **Compliance with contractual commitments**:  
+                \n    * Moïen will verify whether the **rental contract conditions** have been met by both parties. The contracts are validated by independent lawyers to ensure they meet legal standards and are balanced for tenants and owners. This provides a clear basis for resolving issues.
+
+                \n\n**5️. Payment protection**
+
+                \n  * **Securing funds**:  
+                \n    * In case of a payment-related issue (e.g., a refund not made, a rental that does not match the description, etc.), the funds are **secured by Moïen** during the dispute period. Moïen can intervene to block or return the money depending on the outcome of the mediation process.
+
+                \n\n**6️. Final resolution**
+
+                \n  * **Moïen's final decision**:  
+                \n    * If mediation does not lead to a satisfactory solution, Moïen will make a **final decision** based on the evidence and contracts. This may include a refund, cancellation of the reservation, or any other solution deemed fair based on the situation.
+
+                \n\n**7️. Prevention of future disputes**
+
+                \n  * **Reviews and evaluations**:  
+                \n    * After each rental, tenants and owners have the opportunity to leave **reviews and evaluations**. These evaluations help create a trusted community on the platform and can help avoid future disputes by providing transparency on past experiences.
+
+                \n\n💡 **In summary, if you are faced with a dispute or problem with a rental on Moïen, start by trying to resolve the situation directly with the other party, then contact Moïen support if necessary. Moïen does everything possible to ensure fair mediation and protect users' funds.**
+                    ¨fr:Moïen met en place plusieurs mesures pour garantir une résolution rapide et équitable des litiges ou problèmes qui peuvent survenir lors d'une location. Voici les étapes à suivre si vous êtes confronté à une situation difficile :
+
+                        \n\n**1. Contactez d'abord l'autre partie (locataire ou propriétaire)**
+                        \n  * **Communication directe** :
+                        \n    * Dans un premier temps, il est recommandé de tenter de **résoudre le problème directement** avec l'autre partie, que vous soyez locataire ou propriétaire. Parfois, un malentendu peut être facilement réglé par un échange cordial. Expliquez clairement la situation, écoutez l'autre partie et essayez de trouver une solution amiable.
+
+                        \n\n**2. Si le problème persiste, contactez le support Moïen**
+                        \n  * **Assistance en ligne** :
+                        \n    * Si la situation ne se résout pas entre vous et l'autre partie, vous pouvez contacter le **support client Moïen** via l'interface de la plateforme. Moïen dispose d'une équipe dédiée pour aider à résoudre les conflits et trouver une solution équitable pour les deux parties.
+
+                        \n\n**3. Processus de médiation**
+                        \n  * **Règlement des litiges** :
+                        \n    * Si le litige persiste malgré l'intervention du support, Moïen propose un processus de **médiation** pour aider à résoudre les conflits. Ce processus peut inclure une enquête sur les faits, une analyse des preuves et une proposition de solution basée sur les termes du contrat.
+
+                        \n\n**4. Vérification des conditions et des contrats**
+                        \n  * **Respect des engagements contractuels** :
+                        \n    * Moïen vérifiera si les **conditions du contrat** de location ont été respectées par les deux parties. Les contrats sont validés par des juristes indépendants pour garantir qu'ils respectent les normes légales et qu'ils sont équilibrés pour locataires et propriétaires. Cela permet d'avoir une base claire pour résoudre les problèmes.
+
+                        \n\n**5. Protection des paiements**
+                        \n  * **Sécurisation des fonds** :
+                        \n    * En cas de problème lié au paiement (par exemple, un remboursement non effectué, une location qui ne correspond pas à la description, etc.), les fonds sont **sécurisés par Moïen** pendant la durée du différend. Moïen peut intervenir pour bloquer ou restituer l'argent selon le résultat du processus de médiation.
+
+                        \n\n**6. Résolution finale**
+                        \n  * **Décision finale de Moïen** :
+                        \n    * Si la médiation ne mène pas à une solution satisfaisante, Moïen prendra une **décision finale** basée sur les preuves et les contrats. Cela peut inclure un remboursement, une annulation de la réservation ou toute autre solution jugée équitable en fonction de la situation.
+
+                        \n\n**7. Prévention des litiges futurs**
+                        \n  * **Avis et évaluations** :
+                        \n    * Après chaque location, les locataires et propriétaires ont la possibilité de laisser des **avis et des évaluations**. Ces évaluations aident à créer une communauté de confiance sur la plateforme et peuvent aider à éviter de futurs litiges en fournissant une transparence sur les expériences passées.
+
+                        \n\n💡 **En résumé, si vous êtes confronté à un litige ou un problème avec une location sur Moïen, commencez par tenter de résoudre la situation directement avec l'autre partie, puis contactez le support Moïen si nécessaire. Moïen met tout en œuvre pour assurer une médiation équitable et protéger les fonds des utilisateurs.**
+                    ¨de:Moïen hat mehrere Maßnahmen ergriffen, um eine schnelle und faire Lösung von Streitigkeiten oder Problemen zu gewährleisten, die während einer Mietzeit auftreten können. Hier sind die Schritte, die Sie befolgen sollten, wenn Sie mit einer schwierigen Situation konfrontiert sind:
+
+                        \n\n**1. Kontaktieren Sie zunächst die andere Partei (Mieter oder Eigentümer)**
+        
+                        \n  * **Direkte Kommunikation**:  
+                        \n    * Zunächst wird empfohlen, zu versuchen, das Problem direkt mit der anderen Partei zu lösen, egal ob Sie Mieter oder Eigentümer sind. Manchmal kann ein Missverständnis einfach durch einen freundlichen Austausch geklärt werden. Erklären Sie die Situation klar, hören Sie der anderen Partei zu und versuchen Sie, eine einvernehmliche Lösung zu finden.
+        
+                        \n\n**2. Wenn das Problem weiterhin besteht, kontaktieren Sie den Moïen-Support**
+        
+                        \n  * **Online-Unterstützung**:  
+                        \n    * Wenn die Situation nicht zwischen Ihnen und der anderen Partei gelöst wird, können Sie den **Moïen-Kundensupport** über die Plattform-Oberfläche kontaktieren. Moïen hat ein spezielles Team, das bei der Lösung von Konflikten hilft und eine faire Lösung für beide Parteien findet.
+        
+                        \n\n**3. Mediationsprozess**
+        
+                        \n  * **Streitbeilegung**:  
+                        \n    * Wenn der Streit trotz der Unterstützung weiterhin besteht, bietet Moïen einen **Mediationsprozess** an, um Konflikte zu lösen. Dieser Prozess kann eine Untersuchung der Fakten, eine Analyse der Beweise und einen Lösungsvorschlag auf Grundlage der Vertragsbedingungen beinhalten.
+        
+                        \n\n**4. Überprüfung der Bedingungen und Verträge**
+        
+                        \n  * **Einhaltung der vertraglichen Verpflichtungen**:  
+                        \n    * Moïen wird überprüfen, ob die **Bedingungen des Mietvertrags** von beiden Parteien erfüllt wurden. Die Verträge werden von unabhängigen Juristen validiert, um sicherzustellen, dass sie den gesetzlichen Standards entsprechen und für Mieter und Eigentümer ausgewogen sind. Dies schafft eine klare Grundlage zur Lösung von Problemen.
+        
+                        \n\n**5. Zahlungsschutz**
+        
+                        \n  * **Sicherung der Gelder**:  
+                        \n    * Im Falle eines zahlungsbezogenen Problems (z.B. eine nicht durchgeführte Rückerstattung, eine Mietobjekt, das nicht der Beschreibung entspricht usw.) werden die Gelder **von Moïen gesichert** während des Streitzeitraums. Moïen kann eingreifen, um das Geld zu blockieren oder zurückzugeben, je nach dem Ergebnis des Mediationsprozesses.
+        
+                        \n\n**6. Endgültige Lösung**
+        
+                        \n  * **Endgültige Entscheidung von Moïen**:  
+                        \n    * Wenn die Mediation zu keiner zufriedenstellenden Lösung führt, wird Moïen eine **endgültige Entscheidung** basierend auf den Beweisen und Verträgen treffen. Dies kann eine Rückerstattung, eine Stornierung der Reservierung oder eine andere Lösung beinhalten, die als fair im Hinblick auf die Situation angesehen wird.
+        
+                        \n\n**7. Vermeidung zukünftiger Streitigkeiten**
+        
+                        \n  * **Bewertungen und Bewertungen**:  
+                        \n    * Nach jeder Mietzeit haben Mieter und Eigentümer die Möglichkeit, **Bewertungen und Bewertungen** abzugeben. Diese Bewertungen tragen dazu bei, eine vertrauensvolle Gemeinschaft auf der Plattform zu schaffen und können helfen, zukünftige Streitigkeiten zu vermeiden, indem sie Transparenz über vergangene Erfahrungen bieten.
+        
+                        \n\n💡 **Zusammenfassend lässt sich sagen, dass Sie, wenn Sie mit einem Streit oder Problem bei einer Mietbuchung auf Moïen konfrontiert sind, zunächst versuchen sollten, die Situation direkt mit der anderen Partei zu lösen, und dann den Moïen-Support kontaktieren sollten, falls erforderlich. Moïen tut alles, um eine faire Mediation zu gewährleisten und die Gelder der Nutzer zu schützen.**
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+        
+        %faq-block-18
+            ~ text
+            ~ %faq-page
+            ~ 💸 Nimmt Moïen eine Provision auf Transaktionen?
+                ¨fr:💸 Moïen prend-il une commission sur les transactions ?
+                ¨de:💸 Nimmt Moïen eine Provision auf Transaktionen?
+            ~ **1️. Short-term rental**
+
+                \n  * **Moïen commission**:  
+                \n    * Moïen charges a **commission** on each **reservation** made for a short-term rental. The commission is applied to each transaction, whether for a stay of a few days or a few weeks.
+                \n  * **For owners**:  
+                \n    * The commission is deducted from the rent amount paid by the tenant for the rental period.
+                \n  * **For tenants**:  
+                \n    * Tenants may also have **service fees** for using the platform, which are clearly displayed before confirming the reservation.
+
+                \n\n**2️. Long-term rental**
+
+                \n  * **Moïen commission**:  
+                \n    * Moïen applies a commission on **long-term reservations**. This commission is calculated on the total rent amount paid for the duration of the rental contract.
+                \n  * **For owners**:  
+                \n    * A commission is applied to the amount paid by the tenant for the long-term rental, usually on a monthly basis or for the entire agreed period.
+                \n  * **For tenants**:  
+                \n    * Service fees may be applied to the long-term rental transaction, depending on the services chosen and the duration of the reservation.
+
+                \n\n**3️. Subletting**
+
+                \n  * **Moïen commission**:  
+                \n    * For subletting, the commission is similar to that applied for **short-term rentals**, as it involves flexible management of reservations and payments.
+                \n  * **For owners**:  
+                \n    * The commission is deducted from the amount paid by the subletting tenant. The prior approval of the owner is required via the Moïen platform.
+                \n  * **For tenants**:  
+                \n    * Subletting tenants may be subject to **service fees** similar to those for short-term rentals, clearly detailed before confirmation.
+
+                \n\n**In summary:**
+
+                \n  * **Short-term**: Commission on each reservation made.
+                \n  * **Long-term**: Commission applied on the total or monthly rent amount.
+                \n  * **Subletting**: Commission similar to that of short-term rentals, with prior approval from the owner.
+
+                \n\nThe commission is calculated based on the type of rental and the duration of the commitment and is clearly specified before each transaction.
+                    ¨fr:Moïen applique des commissions sur les transactions, en fonction du type de location. Voici les détails :
+
+                        \n\n**1. Location Court Terme**
+                        \n  * **Commission Moïen** :
+                        \n    * Moïen prélève une **commission** sur chaque **réservation** effectuée pour une location de courte durée. La commission est appliquée à chaque transaction, que ce soit pour un séjour de quelques jours ou quelques semaines.
+                        \n  * **Pour les propriétaires** :
+                        \n    * La commission est prélevée sur le montant du loyer payé par le locataire pour la période de location.
+                        \n  * **Pour les locataires** :
+                        \n    * Les locataires peuvent également avoir des **frais de service** pour l'utilisation de la plateforme, qui sont clairement affichés avant la confirmation de la réservation.
+
+                        \n\n**2. Location Long Terme**
+                        \n  * **Commission Moïen** :
+                        \n    * Moïen applique une commission sur les **réservations de longue durée**. Cette commission est calculée sur le montant total du loyer payé pour la durée du contrat de location.
+                        \n  * **Pour les propriétaires** :
+                        \n    * Une commission est appliquée sur le montant payé par le locataire pour la location longue durée, généralement de manière mensuelle ou sur la totalité de la période convenue.
+                        \n  * **Pour les locataires** :
+                        \n    * Des **frais de service** peuvent être appliqués sur la transaction de location longue durée, en fonction des services choisis et de la durée de la réservation.
+
+                        \n\n**3. Sous-Location**
+                        \n  * **Commission Moïen** :
+                        \n    * Pour la sous-location, la commission est similaire à celle appliquée pour les **locations court terme**, car elle implique une gestion flexible des réservations et des paiements.
+                        \n  * **Pour les propriétaires** :
+                        \n    * La commission est prélevée sur le montant payé par le locataire sous-loueur. L'accord préalable du propriétaire est requis via la plateforme Moïen.
+                        \n  * **Pour les locataires** :
+                        \n    * Les locataires sous-loueurs peuvent être soumis à des **frais de service** similaires à ceux des locations à court terme, clairement détaillés avant la confirmation.
+
+                        \n\n**En résumé :**
+                        \n  * **Court terme** : Commission sur chaque réservation effectuée.
+                        \n  * **Long terme** : Commission appliquée sur le montant total ou mensuel de la location.
+                        \n  * **Sous-location** : Commission similaire à celle des locations court terme, avec un accord préalable du propriétaire.
+
+                        \n\nLa commission est calculée selon le type de location et la durée de l'engagement, et est clairement précisée avant chaque transaction.
+                    ¨de:Moïen erhebt Provisionen auf Transaktionen, abhängig vom Miettyp. Hier sind die Details:
+
+                        \n\n**1. Kurzzeitvermietung**
+        
+                        \n  * **Moïen-Provision**:  
+                        \n    * Moïen erhebt eine **Provision** auf jede **Reservierung**, die für eine Kurzzeitvermietung vorgenommen wird. Die Provision wird auf jede Transaktion angewendet, egal ob für einen Aufenthalt von wenigen Tagen oder Wochen.
+                        \n  * **Für Eigentümer**:  
+                        \n    * Die Provision wird vom Mietbetrag abgezogen, den der Mieter für den Mietzeitraum bezahlt.
+                        \n  * **Für Mieter**:  
+                        \n    * Mieter können auch **Servicegebühren** für die Nutzung der Plattform haben, die vor der Bestätigung der Reservierung deutlich angezeigt werden.
+        
+                        \n\n**2. Langzeitvermietung**
+        
+                        \n  * **Moïen-Provision**:  
+                        \n    * Moïen erhebt eine Provision auf **Langzeitreservierungen**. Diese Provision wird auf den gesamten Mietbetrag angewendet, der für die Dauer des Mietvertrags bezahlt wird.
+                        \n  * **Für Eigentümer**:  
+                        \n    * Eine Provision wird auf den Betrag angewendet, den der Mieter für die Langzeitmiete bezahlt, normalerweise monatlich oder für den gesamten vereinbarten Zeitraum.
+                        \n  * **Für Mieter**:  
+                        \n    * Servicegebühren können auf die Langzeitmiettransaktion angewendet werden, abhängig von den gewählten Dienstleistungen und der Dauer der Reservierung.
+        
+                        \n\n**3. Untermiete**
+        
+                        \n  * **Moïen-Provision**:  
+                        \n    * Für die Untermiete ist die Provision ähnlich wie bei **Kurzzeitvermietungen**, da sie eine flexible Verwaltung der Reservierungen und Zahlungen beinhaltet.
+                        \n  * **Für Eigentümer**:  
+                        \n    * Die Provision wird vom Betrag abgezogen, den der Untermieter bezahlt. Die vorherige Zustimmung des Eigentümers ist über die Moïen-Plattform erforderlich.
+                        \n  * **Für Mieter**:  
+                        \n    * Untermieter können ähnlichen **Servicegebühren** unterliegen wie bei Kurzzeitvermietungen, die vor der Bestätigung klar angegeben werden.
+        
+                        \n\n**Zusammenfassung:**
+        
+                        \n  * **Kurzzeit**: Provision auf jede getätigte Reservierung.
+                        \n  * **Langzeit**: Provision auf den Gesamt- oder monatlichen Mietbetrag angewendet.
+                        \n  * **Untermiete**: Provision ähnlich der der Kurzzeitvermietungen, mit vorheriger Zustimmung des Eigentümers.
+        
+                        \n\nDie Provision wird basierend auf dem Miettyp und der Dauer des Engagements berechnet und vor jeder Transaktion klar angegeben.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+        
+        %faq-block-19
+            ~ text
+            ~ %faq-page
+            ~ 📞 How to contact Moïen customer service?
+                ¨fr:📞 Comment contacter le service client de Moïen ?
+                ¨de:📞 Wie kontaktiere ich den Kundenservice von Moïen?
+            ~ You can easily contact Moïen customer service in several ways:
+
+                \n\n**1️. By email**
+
+                \nSend an email to our support team at:  
+                \n**support@moien.com**
+
+                \n\nWe commit to responding within **48 hours**.
+
+                \n\n**2️. Via the platform interface**
+
+                \n  * Log in to your Moïen account.
+                \n  * Go to the **"Help"** or **"Support"** section of your dashboard.
+                \n  * You will find FAQ information or can directly **submit a request** via a contact form.
+
+                \n\n**3. Via online chat**
+
+                \nAn **online chat** is also available directly on the Moïen platform to ask your questions in real-time. A member of our team will respond quickly.
+
+                \n\nOur team is here to help you, answer your questions, and resolve any issues you may encounter.
+                    ¨fr:Vous pouvez facilement contacter le service client de Moïen de plusieurs manières :
+
+                        \n\n**1. Par e-mail**
+                        \nEnvoyez un e-mail à notre équipe support à l'adresse suivante :  
+                        \n**support@moien.com**
+                        \nNous nous engageons à répondre dans les **48 heures**.
+
+                        \n\n**2. Via l'interface de la plateforme**
+                        \n  * Connectez-vous à votre compte sur Moïen.
+                        \n  * Accédez à la section **"Aide"** ou **"Support"** de votre tableau de bord.
+                        \n  * Vous pourrez y trouver des informations FAQ ou directement **soumettre une demande** via un formulaire de contact.
+
+                        \n\n**3. Via le chat en ligne**
+                        \nUn **chat en ligne** est également disponible directement sur la plateforme Moïen, pour poser vos questions en temps réel. Un membre de notre équipe vous répondra rapidement.
+
+                        \n\nNotre équipe est là pour vous aider, répondre à vos questions et résoudre tout problème que vous pourriez rencontrer.
+                    ¨de:Sie können den Kundenservice von Moïen auf mehreren Wegen einfach kontaktieren:
+
+                        \n\n**1. Per E-Mail**
+        
+                        \nSenden Sie eine E-Mail an unser Support-Team unter:  
+                        \n**support@moien.com**
+                        \nWir verpflichten uns, innerhalb von **48 Stunden** zu antworten.
+        
+                        \n\n**2. Über die Plattform-Oberfläche**
+        
+                        \n  * Melden Sie sich bei Ihrem Moïen-Konto an.
+                        \n  * Gehen Sie zum Abschnitt **"Hilfe"** oder **"Support"** auf Ihrem Dashboard.
+                        \n  * Sie finden dort FAQ-Informationen oder können direkt eine **Anfrage** über ein Kontaktformular stellen.
+        
+                        \n\n**3. Über den Online-Chat**
+        
+                        \n- Ein **Online-Chat** steht ebenfalls direkt auf der Moïen-Plattform zur Verfügung, um Ihre Fragen in Echtzeit zu stellen. Ein Mitglied unseres Teams wird schnell antworten.
+        
+                        \n\nUnser Team ist hier, um Ihnen zu helfen, Ihre Fragen zu beantworten und alle Probleme zu lösen, auf die Sie stoßen könnten.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+        
+        %faq-block-20
+            ~ text
+            ~ %faq-page
+            ~ 🛡️ Does Moïen offer insurance for rentals?
+                ¨fr:🛡️ Moïen propose-t-il des assurances pour les locations ?
+                ¨de:🛡️ Bietet Moïen Versicherungen für Vermietungen an?
+            ~ Moïen works with insurance partners who offer **specific contracts** to cover risks related to **rental** and **subletting**. These insurances are designed to protect both **tenants** and **owners** in case of damage, disputes, or incidents during the rental period.
+
+                \n\n**1️. Insurance for owners and tenants**
+
+                \nThe offered insurances cover, among other things:
+
+                \n  * **Material damage** caused by tenants to the rented property.
+                \n  * **Incidents** occurring during the rental, such as water damage, theft, or losses.
+
+                \n\n**2️. Subletting**
+
+                \nIf you opt for subletting, the insurances also cover this type of contract, but it is important to note that the **owner's approval is necessary** to validate this subletting.
+
+                \n\n**3️. Advice according to the country**
+
+                \nDepending on the rental country, Moïen can direct you to specialized local insurers who offer solutions tailored to your situation. Insurance regulations may vary, so it is essential to comply with local requirements.
+
+                \n\n**4️. Renter's responsibility**
+
+                \nIt is the **responsibility of the owner or tenant** to ensure that their insurance is **compliant with the use** of the rental or subletting. Moïen recommends thoroughly checking that your contract covers the risks related to your type of rental, and if necessary, contacting an insurer for additional information.
+
+                \n\nMoïen facilitates the connection with the right insurances, but it is essential to ensure that you are adequately covered according to your situation and local legislation.
+                    ¨fr:Moïen travaille avec des partenaires d'assurance qui proposent des **contrats spécifiques** pour couvrir les risques liés à la **location** et à la **sous-location**. Ces assurances sont conçues pour protéger à la fois les **locataires** et les **propriétaires** en cas de dommages, de litiges ou d'incidents pendant la durée de la location.
+
+                        \n\n**1. Assurance pour les propriétaires et locataires**
+                        \nLes assurances proposées couvrent notamment :
+                        \n  * **Les dommages matériels** causés par les locataires au bien loué.
+                        \n  * **Les incidents** survenant pendant la location, comme les dégâts d'eau, le vol ou les pertes.
+
+                        \n\n**2. Sous-location**
+                        \nSi vous optez pour la sous-location, les assurances prennent également en compte ce type de contrat, mais il est important de noter que l'**accord du propriétaire est nécessaire** pour valider cette sous-location.
+
+                        \n\n**3. Conseils selon le pays**
+                        \nEn fonction du pays de la location, Moïen peut vous orienter vers des assureurs locaux spécialisés qui proposent des solutions adaptées à votre situation. Les régulations en matière d'assurance peuvent varier, et il est donc essentiel de se conformer aux exigences locales.
+
+                        \n\n**4. Responsabilité du loueur**
+                        \nIl est de la **responsabilité du propriétaire ou du locataire** de s'assurer que leur assurance est en **conformité avec l'usage** de la location ou de la sous-location. Moïen recommande de bien vérifier que votre contrat couvre les risques liés à votre type de location, et si nécessaire, de contacter un assureur pour obtenir des informations supplémentaires.
+
+                        \n\nMoïen facilite la mise en relation avec les bonnes assurances, mais il reste essentiel de s'assurer que vous êtes couvert de manière adéquate en fonction de votre situation et de la législation locale.
+                    ¨de:Moïen arbeitet mit Versicherungspartnern zusammen, die **spezifische Verträge** anbieten, um Risiken im Zusammenhang mit **Mietverhältnissen** und **Untermietverhältnissen** abzudecken. Diese Versicherungen sind darauf ausgelegt, sowohl **Mieter** als auch **Vermieter** im Falle von Schäden, Streitigkeiten oder Vorfällen während der Mietdauer zu schützen.
+
+                        \n\n**1. Versicherung für Vermieter und Mieter**
+
+                        \nDie angebotenen Versicherungen decken unter anderem:
+
+                        \n  * **Sachschäden**, die von Mietern an der gemieteten Immobilie verursacht werden.
+                        \n  * **Vorfälle**, die während der Miete auftreten, wie Wasserschäden, Diebstahl oder Verluste.
+
+                        \n\n**2. Untermiete**
+
+                        \nWenn Sie sich für eine Untermiete entscheiden, decken die Versicherungen auch diese Art von Vertrag ab, jedoch ist es wichtig zu beachten, dass die **Zustimmung des Vermieters erforderlich ist**, um diese Untermiete zu validieren.
+
+                        \n\n**3. Beratung je nach Land**
+
+                        \nJe nach Mietland kann Moïen Sie an spezialisierte lokale Versicherer weitervermitteln, die Lösungen anbieten, die auf Ihre Situation zugeschnitten sind. Die Versicherungsbestimmungen können variieren, daher ist es wichtig, die lokalen Anforderungen zu erfüllen.
+
+                        \n\n**4. Verantwortung des Mieters**
+
+                        \nEs liegt in der **Verantwortung des Vermieters oder Mieters**, sicherzustellen, dass ihre Versicherung **mit der Nutzung** der Miete oder Untermiete übereinstimmt. Moïen empfiehlt, Ihren Vertrag gründlich zu überprüfen, um sicherzustellen, dass er die mit Ihrer Art der Miete verbundenen Risiken abdeckt. Bei Bedarf sollten Sie einen Versicherer kontaktieren, um zusätzliche Informationen zu erhalten.
+
+                        \n\nMoïen erleichtert die Verbindung zu den richtigen Versicherungen, aber es ist wichtig, sicherzustellen, dass Sie entsprechend Ihrer Situation und der lokalen Gesetzgebung ausreichend abgedeckt sind.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+        

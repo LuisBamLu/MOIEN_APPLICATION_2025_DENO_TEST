@@ -1,0 +1,16 @@
+RENTAL_MODE
+
+    id number name
+
+        short-term
+            ~ 1
+            ~ Short term
+              ¨fr:Court terme
+              ¨de:Kurzfristig
+
+
+        long-term
+            ~ 2
+            ~ Long term
+              ¨fr:Long terme
+              ¨de:Langfristig

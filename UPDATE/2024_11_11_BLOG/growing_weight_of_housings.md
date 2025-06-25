@@ -1,0 +1,124 @@
+# The Growing Weight of Housing: How Moien Lightens Your Budget
+
+**Teaser**: **Housing costs are taking up an increasing share of household budgets. Discover why—and how Moien helps free up spending power through subletting.**
+
+## The Rise of Housing Costs in Household Budgets
+
+Since the 1970s, housing expenses in France have steadily risen, taking up more and more of household budgets. Back then, housing costs made up about 10% of total spending—a relatively small share compared to food expenses. However, this share has since grown steadily: it reached 20% in the 1980s, 27% in the 2000s, and today hovers around 30% of household budgets.
+
+This shift reflects a broader trend: housing has become one of the largest household expenses, often surpassing food, which was once the dominant budget item. This change is even more pronounced in densely populated urban areas and large metropolitan areas, where strong housing demand and limited supply have driven prices up significantly. According to an [analysis by Eurostat](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Housing_statistics), this housing pressure is not just a French challenge—it also affects other European countries where households are dedicating an increasing share of their income to housing.
+
+Across Europe, the rising share of housing costs, particularly in major cities, is increasingly concerning for young professionals and families. These expenses reduce available budgets for other areas like leisure, travel, and even savings, limiting lifestyle choices and mobility options.
+
+## Causes of Increasing Housing Costs in Household Budgets
+
+Several factors contribute to the rising share of housing costs in household budgets across Europe and in France.
+
+1. **Increasing Property Prices**: Rising property prices have made buying or renting increasingly expensive. High population density in large cities and a shortage of available housing exacerbate the issue. For more information, see this analysis of property price trends in France.
+2. **Maintenance Costs and Charges**: Expenses related to housing maintenance, charges, and energy continue to rise. Since the 2000s, energy costs have significantly impacted household budgets, especially as recent energy crises have sharply increased prices.
+3. **Rental Regulations**: While intended to protect tenants, restrictive regulations can limit supply and indirectly drive up housing costs by reducing the number of available rentals. Cities like [Paris](https://www.paris.fr/), Berlin, and [Amsterdam](https://www.amsterdam.nl/) apply rent-control regulations, but these measures sometimes have unintended effects by limiting supply.
+4. **Rising Interest Rates**: Although interest rates were low for a long time, they have recently started to climb, increasing mortgage costs and further restricting homeownership, especially for those needing to finance their purchase. An analysis from the Banque de France explores how interest rates impact the French real estate market.
+
+Combined, these factors create a structural financial burden for households, making housing access increasingly difficult and costly. France is not alone in this situation; in many other European countries, rising property prices, high maintenance costs, and taxes also add to the weight of housing expenses for households.
+
+## Moien: A Solution to Reduce Housing Costs through Subletting
+
+In response, [Moien](https://www.moien.com/) offers an innovative approach to ease this burden. The platform enables housing subletting, providing tenants with a way to earn income during periods when they are away from home. Whether for business trips, vacations, or extended absences, subletting provides households with extra income by leveraging their existing living space.
+
+Moien simplifies this process by offering a safe, secure, and straightforward approach to subletting. By choosing this solution, tenants can ease the burden of housing costs without increasing fixed expenses, freeing up spending power for other needs. Moien promotes a new dynamic for optimizing housing resources, helping balance the share of housing costs in household budgets.
+
+## A European Vision for Real Estate
+
+In addition to helping individuals make better use of their living spaces, Moien aims for a broader goal of optimizing real estate resources across Europe. By facilitating subletting, Moien seeks to reduce excessive housing costs, while enhancing accessibility and mobility for all. This innovative approach, applicable across Europe, provides a practical response to the common challenge of rising housing costs.
+
+By choosing Moien, you contribute to a virtuous cycle in European real estate, where resource use is maximized for a positive economic impact for all.
+
+![Image 7](growing_weight_of_housings_html_eacc107c.png)
+
+![Image 5](growing_weight_of_housings_html_41a3a01a.png)
+
+---
+
+# Le poids croissant du logement : Comment Moien allège votre budget
+
+**Teaser**: **Le logement pèse de plus en plus lourd dans le budget des ménages. Découvrez pourquoi et comment Moien aide à libérer du pouvoir d’achat grâce à la sous-location.**
+
+## L’évolution de la part du logement dans les coûts d’un ménage
+
+Depuis les années 1970, les dépenses de logement en France n’ont cessé de croître, prenant une place de plus en plus importante dans le budget des ménages. À cette époque, le logement représentait environ 10 % des dépenses globales, un poste bien plus réduit comparé aux coûts d’alimentation. Cependant, depuis, cette part a augmenté de manière constante : elle atteignait 20 % dans les années 1980, 27 % dans les années 2000, et aujourd’hui elle avoisine les 30 % du budget des ménages.
+
+![Image 1](growing_weight_of_housings_html_c3b54b9a.png)
+
+Cette évolution reflète un phénomène global : le logement est devenu l'une des principales dépenses des foyers, surpassant souvent l'alimentation, qui était auparavant dominante. Ce changement est encore plus marqué dans les zones urbaines denses et les grandes agglomérations, où la forte demande de logements associée à une offre limitée a fait grimper les prix de manière significative. Selon une [analyse d’Eurostat](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Main_Page), cette pression immobilière n’est pas seulement un défi français : elle affecte également d’autres pays européens où les ménages consacrent une part croissante de leurs revenus à leur logement.
+
+![Image 3](growing_weight_of_housings_html_9abb72d9.png)
+
+Partout en Europe, la part croissante des coûts de logement dans le budget des ménages, surtout dans les grandes villes, est de plus en plus préoccupante pour les jeunes actifs et les familles. En effet, ces dépenses diminuent les budgets disponibles pour d’autres postes comme les loisirs, les voyages, voire l’épargne, ce qui limite les choix de vie et les possibilités de mobilité.
+
+## Les causes de l’augmentation de la part du logement dans le budget des ménages
+
+Plusieurs facteurs contribuent à cette augmentation de la part du logement dans le budget des ménages en Europe et en France.
+
+1. **La hausse des prix de l’immobilier** : L’augmentation des prix a rendu l’achat ou la location de biens de plus en plus coûteux. La forte densité démographique dans les grandes villes et le manque de logements disponibles exacerbent cette situation. Pour en savoir plus, consultez cette analyse sur l’évolution des prix de l’immobilier en France.
+2. **Les charges et coûts d’entretien** : Les frais liés à l’entretien des logements, aux charges et à l’énergie continuent d’augmenter. Depuis les années 2000, les coûts énergétiques ont particulièrement pesé sur les budgets des ménages, amplifiés par des crises énergétiques récentes qui ont fait grimper les prix de l’énergie de manière significative.
+3. **Les réglementations locatives** : Bien que conçues pour protéger les locataires, des réglementations restrictives peuvent limiter l’offre et contribuer indirectement à une hausse des coûts de logement, en diminuant le nombre de logements disponibles. Des villes comme [Paris](https://www.paris.fr/), Berlin en Allemagne, ou encore [Amsterdam](https://www.amsterdam.nl/) aux Pays-Bas appliquent des régulations pour encadrer les loyers, mais ces mesures peuvent parfois avoir des effets indésirables en restreignant l'offre.
+4. **La hausse des taux d’intérêt** : Bien que les taux aient longtemps été bas, ils ont récemment commencé à remonter, augmentant le coût des crédits immobiliers et restreignant davantage l’accès à la propriété. Cela concerne en particulier ceux qui doivent financer leur achat. Une analyse de Banque de France explore en détail les impacts des taux d’intérêt sur le marché immobilier français.
+
+Ces facteurs combinés créent une charge financière structurelle pour les ménages, rendant l’accès au logement de plus en plus difficile et onéreux. La France n’est pas seule dans cette situation : dans de nombreux autres pays européens, la hausse des prix de l’immobilier, les coûts d'entretien élevés et les charges fiscales augmentent également le poids des dépenses de logement sur les ménages.
+
+## Moien : une solution pour réduire la charge du logement via la sous-location
+
+Face à cette réalité, [Moien](https://www.moien.com/) propose une approche innovante pour alléger cette charge. La plateforme permet la sous-location de logements, une solution qui offre aux locataires la possibilité de rentabiliser les périodes d'inoccupation de leur résidence principale. Que ce soit lors de déplacements professionnels, de vacances ou de congés prolongés, la sous-location offre aux ménages une source de revenus complémentaires en tirant profit de leur espace de vie existant.
+
+Moien facilite cette démarche en proposant une sous-location simple, encadrée et sécurisée. En optant pour cette solution, les locataires peuvent réduire le poids de leurs dépenses de logement sans alourdir leurs charges fixes, libérant ainsi du pouvoir d’achat pour d’autres besoins. Moien encourage une nouvelle dynamique d’optimisation des ressources immobilières, qui contribue à mieux équilibrer la part des dépenses de logement dans le budget des ménages.
+
+## Une vision européenne de l’immobilier
+
+En plus de permettre aux particuliers de tirer un meilleur parti de leur espace de vie, Moien s’inscrit dans un objectif plus large de **valorisation des ressources immobilières en Europe**. En facilitant la sous-location, Moien vise à réduire les dépenses excessives en logement, tout en renforçant l’accessibilité et la mobilité pour tous. Cette démarche innovante, applicable à toute l'Europe, apporte une réponse pratique à la problématique commune de la hausse des coûts de logement.
+
+En choisissant Moien, vous contribuerez à un cercle vertueux dans l’immobilier européen, où l’usage des ressources est maximisé pour un impact économique positif pour tous.
+
+![Image 6](growing_weight_of_housings_html_95bd3bc2.png)
+
+![Image 4](growing_weight_of_housings_html_b2e1715c.png)
+
+---
+
+# Das wachsende Gewicht des Wohnens: Wie Moien Ihr Budget entlastet
+
+**Teaser**: **Die Wohnkosten nehmen einen immer größeren Anteil am Haushaltsetat ein. Entdecken Sie, warum – und wie Moien durch Untervermietung hilft, Kaufkraft freizusetzen.**
+
+## Der Anstieg der Wohnkosten im Haushaltsbudget
+
+Seit den 1970er Jahren sind die Wohnkosten in Frankreich stetig gestiegen und nehmen immer mehr Platz im Haushaltsetat ein. Damals machten die Wohnkosten etwa 10 % der gesamten Ausgaben aus – ein relativ kleiner Anteil im Vergleich zu den Ausgaben für Lebensmittel. Seitdem ist dieser Anteil stetig gewachsen: In den 1980er Jahren erreichte er 20 %, in den 2000er Jahren 27 %, und heute liegt er bei etwa 30 % des Haushaltsbudgets.
+
+Diese Veränderung spiegelt einen breiteren Trend wider: Das Wohnen ist zu einem der größten Haushaltsausgabenposten geworden, der oft die Ausgaben für Lebensmittel übersteigt, die früher der dominierende Budgetpunkt waren. Diese Veränderung ist besonders in dicht besiedelten städtischen Gebieten und großen Metropolregionen deutlich, wo die hohe Nachfrage nach Wohnraum bei begrenztem Angebot die Preise erheblich in die Höhe getrieben hat. Laut einer Analyse von Eurostat ist dieser Druck auf den Wohnungsmarkt nicht nur ein französisches Problem – er betrifft auch andere europäische Länder, in denen Haushalte einen zunehmenden Anteil ihres Einkommens für Wohnkosten aufwenden.
+
+In ganz Europa ist der wachsende Anteil der Wohnkosten im Haushaltsetat, insbesondere in großen Städten, ein immer größer werdendes Problem für junge Berufstätige und Familien. Diese Ausgaben verringern die verfügbaren Budgets für andere Bereiche wie Freizeit, Reisen und sogar Ersparnisse, was die Lebensstileinschränkungen und die Mobilitätsmöglichkeiten reduziert.
+
+## Ursachen für die steigenden Wohnkosten im Haushaltsetat
+
+Mehrere Faktoren tragen zu der steigenden Belastung der Haushaltsbudgets durch Wohnkosten in Europa und in Frankreich bei.
+
+1. **Steigende Immobilienpreise**: Die zunehmenden Immobilienpreise haben den Kauf oder die Miete von Immobilien immer teurer gemacht. Die hohe Bevölkerungsdichte in großen Städten und der Mangel an verfügbaren Wohnungen verschärfen dieses Problem. Weitere Informationen finden Sie in dieser Analyse der Immobilienpreistrends in Frankreich.
+2. **Instandhaltungs- und Betriebskosten**: Die Ausgaben für die Instandhaltung von Wohnungen, Nebenkosten und Energie steigen weiterhin. Seit den 2000er Jahren haben sich die Energiekosten erheblich auf die Haushaltsbudgets ausgewirkt, besonders da kürzlich aufgetretene Energiekrisen die Preise stark erhöht haben.
+3. **Mietvorschriften**: Obwohl Mietvorschriften zum Schutz der Mieter eingeführt wurden, können restriktive Regelungen das Angebot einschränken und indirekt die Wohnkosten durch die Reduzierung der Anzahl verfügbarer Mietwohnungen erhöhen. Städte wie [Paris](https://www.paris.fr/), Berlin und [Amsterdam](https://www.amsterdam.nl/) wenden Mietpreisregulierungen an, aber diese Maßnahmen haben manchmal unbeabsichtigte Folgen, indem sie das Angebot einschränken.
+4. **Steigende Zinssätze**: Obwohl die Zinssätze lange niedrig waren, haben sie in letzter Zeit begonnen zu steigen, was die Hypothekenkosten erhöht und den Zugang zum Wohneigentum weiter einschränkt, insbesondere für diejenigen, die ihren Kauf finanzieren müssen. Eine Analyse der Banque de France untersucht, wie sich die Zinssätze auf den französischen Immobilienmarkt auswirken.
+
+Diese Faktoren führen zusammen zu einer strukturellen finanziellen Belastung für Haushalte, wodurch der Zugang zu Wohnraum immer schwieriger und teurer wird. Frankreich ist nicht allein in dieser Situation: In vielen anderen europäischen Ländern tragen steigende Immobilienpreise, hohe Instandhaltungskosten und Steuern ebenfalls zur Belastung der Haushalte bei.
+
+## Moien: Eine Lösung zur Reduzierung der Wohnkosten durch Untervermietung
+
+Als Antwort darauf bietet [Moien](https://www.moien.com/) einen innovativen Ansatz, um diese Last zu verringern. Die Plattform ermöglicht die Untervermietung von Wohnungen und bietet Mietern die Möglichkeit, während ihrer Abwesenheit Einkommen zu erzielen. Ob für Geschäftsreisen, Urlaube oder längere Abwesenheiten, die Untervermietung bietet Haushalten zusätzliches Einkommen, indem sie den bestehenden Wohnraum nutzt.
+
+Moien vereinfacht diesen Prozess, indem es eine sichere, unkomplizierte und transparente Möglichkeit zur Untervermietung bietet. Durch diese Lösung können Mieter die Belastung der Wohnkosten verringern, ohne ihre festen Ausgaben zu erhöhen, und so Kaufkraft für andere Bedürfnisse freisetzen. Moien fördert eine neue Dynamik zur Optimierung von Wohnraumressourcen, die dazu beiträgt, den Anteil der Wohnkosten im Haushaltsbudget besser auszubalancieren.
+
+## Eine europäische Vision für Immobilien
+
+Neben der besseren Nutzung des Wohnraums hilft Moien mit dem übergeordneten Ziel, Immobilienressourcen in Europa zu optimieren. Durch die Erleichterung der Untervermietung will Moien die übermäßigen Wohnkosten senken und gleichzeitig die Zugänglichkeit und Mobilität für alle erhöhen. Dieser innovative Ansatz, der in ganz Europa anwendbar ist, bietet eine praktische Antwort auf die gemeinsame Herausforderung steigender Wohnkosten.
+
+Mit der Wahl von Moien tragen Sie zu einem positiven Kreislaufsystem im europäischen Immobilienmarkt bei, bei dem die Ressourcennutzung maximiert wird, um einen positiven wirtschaftlichen Einfluss für alle zu erzielen.
+
+![Image 7](growing_weight_of_housings_html_eacc107c.png)
+
+![Image 5](growing_weight_of_housings_html_41a3a01a.png)

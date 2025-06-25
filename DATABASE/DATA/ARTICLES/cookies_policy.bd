@@ -1,0 +1,195 @@
+ARTICLE
+
+    id typeId categoryIdArray slug date number title teaser text imagePath blockIdArray userId metaTitle metaDescription
+
+        %cookies-policy-page
+            ~ post
+            ~ { info-page }
+            ~ cookies-policy-page
+            ~ 2025-03-13
+            ~ 4
+            ~ Cookies Policy
+                ¨fr:Politique en matière de cookies
+                ¨de:Cookies-Politik
+            ~ Moien uses cookies to enable site functionality, improve performance, and remember preferences. You can manage or delete cookies via your browser settings. For more details, refer to the platform’s policies.
+                ¨fr:Moien utilise des cookies pour permettre la fonctionnalité du site, améliorer les performances et mémoriser les préférences. Vous pouvez gérer ou supprimer les cookies via les paramètres de votre navigateur. Pour plus de détails, consultez les politiques de la plateforme.
+                ¨de:Moien verwendet Cookies, um die Funktionalität der Website zu ermöglichen, die Leistung zu verbessern und Präferenzen zu speichern. Sie können Cookies über Ihre Browsereinstellungen verwalten oder löschen. Weitere Einzelheiten finden Sie in den Richtlinien der Plattform.
+            ~ 
+            ~ /global/cookies-privacy/cookie-privacy-page.avif
+            ~ { %cookies-policy-block-1 ~ %cookies-policy-block-2 ~ %cookies-policy-block-3 ~ %cookies-policy-block-4 }
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+            ~ Cookies Policy
+            ~ Cookies Policy
+
+BLOCK
+
+    id typeId articleId title text userId
+
+        %cookies-policy-block-1
+            ~ text
+            ~ %cookies-policy-page
+            ~ Cookies Policy
+                ¨fr:Politique en matière de cookies
+                ¨de:Cookies-Politik
+            ~ The Luxembourg limited liability company CROSSFUNDING S.à r.l., established and having its registered office at 9, rue Belle-Vue, L - 8013 Strassen registered with the Luxembourg Trade and Companies Register under number B 222685 (hereinafter “Moien”), located at 9, rue Belle-Vue, L - 8013 Strassen, Grand Duchy of Luxembourg is the provider of a digital platform offering short or long-term rental services - accessible via the website: ((https://www. moien.com/)(https://www.moien.com/)) or from the “Moien” mobile, smartphone and tablet application (hereinafter the “Moien Platform”).
+                ¨fr:La société à responsabilité limitée de droit luxembourgeois CROSSFUNDING S.à r.l., établie et ayant son siège social au 9, rue Belle-Vue, L - 8013 Strassen immatriculée auprès du Registre du Commerce et des Sociétés de Luxembourg sous le numéro B 222685 (ci-après “Moien”), localisée au 9, rue Belle-Vue, L - 8013 Strassen, Grand-Duché de Luxembourg est le fournisseur d’une plateforme numérique proposant des services de location de courte ou longue durée - accessible sur le site web : ((https://www.moien.com/)(https://www.moien.com/)) ou à partir de l’application pour mobile, smartphone et tablette “Moien” (ci-après la “Plateforme Moien”).
+                ¨de:Die Gesellschaft mit beschränkter Haftung nach luxemburgischem Recht CROSSFUNDING S.à r.l., mit Sitz in 9, rue Belle-Vue, L - 8013 Strassen, eingetragen im Handels- und Gesellschaftsregister Luxemburg unter der Nummer B 222685 (im Folgenden “Moien”), mit Sitz in 9, rue Belle-Vue, L - 8013 Strassen, Großherzogtum Luxemburg, ist Anbieter einer digitalen Plattform, die kurz- und langfristige Vermietungsdienstleistungen anbietet - zugänglich über die Website: ((https://www. moien.com/)(https://www.moien.com/)) oder über die App für Mobiltelefone, Smartphones und Tablets “Moien” (nachfolgend die “Moien-Plattform”).
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %cookies-policy-block-2
+            ~ text
+            ~ %cookies-policy-page
+            ~ 1. Cookie definition
+                ¨fr:1. Définition des cookies
+                ¨de:1. Definition von Cookies
+            ~ Cookies are pieces of information stored on a user's hard disk containing data about the user. Cookies are then sent back to the original website on each subsequent visit, or to another website that recognizes the cookie. Cookies are useful because they enable a website to recognize a user's device. We use essential cookies that enable the features and functionality of our Moien Platform, performance cookies that collect information about the use of our Moien Platform, such as the pages viewed or the device you are using, and functionality cookies to remember the choices you have made while browsing. This data enables us to optimize our Moien Platform and simplify navigation. 
+                ¨fr:Les cookies sont des éléments d'information stockés sur le disque dur d'un utilisateur qui contiennent des données sur celui-ci. Les cookies sont ensuite renvoyés au site web d'origine lors de chaque visite ultérieure, ou à un autre site web qui reconnaît ce cookie. Les cookies sont utiles car ils permettent à un site web de reconnaître l'appareil d'un utilisateur. Nous utilisons des cookies essentiels qui permettent les caractéristiques et les fonctionnalités de notre Plateforme Moien, des cookies de performance qui collectent des informations sur l'utilisation de notre Plateforme Moien, telles que les pages consultées ou l'appareil que vous utilisez, et des cookies de fonctionnalité pour se souvenir des choix que vous avez faits lors de votre navigation. Ces données nous permettent d'optimiser notre Plateforme Moien et de simplifier la navigation. 
+                ¨de:Cookies sind Informationselemente, die auf der Festplatte eines Nutzers gespeichert werden und Daten über ihn enthalten. Cookies werden dann bei jedem weiteren Besuch an die ursprüngliche Website zurückgeschickt oder an eine andere Website, die dieses Cookie erkennt. Cookies sind nützlich, weil sie es einer Website ermöglichen, das Gerät eines Nutzers zu erkennen. Wir verwenden wesentliche Cookies, die die Merkmale und Funktionen unserer Moien-Plattform ermöglichen, Leistungs-Cookies, die Informationen über die Nutzung unserer Moien-Plattform sammeln, wie z. B. die von Ihnen besuchten Seiten oder das von Ihnen verwendete Gerät, und Funktions-Cookies, um sich an die Entscheidungen zu erinnern, die Sie beim Surfen getroffen haben. Diese Daten ermöglichen es uns, unsere Moien-Plattform zu optimieren und die Navigation zu vereinfachen. 
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %cookies-policy-block-3
+            ~ text
+            ~ %cookies-policy-page
+            ~  2. Types of cookies used on the Moien Platform
+                ¨fr:2. Types de cookies utilisés sur la Plateforme Moien
+                ¨de:2. Arten von Cookies, die auf der Moien-Plattform verwendet werden
+            ~ As part of the Moien Platform services, cookies may be placed on your computer or other electronic device to collect anonymous and personal data about you, as identified in the Data Protection Policy: ((https://www.moien.com/privacy-policy)(Privacy Policy)).
+                \n  * **Strictly necessary cookies:** Some of the cookies on our Moien Platform are technically essential to enable you to move around the website and use its features and do not require your consent.
+                \n  * **Performance cookies:** Some of our Moien Platform cookies collect information about how visitors use the Moien Platform, such as which pages visitors view most often, and whether they get error messages from web pages. These cookies do not collect personally identifiable information. All information collected by these cookies is aggregated and therefore anonymous. They are used solely to improve the operation of our Moien Platform. These cookies are automatically deleted at the end of your session and do not require your consent.
+                \n  * **Functionality cookies:** These cookies aim to improve the browsing experience by keeping track of certain data - so you don't have to re-enter this data each time you connect - and to tailor the content of the Moien Platform to your preferences. They enable our Moien Platform to remember the choices you make and provide enhanced, more personal features. You can delete or block cookies at any time in your browser settings. However, certain features of the website requiring the use of these cookies may no longer be available to you.
+                \n  * **Persistent cookies:** This type of cookie helps us recognize you as an existing user, making it easier to interact with our services. After you register, a persistent cookie remains in your browser and will be read by ((https://www.moien.com)(Moien)) when you return to our Moien Platform site using our services. This makes accessing web pages easier and faster; for example, it is not necessary to readjust the language settings of our portal on each visit.
+                \n  * **Session cookies:** This type of cookie only lasts for the duration of the session (usually the current visit to a website or browser session). It may contain a session identifier so that, for example, you don't have to log in again for every page you access. Session cookies are deleted when you log out, or cease to be valid when your session automatically expires.
+                \n  * **Third-party cookies:** Third-party cookies come from suppliers other than the operator of the Moien Platform. They may be used, for example, to collect information for advertising purposes or to generate personalized content and web statistics.
+                \n  * **Flash cookies:** Flash cookies are stored on your computer as data elements of the Moien Platform, which uses Adobe Flash Player. Flash cookies are not time-limited.
+                \n||+ |++Cookie name+|+Description+|+Expiration++| |*_gat\\/Google Analytics\\/1 minute |*_ga\\/Google Analytics\\/2 years |*_gid\\/Google Analytics\\/1 day |*&#95&#95cfduid\\/Crisp Live Chat\\/1 year |*crisp-client session cookie\\/Crisp Live Chat\\/6 months +||
+                    ¨fr:Dans le cadre des services de la Plateforme Moien, des cookies peuvent être placés sur votre ordinateur ou autre appareil électronique pour collecter des données anonymes et personnelles vous concernant, comme identifié dans la Politique en matière de protection des données : ((https://www.moien.com/privacy-policy)(Privacy Policy)).
+                        \n  * **Cookies strictement nécessaires:** Certains des cookies sur notre Plateforme Moien sont techniquement essentiels pour vous permettre de vous déplacer sur le site Web et d'utiliser ses fonctionnalités et ne nécessitent pas votre consentement.
+                        \n  * **Cookies de performance:** Certains des cookies de notre Plateforme Moien collectent des informations sur la manière dont les visiteurs utilisent la Plateforme Moien, par exemple les pages que les visiteurs consultent le plus souvent, et s'ils obtiennent des messages d'erreur des pages Web. Ces cookies ne collectent pas d'informations permettant d'identifier un visiteur. Toutes les informations recueillies par ces cookies sont agrégées et donc anonymes. Elles sont uniquement utilisées pour améliorer le fonctionnement de notre Plateforme Moien. Ces cookies sont automatiquement supprimés à la fin de votre session et ne nécessitent pas votre consentement.
+                        \n  * **Cookies de fonctionnalité:** Ces cookies visent à améliorer l'expérience de navigation en gardant trace de certaines données - ce qui vous évite de devoir réintroduire ces données à chaque connexion et à adapter le contenu de la Plateforme Moien à vos préférences. Ils permettent à notre Plateforme Moien de se souvenir des choix que vous faites et de fournir des fonctionnalités améliorées et plus personnelles. Vous avez à tout moment la possibilité de supprimer ou de bloquer les cookies dans les paramètres de votre navigateur. Toutefois, certaines fonctionnalités du site web nécessitant l'utilisation de ces cookies peuvent ne plus être disponibles pour vous.
+                        \n  * **Cookies persistants:** Ce type de cookies nous aide à vous reconnaître en tant qu'utilisateur existant, afin qu'il soit plus facile d'interagir avec nos services. Après votre inscription, un cookie persistant reste dans votre navigateur et sera lu par ((https://www.moien.com)(Moien)) lorsque vous retournerez sur le site de notre Plateforme Moien qui utilise nos services. Cela rend l'accès aux pages web plus facile et plus rapide ; par exemple, il n'est pas nécessaire de réajuster les paramètres linguistiques de notre portail à chaque visite.
+                        \n  * **Cookies de session:** Ce type de cookies ne dure que le temps de la session (généralement la visite actuelle d'un site web ou une session de navigateur). Il peut contenir un identifiant de session afin, par exemple, que vous n'ayez pas à vous reconnecter pour chaque page à laquelle vous accédez. Les cookies de session sont supprimés lorsque vous vous déconnectez, ou cessent d'être valables à l'expiration automatique de votre session.
+                        \n  * **Cookies tiers:** Les cookies tiers proviennent de fournisseurs autres que l'opérateur de la Plateforme Moien. Ils peuvent être utilisés par exemple pour collecter des informations à des fins publicitaires ou générer du contenu personnalisé et des statistiques web.
+                        \n  * **Cookies Flash:** Les cookies Flash sont stockés sur votre ordinateur en tant qu'éléments de données de la Plateforme Moien qui utilise Adobe Flash Player. Les cookies Flash ne sont pas limités dans le temps.
+                        \n||+ |++Nom du cookie+|+Description+|+Expiration++| |*_gat\\/Google Analytics\\/1 minute |*_ga\\/Google Analytics\\/2 ans |*_gid\\/Google Analytics\\/1 jour |*&#95&#95cfduid\\/Crisp Live Chat\\/1 an |*cookie de session du client Crisp\\/Crisp Live Chat\\/6 mois +||
+                    ¨de:Im Rahmen der Dienste der Moien-Plattform können Cookies auf Ihrem Computer oder einem anderen elektronischen Gerät platziert werden, um anonyme und personenbezogene Daten über Sie zu sammeln, wie in der Datenschutzrichtlinie angegeben: ((https://www.moien.com/privacy-policy)(Datenschutzrichtlinie)).
+                        \n  * **Streng notwendige Cookies:** Einige der Cookies auf unserer Moien-Plattform sind technisch notwendig, damit Sie sich auf der Website bewegen und ihre Funktionen nutzen können, und bedürfen nicht Ihrer Zustimmung.
+                        \n  * **Performance-Cookies:** Einige unserer Moien-Plattform-Cookies sammeln Informationen darüber, wie Besucher die Moien-Plattform nutzen, z. B. welche Seiten Besucher am häufigsten aufrufen und ob sie Fehlermeldungen von Webseiten erhalten. Diese Cookies sammeln keine persönlich identifizierbaren Informationen. Alle von diesen Cookies gesammelten Informationen sind aggregiert und daher anonym. Sie werden ausschließlich dazu verwendet, den Betrieb unserer Moien-Plattform zu verbessern. Diese Cookies werden am Ende Ihrer Sitzung automatisch gelöscht und bedürfen nicht Ihrer Zustimmung.
+                        \n  * **Funktions-Cookies:** Diese Cookies dienen dazu, das Surferlebnis zu verbessern, indem sie bestimmte Daten speichern - so dass Sie diese Daten nicht jedes Mal neu eingeben müssen - und den Inhalt der Moien-Plattform auf Ihre Vorlieben zuzuschneiden. Sie ermöglichen es unserer Moien-Plattform, sich an die von Ihnen getroffenen Entscheidungen zu erinnern und verbesserte, persönlichere Funktionen anzubieten. Sie können Cookies jederzeit in Ihren Browser-Einstellungen löschen oder blockieren. Bestimmte Funktionen der Website, die die Verwendung dieser Cookies erfordern, stehen Ihnen dann jedoch möglicherweise nicht mehr zur Verfügung.
+                        \n  * **Persistente Cookies:** Diese Art von Cookie hilft uns, Sie als bestehenden Nutzer zu erkennen, was die Interaktion mit unseren Diensten erleichtert. Nach Ihrer Anmeldung verbleibt ein persistenter Cookie in Ihrem Browser und wird von ((https://www.moien.com)(Moien)) gelesen, wenn Sie zu unserer Moien Platform Seite zurückkehren und unsere Dienste nutzen. Dadurch wird der Zugriff auf die Webseiten einfacher und schneller; es ist zum Beispiel nicht notwendig, die Spracheinstellungen unseres Portals bei jedem Besuch neu anzupassen.
+                        \n  * **Session-Cookies:** Diese Art von Cookies gilt nur für die Dauer der Sitzung (in der Regel der aktuelle Besuch einer Website oder eine Browser-Sitzung). Er kann eine Sitzungskennung enthalten, so dass Sie sich beispielsweise nicht für jede Seite, die Sie aufrufen, erneut anmelden müssen. Sitzungs-Cookies werden gelöscht, wenn Sie sich abmelden, oder verlieren ihre Gültigkeit, wenn Ihre Sitzung automatisch abläuft.
+                        \n  * **Cookies von Drittanbietern:** Cookies von Drittanbietern stammen von anderen Anbietern als dem Betreiber der Moien-Plattform. Sie können zum Beispiel verwendet werden, um Informationen für Werbezwecke zu sammeln oder um personalisierte Inhalte und Webstatistiken zu erstellen.
+                        \n  * **Flash-Cookies:** Flash-Cookies werden als Datenelemente der Moien-Plattform, die den Adobe Flash Player verwendet, auf Ihrem Computer gespeichert. Flash-Cookies sind nicht zeitlich begrenzt.
+                        \n||+ |++Cookie-Name+|+Beschreibung+|+Ablauf++| |*_gat\\/Google Analytics\\/1 Minute |*_ga\\/Google Analytics\\/2 Jahre |*_gid\\/Google Analytics\\/1 Tag |*&#95&#95cfduid\\/Crisp Live Chat\\/1 Jahr |*crisp-client-Sitzungscookie\\/Crisp Live Chat\\/6 Monate +||
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %cookies-policy-block-4
+            ~ text
+            ~ %cookies-policy-page
+            ~ 3. How to control and delete cookies via your browser
+                ¨fr:3. Comment contrôler et supprimer les cookies via votre navigateur
+                ¨de:3. Wie Sie Cookies über Ihren Browser kontrollieren und löschen können
+            ~ Most Internet browsers are initially configured to accept cookies automatically. You can change the settings to block cookies or to alert you when cookies are being sent to your device. There are several ways to manage cookies. Please refer to your browser instructions or help screen to learn more about how to adjust or modify your browser settings.
+                \nBrowser manufacturers provide help pages for managing cookies in their products.
+
+                \n\n**GOOGLE CHROME**
+                \nTo change cookie settings:
+                \n1. On your computer, open Chrome
+                \n2. At the top right, click More settings
+                \n3. At the bottom, click Advanced
+                \n4. Under “Privacy and security”, click “Site settings”.
+                \n5. Click cookies to see all cookies and site data; delete them all.
+                \n6. Confirm by clicking Clear all
+
+                \n\n**INTERNET EXPLORER 8, 9, 10 AND 11 **
+                \n1. Select the Tools menu
+                \n2. Select Internet Options
+                \n3. Click on the Privacy tab
+                \n4. Select your preferred settings
+
+                \n\n**MICROSOFT EDGE**
+                \n1. Select the More button
+                \n2. Select Settings
+                \n3. Select Privacy and security
+                \n4. Click the Choose what to delete button
+                \n5. Make sure the Cookies and saved website data box is selected.
+                \n6. Press the Delete button
+
+                \n\n**SAFARI**
+                \n1. Click on the word Safari
+                \n2. Select Preferences
+                \n3. Click on the Privacy tab
+                \n4. Use the Block cookies option to block cookies
+                \n5. To check which specific site stores data, click on Details
+
+                \n\nFor other browsers, please refer to the documentation provided by your browser manufacturer.
+
+                    ¨fr:La plupart des navigateurs Internet sont initialement configurés pour accepter automatiquement les cookies. Vous pouvez modifier les paramètres pour bloquer les cookies ou pour vous alerter lorsque des cookies sont envoyés à votre appareil. Il existe plusieurs façons de gérer les cookies. Veuillez-vous reporter aux instructions de votre navigateur ou à l'écran d'aide pour en savoir plus sur la manière d'ajuster ou de modifier les paramètres de votre navigateur.
+                        \nLes fabricants de navigateurs fournissent des pages d'aide relatives à la gestion des cookies dans leurs produits.
+
+                        \n\n**GOOGLE CHROME**
+                        \nPour modifier les paramètres des cookies : 
+                        \n1. Sur votre ordinateur, ouvrez Chrome 
+                        \n2. En haut à droite, cliquez sur Plus de paramètres
+                        \n3. En bas, cliquez sur Avancés
+                        \n4. Sous “Confidentialité et sécurité”, cliquez sur “Paramètres du site”.
+                        \n5. Cliquez sur cookies pour voir tous les cookies et les données du site ; supprimez-les tous.
+                        \n6. Confirmez en cliquant sur Effacer tout
+
+                        \n\n**INTERNET EXPLORER 8, 9, 10 ET 11 **
+                        \n1. Sélectionnez le menu Outils
+                        \n2. Sélectionnez Options Internet
+                        \n3. Cliquez sur l'onglet Confidentialité
+                        \n4. Sélectionnez vos paramètres préférés
+
+                        \n\n**MICROSOFT EDGE**
+                        \n1. Sélectionnez le bouton Plus
+                        \n2. Sélectionnez Paramètres
+                        \n3. Sélectionnez Confidentialité et sécurité
+                        \n4. Cliquez sur le bouton Choisir ce qu'il faut effacer
+                        \n5. Assurez-vous que la case à cocher Cookies et données de site Web enregistrées est sélectionnée.
+                        \n6. Appuyez sur le bouton Effacer
+
+                        \n\n**SAFARI**
+                        \n1. Cliquez sur le mot Safari
+                        \n2. Sélectionnez Préférences
+                        \n3. Cliquez sur l'onglet Confidentialité
+                        \n4. Utilisez l'option Bloquer les cookies pour bloquer les cookies
+                        \n5. Pour vérifier quel site spécifique stocke des données, cliquez sur Détails
+
+                        \n\nPour les autres navigateurs, veuillez consulter la documentation fournie par le fabricant de votre navigateur.
+
+                    ¨de:Die meisten Internet-Browser sind so eingestellt, dass sie Cookies automatisch akzeptieren. Sie können die Einstellungen ändern, um Cookies zu blockieren oder Sie zu warnen, wenn Cookies an Ihr Gerät gesendet werden. Es gibt mehrere Möglichkeiten, Cookies zu verwalten. Bitte lesen Sie in der Anleitung Ihres Browsers oder in der Hilfe nach, wie Sie Ihre Browsereinstellungen anpassen oder ändern können.
+                        \nDie Hersteller von Browsern bieten Hilfeseiten für die Verwaltung von Cookies in ihren Produkten an.
+
+                        \n\n**GOOGLE CHROME**
+                        \nUm die Cookie-Einstellungen zu ändern:
+                        \n1. Öffnen Sie auf Ihrem Computer Chrome
+                        \n2. Klicken Sie oben rechts auf Weitere Einstellungen
+                        \n3. Klicken Sie unten auf Erweitert
+                        \n4. Klicken Sie unter “Datenschutz und Sicherheit” auf “Website-Einstellungen”.
+                        \n5. Klicken Sie auf “Cookies”, um alle Cookies und Websitedaten anzuzeigen; löschen Sie sie alle.
+                        \n6. Bestätigen Sie, indem Sie auf “Alle löschen” klicken.
+
+                        \n\n**INTERNET EXPLORER 8, 9, 10 UND 11 **
+                        \n1. Wählen Sie das Menü “Tools” aus
+                        \n2. Wählen Sie Internetoptionen
+                        \n3. Klicken Sie auf die Registerkarte Datenschutz
+                        \n4. Wählen Sie Ihre bevorzugten Einstellungen
+
+                        \n\n**MICROSOFT EDGE**
+                        \n1. Wählen Sie die Schaltfläche “Mehr”
+                        \n2. Wählen Sie Einstellungen
+                        \n3. Wählen Sie Datenschutz und Sicherheit
+                        \n4. Klicken Sie auf die Schaltfläche Auswählen, was gelöscht werden soll
+                        \n5. Vergewissern Sie sich, dass das Kästchen Cookies und gespeicherte Websitedaten ausgewählt ist.
+                        \n6. Drücken Sie die Schaltfläche “Löschen”
+
+                        \n\n**SAFARI**
+                        \n1. Klicken Sie auf das Wort Safari
+                        \n2. Wählen Sie Einstellungen
+                        \n3. Klicken Sie auf die Registerkarte Datenschutz
+                        \n4. Verwenden Sie die Option Cookies blockieren, um Cookies zu blockieren
+                        \n5. Um zu prüfen, welche Seite Daten speichert, klicken Sie auf Details
+
+                        \n\nBei anderen Browsern lesen Sie bitte die Dokumentation des Browserherstellers.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66

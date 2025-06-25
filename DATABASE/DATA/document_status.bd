@@ -1,0 +1,19 @@
+DOCUMENT_STATUS
+    
+    id number name color
+
+        declined
+            ~ 1
+            ~ Declined
+            ~ red 
+        
+        pending
+            ~ 2
+            ~ Under verification
+            ~ gray
+
+        accepted
+            ~ 3
+            ~ Accepted
+            ~ green
+            

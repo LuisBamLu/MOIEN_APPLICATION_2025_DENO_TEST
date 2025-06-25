@@ -1,0 +1,67 @@
+Project Repository and Setup
+    Branches: There are three main branches: master, release, and develop.
+    Storage: Supabase storage
+    Database: Supabase database
+    Authentication: Supabase authentication
+    Deployment: Koyeb
+    Local Development: When running the project locally, the master database is still in use as the develop database is not yet set up. Setting up the develop database is necessary on supabase.
+    To run the project locally, simply do a build and start on the SERVER, followed by a build and start on the CLIENT.
+    Deployment: To deploy to production, commits must first be pushed to the release branch and then to the master branch, which is hosted on Koyeb.
+Database and Security
+    Database Update: The database requires an update and should be reevaluated for restructuring.
+    Storage Policies: Need to develop storage policies, especially ensuring that a user who adds images/files to a folder containing their UUID can be the only one to make insertions.
+    Authentication Issues: There's a flaw in our authentication system. If a user loses access to their email, they lose access to our platform as well.
+User Experience and Onboarding
+    Onboarding Process: The onboarding should be revised to filter/inform new users more effectively, distinguishing between those looking to rent short-term or long-term, and similarly for those wanting to list their properties.
+    Property Features: Need to carefully think about the feature list that each property can have. Features should be differentiated by long-term and short-term needs.
+    Property Management: When creating/editing a property, there should be clear pathways for short-term or long-term properties, ensuring an independent flow for each choice.
+System Administration and Roles
+    Importing Properties: All long-term properties need to be imported from Easy2Pilot, considering how to assign a user to each property.
+    Admin Section: An admin section is necessary and should include various settings across the entire platform.
+    User Roles and Access: Various routes and sections of the dashboard should be hidden based on the user's role. Role verification paths need to be specific, e.g., if a user wants to buy, there should be a path for document submission and admin verification for new role assignment.
+    Role-Based UI: The dashboard should vary depending on the user's role.
+Further Development and Meetings
+    Caching Layer: Consider implementing (already something done, but needs attention) a caching layer in later stages to optimize database server requests.
+    Project Meetings: A meeting with the developers, the client, and the project manager is essential to familiarize everyone with each other and to decide on further planning, since Daniel had part of the contact with the client.
+    Detailed Planning: Think about creating a detailed and complete list of planning activities.
+    Design Leadership: All component states should be presented by design, and design should always be ahead of development.
+    Inclusion of Stakeholders: I recommended that Eric be involved in the daily planning of the project.
+Current Project State and Improvements Needed
+    Calendar: Finalize the general calendar in terms of style and functionality ( in terms of functionality it's already close to the final state ).
+    Property Filters: Modify the property filters; they should not be in separate sections but integrated, adapting other filters based on the choice between long-term and short-term.
+    Map Integration: Finalize the property map list, re-evaluating if Leaflet is the best solution.
+    Quick Filters: The quick filter for property types should not be on the same line as the short-term and long-term filters.
+    Query Optimization: Develop a query for showing properties to new users based on their location preferences.
+    Feature Presentation: Rethink the presentation and arrangement of features within the property details, each feature should have a specific icon.
+    User Interface Adjustments: The user avatar upload isn't obvious enough and needs improvement.
+    Supporting Documents: Reevaluate the supporting documents page; although Fernando has done much, it needs further development.
+    Rental File: Discuss the rental file integration with Fernando for better understanding.
+    Financial Features: The sections on account balance, wallet, and transfers are partially done; these need further evaluation and development.
+    Currency Settings: Remove the currency toggler from account settings; if multiple currencies are desired, the platform and database need to be assessed and developed.
+    Notification System: There is no notification system implemented yet (only a skeleton exists).
+    Finance and Statistics Pages: These are only in the skeleton stage and need to be developed.
+    Event Dashboard Page: This currently has only a skeletal start.
+    Messaging System: The messaging system is incomplete; there is a route that creates a conversation based on user IDs and conversation types, but the integration of live messages between users needs continued development, especially considering the current issue with websockets trying to update all open message pages.
+    Log in/sign up: If the user is on a specific page, we need to redirect to that page after authentication and when logout, redirect to log out
+    Facebook authentication: Not done, to do
+    Confirmation of phone number
+User Onboarding and Interface
+    ss: Implemented as a modal that splits into two paths: short-term or long-term rentals, each with distinct components. The only incomplete component common to both paths is the calendar, which needs to be adapted as previously noted.
+Property Listing and Management
+    Property List Pagination: Properties load in increments of ten per page; however, this feature needs revision as properties sometimes do not load correctly on scroll.
+    Map Popups: Occasionally fails to open, requiring further investigation.
+    Different bouding box on map -> different results
+    Property Availability System: Needs implementation for property owners to set availability, and for these available properties to appear based on user-specified date ranges.
+    Dynamic Pricing System: Owners should be able to set different prices for each day, accommodating daily rate variations.
+    Flexible Pricing Options: System needed where property owners can offer reduced rates for weekly or monthly rentals, based on their discretion.
+    Property Features Customization: Both property categories and subcategories need urgent revision to ensure accurate feature representation.
+    Property Feature Presentation: In the property details, features should be organized by categories/subcategories.
+Dashboard and Administrative Features
+    Property Rules Editing Section: Missing from the property management dashboard, needs to be added.
+    Property Visit History Page: Not yet implemented and needs to be developed.
+Compliance and User Support
+    Cookie Consent Modal: Urgently needed to comply with legal requirements.
+    Terms and Policies Pages: Necessary to add; Olivier has already provided the relevant documents.
+    FAQ and Help Page: Consider creating a comprehensive FAQ and help page for user support.
+    Country Restrictions: Suggest restricting countries in the database to those targeted for the project's launch.
+    Occupancy Limit Settings: Implement settings to limit the number of people, children, and pets per property.

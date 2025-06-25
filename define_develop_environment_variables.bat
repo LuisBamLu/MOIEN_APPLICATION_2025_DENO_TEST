@@ -1,0 +1,6 @@
+setx MOIEN_DATABASE_HOST "db.cjspwqqhdpkjmqycwxys.supabase.co"
+setx MOIEN_DATABASE_PASSWORD "K5iKvPWRk0BjI9xF0Y6IzUU4F4YN1YLX"
+setx MOIEN_DATABASE_URL "https://cjspwqqhdpkjmqycwxys.supabase.co"
+setx MOIEN_DATABASE_KEY "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNqc3B3cXFoZHBram1xeWN3eHlzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mjg0ODg5OTAsImV4cCI6MjA0NDA2NDk5MH0.59mnZJedyZKfdLm74rS2PqBHgavueQWscu34A311F-Y"
+setx MOIEN_STORAGE_URL "https://cjspwqqhdpkjmqycwxys.supabase.co/storage/v1/object/public"
+pause

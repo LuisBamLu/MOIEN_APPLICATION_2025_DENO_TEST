@@ -1,0 +1,52 @@
+{
+    "profileArray" : [
+        {
+            "phonePrefix" : "001",
+            "phoneNumber" : "123456789",
+            "firstName" : "Marie",
+            "lastName" : "Courie",
+            "email" : "m.courie@moien.com",
+            "roleSlugArray" : ["host"]
+        },
+        {
+            "phonePrefix" : "033",
+            "phoneNumber" : "612345678",
+            "firstName" : "Tyler",
+            "lastName" : "Joseph",
+            "email" : "t.joseph@moien.com",
+            "roleSlugArray" : ["guest"]
+        },
+        {
+            "phonePrefix" : "001",
+            "phoneNumber" : "123456789",
+            "firstName" : "Thierry",
+            "lastName" : "Henry",
+            "email" : "t.henry@moien.com",
+            "roleSlugArray" : ["administrator"]
+        },
+        {
+            "phonePrefix" : "033",
+            "phoneNumber" : "612345678",
+            "firstName" : "Matthew",
+            "lastName" : "Murdoc",
+            "email" : "m.murdoc@moien.com",
+            "roleSlugArray" : ["backoffice-senior"]
+        },
+        {
+            "phonePrefix" : "001",
+            "phoneNumber" : "123456789",
+            "firstName" : "Zinedine",
+            "lastName" : "Zidane",
+            "email" : "z.zidane@moien.com",
+            "roleSlugArray" : ["backoffice"]
+        },
+        {
+            "phonePrefix" : "033",
+            "phoneNumber" : "612345678",
+            "firstName" : "Oak",
+            "lastName" : "Buildings",
+            "email" : "moien_access@oakbuildings.com.com",
+            "roleSlugArray" : ["agency"]
+        }
+    ]
+}

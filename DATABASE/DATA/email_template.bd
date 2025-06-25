@@ -1,0 +1,521 @@
+EMAIL_TEMPLATE
+
+    id name recipient description subject content
+
+        welcome-email
+            ~ Welcome Email
+            ~ \{\{profile.email\}\}
+            ~ Welcome email sent after user registration.
+            ~ Welcome to Moïen
+            ~ <h1>Welcome to Moïen!</h1>
+                <p>Thank you for joining our community. We're excited to have you on board.</p>
+                <p>Happy traveling!</p>
+                <p>Best regards,</p>
+                <p>The Moïen Team</p>
+
+        email-verification
+            ~ Email Verification
+            ~ \{\{profile.email\}\}
+            ~ Email to verify the user's email address.
+            ~ Verify Your Email Address
+            ~ <h1>Verify Your Email Address</h1>
+                <p>Please click the link below to verify your email address:</p>
+                <a href="\{\{verificationLink\}\}">Verify Email</a>
+                <p>Thank you!</p>
+                <p>The Moïen Team</p>
+
+        document-verification-request
+            ~ Document Verification Request
+            ~ \{\{profile.email\}\}
+            ~ Request for document submission for identity verification.
+            ~ Verify Your Identity
+            ~ <h1>Verify Your Identity</h1>
+                <p>To complete your registration, please submit the necessary documents using the link below:</p>
+                <a href="\{\{uploadLink\}\}">Submit Documents</a>
+                <p>Thank you for your cooperation.</p>
+                <p>The Moïen Team</p>
+
+        booking-confirmation-guest
+            ~ Booking Confirmation (Guest)
+            ~ \{\{profile.email\}\}
+            ~ Confirmation email for guests after booking a property.
+            ~ Booking Confirmed!
+            ~ <h1>Booking Confirmed!</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>Your booking at \{\{propertyName\}\} from \{\{checkInDate\}\} to \{\{checkOutDate\}\} has been confirmed.</p>
+                <p>Details:</p>
+                <ul>
+                    <li>Property: \{\{propertyName\}\}</li>
+                    <li>Address: \{\{propertyAddress\}\}</li>
+                    <li>Host: \{\{hostName\}\}</li>
+                </ul>
+                <p>Looking forward to your stay!</p>
+                <p>The Moïen Team</p>
+
+        booking-confirmation-host
+            ~ Booking Confirmation (Host)
+            ~ \{\{profile.email\}\}
+            ~ Notification for hosts about a new booking.
+            ~ New Booking Alert!
+            ~ <h1>New Booking Alert!</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>You have a new booking for \{\{propertyName\}\} from \{\{guestName\}\} for the dates \{\{checkInDate\}\} to \{\{checkOutDate\}\}.</p>
+                <p>Please review the booking details in your dashboard.</p>
+                <p>Thank you!</p>
+                <p>The Moïen Team</p>
+
+        reservation-update
+            ~ Reservation Update
+            ~ \{\{profile.email\}\}
+            ~ Information about changes in the reservation.
+            ~ Reservation Update
+            ~ <h1>Reservation Update</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>Your reservation at \{\{propertyName\}\} has been updated. Please review the changes below:</p>
+                <p>\{\{updateDetails\}\}</p>
+                <p>Thank you!</p>
+                <p>The Moïen Team</p>
+
+        reservation-cancellation-guest
+            ~ Reservation Cancellation (Guest)
+            ~ \{\{profile.email\}\}
+            ~ Confirmation of reservation cancellation for guests.
+            ~ Reservation Cancelled
+            ~ <h1>Reservation Cancelled</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>Your reservation at \{\{propertyName\}\} has been cancelled. We hope to host you in the future.</p>
+                <p>If you have any questions, please contact us.</p>
+                <p>Best regards,</p>
+                <p>The Moïen Team</p>
+
+        reservation-cancellation-host
+            ~ Reservation Cancellation (Host)
+            ~ \{\{profile.email\}\}
+            ~ Notification of reservation cancellation for hosts.
+            ~ Reservation Cancelled
+            ~ <h1>Reservation Cancelled</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>The reservation at \{\{propertyName\}\} from \{\{guestName\}\} for the dates \{\{checkInDate\}\} to \{\{checkOutDate\}\} has been cancelled.</p>
+                <p>If you have any questions, please contact us.</p>
+                <p>Best regards,</p>
+                <p>The Moïen Team</p>
+
+        check-in-reminder
+            ~ Check-in Reminder
+            ~ \{\{profile.email\}\}
+            ~ Reminder email for guests abming check-in.
+            ~ Upcoming Check-in
+            ~ <h1>Upcoming Check-in</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>This is a reminder of your upcoming stay at \{\{propertyName\}\}. Check-in date is \{\{checkInDate\}\}.</p>
+                <p>We look forward to hosting you!</p>
+                <p>Best regards,</p>
+                <p>The Moïen Team</p>
+
+        check-out-reminder
+            ~ Check-out Reminder
+            ~ \{\{profile.email\}\}
+            ~ Reminder email for guests about their upcoming check-out.
+            ~ Upcoming Check-out
+            ~ <h1>Upcomout their upcoing Check-out</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>This is a reminder that your stay at \{\{propertyName\}\} ends on \{\{checkOutDate\}\}.</p>
+                <p>We hope you enjoyed your stay!</p>
+                <p>Best regards,</p>
+                <p>The Moïen Team</p>
+
+        new-message-notification
+            ~ New Message Notification
+            ~ \{\{profile.email\}\}
+            ~ Notification about a new message from another user.
+            ~ You Have a New Message
+            ~ <h1>You Have a New Message</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>You have received a new message from \{\{senderName\}\}.</p>
+                <p><a href="\{\{messageLink\}\}">Read Message</a></p>
+                <p>Best regards,</p>
+                <p>The Moïen Team</p>
+
+        message-reply-notification
+            ~ Message Reply Notification
+            ~ \{\{profile.email\}\}
+            ~ Notification about a reply to a message sent.
+            ~ You Have a New Reply
+            ~ <h1>You Have a New Reply</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>\{\{senderName\}\} has replied to your message.</p>
+                <p><a href="\{\{messageLink\}\}">Read Reply</a></p>
+                <p>Best regards,</p>
+                <p>The Moïen Team</p>
+
+        payment-confirmation-guest
+            ~ Payment Confirmation (Guest)
+            ~ \{\{profile.email\}\}
+            ~ Confirmation of payment made by the guest.
+            ~ Payment Confirmed
+            ~ <h1>Payment Confirmed</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>Your payment for the booking at \{\{propertyName\}\} has been processed successfully.</p>
+                <p>Details:</p>
+                <ul>
+                    <li>Amount: \{\{amount\}\}</li>
+                    <li>Booking Dates: \{\{checkInDate\}\} to \{\{checkOutDate\}\}</li>
+                </ul>
+                <p>Thank you!</p>
+                <p>The Moïen Team</p>
+
+        payment-received-host
+            ~ Payment Received (Host)
+            ~ \{\{profile.email\}\}
+            ~ Notification of payment received for the host.
+            ~ Payment Received
+            ~ <h1>Payment Received</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>You have received a payment for the booking at \{\{propertyName\}\} from \{\{guestName\}\}.</p>
+                <p>Details:</p>
+                <ul>
+                    <li>Amount: \{\{amount\}\}</li>
+                    <li>Booking Dates: \{\{checkInDate\}\} to \{\{checkOutDate\}\}</li>
+                </ul>
+                <p>Thank you!</p>
+                <p>The Moïen Team</p>
+
+        refund-processed
+            ~ Refund Processed
+            ~ \{\{profile.email\}\}
+            ~ Confirmation of refund processed for the guest.
+            ~ Refund Processed
+            ~ <h1>Refund Processed</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>Your refund for the booking at \{\{propertyName\}\} has been processed. The amount of \{\{amount\}\} will be credited to your account shortly.</p>
+                <p>Thank you!</p>
+                <p>The Moïen Team</p>
+
+        review-request-guest
+            ~ Review Request (Guest)
+            ~ \{\{profile.email\}\}
+            ~ Request for guests to review their stay.
+            ~ How Was Your Stay?
+            ~ <h1>How Was Your Stay?</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>We hope you enjoyed your stay at \{\{propertyName\}\}. Please take a moment to leave a review.</p>
+                <p><a href="\{\{reviewLink\}\}">Leave a Review</a></p>
+                <p>Thank you!</p>
+                <p>The Moïen Team</p>
+
+        review-request-host
+            ~ Review Request (Host)
+            ~ \{\{profile.email\}\}
+            ~ Request for hosts to review their guests.
+            ~ How Was Your Guest?
+            ~ <h1>How Was Your Guest?</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>We hope everything went smoothly with \{\{guestName\}\}. Please take a moment to leave a review.</p>
+                <p><a href="\{\{reviewLink\}\}">Leave a Review</a></p>
+                <p>Thank you!</p>
+                <p>The Moïen Team</p>
+
+        review-received-notification
+            ~ Review Received Notification
+            ~ \{\{profile.email\}\}
+            ~ Notification that a review has been received.
+            ~ You Have a New Review
+            ~ <h1>You Have a New Review</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>You have received a new review from \{\{ReviewerName\}\}.</p>
+                <p><a href="\{\{reviewLink\}\}">Read Review</a></p>
+                <p>Thank you!</p>
+                <p>The Moïen Team</p>
+
+        customer-support-acknowledgment
+            ~ Customer Support Acknowledgment
+            ~ \{\{profile.email\}\}
+            ~ Confirmation of receipt of a customer support request.
+            ~ Support Request Received
+            ~ <h1>Support Request Received</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>We have received your support request. Our team will get back to you shortly.</p>
+                <p>Thank you for your patience.</p>
+                <p>The Moïen Support Team</p>
+
+        security-alert
+            ~ Security Alert
+            ~ \{\{profile.email\}\}
+            ~ Notification of suspicious activity or account changes.
+            ~ Security Alert
+            ~ <h1>Security Alert</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>We have noticed some unusual activity on your account. If this wasn't you, please secure your account immediately.</p>
+                <p><a href="\{\{securityLink\}\}">Secure My Account</a></p>
+                <p>Thank you!</p>
+                <p>The Moïen Team</p>
+
+        newsletter
+            ~ Newsletter
+            ~ \{\{profile.email\}\}
+            ~ Regular newsletter with updates and promotions.
+            ~ Moïen Newsletter
+            ~ <h1>Moïen Newsletter</h1>
+                <p>Stay updated with our latest news, offers, and tips.</p>
+                <p>\{\{newsletterContent\}\}</p>
+                <p>Best regards,</p>
+                <p>The Moïen Team</p>
+
+        special-offers
+            ~ Special Offers
+            ~ \{\{profile.email\}\}
+            ~ Email highlighting special promotions and offers.
+            ~ Special Offer Just for You!
+            ~ <h1>Special Offer Just for You!</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>We have a special offer available for you. Book now and save!</p>
+                <p><a href="\{\{offerLink\}\}">View Offer</a></p>
+                <p>Best regards,</p>
+                <p>The Moïen Team</p>
+
+        password-update-confirmation
+            ~ Password Update Confirmation
+            ~ \{\{profile.email\}\}
+            ~ Notification of password update.
+            ~ Password Updated
+            ~ <h1>Password Updated</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>Your password has been successfully updated. If you didn't make this change, please contact support immediately.</p>
+                <p>Thank you!</p>
+                <p>The Moïen Team</p>
+
+        password-reset-instructions
+            ~ Password Reset Instructions
+            ~ \{\{profile.email\}\}
+            ~ Instructions for resetting a forgotten password.
+            ~ Reset Your Password
+            ~ <h1>Reset Your Password</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>Click the link below to reset your password:</p>
+                <a href="\{\{resetLink\}\}">Reset Password</a>
+                <p>Thank you!</p>
+                <p>The Moïen Team</p>
+
+        profile-update-confirmation
+            ~ Profile Update Confirmation
+            ~ \{\{profile.email\}\}
+            ~ Confirmation of changes made to the user profile.
+            ~ Profile Updated
+            ~ <h1>Profile Updated</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>Your profile has been successfully updated.</p>
+                <p>Thank you!</p>
+                <p>The Moïen Team</p>
+
+        account-deactivation-confirmation
+            ~ Account Deactivation Confirmation
+            ~ \{\{profile.email\}\}
+            ~ Confirmation of account deactivation.
+            ~ Account Deactivated
+            ~ <h1>Account Deactivated</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>Your account has been successfully deactivated. We're sorry to see you go.</p>
+                <p>If you change your mind, you can reactivate your account anytime by logging in.</p>
+                <p>Best regards,</p>
+                <p>The Moïen Team</p>
+
+        terms-and-conditions-update
+            ~ Terms and Conditions Update
+            ~ \{\{profile.email\}\}
+            ~ Notification about changes to the terms and conditions.
+            ~ Updated Terms and Conditions
+            ~ <h1>Updated Terms and Conditions</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>We've updated our terms and conditions. Please review the changes.</p>
+                <p><a href="\{\{termsLink\}\}">Read Terms</a></p>
+                <p>Thank you!</p>
+                <p>The Moïen Team</p>
+
+        privacy-policy-update
+            ~ Privacy Policy Update
+            ~ \{\{profile.email\}\}
+            ~ Notification about changes to the privacy policy.
+            ~ Updated Privacy Policy
+            ~ <h1>Updated Privacy Policy</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>We've updated our privacy policy. Please review the changes.</p>
+                <p><a href="\{\{privacyLink\}\}">Read Policy</a></p>
+                <p>Thank you!</p>
+                <p>The Moïen Team</p>
+
+        birthday-greeting
+            ~ Birthday Greeting
+            ~ \{\{profile.email\}\}
+            ~ Birthday wishes for the user.
+            ~ Happy Birthday!
+            ~ <h1>Happy Birthday, \{\{profile.firstName\}\}!</h1>
+                <p>We hope you have a fantastic day filled with joy and happiness.</p>
+                <p>Best wishes,</p>
+                <p>The Moïen Team</p>
+
+        holiday-greetings
+            ~ Holiday and Festivity Greetings
+            ~ \{\{profile.email\}\}
+            ~ Festive greetings for special holidays.
+            ~ Happy \{\{holiday\}\}!
+            ~ <h1>Happy \{\{holiday\}\}!</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>Wishing you a wonderful \{\{holiday\}\} filled with joy and celebration.</p>
+                <p>Best regards,</p>
+                <p>The Moïen Team</p>
+
+        beta-subscription
+            ~ Beta Subscription
+            ~ \{\{betaUser.email\}\}
+            ~ Email to confirm the user's beta appliance.
+            ~ \{\{emailLocalizedText.subject\}\}
+            ~ <!DOCTYPE html>
+                <html lang="\{\{betaUser.languageCode\}\}">
+                <head>
+                <meta charset="UTF-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <title>Beta apply for Moien</title>
+                </head>
+                <body>
+                <div style="display: flex; flex-direction: column;">
+                <p style="text-align: center; background: #E5E5E5; width: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <img alt="Moien logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYWxxdWVfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA2MDAgMjI2IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA2MDAgMjI2OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CiAgICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgogICAgICAgIC5zdDB7ZmlsbDojQ0NGOEU5O30KICAgICAgICAuc3Qxe2ZpbGw6IzAxMEQzQzt9CiAgICA8L3N0eWxlPgogICAgPGc+CiAgICAgICAgPGNpcmNsZSBjbGFzcz0ic3QwIiBjeD0iMTEzIiBjeT0iMTEzIiByPSI5MyIvPgogICAgICAgIDxnPgogICAgICAgICAgICA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNMTUyLjUsMTE4YzAsMjMuMi0xNi4xLDQwLjQtMzguOCw0MC40Uzc0LjksMTQxLjIsNzQuOSwxMThoMTUuMWMwLDE3LjcsMTEsMjcuMSwyMy42LDI3LjEgICAgczIzLjYtOS41LDIzLjYtMjcuMUgxNTIuNXoiLz4KICAgICAgICAgICAgPHJlY3QgeD0iMTA4IiB5PSI4MC41IiBjbGFzcz0ic3QxIiB3aWR0aD0iNDMuNCIgaGVpZ2h0PSIxNC43Ii8+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik03NC4xLDg4LjNjMC00LjQsMy42LTgsOC04YzQuNCwwLDcuOSwzLjYsNy45LDhzLTMuNCw3LjktNy45LDcuOUM3Ny42LDk2LjIsNzQuMSw5Mi44LDc0LjEsODguM3oiLz4KICAgICAgICA8L2c+CiAgICAgICAgPGc+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0yODkuMywxMTAuMVYxNThoLTE0LjZ2LTQ4LjJjMC04LjItMi44LTE3LjktMTYuMS0xNy45Yy05LjcsMC0xNi43LDcuOS0xNi43LDE4LjhWMTU4aC0xNC40di00OC4yICAgIGMwLTExLjUtNS43LTE3LjktMTYtMTcuOWMtOS42LDAtMTYuOSw4LjEtMTYuOSwxOC44VjE1OEgxODBWODAuMmgxNC4ydjYuNGM0LjktNS4zLDExLjYtOC4zLDE5LjEtOC4zYzEwLjEsMCwxOC4yLDQuMSwyMy40LDEyICAgIGM1LjMtNy44LDEzLjYtMTIsMjMuNi0xMkMyNzguMSw3OC4zLDI4OS4zLDkwLjUsMjg5LjMsMTEwLjF6IE0zODAuNywxMTkuM2MwLDIyLjctMTcuMiw0MC40LTM5LjEsNDAuNHMtMzkuMS0xNy44LTM5LjEtNDAuNCAgICBjMC0yMywxNy4yLTQxLDM5LjEtNDFTMzgwLjcsOTYuMywzODAuNywxMTkuM3ogTTM2Ni4xLDExOS4zYzAtMTUuMS0xMS0yNy40LTI0LjUtMjcuNGMtMTMuNCwwLTI0LjMsMTIuMy0yNC4zLDI3LjQgICAgYzAsMTQuOCwxMC45LDI2LjgsMjQuMywyNi44QzM1NS4yLDE0Ni4yLDM2Ni4xLDEzNC4xLDM2Ni4xLDExOS4zeiBNMzk0LjgsMTU4aDE0LjZWODAuMmgtMTQuNlYxNTh6IE00ODkuMSw4OS42ICAgIGM4LjEsOC4xLDEyLjUsMTkuOCwxMi41LDMyLjhsMCwxLjFoLTYzLjRjMS43LDExLjUsMTAuNiwyMi45LDI0LjksMjIuOWMxMCwwLDE3LjQtNC42LDIxLjUtMTMuM2wwLjMtMC42aDE1LjNsLTAuNSwxLjQgICAgYy01LjQsMTYuNS0xOC44LDI2LTM2LjcsMjZjLTIyLjMsMC0zOS44LTE3LjgtMzkuOC00MC42YzAtMjIuNSwxNy41LTQwLjksMzkuMS00MC45QzQ3Mi40LDc4LjMsNDgxLjksODIuMyw0ODkuMSw4OS42eiAgICAgTTQzOS4xLDExMC4yaDQ2LjNjLTMuMy0xMC45LTEyLjYtMTguNC0yMy0xOC40QzQ1MC42LDkxLjcsNDQyLDEwMC44LDQzOS4xLDExMC4yeiBNNTQ5LjksNzguM2MtOC4yLDAtMTUuNiwzLTIxLDguNHYtNi41aC0xNC4yICAgIFYxNThoMTQuNnYtNDcuM2MwLTEwLjksNy45LTE4LjgsMTguOC0xOC44YzEwLjgsMCwxNy40LDcuMywxNy40LDE5LjF2NDdINTgwdi00Ni42QzU4MCw5MS4zLDU2OC4yLDc4LjMsNTQ5LjksNzguM3ogTTM4MS41LDYzLjEgICAgYzAsNC40LDMuNCw3LjksNy45LDcuOWM0LjQsMCw4LTMuNCw4LTcuOWMwLTQuNC0zLjYtOC04LThDMzg0LjksNTUuMSwzODEuNSw1OC43LDM4MS41LDYzLjF6IE00MDYuOCw2My4xYzAsNC40LDMuNCw3LjksNy45LDcuOSAgICBjNC40LDAsOC0zLjQsOC03LjljMC00LjQtMy42LTgtOC04QzQxMC4yLDU1LjEsNDA2LjgsNTguNyw0MDYuOCw2My4xeiIvPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg==" style="height: 3rem;"/>
+                </p>
+                <div style="margin:20pt 22.5pt 22.5pt 0;">
+                <h1>\{\{emailLocalizedText.greeting\}\} \{\{betaUser.firstName\}\},</h1>
+                <br>
+                <div style="text-align: left; margin:0 15% 0;">
+                <p>\{\{emailLocalizedText.intro\}\}</p>
+                <br>
+                <p>\{\{emailLocalizedText.firstLine\}\}</p>
+                <p>\{\{emailLocalizedText.secondLine\}\}</p>
+                <p>\{\{emailLocalizedText.thirdLine\}\}</p>
+                <br>
+                </div>
+                <p style="text-align: center; background: white; color: black;">\{\{emailLocalizedText.moienTeam\}\}</p>
+                <a href="https://www.moien.com/\{\{betaUser.languageCode\}\}/">www.moien.com</a>
+                </div>
+                <div style=" width: 100%; text-align: center; background: #E5E5E5; color: #808093; font-size: 9pt; margin-top: 7.5pt; padding: 20pt;">
+                Copyright © 2024 Moïen
+                </div>
+                </div>
+                </body>
+                </html>
+
+        visit-request-host
+            ~ Visit Request (host)
+            ~ \{\{profile.email\}\}
+            ~ Notification for hosts about a new visit request.
+            ~ New Visit Request!
+            ~ <h1>Visit Request!</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>You have a new visit request for \{\{propertyName\}\} from \{\{guestName\}\} on \{\{visitDate\}\} at \{\{visitTime\}\}.</p>
+                <p>Please review the visit details</p>
+                <a href="\{\{visitRequestLink\}\}">Visit request details</a>
+                <p>The Moïen Team</p>
+
+        visit-request-guest
+            ~ Visit Request (Guest)
+            ~ \{\{profile.email\}\}
+            ~ Confirmation email for guests after requesting to visit a property.
+            ~ Visit Request Sent!
+            ~ <h1>Visit Request Sent!</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>Your visit request for \{\{propertyName\}\} on \{\{visitDate\}\} at \{\{visitTime\}\} has been sent.</p>
+                <p>The Moïen Team</p>
+
+        host-visit-reschedule-host
+            ~ Host Visit Reschedule Request (Host)
+            ~ \{\{profile.email\}\}
+            ~ Confirmation email sent to host after requesting to reschedule a visit.
+            ~ Visit Reschedule Request Sent!
+            ~ <h1>Visit Reschedule Request Sent!</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>Your request to reschedule the visit at \{\{propertyName\}\} on \{\{visitDate\}\} at \{\{visitTime\}\} has been sent to the guest.</p>
+                <p>The Moïen Team</p>
+
+        host-visit-reschedule-guest
+            ~ Host Visit Reschedule Request (Guest)
+            ~ \{\{profile.email\}\}
+            ~ Notification sent to guest when the host requests to reschedule their visit.
+            ~ Host Requested to Reschedule your Visit
+            ~ <h1>Host Requested to Reschedule your Visit</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>Your visit request for \{\{propertyName\}\} has been rescheduled by the host to \{\{visitDate\}\} at \{\{visitTime\}\}.</p>
+                <p>You can accept the new date/time, ask for another reschedule or cancel the visit request from the property page</p>
+                <a href="\{\{propertyLink\}\}">Property page</a>
+                <p>The Moïen Team</p>
+
+        guest-visit-reschedule-host
+            ~ Guest Visit Reschedule Request (Host)
+            ~ \{\{profile.email\}\}
+            ~ Notification sent to host when the guest requests to reschedule their visit.
+            ~ \{\{guestName\}\} Requested to Reschedule their Visit
+            ~ <h1>\{\{guestName\}\} Requested to Reschedule their Visit</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>\{\{guestName\}\} has requested to reschedule their visit at \{\{propertyName\}\} to \{\{visitDate\}\} at \{\{visitTime\}\}.</p>
+                <p>You can accept the new date/time, ask for another reschedule or cancel the visit request from the visit request page</p>
+                <a href="\{\{visitRequestLink\}\}">Visit Request Page</a>
+                <p>The Moïen Team</p>
+
+        guest-visit-reschedule-guest
+            ~ Guest Visit Reschedule Request (Guest)
+            ~ \{\{profile.email\}\}
+            ~ Confirmation email sent to guest after requesting to reschedule a visit.
+            ~ Visit Reschedule Request Sent!
+            ~ <h1>Visit Reschedule Request Sent!</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>Your request to reschedule the visit at \{\{propertyName\}\} to \{\{visitDate\}\} at \{\{visitTime\}\} has been sent to the host.</p>
+                <p>The Moïen Team</p>
+
+        visit-confirmation-host
+            ~ Visit Confirmation (Host)
+            ~ \{\{profile.email\}\}
+            ~ Notification sent to host when a visit is confirmed.
+            ~ Visit Confirmed!
+            ~ <h1>Visit Confirmed!</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>The visit at \{\{propertyName\}\} from \{\{guestName\}\} on \{\{visitDate\}\} at \{\{visitTime\}\} has been confirmed.</p>
+                <p>The Moïen Team</p>
+
+        visit-confirmation-guest
+            ~ Visit Confirmation (Guest)
+            ~ \{\{profile.email\}\}
+            ~ Notification sent to guest when their visit is confirmed.
+            ~ Visit Confirmed!
+            ~ <h1>Visit Confirmed!</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>Your visit at \{\{propertyName\}\} on \{\{visitDate\}\} at \{\{visitTime\}\} has been confirmed.</p>
+                <p>The Moïen Team</p>
+
+        visit-cancellation-host
+            ~ Visit Cancellation (Host)
+            ~ \{\{profile.email\}\}
+            ~ Notification sent to host when a visit is cancelled.
+            ~ Visit Cancelled!
+            ~ <h1>Visit Cancelled!</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>The visit at \{\{propertyName\}\} from \{\{guestName\}\} on \{\{visitDate\}\} at \{\{visitTime\}\} has been cancelled.</p>
+                <p>The Moïen Team</p>
+
+        visit-cancellation-guest
+            ~ Visit Cancellation (Guest)
+            ~ \{\{profile.email\}\}
+            ~ Notification sent to guest when their visit is cancelled.
+            ~ Visit Cancelled!
+            ~ <h1>Visit Cancelled!</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>Your visit at \{\{propertyName\}\} on \{\{visitDate\}\} at \{\{visitTime\}\} has been cancelled.</p>
+                <p>The Moïen Team</p>
+
+        host-proposed-lease
+            ~ Host proposed lease
+            ~ \{\{profile.email\}\}
+            ~ Notification sent to guest when host proposes a lease contract
+            ~ Host has Proposed a lease
+            ~ <h1>Host has Proposed a Lease</h1>
+                <p>Dear \{\{profile.firstName\}\},</p>
+                <p>Following your visit at \{\{propertyName\}\}, the host has decided to propose a lease contract.</p>
+                <p>See the details at the lease contract page</p>
+                <a href="\{\{leaseContractPageLink\}\}>Lease Contract Page</a>
+                <p>The Moïen Team</p>

@@ -1,0 +1,78 @@
+# Public Routes (Accessible to all visitors)
+    / -> List of properties
+    /property/[propertyId] -> Detailed property view
+    /privacy-policy -> Privacy policy page
+    /terms -> Terms of service page
+
+# Dashboard Routes (User-specific, requires authentication)
+    /dashboard -> Dashboard home with multiple account settings
+    /dashboard/favorites -> List of favorite properties
+    /dashboard/history -> Property viewing history
+    /dashboard/personal-details -> Edit personal details
+    /dashboard/banking-information -> Manage banking information
+    /dashboard/statistics -> View account statistics
+    /dashboard/settings -> Account settings
+    /dashboard/notifications -> Manage notifications
+    /dashboard/faq -> Frequently asked questions
+    /dashboard/balance -> View account balance
+    /dashboard/bookings -> List of bookings
+        /dashboard/bookings/[bookingId] -> Detailed booking view
+    /dashboard/rental-file -> Manage rental file and settings
+    /dashboard/supporting-document -> Manage supporting documents
+    /dashboard/ads -> Ads dashboard with basic filters
+        /dashboard/ads/all -> List all ads
+        /dashboard/ads/new -> Create a new ad
+        /dashboard/ads/[propertyId] -> Edit an ad
+        /dashboard/ads/availability -> Manage availability for visits
+        /dashboard/ads/ongoing-contracts -> View ongoing contracts
+        /dashboard/ads/subscribe-services -> Subscribe to additional services
+        /dashboard/ads/current-stays -> Manage current and upcoming stays
+        /dashboard/ads/completed-stays -> View completed or canceled stays
+    /dashboard/transfer -> Transfer funds from wallet to account
+    /dashboard/conversation -> View conversations
+        /dashboard/conversation?conversationId=[conversationId] -> Specific conversation view
+    /dashboard/events -> View events
+        /dashboard/events?eventId=[eventId] -> Specific event view
+
+# Admin Routes
+    /admin -> Admin dashboard home page, showing key metrics and system overview
+
+    # User Management
+    /admin/users -> List all users with search and filter capabilities
+        /admin/users/[userId] -> View/Manage detailed user profile and activities
+
+    # Property Oversight
+    /admin/properties -> List all properties with search and filter options
+        /admin/properties/[propertyId] -> View/Manage detailed property information like approve/reject/suspend a property listing
+
+    # Booking Oversight
+    /admin/bookings -> List all bookings with detailed filters
+        /admin/bookings/[bookingId] -> View details of a booking
+        /admin/bookings/[bookingId]/status -> Update the status of a booking
+
+    # Ad and Promotion Management
+    /admin/ads -> Overview of all advertisements and promotional offers
+        /admin/ads/[adId] -> View details and metrics of an advertisement
+        /admin/ads/[adId]/status -> Update status or parameters of an advertisement
+
+    # Financial Management
+    /admin/financials -> Financial dashboard with revenue, refunds, and other transactions
+        /admin/financials/transactions -> Detailed list of all transactions
+        /admin/financials/reports -> Generate financial reports
+
+    # System Settings and Configurations
+    /admin/settings -> System-wide settings page
+        /admin/settings/general -> General settings (e.g., platform fees, user permissions)
+
+    # Reports and Analytics
+    /admin/reports -> Access to various analytics and data reports
+        /admin/reports/user-activity -> Detailed report on user activity
+        /admin/reports/property-stats -> Statistics and usage reports of properties
+        /admin/reports/financial -> Financial reports
+
+    # Notification Management
+    /admin/notifications -> Manage and send notifications to users
+        /admin/notifications/create -> Create a new notification
+        /admin/notifications/history -> View past notifications
+
+    ... ( still undone )

@@ -1,0 +1,19 @@
+PAYMENT_TYPE
+
+    id number name
+
+        transfer
+            ~ 0
+            ~ Transfer
+
+        payin
+            ~ 1
+            ~ Pay-in
+
+        refund
+            ~ 2
+            ~ Refund
+
+        conversion
+            ~ 3
+            ~ Conversion

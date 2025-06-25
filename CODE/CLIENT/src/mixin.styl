@@ -1,0 +1,11 @@
+// -- IMPORTS
+
+@import 'senselogic-flow/mixin.styl';
+
+// -- MIXINS
+
+defineLineHeightClasses( valueArray )
+
+    for value in valueArray
+        .line-height-{ value }
+            line-height: value * 0.01rem;

@@ -1,0 +1,6 @@
+setx MOIEN_DATABASE_HOST "db.rvmaltqvxnmtvljlghlx.supabase.co"
+setx MOIEN_DATABASE_PASSWORD "XFwDDY6uj2uhCrqFr6cJjaFQyjuaR8L7"
+setx MOIEN_DATABASE_URL "https://rvmaltqvxnmtvljlghlx.supabase.co"
+setx MOIEN_DATABASE_KEY "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ2bWFsdHF2eG5tdHZsamxnaGx4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTU2MzAxNDIsImV4cCI6MjAxMTIwNjE0Mn0.qjhCx3-VpASYblLdm_GSZmNWEHj5tTUU3LPL04X2N8Q"
+setx MOIEN_STORAGE_URL "https://rvmaltqvxnmtvljlghlx.supabase.co/storage/v1/object/public"
+pause

@@ -1,0 +1,19 @@
+GENDER
+
+    id name
+
+        male
+            ~ Male
+              ¨fr:Masculin
+
+        female
+            ~ Female
+              ¨fr:Féminin
+
+        non-binary
+            ~ Non binary
+              ¨fr:Non binaire
+
+        other
+            ~ Other
+              ¨fr:Autre

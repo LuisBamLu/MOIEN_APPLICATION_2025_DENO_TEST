@@ -1,0 +1,88 @@
+// -- IMPORTS
+
+@import 'senselogic-flow/element.styl';
+@import 'constant.styl';
+
+// -- ELEMENTS
+
+:root
+{
+    font-family: primaryFontFamily;
+}
+
+html
+{
+    overflow-x: hidden;
+}
+
+body
+{
+    background-color: grayColor900;
+}
+
+input
+{
+    background-color: transparent;
+
+    color: blackColor;
+}
+
+.modal-overlay
+{
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    inset: 0 0 0 0;
+    height: 100%;
+
+    background-color: rgba( 0, 0, 0, 0.5 );
+}
+
+.radio-input-container
+{
+    width: 100%;
+    padding: 0.75rem 0;
+
+    display: flex;
+    gap: 0.75rem;
+}
+
+.radio-input-container input
+{
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+    accent-color: greenColor;
+}
+
+.disabled
+{
+    cursor: disabled;
+}
+
+::-webkit-scrollbar
+{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track
+{
+    background: grayColor900;
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+
+    background: grayColor700;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+    background: grayColor;
+}
+
+setRootFontSize( 1rem, 1.2rem 1.3rem 1.4rem, 140em 160em 180em );

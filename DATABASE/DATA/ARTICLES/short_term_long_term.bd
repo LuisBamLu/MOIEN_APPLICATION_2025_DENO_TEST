@@ -1,0 +1,147 @@
+ARTICLE
+
+    id typeId categoryIdArray slug date number title teaser text imagePath blockIdArray userId metaTitle metaDescription
+
+        %short-term-long-term-article
+            ~ post
+            ~ { host }
+            ~ short-term-long-term-article
+            ~ 2025-02-04
+            ~ 18
+            ~ Short-term or long-term rental: what if you didn't have to choose?
+                ¨fr:Location courte ou longue durée : et si vous n'aviez plus à choisir ?
+                ¨de:Kurz- oder Langzeitmiete: Was, wenn Sie nicht mehr wählen müssten?
+            ~ When it comes to rental investment, one question always comes up: should you favor short-term rentals for their profitability or opt for the security of long-term rentals?
+                ¨fr:Lorsqu'on parle d'investissement locatif, une question revient sans cesse : faut-il privilégier la location courte durée pour sa rentabilité ou opter pour la sécurité d’une location longue durée ?
+                ¨de:Bei der Investition in Immobilien taucht immer wieder eine Frage auf: Sollte man sich für Kurzzeitmieten wegen ihrer Rentabilität entscheiden oder lieber die Sicherheit einer Langzeitmiete wählen?
+            ~ Each of these strategies has its advantages and disadvantages, but until now, it seemed impossible to enjoy both at the same time. **Moïen is changing the game by allowing you to combine these two models through structured subletting.**
+                ¨fr:Chacune de ces stratégies a ses avantages et ses inconvénients, mais jusqu’ici, il semblait impossible de profiter des deux en même temps. **Moïen change la donne en permettant d’allier ces deux modèles grâce à la sous-location encadrée.**
+                ¨de:Beide Strategien haben ihre Vor- und Nachteile, doch bis jetzt schien es unmöglich, beide gleichzeitig zu nutzen. **Moïen verändert das Spiel, indem es Ihnen ermöglicht, diese beiden Modelle durch strukturierte Untervermietung zu kombinieren.**
+            ~ /global/blog/short_term_long_term.avif
+            ~ { %short-term-long-term-article-block-1 ~ %short-term-long-term-article-block-2 ~ %short-term-long-term-article-block-3 ~ %short-term-long-term-article-block-4 ~ %short-term-long-term-article-block-5 ~ %short-term-long-term-article-block-6 }
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+            ~ Maximize Rental Income with Moïen: Combine Long-Term Stability & Short-Term Profits
+                ¨fr:Maximisez vos revenus locatifs avec Moïen : combinez la stabilité à long terme et les profits à court terme
+                ¨de:Maximieren Sie Ihre Mieteinnahmen mit Moïen: Kombinieren Sie langfristige Stabilität und kurzfristige Gewinne
+            ~ Discover how Moïen transforms rental investments by combining the security of long-term leases with the profitability of short-term subletting. Enjoy stable income and increased flexibility with Moïen’s innovative approach to rentals.
+                ¨fr:Découvrez comment Moïen transforme les investissements locatifs en combinant la sécurité des baux à long terme avec la rentabilité de la sous-location à court terme. Profitez de revenus stables et d'une flexibilité accrue grâce à l'approche innovante de Moïen en matière de location.
+                ¨de:Erfahren Sie, wie Moïen Mietinvestitionen revolutioniert, indem es die Sicherheit langfristiger Mietverträge mit der Rentabilität kurzfristiger Untervermietungen kombiniert. Genießen Sie stabiles Einkommen und erhöhte Flexibilität mit Moïens innovativem Ansatz für Vermietungen.
+
+BLOCK
+
+    id typeId articleId title text userId
+
+        %short-term-long-term-article-block-1
+            ~ text
+            ~ %short-term-long-term-article
+            ~ Short-term rentals: dream profits, but at what cost?
+                ¨fr:Location courte durée : une rentabilité qui fait rêver, mais à quel prix ?
+                ¨de:Kurzzeitmieten: Traumhafte Profite, aber zu welchem Preis?
+            ~ Platforms like Airbnb have popularized short-term rentals, attracting investors enticed by high returns. Indeed, **nightly rental rates can be two to three times higher than traditional rentals**. However, this apparent profitability comes with several challenges:§
+                §- **Time-consuming management**: cleaning, check-in/check-out, guest communication… It’s almost a part-time job.§
+                §- **Dependence on seasons and platforms**: strict regulations in some cities limit the number of nights allowed.§
+                §- **High expenses**: cleaning fees, platform commissions, increased maintenance costs.§
+                §For those who do not want to deal with these constraints daily, long-term rental seems like a more reassuring option.
+                    ¨fr:Les plateformes comme Airbnb ont démocratisé la location courte durée, attirant des investisseurs séduits par des rendements élevés. En effet, **les loyers à la nuitée peuvent être deux à trois fois plus élevés que ceux d’une location classique**. Mais cette rentabilité apparente cache plusieurs défis :§
+                        §- **Une gestion chronophage** : ménage, check-in/check-out, communication avec les voyageurs… Un véritable travail à temps partiel.§
+                        §- **Une dépendance aux saisons et aux plateformes** : une réglementation stricte dans certaines villes limite le nombre de nuitées.§
+                        §- **Des charges élevées** : frais de ménage, commissions des plateformes, maintenance accrue.§
+                        §Pour ceux qui ne souhaitent pas gérer ces contraintes au quotidien, la location longue durée semble une option plus rassurante.
+                    ¨de:Plattformen wie Airbnb haben Kurzzeitmieten populär gemacht und Investoren mit hohen Renditen angelockt. In der Tat **können die Übernachtungspreise zwei bis dreimal höher sein als bei einer klassischen Miete**. Diese scheinbare Rentabilität birgt jedoch mehrere Herausforderungen:§
+                        §- **Zeitaufwendige Verwaltung**: Reinigung, Check-in/Check-out, Kommunikation mit Gästen… Ein echter Teilzeitjob.§
+                        §- **Abhängigkeit von Saison und Plattformen**: Strenge Vorschriften in einigen Städten begrenzen die Anzahl der erlaubten Nächte.§
+                        §- **Hohe Kosten**: Reinigungsgebühren, Plattformprovisionen, erhöhte Wartungskosten.§
+                        §Für diejenigen, die diese täglichen Herausforderungen nicht selbst bewältigen möchten, erscheint die Langzeitmiete als eine beruhigendere Option.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+            
+        %short-term-long-term-article-block-2
+            ~ text
+            ~ %short-term-long-term-article
+            ~ Long-term rentals: stability and steady income, but lower profitability
+                ¨fr:Location longue durée : sérénité et revenus stables, mais une rentabilité limitée
+                ¨de:Langzeitmieten: stabilität und regelmäßiges Einkommen, aber geringere Rentabilität
+            ~ Choosing long-term rentals means prioritizing stability: a single tenant, regular monthly rent, and less day-to-day management. However, this option also has its drawbacks:§
+                §- **Lower yield** compared to short-term rentals, especially in major cities.§
+                §- **Contractual rigidity**: it is difficult to recover the property if needed.§
+                §- **Risk of unpaid rent**, which can impact profitability.
+                    ¨fr:Choisir la location longue durée, c’est privilégier la stabilité : un locataire unique, un loyer mensuel régulier, moins de gestion. Toutefois, cette solution présente aussi ses inconvénients :§
+                        §- **Un rendement souvent inférieur** à la location courte durée, surtout dans les grandes villes.§
+                        §- **Une rigidité contractuelle** : impossible de récupérer le bien facilement en cas de besoin.§
+                        §- **Un risque d’impayés** qui peut peser sur la rentabilité.
+                    ¨de:Die Wahl der Langzeitmiete bedeutet, Stabilität zu bevorzugen: ein einzelner Mieter, regelmäßige monatliche Miete, weniger Verwaltung. Diese Lösung hat jedoch auch ihre Nachteile:§
+                        §- **Geringere Rendite** im Vergleich zur Kurzzeitmiete, besonders in großen Städten.§
+                        §- **Vertragliche Starrheit**: Es ist schwierig, die Immobilie bei Bedarf zurückzuerhalten.§
+                        §- **Das Risiko von Mietausfällen**, was die Rentabilität beeinträchtigen kann.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+            
+        %short-term-long-term-article-block-3
+            ~ text
+            ~ %short-term-long-term-article
+            ~ Moïen: what if you could combine both?
+                ¨fr:Moïen : et si vous pouviez combiner les deux ?
+                ¨de:Moïen: was, wenn Sie beides kombinieren könnten?
+            ~ With **Moïen**, the dilemma is over! Our platform allows you to **rent your property long-term while maximizing your income through short-term subletting**.§
+                §**How Does It Work?**§
+                §1. **You rent out your property securely** to a trusted tenant with a structured lease.§
+                §2. **Your tenant can sublet the property short-term** when they are away (business trips, vacations, etc.).§
+                §3. **Both you and your tenant benefit**: you receive a guaranteed rent, and they can make their housing more affordable.
+                    ¨fr:Avec **Moïen**, fini le dilemme ! Notre plateforme vous permet de **proposer votre bien en location longue durée tout en maximisant vos revenus grâce à la sous-location courte durée**.§
+                        §**Comment ça fonctionne ?**§
+                        §1. **Vous louez votre bien en toute sécurité** à un locataire de confiance, avec un bail encadré.§
+                        §2. **Votre locataire peut sous-louer le bien en courte durée** lorsqu'il est absent (déplacements professionnels, vacances…).§
+                        §3. **Vous et votre locataire en profitez** : vous percevez un loyer garanti, et lui peut rentabiliser son logement sans risque.
+                    ¨de:Mit **Moïen** ist das Dilemma vorbei! Unsere Plattform ermöglicht es Ihnen, **Ihre Immobilie langfristig zu vermieten und gleichzeitig Ihre Einnahmen durch Kurzzeituntervermietung zu maximieren**.§
+                        §**Wie funktioniert das?**§
+                        §1. **Sie vermieten Ihre Immobilie sicher** an einen vertrauenswürdigen Mieter mit einem strukturierten Mietvertrag.§
+                        §2. **Ihr Mieter kann die Immobilie kurzfristig untervermieten**, wenn er abwesend ist (geschäftliche Reisen, Urlaub…).§
+                        §3. **Sowohl Sie als auch Ihr Mieter profitieren**: Sie erhalten eine garantierte Miete, und Ihr Mieter kann sein Wohnen rentabler gestalten.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+            
+        %short-term-long-term-article-block-4
+            ~ text
+            ~ %short-term-long-term-article
+            ~ Benefits for property owners
+                ¨fr:Les avantages pour les propriétaires
+                ¨de:Vorteile für Immobilienbesitzer
+            ~ - **Optimized profitability**: your rent remains stable, but subletting increases usage efficiency.§
+                §- **Less management hassle**: avoid the stress of frequent guest turnovers.§
+                §- **Legal compliance**: Moïen ensures everything is legally structured.
+                    ¨fr:- **Une rentabilité optimisée** : vos loyers restent fixes, mais la sous-location permet de maximiser l’utilisation du bien.§
+                        §- **Moins de gestion** : vous évitez les tracas liés aux rotations de voyageurs.§
+                        §- **Conformité légale** : Moïen s’assure que tout est encadré juridiquement.
+                    ¨de:- **Optimierte Rentabilität**: Ihre Miete bleibt stabil, aber die Untervermietung erhöht die Nutzungseffizienz.§
+                        §- **Weniger Verwaltungsaufwand**: Vermeiden Sie den Stress von häufigen Gästewechseln.§
+                        §- **Rechtliche Konformität**: Moïen stellt sicher, dass alles rechtlich strukturiert ist.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+            
+        %short-term-long-term-article-block-5
+            ~ text
+            ~ %short-term-long-term-article
+            ~ Benefits for tenants
+                ¨fr:Les avantages pour les locataires
+                ¨de:Vorteile für Mieter
+            ~ - **More affordable rent**: subletting allows them to offset rental costs.§
+                §- **Total flexibility**: no more need to choose between long-term and short-term rentals.
+                    ¨fr:- **Un logement plus abordable** : la possibilité de sous-louer permet de réduire leur charge locative.§
+                        §- **Une flexibilité totale** : plus besoin de choisir entre location longue et courte durée.
+                    ¨de:- **Bezahlbarere Miete**: Die Untervermietung hilft, die Mietkosten zu decken.§
+                        §- **Vollständige Flexibilität**: Kein Bedürfnis mehr, zwischen Langzeit- und Kurzzeitmiete zu wählen.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+            
+        %short-term-long-term-article-block-6
+            ~ text
+            ~ %short-term-long-term-article
+            ~ A future-proof rental model?
+                ¨fr:Un modèle d’avenir pour l’immobilier ?
+                ¨de:Ein zukunftssicheres Mietmodell?
+            ~ As the real estate market evolves and tenants' expectations change, **Moïen’s hybrid approach provides an innovative alternative**. It meets the growing demand for flexibility while ensuring stable and optimized income for property owners.§
+                §💡 **Why choose when you can have it all?** Join **Moïen** and discover a new way to rent!§
+                §👉 ((https://www.moien.com/)(Try Moïen now))§
+                    ¨fr:Face aux évolutions du marché immobilier et aux nouvelles attentes des locataires, **l’approche hybride de Moïen offre une alternative innovante**. Elle permet de répondre à la recherche de flexibilité, tout en garantissant aux propriétaires un revenu stable et optimisé.§
+                        §💡 **Pourquoi choisir quand on peut tout avoir ?** Rejoignez **Moïen** et découvrez une nouvelle façon de louer !§
+                        §👉 ((https://www.moien.com/)(Essayez Moïen dès maintenant))
+                    ¨de:Angesichts der Veränderungen auf dem Immobilienmarkt und der steigenden Nachfrage nach Flexibilität, bietet **Moïens hybrides Modell eine innovative Alternative**. Es erfüllt die wachsende Nachfrage nach Flexibilität und sorgt gleichzeitig für stabile und optimierte Einkünfte für Immobilienbesitzer.§
+                        §💡 **Warum wählen, wenn Sie alles haben können?** Schließen Sie sich **Moïen** an und entdecken Sie eine neue Art des Mietens!§
+                        §👉 ((https://www.moien.com/)(Probieren Sie Moïen jetzt aus))
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+            

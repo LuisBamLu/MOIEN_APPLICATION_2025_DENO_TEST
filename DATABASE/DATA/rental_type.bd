@@ -1,0 +1,27 @@
+RENTAL_TYPE
+
+    id number name
+
+        entire-place
+            ~ 1
+            ~ Rental of the entire accommodation
+              ¨fr:Location de l'ensemble du logement
+              ¨de:Vermietung der gesamten Unterkunft
+
+        private-room
+            ~ 2
+            ~ Rental of private room(s)
+              ¨fr:Location de chambre(s) privée(s)
+              ¨de:Vermietung von Privatzimmer(n)
+
+        shared-room
+            ~ 3
+            ~ Rental of shared room(s)
+              ¨fr:Location de chambre(s) partagée(s)
+              ¨de:Vermietung von Mehrbettzimmer(n)
+
+        hotel-room
+            ~ 4
+            ~ Rental of hotel room(s)
+              ¨fr:Location de chambre(s) d'hôtel
+              ¨de:Vermietung von Hotelzimmern

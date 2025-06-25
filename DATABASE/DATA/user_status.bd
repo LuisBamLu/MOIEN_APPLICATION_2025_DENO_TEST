@@ -1,0 +1,11 @@
+USER_STATUS
+
+    id name
+
+        active
+            ~ Active
+              ¨fr:Actif
+
+        inactive
+            ~ Inactive
+              ¨fr:Inactif

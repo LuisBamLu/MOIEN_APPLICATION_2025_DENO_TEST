@@ -1,0 +1,1219 @@
+public
+
+    TEXT_TYPE | dropped
+
+        id : TUID | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    TEXT | dropped
+
+        id : TUID | key, unique
+        slug : STRING
+        text : STRING
+        typeId : TEXT_TYPE.id
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    CURRENCY | dropped
+
+        code : STRING | key, unique
+        number : FLOAT64
+        singularName : STRING
+        pluralName : STRING
+        symbol : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    CURRENCY_CONVERSION
+
+        id: TUID | key, unique
+        sourceCurrencyCode: STRING
+        targetCurrencyCode: STRING
+        rate: FLOAT64
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    LANGUAGE | dropped
+
+        tag : STRING | key, unique
+        code : STRING
+        number : FLOAT64
+        name : STRING
+        iconImagePath : STRING = "/image/icon/place.svg"
+        isAvailable : BOOL
+        isTranslatable : BOOL
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    CONTINENT | dropped
+
+        code : STRING | key, unique
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    COUNTRY | dropped
+
+        code : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        fullName : STRING
+        continentCode : CONTINENT.code
+        iconImagePath : STRING = "/image/icon/place.svg"
+        phonePrefix : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    CITY | dropped, !saved
+
+        id : STRING = "{{.countryCode:slug_case}}-{{.code:slug_case}}-{{.name:slug_case}}-{{.communityName:slug_case}}" | key, unique, !checked
+        code : STRING
+        countryCode : COUNTRY.code
+        name : STRING
+        searchName : STRING = "{{.name:search_case}}"
+        provinceName : STRING
+        countryName : STRING
+        communityName : STRING
+        latitude : FLOAT64
+        longitude : FLOAT64
+
+    NEWSLETTER_SUBSCRIPTION | dropped
+
+        id : TUID | key, unique
+        isActive : BOOL
+        email : STRING
+        languageCode : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    BETA_APPLICANT
+
+        id : TUID | key, unique
+        firstName : STRING
+        lastName : STRING
+        email : STRING
+        languageCode : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    COMPANY_TYPE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    DOCUMENT_TYPE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    DOCUMENT_STATUS | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        color : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    EMPLOYMENT_STATUS | dropped
+
+        id : STRING | key, unique
+        name : STRING
+        number : FLOAT64
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    PROPERTY_STATUS | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        color : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    PROPERTY_TYPE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    ENERGY_DIAGNOSIS | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        minimumValue : UINT32
+        maximumValue : UINT32
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    HEATING_TYPE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    RENTAL_ANNOUNCEMENT_PLATFORM | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    RENTAL_TYPE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    RENTAL_COST_TYPE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    RENTAL_COST_FREQUENCY | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    SPACE_TYPE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    BED_TYPE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    AUTHENTICATION_TYPE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    SUBSCRIPTION_TYPE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    VALIDATION_STATUS | dropped
+
+        id : STRING | key, unique
+        name : STRING
+        number : FLOAT64
+        color : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    NOTIFICATION_TYPE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    NOTIFICATION_MEDIUM | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    PAYMENT_METHOD_TYPE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    PAYMENT_METHOD_STATUS | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        color : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    PAYMENT_TYPE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    PAYMENT_STATUS | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        color : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    AUTOMATIC_PAYMENT_TYPE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    PAYOUT_METHOD_TYPE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    PAYOUT_METHOD_STATUS | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        color : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    PAYOUT_TYPE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    PAYOUT_STATUS | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        color : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    CANCELLATION_POLICY | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        partialRefundMinimumDayCount : UINT32
+        partialRefundRatio : FLOAT64
+        fullRefundMinimumDayCount : UINT32
+        penaltyDayCount : UINT32
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    TAXATION | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        countryCode : COUNTRY.code
+        rate : FLOAT64
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    SERVICE_TYPE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    FEATURE_CATEGORY | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        iconImagePath : STRING = "/image/icon/place.svg"
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    FEATURE_SUBCATEGORY | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        categoryId : FEATURE_CATEGORY.id
+        name : STRING
+        iconImagePath : STRING = "/image/icon/place.svg"
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    FEATURE_VALUE_TYPE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    FEATURE_TYPE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        text : STRING
+        valuePrefix : STRING = ""
+        valueSuffix : STRING = ""
+        categoryId : FEATURE_CATEGORY.id
+        subcategoryId : FEATURE_SUBCATEGORY.id
+        valueTypeId : FEATURE_VALUE_TYPE.id
+        defaultValue : STRING = ""
+        minimumValue : STRING = ""
+        maximumValue : STRING = ""
+        iconImagePath : STRING = "/image/icon/place.svg"
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    BLOCK_TYPE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    ARTICLE_TYPE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    ARTICLE_CATEGORY | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    GENDER | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    USER_STATUS | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        color : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    USER_PERMISSION | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        slug : STRING
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    USER_ROLE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        slug : STRING
+        name : STRING
+        permissionSlugArray : LIST[ USER_PERMISSION.slug ]
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    PROFILE
+
+        id : UUID | key, unique
+        roleSlugArray : LIST[ USER_ROLE.slug ]
+        statusId : USER_STATUS.id
+        genderId : GENDER.id
+        firstName : STRING
+        lastName : STRING
+        legalName : STRING
+        aboutDescription : STRING
+        email : STRING
+        emailValidationStatusId : VALIDATION_STATUS.id
+        phonePrefix : STRING = "{{countryCode:fetch COUNTRY code phonePrefix}}"
+        phoneNumber : STRING = "{{integer 100000000 999999999}}"
+        phoneNumberValidationStatusId : VALIDATION_STATUS.id
+        governmentId : STRING
+        governmentIdValidationStatusId : VALIDATION_STATUS.id
+        addressLine1 : STRING
+        addressLine2 : STRING
+        cityCode : STRING
+        cityName : STRING
+        countryCode : COUNTRY.code
+        languageTag : LANGUAGE.tag
+        languageTagArray : LIST[ LANGUAGE.tag ]
+        currencyCode : CURRENCY.code
+        imagePath : STRING = "/upload/user/xRg9iRSJEqKAO7tnbXJa1w/20230924081935139_profile_{{integer 1 20}}.avif"
+        backgroundImagePath : STRING
+        birthDate : DATE
+        favoritePropertyId : LIST[ PROPERTY.id ]
+        mangopayUserId : STRING
+        userId : UUID | linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    NOTIFICATION_PERMISSION | dropped
+
+        id : TUID | key, unique
+        notificationType : NOTIFICATION_TYPE.id
+        notificationMedium : NOTIFICATION_TYPE.id
+        isGranted : BOOL
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    TICKET_STATUS
+
+        id : STRING | key, unique
+        order : UINT32
+        name : STRING | required
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    TICKET
+
+        id : TUID | key, unique
+        key : STRING | required
+        title : STRING | required
+        text : STRING | required
+        typeId: TICKET_TYPE.id | required
+        statusId : TICKET_STATUS.id | required, constrained
+        reporterUserId : PROFILE.userId | private, linked auth.users
+        assigneeUserId : PROFILE.userId | private, linked auth.users
+        solvedTimestamp : TIMESTAMP
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    PROPERTY | dropped, count 90
+
+        id : TUID | key, unique
+        date : DATE
+        reference : STRING
+        typeId : PROPERTY_TYPE.id
+        rentalTypeId : RENTAL_TYPE.id
+        statusId : PROPERTY_STATUS.id
+        imagePath : STRING = "/upload/user/xRg9iRSJEqKAO7tnbXJa1w/20230924081935139_outside_{{integer 1 8}}.avif"
+        imagePathArray : LIST[ STRING ] = "{/upload/user/xRg9iRSJEqKAO7tnbXJa1w/20230924081935139_inside_{{integer 1 16}}.avif~/upload/user/xRg9iRSJEqKAO7tnbXJa1w/20230924081935139_inside_{{integer 1 16}}.avif~/upload/user/xRg9iRSJEqKAO7tnbXJa1w/20230924081935139_inside_{{integer 1 16}}.avif~/upload/user/xRg9iRSJEqKAO7tnbXJa1w/20230924081935139_inside_{{integer 1 16}}.avif~/upload/user/xRg9iRSJEqKAO7tnbXJa1w/20230924081935139_inside_{{integer 1 16}}.avif}"
+        title : STRING = "{{latin 1 1 3 4}}¨fr:{{latin 1 1 3 4}}"
+        description : STRING = "{{latin 3 6 9 12}}¨fr:{{latin 3 6 9 12}}"
+        heatingTypeId : HEATING_TYPE.id
+        energyDiagnosisId : ENERGY_DIAGNOSIS.id
+        streetName : STRING
+        buildingNumber : STRING = ""
+        apartmentNumber : STRING = ""
+        cityId : CITY.id
+        cityName : STRING = "{{.cityId:fetch CITY id name}}"
+        countryCode : STRING = "{{.cityId:fetch CITY id countryCode}}"
+        countryName : STRING = "{{.cityId:fetch CITY id .countryCode:fetch COUNTRY code name}}"
+        showsPreciseLocation : BOOL
+        latitude : FLOAT64 = "{{.cityId:fetch CITY id latitude}}"
+        longitude : FLOAT64 = "{{.cityId:fetch CITY id longitude}}"
+        isAvailableForShortTerm : BOOL
+        isAvailableForLongTerm : BOOL
+        isAvailableForSublet : BOOL = "false"
+        shortTermDailyPrice : FLOAT64 = "{{integer 60 100}}"
+        hasShortTermExtendedStayDiscount : BOOL = "0"
+        shortTermExtendedStayDayCount : INT64 = "7"
+        shortTermExtendedStayDailyPrice : FLOAT64 = "0"
+        hasShortTermProlongedStayDiscount : BOOL = "0"
+        shortTermProlongedStayDayCount : INT64 = "28"
+        shortTermProlongedStayDailyPrice : FLOAT64 = "0"
+        longTermMonthlyPrice : FLOAT64 = "{{integer 800 1200}}"
+        requiredLongTermMonthlyIncome : FLOAT64 = "{{integer 3000 4000}}"
+        currencyCode : CURRENCY.code
+        requiredLongTermDocumentTypeIdList : LIST[ DOCUMENT_TYPE.id ]
+        requiresCompleteRequestForVisits : BOOL = "0"
+        managesLongTermDocuments : BOOL = "0"
+        averageRating : FLOAT64 = "{{real 1 5}}"
+        averageCleanlinessRating : FLOAT64 = "{{real 1 5}}"
+        averageCommunicationRating : FLOAT64 = "{{real 1 5}}"
+        averageCheckInRating : FLOAT64 = "{{real 1 5}}"
+        averageAccuracyRating : FLOAT64 = "{{real 1 5}}"
+        averageLocationRating : FLOAT64 = "{{real 1 5}}"
+        averageValueRating : FLOAT64 = "{{real 1 5}}"
+        managerUserId : PROFILE.userId | private, linked auth.users
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    SPACE | dropped, count 300
+
+        id : TUID | key, unique
+        propertyId: PROPERTY.id
+        typeId : SPACE_TYPE.id
+        name : STRING = "{{.typeId:fetch SPACE_TYPE id name}}"
+        description : STRING = "{{latin 1 1 3 4}}¨fr:{{latin 1 1 3 4}}"
+        floorNumber : INT64 = "{{integer 0 2}}"
+        area : FLOAT64 = "{{integer 20 100}}"
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    BED | dropped, count 150
+
+        id : TUID | key, unique
+        propertyId: PROPERTY.id
+        spaceId: SPACE.id
+        typeId : BED_TYPE.id
+        personCount : UINT32 = "{{integer 1 2}}"
+        count : UINT32 = "{{integer 1 2}}"
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    FEATURE | dropped, count 1000
+
+        id : STRING | key, unique
+        propertyId : PROPERTY.id
+        typeId : FEATURE_TYPE.id | constrained
+        value : STRING = "false|true"
+        isPromoted : BOOL = "false"
+        spaceIdArray : LIST[ SPACE.id ]
+        creationDateTime : DATETIME
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    PROVIDER | dropped
+
+        id : STRING | key, unique
+        email : STRING
+        legalName : STRING
+        fantasyName : STRING
+        countryCode : COUNTRY.code
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    SUBSCRIPTION | dropped
+
+        id : TUID | key, unique
+        isActive : BOOL
+        typeId : SUBSCRIPTION_TYPE.id
+        providerId : STRING
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    SERVICE | dropped
+
+        id : TUID | key, unique
+        name : STRING
+        isMonthly : BOOL
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    SERVICE_COST | dropped
+
+        id : TUID | key, unique
+        serviceId : SERVICE.id
+        isRatio : BOOL
+        amount : FLOAT64
+        currencyCode : CURRENCY.code
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    BILL_TYPE | dropped
+
+        id : STRING | key, unique
+        title : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    BILL | dropped
+
+        id : TUID | key, unique
+        propertyId : PROPERTY.id
+        typeId : BILL_TYPE.id
+        title : STRING
+        description : STRING
+        startDate : DATE
+        endDate : DATE
+        currencyCode : CURRENCY.code
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    BILL_LINE | dropped
+
+        id : TUID | key, unique
+        billId : BILL.id
+        label : STRING
+        quantity : FLOAT64
+        unitPrice : FLOAT64 = "{{integer 40 100}}"
+        discountRatio : FLOAT64 = "{{integer 40 100}}"
+        totalPrice : FLOAT64 = "{{integer 40 100}}"
+        currencyCode : CURRENCY.code
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    INVOICE | dropped
+
+        id : TUID | key, unique
+        title : STRING
+        currencyCode : CURRENCY.code
+        billIdArray : LIST[ BILL.id ] = "{}"
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    PAYMENT_METHOD | dropped
+
+        id : TUID | key, unique
+        paymentTypeId : PAYMENT_TYPE.id
+        typeId : PAYMENT_METHOD_TYPE.id
+        statusId : PAYOUT_METHOD_STATUS.id
+        providerId : STRING
+        expirationMonth : UINT32
+        expirationYear : UINT32
+        mangopayId : STRING
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    PAYOUT_METHOD | dropped
+
+        id : TUID | key, unique
+        paymentTypeId : PAYMENT_TYPE.id
+        typeId : PAYMENT_METHOD_TYPE.id
+        statusId : PAYOUT_METHOD_STATUS.id
+        accountOwner : STRING
+        accountIban : STRING
+        address : STRING
+        mangopayId : STRING
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    PAYMENT | dropped
+
+        id : TUID | key, unique
+        typeId : PAYMENT_TYPE.id
+        methodId : PAYMENT_METHOD.id
+        payerUserProfileId : PROFILE.userId | private, linked auth.users
+        payeeUserProfileId : PROFILE.userId | private, linked auth.users
+        amount : FLOAT64
+        currencyCode : CURRENCY.code
+        invoiceDate : DATE
+        dueDate : DATE
+        transactionId : STRING
+        mangopayId : STRING
+        statusId : PAYMENT_STATUS.id
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    AUTOMATIC_PAYMENT | dropped
+
+        id : TUID | key, unique
+        typeId : AUTOMATIC_PAYMENT_TYPE.id
+        methodId : PAYMENT_METHOD.id
+        payerUserProfileId : PROFILE.userId | private, linked auth.users
+        payeeUserProfileId : PROFILE.userId | private, linked auth.users
+        amount : FLOAT64
+        currencyCode : CURRENCY.code
+        startingDate : DATE
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    APPOINTMENT | dropped
+
+        id : TUID | key, unique
+        date : DATE
+        startingTime : TIME
+        endingTime : TIME
+        description : STRING
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    RENTAL_COST | dropped
+
+        id : TUID | key, unique
+        propertyId: PROPERTY.id
+        typeId : RENTAL_COST_TYPE.id
+        frequencyId : RENTAL_COST_FREQUENCY.id
+        name : STRING
+        amount : FLOAT64
+        currencyCode : CURRENCY.code
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    RENTAL_MODE | dropped
+
+        id : TUID | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    VISIT_STATUS | dropped
+
+        id : TUID | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    LEASE_STATUS | dropped
+
+        id : TUID | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    CONVERSATION_TYPE | dropped
+
+        id : TUID | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    CONVERSATION | dropped
+
+        id : TUID | key, unique
+        propertyId : PROPERTY.id
+        sourceUserProfileId : PROFILE.userId | private, linked auth.users
+        targetUserProfileId : PROFILE.userId | private, linked auth.users
+        typeId : CONVERSATION_TYPE.id
+        rentalModeId : RENTAL_MODE.id
+        sourceNewMessageCount : UINT32 = "{{integer 1 2}}"
+        targetNewMessageCount : UINT32 = "{{integer 1 2}}"
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    MESSAGE | dropped
+
+        id : TUID | key, unique
+        conversationId : CONVERSATION.id | constrained
+        sourceUserProfileId : PROFILE.userId | private, linked auth.users
+        targetUserProfileId : PROFILE.userId | private, linked auth.users
+        text : STRING | required
+        isReaded : BOOL
+        readedTimestamp : TIMESTAMP
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    RENTAL_DAY | dropped
+
+        id : TUID | key, unique
+        propertyId : PROPERTY.id
+        date : DATE
+        isAvailableForShortTerm : BOOL
+        isAvailableForLongTerm : BOOL
+        isAvailableForSublet : BOOL
+        shortTermDailyPrice : FLOAT64 = "{{integer 60 100}}"
+        hasShortTermExtendedStayDiscount : BOOL = "0"
+        shortTermExtendedStayDayCount : INT64 = "7"
+        shortTermExtendedStayDailyPrice : FLOAT64 = "0"
+        hasShortTermProlongedStayDiscount : BOOL = "0"
+        shortTermProlongedStayDayCount : INT64 = "28"
+        shortTermProlongedStayDailyPrice : FLOAT64 = "0"
+        longTermMonthlyPrice : FLOAT64 = "{{integer 800 1200}}"
+        currencyCode : CURRENCY.code
+        comment : STRING
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    RENTAL_BOOKING_STATUS | dropped
+
+        id : TUID | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    RENTAL_BOOKING | dropped
+
+        id : TUID | key, unique
+        propertyId : PROPERTY.id
+        guestCount : UINT32
+        arrivalDate : DATE
+        arrivalTime : TIME
+        departureDate : DATE
+        departureTime : TIME
+        dayCount : INT64
+        cleaningFee : FLOAT64
+        sheetsFee : FLOAT64
+        towelsFee : FLOAT64
+        otherFee : FLOAT64
+        donation : FLOAT64
+        carbonCompensationDonation : FLOAT64
+        totalPrice : FLOAT64 = "{{integer 40 100}}"
+        cancellationPolicyId : CANCELLATION_POLICY.id
+        isNonRefundable : BOOL
+        status : RENTAL_BOOKING_STATUS.id
+        userId : PROFILE.userId | private, linked auth.users
+        sourceCurrencyCode : STRING
+        targetCurrencyCode : STRING
+        conversionRate : FLOAT64
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    USER_REVIEW | dropped
+
+        id : TUID | key, unique
+        ratedUserProfileId : PROFILE.userId | private, linked auth.users
+        rentalBookingId : RENTAL_BOOKING.id
+        rating : FLOAT64 = "{{integer 1 5}}"
+        text : STRING
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    VISIT | dropped
+
+        id : TUID | key, unique
+        propertyId : PROPERTY.id
+        date : DATE
+        time : TIME
+        duration : TIME
+        status : VISIT_STATUS.id
+        visitorUserId : PROFILE.userId | private, linked auth.users
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    RENTAL_REVIEW | dropped
+
+        id : TUID | key, unique
+        propertyId : PROPERTY.id
+        rentalBookingId : RENTAL_BOOKING.id
+        rating : FLOAT64 = "{{integer 1 5}}"
+        cleanlinessRating : FLOAT64 = "{{integer 1 5}}"
+        communicationRating : FLOAT64 = "{{integer 1 5}}"
+        checkInRating : FLOAT64 = "{{integer 1 5}}"
+        accuracyRating : FLOAT64 = "{{integer 1 5}}"
+        locationRating : FLOAT64 = "{{integer 1 5}}"
+        valueRating : FLOAT64 = "{{integer 1 5}}"
+        text : STRING
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    RENTAL_ANNOUNCEMENT_ACCOUNT | dropped
+
+        id : TUID | key, unique
+        name : STRING
+        platformId : RENTAL_ANNOUNCEMENT_PLATFORM.id
+        login : STRING
+        password : STRING
+        providerId : STRING
+        url : STRING
+        key : STRING
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    RENTAL_ANNOUNCEMENT | dropped
+
+        id : TUID | key, unique
+        propertyId : PROPERTY.id
+        accountId : RENTAL_ANNOUNCEMENT_ACCOUNT.id
+        name : STRING
+        title : STRING
+        description : STRING
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    SUBLET_CONTRACT | dropped
+
+        id : TUID | key, unique
+        propertyId : PROPERTY.id
+        startingDate : DATE
+        endingDate : DATE
+        maximumDayCount : INT64
+        lessorUserProfileId : PROFILE.userId | private, linked auth.users
+        lessorNoticePeriod : DATE
+        tenantUserProfileId : PROFILE.userId | private, linked auth.users
+        tenantNoticePeriod : DATE
+        description : STRING
+        documentIdArray : LIST[ DOCUMENT.id ]
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    LEASE_SIGNATORY | dropped
+
+        id : TUID | key, unique
+        contractId : LEASE_CONTRACT.id
+        genderId : GENDER.id
+        firstName : STRING
+        lastName : STRING
+        birthDate : DATE
+        addressLine1 : STRING
+        addressLine2 : STRING
+        cityCode : STRING
+        cityName : STRING
+        countryCode : COUNTRY.code
+        monthlyIncome : FLOAT64
+        employmentStatus : EMPLOYMENT_STATUS.id
+        hasDeposit : BOOL
+        depositAmount : FLOAT64
+        hasGuarantor : BOOL
+        isMandated : BOOL
+        companyName : STRING
+        companyTypeId : COMPANY_TYPE.id
+        companyRegistrationNumber : STRING
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    LEASE_CONTRACT | dropped
+
+        id : TUID | key, unique
+        propertyId : PROPERTY.id
+        startingDate : DATE
+        endingDate : DATE
+        lessorUserProfileId : PROFILE.userId | private, linked auth.users
+        lessorNoticePeriod : DATE
+        tenantUserProfileId : PROFILE.userId | private, linked auth.users
+        tenantNoticePeriod : DATE
+        status : LEASE_STATUS.id
+        adultCount : INT64
+        childrenCount : INT64
+        infantCount : INT64
+        hasPet : BOOL
+        hasBankGuarantee : BOOL
+        requiresRepaint: BOOL
+        monthlyRent : FLOAT64
+        monthlyFee : FLOAT64
+        yearlyTax : FLOAT64
+        agencyFee : FLOAT64
+        guaranteeAmount : FLOAT64
+        currencyCode : CURRENCY.code
+        description : STRING
+        documentIdArray : LIST[ DOCUMENT.id ]
+        requiredDocumentTypeIdArray : LIST[ DOCUMENT_TYPE.id ]
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    INVENTORY | dropped
+
+        id : TUID | key, unique
+        propertyId : PROPERTY.id
+        date : DATE
+        name : STRING
+        lessorUserProfileId : PROFILE.userId | private, linked auth.users
+        tenantUserProfileId : PROFILE.userId | private, linked auth.users
+        keyCount : UINT32
+        description : STRING
+        documentIdArray : LIST[ DOCUMENT.id ]
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    DOCUMENT | dropped
+
+        id : TUID | key, unique
+        typeId : DOCUMENT_TYPE.id
+        validationStatusId : VALIDATION_STATUS.id
+        expirationDate : DATE | generated
+        filePath : STRING
+        name : STRING
+        description : STRING
+        languageTag : LANGUAGE.tag
+        countryIdArray : LIST[ COUNTRY.code ]
+        userId : PROFILE.userId | private, linked auth.users
+        mangopayDocumentId : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    DOCUMENT_TEMPLATE | dropped
+
+        id : TUID | key, unique
+        typeId : DOCUMENT_TYPE.id
+        filePath : STRING
+        name : STRING
+        description : STRING
+        languageTag : LANGUAGE.tag
+        countryCodeArray : LIST[ COUNTRY.code ]
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    EMAIL_TEMPLATE
+
+        id : STRING | key, unique
+        name : STRING | required
+        recipient : STRING | required
+        description : STRING
+        subject : STRING | required
+        content : STRING | required
+        notificationType : NOTIFICATION_TYPE.id
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    PUSH_TEMPLATE
+
+        id : STRING | key, unique
+        name : STRING | required
+        description : STRING
+        notification : MAP[ STRING, STRING ] | required
+        notificationType : NOTIFICATION_TYPE.id
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    NOTIFICATION_CENTER | dropped
+
+        id : TUID | key, unique
+        notificationType : NOTIFICATION_TYPE.id
+        message : STRING
+        isRead : BOOL
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    NOTIFICATION_EVENT_STATUS
+
+        id : STRING | key, unique
+        name : STRING | required
+        number : FLOAT64
+        color : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    NOTIFICATION_EVENT | dropped
+
+        id : TUID | key, unique
+        variableMap : MAP[ STRING, STRING ] | required
+        templateId : EMAIL_TEMPLATE.id | required
+        eventName : STRING | required
+        eventStatus : NOTIFICATION_EVENT_STATUS.id | required
+        notificationMedium : NOTIFICATION_MEDIUM.id | required
+        days : LIST[ UINT32 ] = "[{{integer 1 7}}~{{integer 1 7}}~{{integer 1 7}}~{{integer 1 7}}]"
+        creationTimestamp : TIMESTAMP | generated
+        sendAtTimestamp : TIMESTAMP | generated, updated
+        origin : NOTIFICATION_EVENT_ORIGIN.id | defaut_value = "system"
+
+    NOTIFICATION_EVENT_ORIGIN
+
+        id : STRING | key, unique
+        name : STRING | required
+        number : FLOAT64
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    QUESTION  | dropped
+
+        id : TUID | key, unique
+        propertyId : PROPERTY.id
+        title : STRING
+        text : STRING
+        answer : STRING
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    BLOCK | dropped
+
+        id : TUID | key, unique
+        typeId : BLOCK_TYPE.id
+        articleId : ARTICLE.id
+        title : STRING
+        teaser : STRING
+        text : STRING
+        imagePath : STRING
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    ARTICLE | dropped
+
+        id : TUID | key, unique
+        typeId : ARTICLE_TYPE.id
+        categoryIdArray : LIST[ ARTICLE_CATEGORY.id ] = "{}"
+        slug : STRING
+        date : DATE
+        number : FLOAT64
+        title : STRING
+        teaser : STRING
+        text : STRING
+        imagePath : STRING
+        blockIdArray : LIST[ BLOCK.id ]
+        metaTitle: STRING = ""
+        metaDescription: STRING = ""
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    DEVICE_TOKEN
+
+        id : TUID | key, unique
+        deviceToken : STRING | required
+        deviceType : STRING | required
+        userId : PROFILE.userId | private, linked auth.users
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated
+
+    CONNECTION | sorted, dropped
+
+        id : TUID | key, unique
+        browserAddress : STRING | indexed, unique, accessed
+        dateTime : DATETIME | generated, descending
+        isFailed : BOOL = "false"
+        attemptCount : INT64 | default_value 0
+
+    TICKET_TYPE | dropped
+
+        id : STRING | key, unique
+        number : FLOAT64
+        name : STRING
+        creationTimestamp : TIMESTAMP | generated
+        updateTimestamp : TIMESTAMP | generated, updated

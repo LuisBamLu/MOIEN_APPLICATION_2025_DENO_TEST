@@ -1,0 +1,43 @@
+FEATURE_CATEGORY
+
+    id number name
+
+        description-and-equipment
+            ~ 1
+            ~ Description and equipment
+              ¨fr:Description et équipements
+
+        equipment-and-services
+            ~ 2
+            ~ Equipment and services
+              ¨fr:Équipements et services
+
+        rooms-and-beds
+            ~ 3
+            ~ Rooms and beds
+              ¨fr:Chambres et lits
+
+        equipments
+            ~ 4
+            ~ Equipments
+              ¨fr:Équipements
+
+        booking-options
+            ~ 5
+            ~ Booking options
+              ¨fr:Options de réservation
+
+        accessibility-features
+            ~ 6
+            ~ Accessibility features
+              ¨fr:Fonctionnalités d'accessibilité
+
+        long-term-options
+            ~ 7
+            ~ Long term options
+              ¨fr:Options de long terme
+
+        sublet-options
+            ~ 7
+            ~ Sublet options
+              ¨fr:Options de sous-location

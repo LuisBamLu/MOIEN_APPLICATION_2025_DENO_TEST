@@ -1,0 +1,53 @@
+ENERGY_DIAGNOSIS
+
+    id number name minimumValue maximumValue
+
+        not-available
+            ~ 1
+            ~ Not available
+              ¨fr:Non disponible
+            ~ 0
+            ~ 9999
+
+        a
+            ~ 1
+            ~ A
+            ~ 0
+            ~ 50
+
+        b
+            ~ 1
+            ~ B
+            ~ 51
+            ~ 90
+
+        c
+            ~ 1
+            ~ C
+            ~ 91
+            ~ 150
+
+        d
+            ~ 1
+            ~ D
+            ~ 151
+            ~ 230
+
+        e
+            ~ 1
+            ~ E
+            ~ 231
+            ~ 330
+
+        f
+            ~ 1
+            ~ F
+            ~ 331
+            ~ 450
+
+        G
+            ~ 1
+            ~ G
+            ~ 451
+            ~ 9999
+

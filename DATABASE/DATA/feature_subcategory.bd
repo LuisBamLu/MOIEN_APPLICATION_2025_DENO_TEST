@@ -1,0 +1,167 @@
+FEATURE_SUBCATEGORY
+
+    id categoryId number name
+
+        composition
+            ~ description-and-equipment
+            ~ 1
+            ~ Composition of your accomodation
+              ¨fr:Composition de votre logement
+              ¨de:Beschaffenheit Ihrer Unterkunft
+
+        rules
+            ~ description-and-equipment
+            ~ 2
+            ~ House rules
+              ¨fr:Règles de la maison
+              ¨de:Hausordnung
+
+        long-term-rental
+            ~ booking-options
+            ~ 1
+            ~ Long term rental
+              ¨fr:location à long terme
+              ¨de:Langzeitmiete
+
+        long-term-charges
+            ~ booking-options
+            ~ 1
+            ~ Long term charges
+              ¨fr:Charges à long terme
+              ¨de:Langfristige Kosten
+
+        rental-file
+            ~ booking-options
+            ~ 1
+            ~ Rental file
+              ¨fr:Dossier locatif
+              ¨de:Mieterdossier
+
+        short-term-rental
+            ~ booking-options
+            ~ 1
+            ~ Short term rental
+              ¨fr:Location court terme
+              ¨de:Kurzfristige Vermietung
+
+        short-term-charges
+            ~ booking-options
+            ~ 1
+            ~ Short term charges
+              ¨fr:Frais à court terme
+              ¨de:Kurzfristige Kosten
+
+        general
+            ~ equipment-and-services
+            ~ 1
+            ~ General
+              ¨fr:Général
+
+        available-services
+            ~ equipment-and-services
+            ~ 2
+            ~ Available services
+              ¨fr:Services disponibles
+              ¨de:Verfügbare Dienste
+
+        basic-facilities
+            ~ equipment-and-services
+            ~ 1
+            ~ Basic facilities
+              ¨fr:Services de base
+
+        recreational-facilities
+            ~ equipment-and-services
+            ~ 1
+            ~ Recreational facilities
+              ¨fr:Installations de loisirs
+
+        exterior
+            ~ equipment-and-services
+            ~ 1
+            ~ Exterior
+              ¨fr:Extérieur
+
+        access-and-security
+            ~ equipment-and-services
+            ~ 1
+            ~ Access and security
+              ¨fr:Accès et sécurité
+
+        recreation-and-connectivity
+            ~ equipment-and-services
+            ~ 1
+            ~ Recreation and connectivity
+              ¨fr:Loisirs et connectivité
+
+        equipment-for-children
+            ~ equipment-and-services
+            ~ 1
+            ~ Equipment for children
+              ¨fr:Équipements pour les enfants
+
+        linen-kitchen-and-bath
+            ~ equipment-and-services
+            ~ 1
+            ~ Linen, kitchen and bath
+              ¨fr:Linge de maison, cuisine et bain
+
+        rooms
+            ~ rooms-and-beds
+            ~ 1
+            ~ Rooms
+              ¨fr:Chambres
+
+        beds
+            ~ rooms-and-beds
+            ~ 2
+            ~ Beds
+              ¨fr:Lits
+
+        essentials
+            ~ equipments
+            ~ 1
+            ~ Essentials
+              ¨fr:Essentiels
+
+        features
+            ~ equipments
+            ~ 2
+            ~ Features
+              ¨fr:Caractéristiques
+
+        location
+            ~ equipments
+            ~ 3
+            ~ Location
+              ¨fr:Localisation
+
+        safety
+            ~ equipments
+            ~ 4
+            ~ Safety
+              ¨fr:Sécurité
+
+        guest-entrance-and-parking
+            ~ accessibility-features
+            ~ 1
+            ~ Guest entrance and parking
+              ¨fr:Entrée et parking invités
+
+        bedroom
+            ~ accessibility-features
+            ~ 2
+            ~ Bedroom
+              ¨fr:Chambre
+
+        bathroom
+            ~ accessibility-features
+            ~ 3
+            ~ Bathroom
+              ¨fr:Salle de bain
+
+        adaptative-equipment
+            ~ accessibility-features
+            ~ 4
+            ~ Adaptative equipment
+              ¨fr:Équipement adaptatif

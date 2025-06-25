@@ -1,0 +1,4 @@
+call trace_folder_color_images icon\card
+call trace_folder_color_images icon\logo
+call trace_folder_color_images icon\rating
+pause

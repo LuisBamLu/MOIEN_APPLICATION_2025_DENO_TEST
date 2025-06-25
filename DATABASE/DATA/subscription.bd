@@ -1,0 +1,15 @@
+SUBSCRIPTION
+
+    id isActive typeId providerId userId
+
+        %house-cleaning-subscription
+            ~ true
+            ~ cleaning
+            ~ euro-juniors-cleaning
+            ~ 3bae57f8-a0d4-4c1f-84e8-d6876acc5b7c
+
+        %clothes-washing-subscription
+            ~ false
+            ~ cleaning
+            ~ euro-juniors-cleaning
+            ~ 3bae57f8-a0d4-4c1f-84e8-d6876acc5b7c

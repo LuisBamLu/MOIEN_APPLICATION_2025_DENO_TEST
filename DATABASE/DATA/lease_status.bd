@@ -1,0 +1,28 @@
+LEASE_STATUS
+
+    id name
+
+        incomplete
+            ~ Incomplete
+              ¨fr:Incomplet
+
+        requested
+            ~ Requested
+              ¨fr:Demandé
+
+        accepted
+            ~ Accepted
+              ¨fr:Accepté
+
+        refused
+            ~ Refused
+              ¨fr:Refusé
+
+        signed
+            ~ Signed
+              ¨fr:Signé
+
+        terminated
+            ~ Terminated
+              ¨fr:Terminé
+

@@ -1,0 +1,6 @@
+DATABASE/*.sql
+.vscode
+.yarn
+yarn.lock
+.yarnrc
+CODE/node_modules

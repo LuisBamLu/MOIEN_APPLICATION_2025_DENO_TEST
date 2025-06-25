@@ -1,0 +1,19 @@
+https://www.data.gouv.fr/fr/pages/donnees-securite/
+https://www.data.gouv.fr/fr/datasets/bases-statistiques-communale-departementale-et-regionale-de-la-delinquance-enregistree-par-la-police-et-la-gendarmerie-nationales/
+https://www.data.gouv.fr/fr/datasets/r/3f51212c-f7d2-4aec-b899-06be6cdd1030 (base statistique communale de la délinquance enregistrée par la police et la gendarmerie nationales)
+https://www.data.gouv.fr/fr/reuses/cartographie-des-indicateurs-sur-les-crimes-et-delits/
+
+https://www.data.gouv.fr/fr/pages/donnees_logement-urbanisme/
+https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/
+https://www.data.gouv.fr/fr/datasets/r/78348f03-a11c-4a6b-b8db-2acf4fee81b1 (Valeurs foncières 2023)
+https://www.data.gouv.fr/fr/datasets/r/87038926-fb31-4959-b2ae-7a24321c599a (Valeurs foncières 2022)
+https://www.data.gouv.fr/fr/datasets/r/817204ac-2202-4b4a-98e7-4184d154d98c (Valeurs foncières 2021)
+https://www.data.gouv.fr/fr/datasets/r/90a98de0-f562-4328-aa16-fe0dd1dca60f (Valeurs foncières 2020)
+https://www.data.gouv.fr/fr/datasets/r/3004168d-bec4-44d9-a781-ef16f41856a2 (Valeurs foncières 2019)
+
+https://www.zoopla.co.uk/
+https://ma-renta.fr/dvf-demandes-valeurs-foncieres
+https://app.dvf.etalab.gouv.fr/
+
+https://statistiques.public.lu/en/donnees.html
+https://lustat.statec.lu/?lc=en&pg=0&fs[0]=Topics%2C1%7CSocial%20conditions%23C%23%7CCrime%20and%20justice%23C5%23&fc=Topics

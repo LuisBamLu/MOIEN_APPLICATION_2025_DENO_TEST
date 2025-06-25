@@ -1,0 +1,98 @@
+ARTICLE
+
+    id typeId categoryIdArray slug date number title teaser text imagePath blockIdArray userId metaTitle metaDescription
+
+        %sacrificed-generation-article
+            ~ post
+            ~ { all }
+            ~ sacrificed-generation-article
+            ~ 2024-10-23
+            ~ 9
+            ~ "The sacrificed generation: How Moïen is redefining housing access for young people"
+                ¨fr:"La génération sacrifiée: Comment Moïen redéfinit l'accès au logement pour les jeunes"
+                ¨de:"Die geopferte Generation: Wie Moïen den Zugang zum Wohnen für junge Menschen neu definiert"
+            ~ Rising interest rates and property prices are hindering homeownership for young people.
+                ¨fr:La hausse des taux d'intérêt et des prix immobiliers freine l'accès à la propriété pour les jeunes
+                ¨de:Steigende Zinsen und Immobilienpreise erschweren den Zugang zum Wohneigentum für junge Menschen.
+            ~ **Rising interest rates and property prices are hindering homeownership for young people. Moïen offers a flexible solution with subletting to optimize their purchasing power and reinvent housing. Join the movement!**
+                ¨fr:**La hausse des taux d'intérêt et des prix immobiliers freine l'accès à la propriété pour les jeunes. Moïen propose une solution flexible avec la sous-location pour optimiser leur pouvoir d'achat et réinventer le logement. Rejoignez le mouvement!**
+                ¨de:**Steigende Zinsen und Immobilienpreise erschweren den Zugang zum Wohneigentum für junge Menschen. Moïen bietet eine flexible Lösung durch Untermiete, um ihre Kaufkraft zu optimieren und das Wohnen neu zu gestalten. Machen Sie mit!**
+            ~ /global/blog/when_and_how_can_your_rent_be_adjusted.avif
+            ~ { %sacrificed-generation-article-block-1 ~ %sacrificed-generation-article-block-2 ~ %sacrificed-generation-article-block-3 ~ %sacrificed-generation-article-block-4 }
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+            ~ Sacrificed Generation: Challenges and Opportunities for Today’s Youth
+                ¨fr:Génération sacrifiée : défis et perspectives des jeunes d’aujourd’hui
+            ~ An in-depth analysis of the challenges faced by today’s youth, including precariousness, unemployment, and the search for meaning, along with solutions for a better future.
+                ¨fr:Analyse approfondie des obstacles rencontrés par la jeunesse actuelle, entre précarité, chômage et quête de sens, et exploration des solutions envisageables pour un avenir meilleur.
+
+BLOCK
+
+    id typeId articleId title text userId
+
+        %sacrificed-generation-article-block-1
+            ~ text
+            ~ %sacrificed-generation-article
+            ~ Young people and real estate: Rethinking access to housing with Moïen
+                ¨fr:Les jeunes et l’immobilier: Repenser l’accès au logement avec Moïen
+                ¨de:Junge Menschen und Immobilien: Den Zugang zum Wohnen mit Moïen neu überdenken
+            ~ The dream of homeownership is becoming increasingly distant for the younger generation. Over the past decade, the constant rise in ((https://www.banque-france.fr/fr/publications-et-statistiques/statistiques/themes-statistiques-et-series-webstat-associees/taux-et-cours)(interest rates)) has created a significant barrier to homeownership, especially for those aged 18-30. As this generation struggles to buy their first property, their purchasing power continues to decline, affected by ever-rising ((https://www.insee.fr/fr/statistiques/2414232)(property prices)) and increasingly limited opportunities.
+                ¨fr:Le rêve de devenir propriétaire s'éloigne de plus en plus pour la jeune génération. Depuis une décennie, l’augmentation constante des ((https://www.banque-france.fr/fr/publications-et-statistiques/statistiques/themes-statistiques-et-series-webstat-associees/taux-et-cours)(taux d’intérêt)) a créé une véritable fracture dans l’accès à la propriété, notamment pour les 18-30 ans. Alors que cette génération peine à acheter son premier bien, le pouvoir d’achat immobilier continue de chuter, affecté par des ((https://www.insee.fr/fr/statistiques/2414232)(prix de l’immobilier)) en constante hausse et des opportunités de plus en plus limitées.
+                ¨de:Der Traum vom Eigenheim rückt für die jüngere Generation immer weiter in die Ferne. In den letzten zehn Jahren hat der ständige Anstieg der ((https://www.banque-france.fr/fr/publications-et-statistiques/statistiques/themes-statistiques-et-series-webstat-associees/taux-et-cours)(Zinsen)) eine erhebliche Barriere für den Erwerb von Wohneigentum geschaffen, insbesondere für die 18- bis 30-Jährigen. Während diese Generation darum kämpft, ihre erste Immobilie zu kaufen, sinkt ihre Kaufkraft weiter, beeinträchtigt durch ständig steigende ((https://www.insee.fr/fr/statistiques/2414232)(Immobilienpreise)) und zunehmend begrenzte Möglichkeiten.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %sacrificed-generation-article-block-2
+            ~ text
+            ~ %sacrificed-generation-article
+            ~ A generation sacrificed by interest rates
+                ¨fr:Une génération sacrifiée par les taux d’intérêt
+                ¨de:Eine Generation, die durch Zinsen geopfert wurde
+            ~ Young professionals, often still at the beginning of their careers, are particularly vulnerable to the current economic situation. They see their borrowing capacity drastically reduced due to the rise in ((https://www.boursorama.com/patrimoine/actualites/credit-immobilier-les-taux-d-interet-vont-ils-encore-continuer-a-augmenter-c7c4868fdfaf1b6ed57b221769c9ce1f)(interest rates)), which have gone from historically low levels to peaks that are difficult for many households to sustain. Homeownership, once considered a natural step in adult life, is now a privilege reserved for an elite capable of overcoming these financial barriers.§
+              §
+              In concrete terms, even a slight increase in interest rates for a ((https://www.cafedelabourse.com/bourse-ou-immobilier-quel-placement-financier-privilegier)(mortgage)) has a devastating impact on monthly payments. Where a young person could previously consider borrowing significant amounts to buy their first home, they are now faced with much higher repayments, thus reducing their overall purchasing power. This generation sees their dream of homeownership postponed, or sometimes even shattered, fueling the feeling of being ((https://www.economie.gouv.fr/cedef/estimer-prix-immobilier)(sacrificed)) by economic circumstances.§
+              §
+              Today's young people not only suffer from high interest rates. They are also confronted with ((https://www.capital.fr/immobilier/immobilier-neuf-pourquoi-les-prix-restent-tres-eleves-malgre-la-crise-1501845)(tight real estate markets)), with per square meter prices skyrocketing in major cities and attractive areas. While their parents could consider buying a house or apartment with more favorable financing conditions, today's young people face much higher prices for often smaller spaces, while also dealing with inflation in living costs. This double burden, between ((https://www.lemonde.fr/argent/article/2022/09/28/credit-immobilier-pourquoi-la-remontee-du-taux-de-l-usure-n-est-pas-forcement-une-mauvaise-nouvelle-pour-les-emprunteurs_6143579_1657007.html)(high interest rates)) and exorbitant prices, makes this generation perhaps the most challenged in building real estate wealth.
+                ¨fr:Les jeunes actifs, souvent encore en début de carrière, sont particulièrement vulnérables à la conjoncture économique actuelle. Ils voient leur capacité à emprunter diminuer drastiquement en raison de la montée des taux d’intérêt ((https://www.boursorama.com/patrimoine/actualites/credit-immobilier-les-taux-d-interet-vont-ils-encore-continuer-a-augmenter-c7c4868fdfaf1b6ed57b221769c9ce1f)(taux d’intérêt)) qui sont passés en quelques années de niveaux historiquement bas à des sommets difficilement soutenables pour de nombreux ménages. L’accès à la propriété, autrefois considéré comme une étape naturelle dans la vie d’adulte, devient aujourd’hui un privilège réservé à une élite capable de surmonter ces barrières financières.§
+                §
+                Concrètement, une hausse des taux d’intérêt même de quelques points pour un ((https://www.cafedelabourse.com/bourse-ou-immobilier-quel-placement-financier-privilegier)(prêt immobilier)) a un impact dévastateur sur les mensualités. Là où un jeune pouvait auparavant envisager d’emprunter des sommes significatives pour acheter son premier logement, il est désormais confronté à des remboursements beaucoup plus élevés, réduisant ainsi son pouvoir d’achat global. Cette génération voit ainsi son rêve de devenir propriétaire repoussé, ou parfois même anéanti, ce qui alimente le sentiment d’être ((https://www.economie.gouv.fr/cedef/estimer-prix-immobilier)(sacrifié)) par les circonstances économiques.§
+                §
+                Les jeunes d’aujourd’hui ne souffrent pas seulement des taux d’intérêt élevés. Ils sont également confrontés à des ((https://www.capital.fr/immobilier/immobilier-neuf-pourquoi-les-prix-restent-tres-eleves-malgre-la-crise-1501845)(marchés immobiliers tendus)), avec des prix au mètre carré qui explosent dans les grandes villes et les zones attractives. Alors que leurs parents pouvaient envisager d’acheter une maison ou un appartement avec des conditions de financement plus favorables, les jeunes d’aujourd’hui doivent faire face à des prix bien supérieurs pour des surfaces souvent plus petites, tout en subissant une inflation des coûts de la vie. Cette double peine, entre ((https://www.lemonde.fr/argent/article/2022/09/28/credit-immobilier-pourquoi-la-remontee-du-taux-de-l-usure-n-est-pas-forcement-une-mauvaise-nouvelle-pour-les-emprunteurs_6143579_1657007.html)(taux d’intérêt élevés)) et prix exorbitants, fait de cette génération celle qui a sans doute le plus de difficultés à se constituer un patrimoine immobilier.
+                ¨de:Junge Berufstätige, die oft noch am Anfang ihrer Karriere stehen, sind besonders anfällig für die aktuelle wirtschaftliche Lage. Sie sehen ihre Kreditfähigkeit drastisch reduziert aufgrund des Anstiegs der ((https://www.boursorama.com/patrimoine/actualites/credit-immobilier-les-taux-d-interet-vont-ils-encore-continuer-a-augmenter-c7c4868fdfaf1b6ed57b221769c9ce1f)(Zinsen)), die von historisch niedrigen Niveaus auf Spitzenwerte gestiegen sind, die für viele Haushalte schwer zu verkraften sind. Der Erwerb von Wohneigentum, der einst als natürlicher Schritt im Erwachsenenleben galt, ist heute ein Privileg, das einer Elite vorbehalten ist, die in der Lage ist, diese finanziellen Hürden zu überwinden.§
+                §
+                Konkret hat selbst ein leichter Anstieg der Zinsen für einen ((https://www.cafedelabourse.com/bourse-ou-immobilier-quel-placement-financier-privilegier)(Immobilienkredit)) verheerende Auswirkungen auf die monatlichen Zahlungen. Wo ein junger Mensch früher in der Lage war, beträchtliche Summen zu leihen, um seine erste Immobilie zu kaufen, sieht er sich heute mit viel höheren Rückzahlungen konfrontiert, was seine gesamte Kaufkraft reduziert. Diese Generation sieht ihren Traum vom Eigenheim verschoben oder manchmal sogar zerstört, was das Gefühl nährt, von den wirtschaftlichen Umständen ((https://www.economie.gouv.fr/cedef/estimer-prix-immobilier)(geopfert)) zu werden.§
+                §
+                Die heutigen jungen Menschen leiden nicht nur unter hohen Zinsen. Sie sind auch mit ((https://www.capital.fr/immobilier/immobilier-neuf-pourquoi-les-prix-restent-tres-eleves-malgre-la-crise-1501845)(angespannten Immobilienmärkten)) konfrontiert, mit Quadratmeterpreisen, die in den großen Städten und attraktiven Gebieten in die Höhe schießen. Während ihre Eltern in der Lage waren, ein Haus oder eine Wohnung mit günstigeren Finanzierungsbedingungen zu kaufen, sehen sich die heutigen jungen Menschen mit viel höheren Preisen für oft kleinere Flächen konfrontiert, während sie gleichzeitig mit einer Inflation der Lebenshaltungskosten zu kämpfen haben. Diese doppelte Belastung, zwischen ((https://www.lemonde.fr/argent/article/2022/09/28/credit-immobilier-pourquoi-la-remontee-du-taux-de-l-usure-n-est-pas-forcement-une-mauvaise-nouvelle-pour-die-emprunteurs_6143579_1657007.html)(hohen Zinsen)) und exorbitanten Preisen, macht diese Generation vielleicht zur am meisten herausgeforderten beim Aufbau von Immobilienvermögen.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %sacrificed-generation-article-block-3
+            ~ text
+            ~ %sacrificed-generation-article
+            ~ Subletting: Flexibility and purchasing power
+                ¨fr:Sous-location: flexibilité et pouvoir d’achat
+                ¨de:Untermiete: Flexibilität und Kaufkraft
+            ~ Subletting, although still underutilized, is a real opportunity for young people seeking freedom and economic solutions. At **Moïen**, we facilitate this practice by simplifying administrative procedures and securing transactions, so that everyone can benefit with peace of mind. Thanks to this approach, ((https://www.service-public.fr/particuliers/vosdroits/F2449)(subletting)) becomes a strategic asset for those who want to optimize their purchasing power without giving up their mobility or quality of life.
+                ¨fr:La sous-location, bien qu’encore sous-utilisée, est une réelle opportunité pour les jeunes en quête de liberté et de solutions économiques. Chez **Moïen**, nous facilitons cette pratique en simplifiant les démarches administratives et en sécurisant les transactions, pour que chacun puisse en bénéficier en toute sérénité. Grâce à cette approche, la ((https://www.service-public.fr/particuliers/vosdroits/F2449)(sous-location)) devient un atout stratégique pour celles et ceux qui veulent optimiser leur pouvoir d’achat sans renoncer à leur mobilité ou à leur qualité de vie.
+                ¨de:Die Untermiete, obwohl noch wenig genutzt, ist eine echte Chance für junge Menschen, die Freiheit und wirtschaftliche Lösungen suchen. Bei **Moïen** erleichtern wir diese Praxis, indem wir die Verwaltungsverfahren vereinfachen und die Transaktionen absichern, damit jeder in Ruhe davon profitieren kann. Dank dieses Ansatzes wird die ((https://www.service-public.fr/particuliers/vosdroits/F2449)(Untermiete)) zu einem strategischen Vorteil für diejenigen, die ihre Kaufkraft optimieren wollen, ohne auf ihre Mobilität oder Lebensqualität zu verzichten.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %sacrificed-generation-article-block-4
+            ~ text
+            ~ %sacrificed-generation-article
+            ~ Join the Moïen movement
+                ¨fr:Rejoignez le mouvement Moïen
+                ¨de:Treten Sie der Moïen-Bewegung bei
+            ~ In an economic context where ((https://www.latribune.fr/entreprises-finance/banques-finance/banque/immobilier-pourquoi-la-baisse-des-taux-de-la-bce-ne-devrait-pas-diminuer-le-cout-des-credits-999079.html)(interest rates)) are a major obstacle to homeownership, it is time to change the rules of the game. By facilitating subletting and offering flexible housing solutions, **Moïen** is committed to addressing the new challenges of younger generations.§
+              §
+              And you, how do you manage the impact of interest rates on your purchasing power? Share your experiences and solutions with us in the comments!§
+              §
+              **Moïen, for more flexible and accessible housing.**
+                ¨fr:Dans un contexte économique où les ((https://www.latribune.fr/entreprises-finance/banques-finance/banque/immobilier-pourquoi-la-baisse-des-taux-de-la-bce-ne-devrait-pas-diminuer-le-cout-des-credits-999079.html)(taux d’intérêt)) sont un frein majeur à l’accès à la propriété, il est temps de changer les règles du jeu. En facilitant la sous-location et en proposant des solutions de logement flexibles, **Moïen** s’engage à répondre aux nouveaux défis des jeunes générations.§
+                §
+                Et vous, comment gérez-vous l’impact des taux d’intérêt sur votre pouvoir d’achat? Partagez vos expériences et vos solutions avec nous en commentaire!§
+                §
+                **Moïen, pour un logement plus flexible et accessible.**
+                ¨de:In einem wirtschaftlichen Kontext, in dem ((https://www.latribune.fr/entreprises-finance/banques-finance/banque/immobilier-pourquoi-la-baisse-des-taux-de-la-bce-ne-devrait-pas-diminuer-le-cout-des-credits-999079.html)(Zinsen)) ein großes Hindernis für den Erwerb von Wohneigentum darstellen, ist es an der Zeit, die Spielregeln zu ändern. Durch die Erleichterung der Untermiete und die Bereitstellung flexibler Wohnlösungen setzt sich **Moïen** dafür ein, die neuen Herausforderungen der jüngeren Generationen zu bewältigen.§
+                §
+                Und Sie, wie gehen Sie mit den Auswirkungen der Zinsen auf Ihre Kaufkraft um? Teilen Sie Ihre Erfahrungen und Lösungen mit uns in den Kommentaren!§
+                §
+                **Moïen, für flexibleres und zugänglicheres Wohnen.**
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66

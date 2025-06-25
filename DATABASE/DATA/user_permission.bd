@@ -1,0 +1,873 @@
+USER_PERMISSION
+
+    id number slug name
+
+        list-user
+            ~ 1
+            ~ list-user
+            ~ View Users
+
+        set-user
+            ~ 2
+            ~ set-user
+            ~ Edit Users
+
+        add-user
+            ~ 3
+            ~ add-user
+            ~ Add Users
+
+        remove-user
+            ~ 4
+            ~ remove-user
+            ~ Remove Users
+
+        list-blog
+            ~ 5
+            ~ list-blog
+            ~ View Blogs
+
+        set-blog
+            ~ 6
+            ~ set-blog
+            ~ Edit Blogs
+
+        add-blog
+            ~ 7
+            ~ add-blog
+            ~ Add Blogs
+
+        remove-blog
+            ~ 8
+            ~ remove-blog
+            ~ Remove Blogs
+
+        list-notification
+            ~ 9
+            ~ list-notification
+            ~ View Notifications
+
+        set-notification
+            ~ 10
+            ~ set-notification
+            ~ Edit Notifications
+
+        add-notification
+            ~ 11
+            ~ add-notification
+            ~ Add Notifications
+
+        remove-notification
+            ~ 12
+            ~ remove-notification
+            ~ Remove Notifications
+
+        list-email-template
+            ~ 13
+            ~ list-email-template
+            ~ View Email Templates
+
+        set-email-template
+            ~ 14
+            ~ set-email-template
+            ~ Edit Email Templates
+
+        add-email-template
+            ~ 15
+            ~ add-email-template
+            ~ Add Email Templates
+
+        remove-email-template
+            ~ 16
+            ~ remove-email-template
+            ~ Remove Email Templates
+
+        list-user-right
+            ~ 17
+            ~ list-user-right
+            ~ View User Rights
+
+        set-user-right
+            ~ 18
+            ~ set-user-right
+            ~ Edit User Rights
+
+        add-user-right
+            ~ 19
+            ~ add-user-right
+            ~ Add User Rights
+
+        remove-user-right
+            ~ 20
+            ~ remove-user-right
+            ~ Remove User Rights
+
+        list-document-type
+            ~ 21
+            ~ list-document-type
+            ~ View Document Types
+
+        set-document-type
+            ~ 22
+            ~ set-document-type
+            ~ Edit Document Types
+
+        add-document-type
+            ~ 23
+            ~ add-document-type
+            ~ Add Document Types
+
+        remove-document-type
+            ~ 24
+            ~ remove-document-type
+            ~ Remove Document Types
+
+        list-payment-type
+            ~ 25
+            ~ list-payment-type
+            ~ View Payment Types
+
+        set-payment-type
+            ~ 26
+            ~ set-payment-type
+            ~ Edit Payment Types
+
+        add-payment-type
+            ~ 27
+            ~ add-payment-type
+            ~ Add Payment Types
+
+        remove-payment-type
+            ~ 28
+            ~ remove-payment-type
+            ~ Remove Payment Types
+
+        list-payment-method
+            ~ 29
+            ~ list-payment-method
+            ~ View Payment Methods
+
+        set-payment-method
+            ~ 30
+            ~ set-payment-method
+            ~ Edit Payment Methods
+
+        add-payment-method
+            ~ 31
+            ~ add-payment-method
+            ~ Add Payment Methods
+
+        remove-payment-method
+            ~ 32
+            ~ remove-payment-method
+            ~ Remove Payment Methods
+
+        list-property-type
+            ~ 33
+            ~ list-property-type
+            ~ View Property Types
+
+        set-property-type
+            ~ 34
+            ~ set-property-type
+            ~ Edit Property Types
+
+        add-property-type
+            ~ 35
+            ~ add-property-type
+            ~ Add Property Types
+
+        remove-property-type
+            ~ 36
+            ~ remove-property-type
+            ~ Remove Property Types
+
+        list-property-status
+            ~ 37
+            ~ list-property-status
+            ~ View Property Status
+
+        set-property-status
+            ~ 38
+            ~ set-property-status
+            ~ Edit Property Status
+
+        add-property-status
+            ~ 39
+            ~ add-property-status
+            ~ Add Property Status
+
+        remove-property-status
+            ~ 40
+            ~ remove-property-status
+            ~ Remove Property Status
+
+        list-text
+            ~ 41
+            ~ list-text
+            ~ View Texts
+
+        set-text
+            ~ 42
+            ~ set-text
+            ~ Edit Texts
+
+        add-text
+            ~ 43
+            ~ add-text
+            ~ Add Texts
+
+        remove-text
+            ~ 44
+            ~ remove-text
+            ~ Remove Texts
+
+        list-space-type
+            ~ 45
+            ~ list-space-type
+            ~ View Space Types
+
+        set-space-type
+            ~ 46
+            ~ set-space-type
+            ~ Edit Space Types
+
+        add-space-type
+            ~ 47
+            ~ add-space-type
+            ~ Add Space Types
+
+        remove-space-type
+            ~ 48
+            ~ remove-space-type
+            ~ Remove Space Types
+
+        list-cancellation-policy
+            ~ 49
+            ~ list-cancellation-policy
+            ~ View Cancellation Policies
+
+        set-cancellation-policy
+            ~ 50
+            ~ set-cancellation-policy
+            ~ Edit Cancellation Policies
+
+        add-cancellation-policy
+            ~ 51
+            ~ add-cancellation-policy
+            ~ Add Cancellation Policies
+
+        remove-cancellation-policy
+            ~ 52
+            ~ remove-cancellation-policy
+            ~ Remove Cancellation Policies
+
+        list-bill-type
+            ~ 53
+            ~ list-bill-type
+            ~ View Bill Types
+
+        set-bill-type
+            ~ 54
+            ~ set-bill-type
+            ~ Edit Bill Types
+
+        add-bill-type
+            ~ 55
+            ~ add-bill-type
+            ~ Add Bill Types
+
+        remove-bill-type
+            ~ 56
+            ~ remove-bill-type
+            ~ Remove Bill Types
+
+        list-notification-type
+            ~ 57
+            ~ list-notification-type
+            ~ View Notification Types
+
+        set-notification-type
+            ~ 58
+            ~ set-notification-type
+            ~ Edit Notification Types
+
+        add-notification-type
+            ~ 59
+            ~ add-notification-type
+            ~ Add Notification Types
+
+        remove-notification-type
+            ~ 60
+            ~ remove-notification-type
+            ~ Remove Notification Types
+
+        list-notification-medium
+            ~ 61
+            ~ list-notification-medium
+            ~ View Notification Mediums
+
+        set-notification-medium
+            ~ 62
+            ~ set-notification-medium
+            ~ Edit Notification Mediums
+
+        add-notification-medium
+            ~ 63
+            ~ add-notification-medium
+            ~ Add Notification Mediums
+
+        remove-notification-medium
+            ~ 64
+            ~ remove-notification-medium
+            ~ Remove Notification Mediums
+
+        list-dashboard
+            ~ 65
+            ~ list-dashboard
+            ~ View Dashboard
+
+        set-dashboard
+            ~ 66
+            ~ set-dashboard
+            ~ Edit Dashboard
+
+        add-dashboard
+            ~ 67
+            ~ add-dashboard
+            ~ Add Dashboard
+
+        remove-dashboard
+            ~ 68
+            ~ remove-dashboard
+            ~ Remove Dashboard
+
+        list-statistics
+            ~ 69
+            ~ list-statistics
+            ~ View Statistics
+
+        set-statistics
+            ~ 70
+            ~ set-statistics
+            ~ Edit Statistics
+
+        add-statistics
+            ~ 71
+            ~ add-statistics
+            ~ Add Statistics
+
+        remove-statistics
+            ~ 72
+            ~ remove-statistics
+            ~ Remove Statistics
+
+        list-visit
+            ~ 73
+            ~ list-visit
+            ~ View Visits
+
+        set-visit
+            ~ 74
+            ~ set-visit
+            ~ Set Visits
+
+        add-visit
+            ~ 75
+            ~ add-visit
+            ~ Add Visits
+
+        remove-visit
+            ~ 76
+            ~ remove-visit
+            ~ Remove Visits
+
+        list-review
+            ~ 77
+            ~ list-review
+            ~ View Reviews
+
+        set-review
+            ~ 78
+            ~ set-review
+            ~ Set Reviews
+
+        add-review
+            ~ 79
+            ~ add-review
+            ~ Add Reviews
+
+        remove-review
+            ~ 80
+            ~ remove-review
+            ~ Remove Reviews
+
+        list-notification-permission
+            ~ 81
+            ~ list-notification-permission
+            ~ View Notification Permissions
+
+        set-notification-permission
+            ~ 82
+            ~ set-notification-permission
+            ~ Set Notification Permissions
+
+        add-notification-permission
+            ~ 83
+            ~ add-notification-permission
+            ~ Add Notification Permissions
+
+        remove-notification-permission
+            ~ 84
+            ~ remove-notification-permission
+            ~ Remove Notification Permissions
+
+        list-invoice
+            ~ 85
+            ~ list-invoice
+            ~ View Invoices
+
+        set-invoice
+            ~ 86
+            ~ set-invoice
+            ~ Set Invoices
+
+        add-invoice
+            ~ 87
+            ~ add-invoice
+            ~ Add Invoices
+
+        remove-invoice
+            ~ 88
+            ~ remove-invoice
+            ~ Remove Invoices
+
+        list-rental-booking-status
+            ~ 89
+            ~ list-rental-booking-status
+            ~ View Rental Booking Status
+
+        set-rental-booking-status
+            ~ 90
+            ~ set-rental-booking-status
+            ~ Set Rental Booking Status
+
+        add-rental-booking-status
+            ~ 91
+            ~ add-rental-booking-status
+            ~ Add Rental Booking Status
+
+        remove-rental-booking-status
+            ~ 92
+            ~ remove-rental-booking-status
+            ~ Remove Rental Booking Status
+
+        list-rental-booking
+            ~ 93
+            ~ list-rental-booking
+            ~ View Rental Bookings
+
+        set-rental-booking
+            ~ 94
+            ~ set-rental-booking
+            ~ Set Rental Bookings
+
+        add-rental-booking
+            ~ 95
+            ~ add-rental-booking
+            ~ Add Rental Bookings
+
+        remove-rental-booking
+            ~ 96
+            ~ remove-rental-booking
+            ~ Remove Rental Bookings
+
+        list-payment-method-status
+            ~ 97
+            ~ list-payment-method-status
+            ~ View Payment Method Status
+
+        set-payment-method-status
+            ~ 98
+            ~ set-payment-method-status
+            ~ Set Payment Method Status
+
+        add-payment-method-status
+            ~ 99
+            ~ add-payment-method-status
+            ~ Add Payment Method Status
+
+        remove-payment-method-status
+            ~ 100
+            ~ remove-payment-method-status
+            ~ Remove Payment Method Status
+
+        list-payment-status
+            ~ 101
+            ~ list-payment-status
+            ~ View Payment Status
+
+        set-payment-status
+            ~ 102
+            ~ set-payment-status
+            ~ Set Payment Status
+
+        add-payment-status
+            ~ 103
+            ~ add-payment-status
+            ~ Add Payment Status
+
+        remove-payment-status
+            ~ 104
+            ~ remove-payment-status
+            ~ Remove Payment Status
+
+        list-subscription
+            ~ 105
+            ~ list-subscription
+            ~ View Subscriptions
+
+        set-subscription
+            ~ 106
+            ~ set-subscription
+            ~ Set Subscriptions
+
+        add-subscription
+            ~ 107
+            ~ add-subscription
+            ~ Add Subscriptions
+
+        remove-subscription
+            ~ 108
+            ~ remove-subscription
+            ~ Remove Subscriptions
+
+        list-document
+            ~ 109
+            ~ list-document
+            ~ View Documents
+
+        set-document
+            ~ 110
+            ~ set-document
+            ~ Set Documents
+
+        add-document
+            ~ 111
+            ~ add-document
+            ~ Add Documents
+
+        remove-document
+            ~ 112
+            ~ remove-document
+            ~ Remove Documents
+
+        list-payment
+            ~ 113
+            ~ list-payment
+            ~ View Payments
+
+        set-payment
+            ~ 114
+            ~ set-payment
+            ~ Set Payments
+
+        add-payment
+            ~ 115
+            ~ add-payment
+            ~ Add Payments
+
+        remove-payment
+            ~ 116
+            ~ remove-payment
+            ~ Remove Payments
+
+        list-message
+            ~ 117
+            ~ list-message
+            ~ View Messages
+
+        set-message
+            ~ 118
+            ~ set-message
+            ~ Set Messages
+
+        add-message
+            ~ 119
+            ~ add-message
+            ~ Add Messages
+
+        remove-message
+            ~ 120
+            ~ remove-message
+            ~ Remove Messages
+
+        list-diagnosis
+            ~ 121
+            ~ list-diagnosis
+            ~ View Diagnosis
+
+        set-diagnosis
+            ~ 122
+            ~ set-diagnosis
+            ~ Set Diagnosis
+
+        add-diagnosis
+            ~ 123
+            ~ add-diagnosis
+            ~ Add Diagnosis
+
+        remove-diagnosis
+            ~ 124
+            ~ remove-diagnosis
+            ~ Remove Diagnosis
+
+        list-bed
+            ~ 125
+            ~ list-bed
+            ~ View Beds
+
+        set-bed
+            ~ 126
+            ~ set-bed
+            ~ Set Beds
+
+        add-bed
+            ~ 127
+            ~ add-bed
+            ~ Add Beds
+
+        remove-bed
+            ~ 128
+            ~ remove-bed
+            ~ Remove Beds
+
+        list-space
+            ~ 129
+            ~ list-space
+            ~ View Spaces
+
+        set-space
+            ~ 130
+            ~ set-space
+            ~ Set Spaces
+
+        add-space
+            ~ 131
+            ~ add-space
+            ~ Add Spaces
+
+        remove-space
+            ~ 132
+            ~ remove-space
+            ~ Remove Spaces
+
+        list-property
+            ~ 133
+            ~ list-property
+            ~ View Properties
+
+        set-property
+            ~ 134
+            ~ set-property
+            ~ Set Properties
+
+        add-property
+            ~ 135
+            ~ add-property
+            ~ Add Properties
+
+        remove-property
+            ~ 136
+            ~ remove-property
+            ~ Remove Properties
+
+        list-category
+            ~ 136
+            ~ list-category
+            ~ View Categories
+
+        set-category
+            ~ 136
+            ~ set-category
+            ~ Set Categories
+
+        add-category
+            ~ 136
+            ~ add-category
+            ~ Add Categories
+
+        remove-category
+            ~ 136
+            ~ remove-category
+            ~ Remove Categories
+
+        list-inventory
+            ~ 137
+            ~ list-inventory
+            ~ View Inventory
+
+        set-inventory
+            ~ 138
+            ~ set-inventory
+            ~ Set Inventory
+
+        add-inventory
+            ~ 139
+            ~ add-inventory
+            ~ Add Inventory
+
+        remove-inventory
+            ~ 140
+            ~ remove-inventory
+            ~ Remove Inventory
+
+        list-rental-announcement
+            ~ 141
+            ~ list-rental-announcement
+            ~ View Rental Announcements
+
+        set-rental-announcement
+            ~ 142
+            ~ set-rental-announcement
+            ~ Set Rental Announcements
+
+        add-rental-announcement
+            ~ 143
+            ~ add-rental-announcement
+            ~ Add Rental Announcements
+
+        remove-rental-announcement
+            ~ 144
+            ~ remove-rental-announcement
+            ~ Remove Rental Announcements
+
+        list-rental-cost
+            ~ 145
+            ~ list-rental-cost
+            ~ View Rental Costs
+
+        set-rental-cost
+            ~ 146
+            ~ set-rental-cost
+            ~ Set Rental Costs
+
+        add-rental-cost
+            ~ 147
+            ~ add-rental-cost
+            ~ Add Rental Costs
+
+        remove-rental-cost
+            ~ 148
+            ~ remove-rental-cost
+            ~ Remove Rental Costs
+
+        list-lease-signatory
+            ~ 149
+            ~ list-lease-signatory
+            ~ View Lease Signatories
+
+        set-lease-signatory
+            ~ 150
+            ~ set-lease-signatory
+            ~ Set Lease Signatories
+
+        add-lease-signatory
+            ~ 151
+            ~ add-lease-signatory
+            ~ Add Lease Signatories
+
+        remove-lease-signatory
+            ~ 152
+            ~ remove-lease-signatory
+            ~ Remove Lease Signatories
+
+        list-lease-contract
+            ~ 153
+            ~ list-lease-contract
+            ~ View Lease Contracts
+
+        set-lease-contract
+            ~ 154
+            ~ set-lease-contract
+            ~ Set Lease Contracts
+
+        add-lease-contract
+            ~ 155
+            ~ add-lease-contract
+            ~ Add Lease Contracts
+
+        remove-lease-contract
+            ~ 156
+            ~ remove-lease-contract
+            ~ Remove Lease Contracts
+
+        list-connection
+            ~ 157
+            ~ list-connection
+            ~ List Connections
+
+        set-connection
+            ~ 158
+            ~ set-connection
+            ~ Set Connections
+
+        add-connection
+            ~ 159
+            ~ add-connection
+            ~ Add Connections
+        
+        remove-connection
+            ~ 160
+            ~ remove-connection
+            ~ Remove Connections
+
+        list-image
+            ~ 161
+            ~ list-image
+            ~ List Images
+
+        set-image
+            ~ 162
+            ~ set-image
+            ~ Set Images
+
+        add-image
+            ~ 163
+            ~ add-image
+            ~ Add Images
+        
+        remove-image
+            ~ 164
+            ~ remove-image
+            ~ Remove Images
+        
+        add-ticket
+            ~ 165
+            ~ add-ticket
+            ~ Add Ticket
+
+        set-ticket
+            ~ 166
+            ~ set-ticket
+            ~ Set Ticket
+
+        remove-ticket
+            ~ 167
+            ~ remove-ticket
+            ~ Remove Ticket
+
+        list-ticket
+            ~ 168
+            ~ list-ticket
+            ~ List Ticket
+
+        refund-rental-booking
+            ~ 169
+            ~ refund-rental-bookin
+            ~ Refund Rental Booking
+
+        list-service
+            ~ 170
+            ~ list-service
+            ~ View Services

@@ -1,0 +1,17 @@
++ PostgreSQL database information:
+
+host: 46.101.243.19
+port: 5432
+
+user  : kwizko
+password : LK12&M0n78)%V12$_*()BN@!
+
+user  : postgres
+password : HK%^)*V12)%#@BG8_+$45Aqw
+
+
++ Acces to API
+
+The access to API is managed by JWT token. User must authentifcate first via url https://testbo.moien.com/API/authentication/authenticate to retrieve a new token.
+For testing purpose you can use user/login : admin/moien@123!2022
+

@@ -1,0 +1,15 @@
+PAYMENT_STATUS
+
+    id number name
+
+        created
+            ~ 0
+            ~ Created
+
+        succeeded
+            ~ 1
+            ~ Succeeded
+
+        failed
+            ~ 2
+            ~ Failed

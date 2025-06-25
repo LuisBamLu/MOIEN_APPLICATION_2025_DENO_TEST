@@ -1,0 +1,83 @@
+SPACE_TYPE
+
+    id number name
+
+        bedroom
+            ~ 1
+            ~ Bedroom
+              ¨fr:Chambre
+
+        bathroom
+            ~ 2
+            ~ Bathroom
+              ¨fr:Salle de bains
+
+        living-room
+            ~ 3
+            ~ Living room
+              ¨fr:Salle de séjour
+
+        kitchen
+            ~ 4
+            ~ Kitchen
+              ¨fr:Cuisine
+
+        dining-room
+            ~ 5
+            ~ Dining room
+              ¨fr:Salle à manger
+
+        office
+            ~ 6
+            ~ Office
+              ¨fr:Bureau
+
+        game-room
+            ~ 7
+            ~ Game room
+              ¨fr:Salle de jeux
+
+        lavatory
+            ~ 8
+            ~ Lavatory
+              ¨fr:Salle de bains
+
+        cellar
+            ~ 9
+            ~ Cellar
+              ¨fr:Cave
+
+        other-room
+            ~ 10
+            ~ Other room
+              ¨fr:Autre pièce
+
+        balcony
+            ~ 11
+            ~ Balcony
+              ¨fr:Balcon
+
+        closed-garage
+            ~ 12
+            ~ Closed garage
+              ¨fr:Garage fermé
+
+        open-garage
+            ~ 13
+            ~ Open garage
+              ¨fr:Garage ouvert
+
+        terrace
+            ~ 14
+            ~ Terrace
+              ¨fr:Terrasse
+
+        garden
+            ~ 15
+            ~ Garden
+              ¨fr:Jardin
+
+        pool
+            ~ 16
+            ~ Pool
+              ¨fr:Piscine

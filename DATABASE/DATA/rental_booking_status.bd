@@ -1,0 +1,20 @@
+
+RENTAL_BOOKING_STATUS
+
+    id name
+
+        requested
+            ~ Requested
+              ¨fr:Demandée
+
+        confirmed
+            ~ Confirmed
+              ¨fr:Confirmée
+
+        paid
+            ~ Paid
+              ¨fr:Payée
+
+        cancelled
+            ~ Cancelled
+              ¨fr:Annulée

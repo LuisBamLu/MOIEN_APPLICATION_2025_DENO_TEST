@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "target": "ESNext",
+    "module": "ESNext",
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "checkJs": true,
+    "baseUrl": "src",
+    "paths": {
+      "$src/*": ["*"],
+      "$lib/*": ["lib/*"],
+      "$store/*": ["lib/store/*"],
+      "$component/*": ["lib/component/*"]
+		}
+  },
+	"include":
+  [
+		"*.d.ts",
+		"src/**/*.d.ts",
+		"src/**/*.js",
+		"src/**/*.ts",
+		"src/**/*.svelte",
+		"src/**/*.d.ts",
+		"src/*.d.ts",
+		"src/**/**/**/*.ts"
+	],
+	"exclude":
+  [
+		"node_modules/*",
+		"dist/*",
+		".svelte/*",
+		".svelte-kit/*",
+		"build/*",
+		"coverage/*",
+		".vercel_build_output/*",
+		"functions/*",
+		"static/*",
+		"scripts/*"
+	]
+}

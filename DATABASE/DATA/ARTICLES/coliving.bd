@@ -1,0 +1,119 @@
+ARTICLE
+
+    id typeId categoryIdArray slug date number title teaser text imagePath blockIdArray userId metaTitle metaDescription
+
+        %coliving-article
+            ~ post
+            ~ { all }
+            ~ coliving-article
+            ~ 2025-01-21
+            ~ 17
+            ~ Co-Living: The New Real Estate Revolution in Europe
+                ¨fr:Le Co-living : La nouvelle révolution immobilière en Europe
+                ¨de:Co-Living: Die neue Immobilienrevolution in Europa
+            ~ Co-living is presented as a modern and collaborative solution to urban loneliness and the housing crisis, but it raises debates about its limits, oscillating between social innovation and opportunistic commercial model.
+                ¨fr:Le co-living est présenté comme une solution moderne et collaborative pour répondre à la solitude urbaine et à la crise du logement, mais il soulève des débats sur ses limites, oscillant entre innovation sociale et modèle commercial opportuniste.
+                ¨de:Co-Living wird als moderne und kollaborative Lösung zur Bekämpfung der städtischen Einsamkeit und der Wohnungsnot vorgestellt, wirft aber Debatten über seine Grenzen auf und schwankt zwischen sozialer Innovation und opportunistischem Geschäftsmodell.
+            ~ Faced with soaring rents, housing shortages, and increased mobility of young professionals, a trend is emerging and reshaping the contours of living spaces in Europe: co-living. This concept, often presented as a modern evolution of shared housing, brings together individuals who share a collaborative and flexible lifestyle. But what is co-living, and why does it attract so many young professionals? Let's dive into this new real estate revolution.
+                ¨fr:Face à la flambée des loyers, à la pénurie de logements et à une mobilité accrue des jeunes actifs, une tendance émerge et redessine les contours de l'habitat en Europe : le co-living. Ce concept, souvent présenté comme une évolution moderne de la colocation, réunit des individus partageant un mode de vie collaboratif et flexible. Mais qu'est-ce que le co-living, et pourquoi attire-t-il autant les jeunes actifs ? Plongeons dans cette nouvelle révolution immobilière.
+                ¨de:Angesichts steigender Mieten, Wohnungsmangel und zunehmender Mobilität junger Berufstätiger entsteht ein Trend, der die Wohnformen in Europa neu definiert: Co-Living. Dieses Konzept, das oft als moderne Weiterentwicklung des Wohngemeinschaftsmodells präsentiert wird, bringt Menschen zusammen, die einen kollaborativen und flexiblen Lebensstil teilen. Aber was ist Co-Living und warum zieht es so viele junge Berufstätige an? Tauchen wir in diese neue Immobilienrevolution ein.
+            ~ /global/blog/coliving.avif
+            ~ { %coliving-article-block-1 ~ %coliving-article-block-2 ~ %coliving-article-block-3 ~ %coliving-article-block-4 ~ %coliving-article-block-5 }
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+            ~ Co-Living: A Flexible and Affordable Housing Solution for Young Professionals
+                ¨fr:Co-Living : Une solution de logement flexible et abordable pour les jeunes professionnels
+                ¨de:Co-Living: Eine flexible und erschwingliche Wohnlösung für junge Berufstätige
+            ~ Discover the rise of co-living as an innovative housing solution, offering affordability, community, and flexibility for young professionals seeking a collaborative living experience.
+                ¨fr:Découvrez l'essor du co-living en tant que solution de logement innovante, offrant abordabilité, communauté et flexibilité aux jeunes professionnels en quête d'une expérience de vie collaborative.
+                ¨de:Entdecken Sie den Aufstieg des Co-Living als innovative Wohnlösung, die Erschwinglichkeit, Gemeinschaft und Flexibilität für junge Berufstätige bietet, die ein gemeinschaftliches Wohnerlebnis suchen.
+
+BLOCK
+
+    id typeId articleId title text userId
+
+        %coliving-article-block-1
+            ~ text
+            ~ %coliving-article
+            ~ What is co-living?
+                ¨fr:Qu'est-ce que le co-living ?
+                ¨de:Was ist Co-Living?
+            ~ Co-living is much more than just sharing space. It is based on three main pillars:§
+                §1. **Flexible living**: Private or semi-private rooms combined with quality common areas such as kitchens, living rooms, or coworking spaces.§
+                §2. **An engaged community**: Co-living encourages exchange, collaboration, and the sharing of common values among its residents.§
+                §3. **All-inclusive services**: From housekeeping to internet connection, included services make daily life easier and offer a worry-free environment.
+                    ¨fr:Le co-living est bien plus qu'un simple partage d'espace. Il repose sur trois piliers principaux :§
+                        §1. **Un habitat flexible** : Des chambres privées ou semi-privées combinées à des espaces communs de qualité comme des cuisines, des salons ou des espaces de coworking.§
+                        §2. **Une communauté engagée** : Le co-living encourage l'échange, la collaboration et le partage de valeurs communes parmi ses résidents.§
+                        §3. **Des services tout compris** : Du ménage à la connexion Internet, les prestations incluses facilitent la vie quotidienne et offrent un cadre sans souci.
+                    ¨de:Co-Living ist mehr als nur das Teilen von Räumen. Es basiert auf drei Hauptsäulen:§
+                        §1. **Flexibles Wohnen**: Private oder halbprivate Zimmer kombiniert mit hochwertigen Gemeinschaftsbereichen wie Küchen, Wohnzimmern oder Coworking-Bereichen.§
+                        §2. **Eine engagierte Gemeinschaft**: Co-Living fördert den Austausch, die Zusammenarbeit und das Teilen gemeinsamer Werte unter seinen Bewohnern.§
+                        §3. **All-inclusive-Dienstleistungen**: Von der Haushaltsreinigung bis zur Internetverbindung erleichtern die inbegriffenen Dienstleistungen den Alltag und bieten eine sorgenfreie Umgebung.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %coliving-article-block-2
+            ~ text
+            ~ %coliving-article
+            ~ Why does co-living appeal to young professionals?
+                ¨fr:Pourquoi le co-living séduit-il les jeunes actifs ?
+                ¨de:Warum ist Co-Living bei jungen Berufstätigen beliebt?
+            ~ For young European professionals, co-living offers advantages adapted to current realities:§
+                §- **An affordable solution**: Costs are shared, making housing accessible in often sought-after areas like city centers. With housing costs having significantly increased in recent years, the topic is becoming more and more present. ((https://www.economist.com/)(The Economist))§
+                §- **Instant social network**: In a world where professional mobility is increasing, co-living creates an immediate sense of belonging. ((https://www.forbes.com/)(Forbes))§
+                §- **Contractual flexibility**: Unlike traditional leases, co-living allows for short or medium-term rentals, avoiding overly rigid commitments or sublet agreements if one person holds the lease. ((https://www.bbc.com/)(BBC))
+                    ¨fr:Pour les jeunes actifs européens, le co-living offre des avantages adaptés aux réalités actuelles :§
+                        §- **Une solution abordable** : Les coûts sont répartis, rendant les logements accessibles dans des zones souvent prisées comme les centres-villes. Les coûts pour se loger ayant significativement augmenté ces dernières années, le sujet devient de plus en plus présent. ((https://www.economist.com/)(The Economist))§
+                        §- **Un réseau social instantané** : Dans un monde où la mobilité professionnelle augmente, le co-living crée un sentiment d'appartenance immédiat. ((https://www.forbes.com/)(Forbes))§
+                        §- **Une flexibilité contractuelle** : Contrairement aux baux classiques, le co-living permet une location à court ou moyen terme, évitant les engagements trop rigides ou un contrat de sous-location si une personne porte le bail. ((https://www.bbc.com/)(BBC))
+                    ¨de:Für junge europäische Berufstätige bietet Co-Living Vorteile, die auf die aktuellen Realitäten zugeschnitten sind:§
+                        §- **Eine erschwingliche Lösung**: Die Kosten werden geteilt, wodurch Wohnraum in oft begehrten Gegenden wie Stadtzentren erschwinglich wird. Angesichts der in den letzten Jahren deutlich gestiegenen Wohnkosten wird das Thema immer präsenter. ((https://www.economist.com/)(The Economist))§
+                        §- **Ein sofortiges soziales Netzwerk**: In einer Welt, in der die berufliche Mobilität zunimmt, schafft Co-Living ein sofortiges Zugehörigkeitsgefühl. ((https://www.forbes.com/)(Forbes))§
+                        §- **Vertragliche Flexibilität**: Im Gegensatz zu herkömmlichen Mietverträgen ermöglicht Co-Living kurz- oder mittelfristige Vermietungen und vermeidet zu starre Verpflichtungen oder Untermietverträge, falls eine Person den Mietvertrag hält. ((https://www.bbc.com/)(BBC))
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %coliving-article-block-3
+            ~ text
+            ~ %coliving-article
+            ~ Subletting: An alternative to explore
+                ¨fr:La sous-location : Une alternative à explorer
+                ¨de:Untermiete: Eine zu erforschende Alternative
+            ~ While dedicated co-living residences are on the rise, subletting presents itself as a practical alternative for creating a personalized co-living space. Here’s why:§
+                §- **Optimization of underused spaces**: Tenants can sublet part of their home to other young professionals, thus creating a collaborative living environment. ((https://www.theguardian.com/cities/2019/sep/03/co-living-the-end-of-urban-loneliness-or-cynical-corporate-dormitories)(The Guardian))§
+                §- **Flexibility for owners and tenants**: By temporarily subletting, it is possible to offer housing adapted to the duration of an internship or assignment. ((https://www.bbc.com/culture/article/20240429-why-living-with-strangers-can-make-us-happier)(BBC))§
+                §- **A response to growing demand**: Subletting helps address the shortage of available housing without the need for new constructions. ((https://www.forbes.com/sites/trevorclawson/2021/05/23/home-networksis-co-living-the-new-co-working/)(Forbes))
+                ¨fr:Si le co-living en résidence dédiée est en plein essor, la sous-location se présente comme une alternative pratique pour créer un espace de co-living personnalisé. Voici pourquoi :§
+                    §- **Optimisation des espaces sous-utilisés** : Les locataires peuvent sous-louer une partie de leur logement à d'autres jeunes actifs, créant ainsi un environnement de vie collaboratif. ((https://www.theguardian.com/cities/2019/sep/03/co-living-the-end-of-urban-loneliness-or-cynical-corporate-dormitories)(The Guardian))§
+                    §- **Flexibilité pour les propriétaires et locataires** : En sous-louant temporairement, il est possible d'offrir un logement adapté à la durée d'un stage ou d'une mission. ((https://www.bbc.com/culture/article/20240429-why-living-with-strangers-can-make-us-happier)(BBC))§
+                    §- **Une réponse à la demande croissante** : La sous-location permet de pallier le manque de logements disponibles sans nécessiter de nouvelles constructions. ((https://www.forbes.com/sites/trevorclawson/2021/05/23/home-networksis-co-living-the-new-co-working/)(Forbes))
+                ¨de:Während spezielle Co-Living-Residenzen im Aufschwung sind, stellt sich die Untermiete als praktische Alternative heraus, um einen personalisierten Co-Living-Raum zu schaffen. Hier ist der Grund:§
+                    §- **Optimierung ungenutzter Räume**: Mieter können einen Teil ihres Wohnraums an andere junge Berufstätige untervermieten und so eine kollaborative Wohnumgebung schaffen. ((https://www.theguardian.com/cities/2019/sep/03/co-living-the-end-of-urban-loneliness-or-cynical-corporate-dormitories)(The Guardian))§
+                    §- **Flexibilität für Eigentümer und Mieter**: Durch vorübergehende Untermiete ist es möglich, Wohnraum für die Dauer eines Praktikums oder einer Aufgabe anzubieten. ((https://www.bbc.com/culture/article/20240429-why-living-with-strangers-can-make-us-happier)(BBC))§
+                    §- **Eine Antwort auf die wachsende Nachfrage**: Untermiete hilft, den Mangel an verfügbarem Wohnraum zu bekämpfen, ohne dass neue Gebäude gebaut werden müssen. ((https://www.forbes.com/sites/trevorclawson/2021/05/23/home-networksis-co-living-the-new-co-working/)(Forbes))
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %coliving-article-block-4
+            ~ text
+            ~ %coliving-article
+            ~ The role of Moïen in this evolution
+                ¨fr:Le rôle de Moïen dans cette évolution
+                ¨de:Die Rolle von Moïen in dieser Entwicklung
+            ~ At Moïen, we firmly believe that real estate rental can adapt to everyone’s needs. Our platform facilitates not only long-term and short-term rentals but also subletting, allowing users to create their own co-living space. Whether you're looking for a friendly shared apartment or want to make your property profitable, Moïen simplifies the process by connecting the right people at the right time.
+                ¨fr:Chez Moïen, nous croyons fermement que la location immobilière peut s’adapter aux besoins de chacun. Notre plateforme facilite non seulement la location longue et courte durée, mais également la sous-location, permettant ainsi aux utilisateurs de créer leur propre espace de co-living. Que vous soyez à la recherche d'une colocation conviviale ou que vous souhaitiez rentabiliser votre logement, Moïen simplifie le processus en connectant les bonnes personnes au bon moment.
+                ¨de:Bei Moïen sind wir fest davon überzeugt, dass die Immobilienvermietung an die Bedürfnisse jedes Einzelnen angepasst werden kann. Unsere Plattform erleichtert nicht nur die Lang- und Kurzzeitvermietung, sondern auch die Untermiete, sodass Benutzer ihren eigenen Co-Living-Raum schaffen können. Egal, ob Sie nach einer freundlichen Wohngemeinschaft suchen oder Ihre Immobilie rentabel machen möchten, Moïen vereinfacht den Prozess, indem es die richtigen Leute zur richtigen Zeit verbindet.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %coliving-article-block-5
+            ~ text
+            ~ %coliving-article
+            ~ Towards more collaborative living
+                ¨fr:Vers un habitat plus collaboratif
+                ¨de:Zu einem kollaborativeren Wohnen
+            ~ Co-living and subletting embody an innovative response to the housing crisis while reflecting a societal shift towards more collaboration and flexibility. By bringing individuals together around common values and optimizing the use of spaces, these solutions redefine the concept of "home."§
+                §So, are you ready to experience co-living?
+                    ¨fr:Le co-living et la sous-location incarnent une réponse innovante à la crise du logement, tout en reflétant une évolution sociétale vers plus de collaboration et de flexibilité. En réunissant des individus autour de valeurs communes et en optimisant l’usage des espaces, ces solutions redéfinissent le concept de "chez soi".§
+                        §Alors, êtes-vous prêts à tenter l’expérience du co-living ?
+                    ¨de:Co-Living und Untermiete verkörpern eine innovative Antwort auf die Wohnungsnot und spiegeln gleichzeitig einen gesellschaftlichen Wandel hin zu mehr Zusammenarbeit und Flexibilität wider. Durch das Zusammenführen von Individuen mit gemeinsamen Werten und die Optimierung der Raumnutzung definieren diese Lösungen das Konzept "Zuhause" neu.§
+                        §Sind Sie bereit, Co-Living auszuprobieren?
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+            

@@ -1,0 +1,58 @@
+PROPERTY_TYPE
+
+    id number name
+
+        house
+            ~ 1
+            ~ House
+              ¨fr:Maison
+
+        appartment
+            ~ 2
+            ~ Appartment
+              ¨fr:Appartement
+
+        flat-sharing
+            ~ 3
+            ~ Flat sharing
+              ¨fr:Colocation
+
+        car-park
+            ~ 4
+            ~ Car Park
+              ¨fr:Parking/box
+
+        loft-workshop
+            ~ 5
+            ~ Loft/workshop
+              ¨fr:Loft/atelier
+
+        castle
+            ~ 6
+            ~ Castle
+              ¨fr:Château
+
+        mansion
+            ~ 7
+            ~ Mansion
+              ¨fr:Hôtel particulier
+
+        chalet
+            ~ 8
+            ~ Chalet
+              ¨fr:Chalet
+
+        bungalow
+            ~ 9
+            ~ Bungalow
+              ¨fr:Bungalow
+
+        building
+            ~ 10
+            ~ Building
+              ¨fr:Bâtiment
+
+        other
+            ~ 11
+            ~ House
+              ¨fr:Maison

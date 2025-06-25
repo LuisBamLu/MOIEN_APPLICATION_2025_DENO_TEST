@@ -1,0 +1,120 @@
+ARTICLE
+
+    id typeId categoryIdArray slug date number title teaser text imagePath blockIdArray userId metaTitle metaDescription
+
+        %loi-aribnb-article
+            ~ post
+            ~ { all }
+            ~ loi-aribnb-article
+            ~ 2024-11-18
+            ~ 12
+            ~ Strasbourg a few days ago... Now Nice: Barely voted, the 'Airbnb' law is already applied
+                ¨fr:Strasbourg il y a quelques jours... Nice désormais : A peine votée, la loi ‘Airbnb’ est déjà appliquée
+                ¨de: Straßburg vor ein paar Tagen... Jetzt Nizza: Kaum verabschiedet, wird das 'Airbnb'-Gesetz bereits angewendet
+            ~ A few days ago, the National Assembly adopted new measures to regulate short-term rental platforms, such as Airbnb.
+                ¨fr:Depuis quelques jours, l’Assemblée nationale a adopté de nouvelles mesures visant à réguler les plateformes de location de courte durée, comme Airbnb.
+                ¨de: Vor ein paar Tagen hat die Nationalversammlung neue Maßnahmen zur Regulierung von Kurzzeitvermietungsplattformen wie Airbnb verabschiedet.
+            ~ A few days ago, the National Assembly adopted new measures to regulate short-term rental platforms, such as Airbnb. These decisions respond to legitimate concerns about the impact of this practice, especially in large cities where access to housing is becoming increasingly difficult. But, as often, the implementation of these measures raises many reactions.§
+              §
+              It is clear that short-term rental is a booming sector, benefiting thousands of owners and attracting many travelers. And yet, one question keeps coming up: why attack this dynamic sector to solve the very real problem of long-term housing shortage? Many people question this approach, which sometimes seems disconnected from market realities.§
+              §
+              That said, if the authorities' goal is to restore a certain balance between the short-term and long-term rental markets, I think it is essential not to fall into simplification. The idea of readjusting this balance seems logical to me. But again, it is unfortunate that this mainly involves a logic of taxation.§
+              §
+              However, there is a positive aspect to these new measures, which is the increase in local powers to better adapt regulations to the specificities of each territory. This increased control could offer more suitable solutions to local realities, and this is a point that I find really interesting.§
+              §
+              This debate, which we see today in both Strasbourg and Nice, confirms something essential: it is high time to rethink our relationship with real estate. And at Moïen, we are convinced that it is not just about constraining short-term rental, but about highlighting another form of rental: long-term rental.
+                ¨fr:Depuis quelques jours, l’Assemblée nationale a adopté de nouvelles mesures visant à réguler les plateformes de location de courte durée, comme Airbnb. Ces décisions répondent à des préoccupations légitimes concernant l'impact de cette pratique, en particulier dans les grandes villes où l’accès au logement devient de plus en plus difficile. Mais, comme souvent, la mise en place de ces mesures suscite de nombreuses réactions.§
+                    §
+                    Il est évident que la location à court terme est un secteur porteur, qui profite à des milliers de propriétaires et qui attire de nombreux voyageurs. Et pourtant, une question revient sans cesse : pourquoi attaquer ce secteur dynamique pour résoudre le problème bien réel de la pénurie de logements à long terme ? Nombreux sont ceux qui s'interrogent sur cette approche, qui semble parfois déconnectée des réalités du marché.§
+                    §
+                    Cela dit, si l’objectif des autorités est de rétablir un certain équilibre entre les marchés de la location courte et longue durée, je pense qu’il est fondamental de ne pas tomber dans la simplification. L'idée de réajuster cet équilibre me semble logique. Mais encore une fois, il est dommage que cela passe principalement par une logique de taxation.§
+                    §
+                    Cependant, il y a un aspect positif dans ces nouvelles mesures, c'est l'augmentation des pouvoirs locaux pour mieux adapter les régulations aux spécificités de chaque territoire. Ce contrôle accru pourrait offrir des solutions plus adaptées aux réalités locales, et c’est un point que je trouve vraiment intéressant.§
+                    §
+                    Ce débat, que l’on retrouve aujourd’hui aussi bien à Strasbourg qu’à Nice, confirme quelque chose d’essentiel : il est grand temps de repenser notre relation à l’immobilier. Et chez Moïen, nous sommes convaincus qu'il ne s'agit pas seulement de contraindre la location à court terme, mais de mettre en valeur une autre forme de location : la location longue durée.
+                ¨de: Vor ein paar Tagen hat die Nationalversammlung neue Maßnahmen zur Regulierung von Kurzzeitvermietungsplattformen wie Airbnb verabschiedet. Diese Entscheidungen reagieren auf berechtigte Bedenken hinsichtlich der Auswirkungen dieser Praxis, insbesondere in Großstädten, in denen der Zugang zu Wohnraum immer schwieriger wird. Aber wie so oft ruft die Umsetzung dieser Maßnahmen viele Reaktionen hervor.§
+                    §
+                    Es ist klar, dass die Kurzzeitvermietung ein boomender Sektor ist, von dem Tausende von Eigentümern profitieren und der viele Reisende anzieht. Und doch taucht immer wieder eine Frage auf: Warum diesen dynamischen Sektor angreifen, um das sehr reale Problem des Mangels an langfristigem Wohnraum zu lösen? Viele Menschen hinterfragen diesen Ansatz, der manchmal von den Realitäten des Marktes abgekoppelt zu sein scheint.§
+                    §
+                    Das gesagt, wenn das Ziel der Behörden darin besteht, ein gewisses Gleichgewicht zwischen den Märkten für Kurzzeit- und Langzeitvermietung wiederherzustellen, denke ich, dass es wichtig ist, nicht in Vereinfachungen zu verfallen. Die Idee, dieses Gleichgewicht anzupassen, erscheint mir logisch. Aber es ist wieder einmal bedauerlich, dass dies hauptsächlich durch eine Logik der Besteuerung geschieht.§
+                    §
+                    Es gibt jedoch einen positiven Aspekt dieser neuen Maßnahmen, nämlich die Zunahme der lokalen Befugnisse, um die Vorschriften besser an die Besonderheiten jedes Gebiets anzupassen. Diese verstärkte Kontrolle könnte geeignetere Lösungen für die lokalen Gegebenheiten bieten, und das ist ein Punkt, den ich wirklich interessant finde.§
+                    §
+                    Diese Debatte, die wir heute sowohl in Straßburg als auch in Nizza sehen, bestätigt etwas Wesentliches: Es ist höchste Zeit, unsere Beziehung zu Immobilien zu überdenken. Und bei Moïen sind wir überzeugt, dass es nicht nur darum geht, die Kurzzeitvermietung einzuschränken, sondern eine andere Form der Vermietung hervorzuheben: die Langzeitvermietung.
+            ~ /global/blog/loi_airbnb.avif
+            ~ { %loi-aribnb-article-block-1 ~ %loi-aribnb-article-block-2 ~ %loi-aribnb-article-block-3  }
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+            ~ Airbnb Law: New Regulations on Short-Term Rentals
+                ¨fr:Loi Airbnb : Nouvelles Réglementations sur les Locations Saisonnières
+            ~ Discover the latest legislative measures regulating short-term rentals like Airbnb, their implications for landlords and travelers, and how they aim to balance the housing market.
+                ¨fr:Découvrez les dernières mesures législatives encadrant les locations de courte durée type Airbnb, leurs implications pour les propriétaires et les voyageurs, et comment elles visent à équilibrer le marché immobilier.
+
+BLOCK
+
+    id typeId articleId title text userId
+
+        %loi-aribnb-article-block-1
+            ~ text
+            ~ %loi-aribnb-article
+            ~ A quick reminder for those who haven't followed the latest episodes:
+                ¨fr:Petit rappel pour ceux qui n’ont pas suivi les derniers épisodes:
+                ¨de:Kurze Erinnerung für diejenigen, die die letzten Episoden nicht verfolgt haben:
+            ~ The so-called **'anti-Airbnb'** law aims to regulate short-term rentals and give more powers to local authorities. A number of major cities, including Paris, Lyon and Bordeaux, have already introduced strict regulations, such as:§
+              §
+              1. **Restrictions on the number of rental days** : Short-term rentals are limited to 90 days per year for principal residences. The idea is to prevent property owners from gearing their properties solely to tourists, thereby reducing the supply of accommodation for local residents.§§
+              2. **Mandatory registration** : Owners must register their property with the town hall, and obtain a registration number to display on their ads. This allows the authorities to better control the conformity of rentals §.
+              3. **Conversion of commercial premises**: In certain areas under real estate pressure, the conversion of a property into a tourist rental may require compensation, such as the creation of an equivalent accommodation §.
+              4. **Reinforced penalties** : Fines and rental bans are now much more severe for non-compliance.
+                ¨fr:La loi dite **‘anti-Airbnb’** vise à encadrer les locations de courte durée et à donner davantage de pouvoirs aux autorités locales. Plusieurs grandes villes comme Paris, Lyon ou Bordeaux ont déjà mis en place des réglementations strictes, telles que :§
+                    §
+                    1. **Limitation du nombre de jours de location** : Les locations de courte durée sont limitées à 90 jours par an pour les résidences principales. L’idée est d’éviter que les propriétaires n’orientent leurs biens uniquement vers les touristes, réduisant ainsi l’offre de logements pour les habitants.§
+                    2. **Enregistrement obligatoire** : Les propriétaires doivent enregistrer leur bien auprès de la mairie, et obtenir un numéro d’enregistrement à afficher sur leurs annonces. Cela permet aux autorités de mieux contrôler la conformité des locations.§
+                    3. **Transformation des locaux commerciaux** : Dans certaines zones sous pression immobilière, la transformation d'un logement en location touristique peut exiger une compensation, comme la création d'un logement équivalent.§
+                    4. **Sanctions renforcées** : Les amendes et interdictions de location sont désormais beaucoup plus sévères en cas de non-respect des règles.
+                ¨de:Das sogenannte **‘Anti-Airbnb-Gesetz’** zielt darauf ab, Kurzzeitvermietungen zu regulieren und den lokalen Behörden mehr Befugnisse zu geben. Mehrere große Städte wie Paris, Lyon oder Bordeaux haben bereits strenge Vorschriften eingeführt, wie zum Beispiel:§
+                    §
+                    1. **Begrenzung der Miettage**: Kurzzeitvermietungen sind auf 90 Tage pro Jahr für Hauptwohnsitze begrenzt. Die Idee ist, zu verhindern, dass Eigentümer ihre Immobilien ausschließlich an Touristen vermieten und so das Wohnungsangebot für die Einwohner verringern.§
+                    2. **Registrierungspflicht**: Eigentümer müssen ihre Immobilie bei der Gemeinde registrieren und eine Registrierungsnummer erhalten, die in ihren Anzeigen angezeigt werden muss. Dies ermöglicht es den Behörden, die Einhaltung der Vorschriften besser zu kontrollieren.§
+                    3. **Umwandlung von Gewerbeflächen**: In einigen Gebieten mit hohem Immobiliendruck kann die Umwandlung einer Wohnung in eine touristische Vermietung eine Kompensation erfordern, wie die Schaffung einer gleichwertigen Wohnung.§
+                    4. **Verschärfte Sanktionen**: Geldstrafen und Vermietungsverbote sind nun bei Nichteinhaltung der Vorschriften deutlich strenger.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %loi-aribnb-article-block-2
+            ~ text
+            ~ %loi-aribnb-article
+            ~ Towards increasing the value of long-term rental with Moïen
+                ¨fr:Vers une valorisation de la location longue durée avec Moïen
+                ¨de:Auf dem Weg zu einer Aufwertung der Langzeitmiete mit Moïen
+            ~ At **Moïen**, we believe that the solution lies not only in regulating short-term rentals, but also in promoting long-term rentals. While platforms like Airbnb offer attractive short-term revenues, we propose a more responsible and sustainable vision of the rental market.§
+              §
+              Here's what we stand for:§
+              §
+              - **Easier access to housing for residents**: By focusing on long-term rentals and sublets, we aim to make housing more accessible to people looking for a primary residence. This model benefits both landlords, who stabilize their income with long-term leases, and tenants, who can benefit from more flexible conditions.§.
+              - **Promoting a hybrid, flexible approach**: We don't reject short-term rentals - far from it. On the contrary, we encourage sensible management of both models. For example, it may make sense for an owner to rent out his or her property on a short-term basis during the vacations, while retaining the bulk of the property for long-term rental § **Promote a flexible, hybrid approach**: We don't reject short-term rental, far from it.
+              - **Participate actively in market regulation**: By encouraging landlords to favor long-term leases, Moïen aims to help maintain a balanced real estate market in major cities. We believe that this approach can offer a constructive response to new anti-Airbnb regulations while guaranteeing stable income for landlords and greater accessibility for local residents.
+                ¨fr:Chez **Moïen**, nous croyons que la solution ne réside pas uniquement dans la régulation de la location courte durée, mais aussi dans la mise en avant de la location longue durée. Bien que des plateformes comme Airbnb offrent des revenus intéressants à court terme, nous proposons une vision plus responsable et durable du marché locatif.§
+                    §
+                    Voici ce que nous défendons:§
+                    §
+                    - **Faciliter l’accès au logement pour les résidents** : En privilégiant la location longue durée et la sous-location, nous cherchons à rendre les logements plus accessibles aux personnes en quête d'une résidence principale. Ce modèle profite aussi bien aux propriétaires, qui stabilisent leurs revenus avec des baux durables, qu’aux locataires, qui peuvent bénéficier de conditions plus souples.§
+                    - **Promouvoir une approche hybride et flexible** : Nous ne rejetons pas la location à court terme, loin de là. Au contraire, nous encourageons une gestion raisonnée des deux modèles. Par exemple, il peut être judicieux pour un propriétaire de louer son bien à court terme pendant les vacances, tout en conservant l’essentiel du parc immobilier pour la location longue durée.§
+                    - **Participer activement à la régulation du marché** : En incitant les propriétaires à favoriser les baux de longue durée, Moïen souhaite contribuer à maintenir l’équilibre du marché immobilier dans les grandes villes. Nous pensons que cette approche peut offrir une réponse constructive aux nouvelles régulations anti-Airbnb tout en garantissant des revenus stables pour les propriétaires et une plus grande accessibilité pour les résidents locaux.
+                ¨de:Wir bei **Moïen** glauben, dass die Lösung nicht nur in der Regulierung der Kurzzeitvermietung liegt, sondern auch in der Hervorhebung der Langzeitvermietung. Obwohl Plattformen wie Airbnb kurzfristig attraktive Einnahmen bieten, schlagen wir eine verantwortungsvollere und nachhaltigere Sicht auf den Mietmarkt vor.§
+                    §
+                    Hier ist, wofür wir stehen:§
+                    §
+                    - **Erleichterter Zugang zu Wohnraum für Einheimische**: Durch die Bevorzugung von Langzeitmiete und Untervermietung versuchen wir, Wohnraum für Menschen, die auf der Suche nach einem Hauptwohnsitz sind, zugänglicher zu machen. Dieses Modell kommt sowohl den Eigentümern zugute, die ihr Einkommen mit dauerhaften Mietverträgen stabilisieren, als auch den Mietern, die von flexibleren Bedingungen profitieren können.§§
+                    - **Förderung eines hybriden und flexiblen Ansatzes**: Wir lehnen die kurzfristige Vermietung keineswegs ab. Im Gegenteil, wir fördern einen vernünftigen Umgang mit beiden Modellen. Beispielsweise kann es für einen Eigentümer sinnvoll sein, seine Immobilie während der Ferienzeit kurzfristig zu vermieten, während er den Großteil des Immobilienbestands für die Langzeitmiete vorhält.§
+                    - **Aktiv an der Marktregulierung teilnehmen**: Indem wir Vermieter dazu ermutigen, langfristige Mietverträge zu bevorzugen, möchte Moïen dazu beitragen, den Immobilienmarkt in Großstädten im Gleichgewicht zu halten. Wir glauben, dass dieser Ansatz eine konstruktive Antwort auf die neuen Anti-Airbnb-Regulierungen bieten kann und gleichzeitig stabile Einnahmen für Vermieter und eine bessere Erreichbarkeit für Ortsansässige gewährleistet.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+
+        %loi-aribnb-article-block-3
+            ~ text
+            ~ %loi-aribnb-article
+            ~ Conclusion
+                ¨fr:Conclusion
+                ¨de:Schlussfolgerung
+            ~ At a time when the government is taking steps to regulate short-term rental platforms, **Moïen** is positioning itself as a responsible and innovative alternative. We believe in a more balanced rental market, where long-term rentals find their rightful place. Through a hybrid model, combining profitability for owners and accessibility for residents, we hope to contribute to a fairer, more sustainable market for all.
+                ¨fr:Alors que l’État prend des mesures pour réguler les plateformes de location de courte durée, **Moïen** se positionne comme une alternative responsable et innovante. Nous croyons en un marché locatif plus équilibré, où la location longue durée trouve toute sa place. À travers un modèle hybride, alliant rentabilité pour les propriétaires et accessibilité pour les résidents, nous espérons contribuer à un marché plus équitable et durable pour tous.
+                ¨de:Während der Staat Maßnahmen zur Regulierung von Kurzzeitvermietungsplattformen ergreift, positioniert sich **Moïen** als verantwortungsbewusste und innovative Alternative. Wir glauben an einen ausgewogeneren Mietmarkt, in dem die Langzeitvermietung ihren Platz findet. Durch ein hybrides Modell, das Rentabilität für Eigentümer und Zugänglichkeit für Bewohner vereint, hoffen wir, zu einem gerechteren und nachhaltigeren Markt für alle beizutragen.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66

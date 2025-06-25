@@ -1,0 +1,11 @@
+NOTIFICATION_MEDIUM
+
+    id number name
+
+        push
+            ~ 0
+            ~ Notification
+        
+        email
+            ~ 1
+            ~ Email

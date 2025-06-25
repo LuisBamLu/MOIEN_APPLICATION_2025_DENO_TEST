@@ -1,0 +1,28 @@
+TICKET_STATUS
+
+    id name order
+
+        active
+            ~ Active
+              ¨fr:Actif
+              ¨de:Aktiv
+            ~ 1
+
+        cancelled
+            ~ Cancelled
+              ¨fr:Annulé
+              ¨de:Abgebrochen
+            ~ 2
+
+        pending
+            ~ Pending   
+              ¨fr:Attente
+              ¨de:Wartend
+            ~ 3
+
+        resolved
+            ~ Resolved
+              ¨fr:Résolu
+              ¨de:Gelöst
+            ~ 4
+

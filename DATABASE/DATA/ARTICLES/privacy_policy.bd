@@ -1,0 +1,140 @@
+ARTICLE
+
+    id typeId categoryIdArray slug date number title teaser text imagePath blockIdArray userId metaTitle metaDescription
+
+        %privacy-policy-page
+            ~ post
+            ~ { info-page }
+            ~ privacy-policy-page
+            ~ 2025-03-12
+            ~ 2
+            ~ Privacy on Moien
+                ¨fr:Vie privée à Moien
+                ¨de:Datenschutz auf Moien
+            ~ Our privacy policy protects your personal data by specifying its collection, use and storage. It also guarantees your rights of access, modification and deletion, in accordance with current legislation.
+                ¨fr:Notre politique de confidentialité protège vos données personnelles en précisant leur collecte, utilisation et stockage. Elle garantit aussi vos droits d'accès, de modification et de suppression, conformément aux lois en vigueur.
+                ¨de:Unsere Datenschutzpolitik schützt Ihre personenbezogenen Daten, indem sie deren Erhebung, Verwendung und Speicherung regelt. Sie garantiert auch Ihre Rechte auf Zugang, Änderung und Löschung in Übereinstimmung mit der geltenden Gesetzgebung.
+            ~ As part of the application of the general conditions of the Moien service and in accordance with the General Data Protection Regulation (hereinafter “GDPR”) n°2016/679 of April 27, 2016 relating to the protection of individuals with regard to the processing of personal data and the free movement of this data and the law of August 1, 2018 on the organization of the National Commission for Data Protection and implementation of the GDPR, the limited liability company under Luxembourg law CROSSFUNDING S.à r.l., established and having its registered office at 9, rue du Laboratoire, L1911 Luxembourg registered with the Luxembourg Trade and Companies Register under number B 222685 (hereinafter the “Company” or “Moien") is led to collect personal data (hereinafter "Personal Data") from users of the Moien platform (hereinafter the "Client") and to use them in the context of various processing operations, understood as any operation or group of operations applied to information relating to the identified or identifiable Customer, regardless of the medium in question and/or the process used.
+                ¨fr:Dans le cadre de l'application des conditions générales du service Moien et conformément au Règlement Général sur la Protection des Données (ci-après « RGPD ») n°2016/679 du 27 avril 2016 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données et à la loi du 1er août 2018 portant organisation de la Commission nationale pour la protection des données et mise en œuvre du RGPD, la société à responsabilité limitée de droit luxembourgeois CROSSFUNDING S.à r.l., établie et ayant son siège social au 9, rue du Laboratoire, L1911 Luxembourg immatriculée auprès du Registre du Commerce et des Sociétés de Luxembourg sous le numéro B 222685 (ci-après la « Société » ou « Moien ») est conduit à recueillir auprès des utilisateurs de la plateforme Moien (ci-après le « Client ») des données à caractère personnel (ci-après « Données Personnelles ») et à les utiliser dans le cadre de différents traitements, entendu comme toute opération ou groupe d'opérations appliqué à des informations se rapportant au Client identifié ou identifiable, quel que soit le support en question et/ou le procédé utilisé.
+                ¨de:Im Rahmen der Anwendung der allgemeinen Geschäftsbedingungen des Moien-Dienstes und in Übereinstimmung mit der Allgemeinen Datenschutzverordnung (im Folgenden „DSGVO“) Nr. 2016/679 vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung von personenbezogener Daten und der freie Datenverkehr sowie das Gesetz vom 1. August 2018 über die Organisation der Nationalen Datenschutzkommission und die Umsetzung der DSGVO, die Gesellschaft mit beschränkter Haftung nach luxemburgischem Recht CROSSFUNDING S.à r.l., gegründet und mit Sitz in Luxemburg mit Sitz in 9, rue du Laboratoire, L1911 Luxembourg, eingetragen im Handels- und Gesellschaftsregister Luxemburg unter der Nummer B 222685 (im Folgenden das „Unternehmen“ oder „Moien“), ist verpflichtet, personenbezogene Daten (im Folgenden „personenbezogene Daten“) zu sammeln. von Benutzern der Moien-Plattform (im Folgenden der „Kunde“) und deren Nutzung im Rahmen verschiedener Verarbeitungsvorgänge, darunter jeder Vorgang oder jede Gruppe von Vorgängen, die auf Informationen angewendet werden, die sich auf den identifizierten oder identifizierbaren Kunden beziehen, unabhängig vom jeweiligen Medium und/oder das verwendete Verfahren.
+            ~ /global/terms-privacy/privacyCard.avif
+            ~ { %privacy-policy-block-1 ~ %privacy-policy-block-2 ~ %privacy-policy-block-3 ~ %privacy-policy-block-4 ~ %privacy-policy-block-5 ~ %privacy-policy-block-6 }
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+            ~ Privacy Policy
+            ~ Privacy Policy
+
+BLOCK
+
+    id typeId articleId title text userId
+
+        %privacy-policy-block-1
+            ~ text
+            ~ %privacy-policy-page
+            ~ Identity and contact details of the data controller
+                ¨fr:Identité et coordonnées du responsable de traitement
+                ¨de:Identität und Kontaktdaten des Datenverantwortlichen
+            ~ The Company, located at 9, rue du Laboratoire, L1911 Luxembourg, Grand Duchy of Luxembourg, acts as controller of the Customer's Personal Data. It determines the purposes and means of the processing.
+                ¨fr:La Société, localisée au 9, rue du Laboratoire, L1911 Luxembourg, Grand-Duché de Luxembourg agit en tant que responsable de traitement des Données Personnelles du Client. Il détermine les finalités et les moyens du traitement.
+                ¨de:Das Unternehmen mit Sitz in 9, rue du Laboratoire, L1911 Luxembourg, Großherzogtum Luxemburg, fungiert als Verantwortlicher für die personenbezogenen Daten des Kunden. Sie bestimmt die Zwecke und Mittel der Verarbeitung.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+            
+        %privacy-policy-block-2
+            ~ text
+            ~ %privacy-policy-page
+            ~ Categories of Personal Data collected by Moien
+                ¨fr:Catégories de Données Personnelles collectées par Moien
+                ¨de:Kategorien personenbezogener Daten, die von Moien erfasst werden
+            ~ Moien will process the following Personal Data for the purposes of the organization, management and execution of Moien's services and contracts entered into with the Client:
+                \n* Personal Identification Data of the Customer (surname, first name, date of birth, profile photograph(s), identity card, bank identity statement, etc.);
+                \n* Personal Data relating to the Customer's contact details (postal address, telephone number, email, etc.);
+                \n* Personal Data relating to the Client's contractual situation present (chosen rental, photograph(s) of the property to be rented, photograph(s) of the entry and exit inventory, inappropriate behavior if applicable, etc.).
+                    ¨fr:Moien traitera les Données Personnelles suivantes aux fins de l'organisation, la gestion et l'exécution des services de Moien et des contrats souscrits avec le Client :
+                        \n* Données Personnelles d'identification du Client (nom, prénom, date de naissance, photographie(s) de profil, carte d'identité, relevé d'identité bancaire, etc.);
+                        \n* Données Personnelles relatives aux coordonnées du Client (adresse postale, numéro de téléphone, courriel, etc.);
+                        \n* Données Personnelles relatives à la situation contractuelle du Client présentes (location choisie, photographie(s) du bien à louer, photographie(s) des états des lieux d'entrée et de sortie, comportement inapproprié le cas échéant, etc.).
+                    ¨de:Moien verarbeitet die folgenden personenbezogenen Daten zum Zweck der Organisation, Verwaltung und Ausführung der Dienstleistungen und Verträge von Moien mit dem Kunden:
+                        \n* Persönliche Identifikationsdaten des Kunden (Name, Vorname, Geburtsdatum, Profilfoto(s), Personalausweis, Kontoauszug, etc.);
+                        \n* Persönliche Daten zu den Kontaktdaten des Kunden (Postanschrift, Telefonnummer, E-Mail, etc.);
+                        \n* Personenbezogene Daten im Zusammenhang mit der vorliegenden Vertragssituation des Kunden (gewählte Miete, Foto(s) der zu vermietenden Immobilie, Foto(s) des Eingangs- und Ausgangsinventars, ggf. unangemessenes Verhalten, etc.).
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+            
+        %privacy-policy-block-3
+            ~ text
+            ~ %privacy-policy-page
+            ~ Purposes and legal bases of processing
+                ¨fr:Finalités et bases légales des traitements
+                ¨de:Zwecke und Rechtsgrundlagen der Verarbeitung
+            ~ The aforementioned processing of Personal Data is necessary for the execution of contracts entered into with the Customer in accordance with Article 6 &sect;1 (b) of the GDPR. The provision of this Personal Data is therefore a contractual requirement and the Client must provide it at the start of its contractual relationship with Moien and promptly inform it of any modification.
+                \nWhen creating an account, the Customer accepts that Moien uses their Personal Data. Moien may not be able to enter into or perform the contract with the Client if this Personal Data is not provided.
+                \nFurthermore, in accordance with Article 6 &sect;1 (a) of the GDPR, if the Customer has checked a box in which he accepts processing (for example in the context of receiving a newsletter), he is considered to have consented to the processing of its Personal Data for this specific purpose.
+                    ¨fr:Les traitements de Données Personnelles susmentionnés sont nécessaires à l'exécution des contrats souscrits avec le Client conformément à l'article 6 &sect;1 (b) du RGPD. La fourniture de ces Données Personnelles est donc une exigence contractuelle et le Client doit les fournir au début de sa relation contractuelle avec Moien et l'informer rapidement de toute modification.
+                        \nLors de la création d'un compte, le Client accepte que Moien utilise ses Données Personnelles. Moien peut ne pas être en mesure de conclure ou d'exécuter le contrat avec le Client si ces Données Personnelles ne sont pas fournies.
+                        \nDe plus, conformément à l'article 6 &sect;1 (a) du RGPD, si le Client a coché une case dans laquelle il accepte un traitement (par exemple dans le cadre de la réception d'une newsletter), il est considéré avoir consenti au traitement de ses Données Personnelles dans le cadre de cette finalité spécifique.
+                    ¨de:Die oben genannte Verarbeitung personenbezogener Daten ist für die Abwicklung der mit dem Kunden geschlossenen Verträge gemäß Artikel 6 Abs. 1 lit. b DSGVO erforderlich. Die Bereitstellung dieser personenbezogenen Daten ist daher eine vertragliche Verpflichtung und der Kunde muss sie zu Beginn seiner Vertragsbeziehung mit Moien bereitstellen und ihn unverzüglich über etwaige Änderungen informieren.
+                        \nBeim Erstellen eines Kontos akzeptiert der Kunde, dass Moien seine persönlichen Daten verwendet. Moien ist möglicherweise nicht in der Lage, den Vertrag mit dem Kunden abzuschließen oder auszuführen, wenn diese personenbezogenen Daten nicht bereitgestellt werden.
+                        \nDarüber hinaus gilt gemäß Art. 6 Abs. 1 lit. a DSGVO, dass der Kunde in die Verarbeitung eingewilligt hat, wenn er ein Kästchen angekreuzt hat, in dem er der Verarbeitung zustimmt (z. B. im Rahmen des Erhalts eines Newsletters), seiner personenbezogenen Daten für diesen spezifischen Zweck.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+            
+        %privacy-policy-block-4
+            ~ text
+            ~ %privacy-policy-page
+            ~ Storage, recipients and transfer of Customer data
+                ¨fr:Stockage, destinataires et transfert des données du Client
+                ¨de:Speicherung, Empfänger und Weitergabe von Kundendaten
+            ~ The Customer's Personal Data is stored by Moien, which processes it, in compliance with Luxembourg and European regulations, particularly in terms of security and confidentiality of data. The Customer is informed that access to Personal Data concerning him is strictly limited to employees or professional collaborators of Moien, authorized to process them due to their functions.
+                \nHowever, to the extent strictly necessary and in compliance with legal and regulatory provisions in force, limited access to this data may possibly be granted to the following third parties: as maintenance of the Moien website, the IT service provider may have access to the Personal Data of the Client, and only for the needs related to this activity. This recipient is located within the European Union. In the context of a transfer to a country outside the European Union, rules ensuring the protection and security of this information will be put in place by Moien.
+                    ¨fr:Les Données Personnelles du Client sont stockées par Moien, qui les traite, dans le respect de la législation luxembourgeoise et de la réglementation européenne, notamment en matière de sécurité et de confidentialité des données. Le Client est informé que l'accès aux Données Personnelles le concernant est strictement limité aux employés ou collaborateurs professionnels de Moien, habilités à les traiter en raison de leurs fonctions.
+                        \nToutefois, dans la mesure du strict nécessaire et dans le respect des dispositions légales et réglementaires en vigueur, un accès limité à ces données pourra éventuellement être accordé aux tiers suivants : à titre de maintenance du site internet de Moien, le prestataire de service informatique peut avoir accès aux Données Personnelles du Client, et ce pour les seuls besoins liés à cette activité. Ce destinataire se situe au sein de l'Union Européenne. Dans le cadre d'un transfert vers un pays hors Union Européenne, des règles assurant la protection et la sécurité de ces informations seront mises en place par Moien.
+                    ¨de:Die personenbezogenen Daten des Kunden werden von Moien gespeichert und im Einklang mit den gesetzlichen Bestimmungen verarbeitet. Luxemburger und europäische Vorschriften, insbesondere im Hinblick auf Sicherheit und Vertraulichkeit von Daten. Der Kunde wird darüber informiert, dass der Zugriff auf die ihn betreffenden personenbezogenen Daten streng beschränkt ist auf Mitarbeiter oder professionelle Mitarbeiter von Moien, die aufgrund ihrer Funktion zur Verarbeitung dieser Daten berechtigt sind.
+                        \nAllerdings im unbedingt erforderlichen Umfang und unter Einhaltung der gesetzlichen und behördlichen Bestimmungen in Kraft, kann ein eingeschränkter Zugriff auf diese Daten möglicherweise folgenden Dritten gewährt werden: Zur Wartung der Moien-Website kann der IT-Dienstleister Zugriff auf die personenbezogenen Daten des Kunden haben, und nur für die mit dieser Aktivität verbundenen Bedürfnisse. Dieser Empfänger befindet sich innerhalb der Europäischen Union. Im Rahmen einer Übermittlung in ein Land außerhalb der Union wird Moien Regeln einführen, die den Schutz und die Sicherheit dieser Informationen gewährleisten.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+            
+        %privacy-policy-block-5
+            ~ text
+            ~ %privacy-policy-page
+            ~ The duration of the conversation
+                ¨fr:Durée de conservation
+                ¨de:Die Dauer des Gesprächs
+            ~ The Customer's Personal Data will be kept for the entire duration of the contract, as long as Moien needs them to guarantee the execution of the purposes for which they were collected. In addition, Moien keeps them for an additional period corresponding to the retention period mandatory under applicable national law and when such Personal Data is necessary for the establishment, exercise or defense of a legal right, during the applicable limitation period under national law.
+                ¨fr:Les Données Personnelles du Client seront conservées pendant toute la durée du contrat, aussi longtemps que Moien en a besoin pour garantir l'exécution des finalités pour lesquelles elles ont été collectées. En outre, Moien les conserve pendant une période supplémentaire correspondant à la période de conservation obligatoire en vertu du droit national applicable et lorsque ces Données Personnelles sont nécessaires pour la constatation, l'exercice ou la défense d'un droit en justice, pendant le délai de prescription applicable en vertu du droit national.
+                ¨de:Die personenbezogenen Daten des Kunden werden für die gesamte Vertragsdauer gespeichert, solange dass Moien sie benötigt, um die Erfüllung der Zwecke zu gewährleisten, für die sie erhoben wurden. Darüber hinaus bewahrt Moien sie für einen weiteren Zeitraum auf, der der Aufbewahrungsfrist nach geltendem nationalem Recht entspricht und wenn diese personenbezogenen Daten erforderlich sind zur Begründung, Ausübung oder Verteidigung eines Rechtsanspruchs während der geltenden Verjährungsfrist nach nationalem Recht.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+            
+        %privacy-policy-block-6
+            ~ text
+            ~ %privacy-policy-page
+            ~ Customer Rights
+                ¨fr:Droits du Client
+                ¨de:Kundenrechte
+            ~ In accordance with the legal and regulatory provisions in force, Moien facilitates the effective exercise recognized rights of the Customer whose Personal Data is subject to processing, namely:
+                    \n* The right of access to Personal Data concerning him processed by Moien;
+                    \n* The rectification and modification of Personal Data concerning him when these are inaccurate, incomplete or out of date;
+                    \n* The erasure of Personal Data concerning him, provided that the retention periods legal and/or regulatory have expired;
+                    \n* In certain circumstances, the right to receive certain Personal Data in a format structured, commonly used and machine readable and the right to request that Moien transmit these data to a third party when technically possible;
+                    \n* The exercise of a right to limit and oppose certain processing(s) of Personal Data concerning him.
+                    \n\nAs part of the exercise of his rights, the Customer sends his requests to Moien, indicating the subject of his request (information, rectification, etc.) as precisely as possible:
+                    \n* At the following postal address: 9, rue du Laboratoire, L1911 Luxembourg, Grand Duchy of Luxembourg;
+                    \n* Or to the following email address: ((mailto:contact@moien.com)(contact@moien.com))
+                    \n\nThe Customer also has the option of submitting a complaint to the National Commission for Data Protection (CNPD), located 15, boulevard du jazz, L-4370, Belvaux, Grand Duchy of Luxembourg.
+                        ¨fr:Conformément aux dispositions légales et réglementaires en vigueur, Moien facilite l'exercice effectif des droits reconnus du Client dont les Données Personnelles font l'objet d'un traitement, à savoir :
+                            \n* Le droit d'accès aux Données Personnelles le concernant traitées par Moien;
+                            \n* La rectification et la modification des Données Personnelles le concernant lorsque celles-ci sont inexactes, incomplètes ou périmées;
+                            \n* L'effacement des Données Personnelles le concernant, sous réserve que les durées de conservations légales et/ou règlementaires soient échues;
+                            \n* Dans certaines circonstances, le droit de recevoir certaines Données Personnelles dans un format structuré, couramment utilisé et lisible par machine et le droit de demander que Moien transmette ces données à un tiers lorsque cela est techniquement possible;
+                            \n* L'exercice d'un droit de limitation et d'opposition à certains traitement(s) des Données Personnelles le concernant.
+                            \n\nDans le cadre de l'exercice de ses droits, le Client adresse ses demandes à Moien en indiquant l'objet de sa requête (information, rectification, …) de manière aussi précise que possible :
+                            \n* A l'adresse postale suivante : 9, rue du Laboratoire, L1911 Luxembourg, Grand-Duché de Luxembourg;
+                            \n* Ou à l'adresse e-mail suivante : ((mailto:contact@moien.com)(contact@moien.com))
+                            \n\nLe Client a également la faculté d'introduire une réclamation auprès de la Commission Nationale pour la Protection des Données (CNPD), située 15, boulevard du jazz, L-4370, Belvaux, Grand-Duché de Luxembourg.
+                        ¨de:In Übereinstimmung mit den geltenden gesetzlichen und behördlichen Bestimmungen erleichtert Moien die wirksame Ausübung anerkannte Rechte des Kunden, dessen personenbezogene Daten verarbeitet werden, nämlich:
+                            \n* Das Recht auf Zugang zu den ihn betreffenden personenbezogenen Daten, die von Moien verarbeitet werden;
+                            \n* Die Berichtigung und Änderung der ihn betreffenden personenbezogenen Daten, sofern diese ungenau, unvollständig oder veraltet sind;
+                            \n* Die Löschung der ihn betreffenden personenbezogenen Daten, sofern die gesetzlichen und/oder behördlichen Aufbewahrungsfristen abgelaufen sind;
+                            \n* Unter bestimmten Umständen das Recht, bestimmte personenbezogene Daten in einem strukturierten, allgemein gebräuchlichen und maschinenlesbaren Format zu erhalten und das Recht, von Moien deren Übermittlung an Dritte zu verlangen, wenn dies technisch möglich ist;
+                            \n* Die Ausübung eines Rechts auf Einschränkung und Widerspruch gegen bestimmte Verarbeitung(en) personenbezogener Daten ihn betreffend.
+                            \n\nIm Rahmen der Ausübung seiner Rechte sendet der Kunde seine Anfragen unter Angabe des Betreffs seiner Anfrage an Moien. Anfrage (Auskunft, Berichtigung etc.) so präzise wie möglich zu formulieren:
+                            \n* An folgende Postanschrift: 9, rue du Laboratoire, L1911 Luxembourg, Großherzogtum Luxemburg;
+                            \n* Oder an die folgende E-Mail-Adresse: ((mailto:contact@moien.com)(contact@moien.com))
+                            \n\nDer Kunde hat auch die Möglichkeit, eine Beschwerde bei der Nationalen Kommission einzureichen für Datenschutz (CNPD), 15, boulevard du jazz, L-4370, Belvaux, Großherzogtum Luxemburg.
+            ~ 4d595597-d004-488a-9a1b-fc1a6df76f66
+            

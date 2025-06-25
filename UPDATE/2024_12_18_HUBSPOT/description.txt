@@ -1,0 +1,3 @@
+*   create dedicated lists : newsletter subscription, beta subscription, contact request
+*   implement a HubspotService class
+*   use it to send any visitor form data (email, name, etc) to Hubspot appropritate list

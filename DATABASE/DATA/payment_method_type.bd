@@ -1,0 +1,15 @@
+PAYMENT_METHOD_TYPE
+
+    id number name
+
+        bank-wire
+            ~ 0
+            ~ Bank wire
+
+        card
+            ~ 1
+            ~ Card
+
+        wallet
+            ~ 2
+            ~ Wallet

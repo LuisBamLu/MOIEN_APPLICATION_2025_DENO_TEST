@@ -1,0 +1,33 @@
+HEATING_TYPE
+
+    id number name
+
+        none
+            ~ 1
+            ~ None
+              ¨fr:Aucun
+
+        reversible-air-conditioning
+            ~ 1
+            ~ Reversible air conditioning
+              ¨fr:Climatisation réversible
+
+        electrical
+            ~ 1
+            ~ Electrical
+              ¨fr:Électrique
+
+        gas
+            ~ 1
+            ~ Gas
+              ¨fr:Gaz
+
+        collective-heating
+            ~ 1
+            ~ Collective heating
+              ¨fr:Chauffage collectif
+
+        heat-pump
+            ~ 1
+            ~ Heat pump
+              ¨fr:Pompe à chaleur

@@ -1,0 +1,15 @@
+ARTICLE_TYPE
+
+    id name
+
+        post
+            ~ Post
+              ¨fr:Article
+
+        news
+            ~ News
+              ¨fr:Actualités
+
+        faq
+            ~ FAQ
+              ¨fr:FAQ

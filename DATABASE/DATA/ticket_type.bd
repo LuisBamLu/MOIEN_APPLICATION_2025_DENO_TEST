@@ -1,0 +1,55 @@
+TICKET_TYPE
+
+    id name number
+
+        amenities-issue
+            ~ Amenities Issue
+            ~ 1
+
+        booking-issue
+            ~ Booking Issue
+            ~ 2
+
+        check-in-issue
+            ~ Check-in Issue
+            ~ 3
+
+        check-out-issue
+            ~ Check-out Issue
+            ~ 4
+
+        host-communication
+            ~ Host Communication
+            ~ 5
+
+        lost-and-found
+            ~ Lost and Found
+            ~ 6
+
+        neighbor-complaint
+            ~ Neighbor Complaint
+            ~ 7
+
+        payment-issue
+            ~ Payment Issue
+            ~ 8
+
+        policy-question
+            ~ Policy Question
+            ~ 9
+
+        property-cleanliness
+            ~ Property Cleanliness
+            ~ 10
+
+        property-damage
+            ~ Property Damage
+            ~ 11
+
+        safety-concern
+            ~ Safety Concern
+            ~ 12
+
+        technical-support
+            ~ Technical Support
+            ~ 13

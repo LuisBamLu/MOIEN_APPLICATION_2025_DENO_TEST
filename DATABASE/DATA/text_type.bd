@@ -1,0 +1,8 @@
+TEXT_TYPE
+
+    id number name
+
+        global
+            ~ 1
+            ~ Global
+              ¨fr:Global

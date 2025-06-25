@@ -1,0 +1,3 @@
+default-qualities 55
+default-commands a360x720@30.a480x960.a640x1280.a960x1920.a1280x2560.a1920x3840.a3840x7680
+default-name {l}.{w}.{x}

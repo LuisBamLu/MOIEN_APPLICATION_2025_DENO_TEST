@@ -1,0 +1,19 @@
+BLOCK_TYPE
+
+    id name
+
+        text
+            ~ Text
+              ¨fr:Texte
+
+        image
+            ~ Image
+              ¨fr:Image
+
+        text-and-image
+            ~ Text and image
+              ¨fr:Texte et image
+
+        image-and-text
+            ~ Image and text
+              ¨fr:Image et texte
