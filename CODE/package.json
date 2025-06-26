@@ -1,3 +1,14 @@
 {
+  "name": "moien-app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "install": "yarn install --cwd SERVER && yarn install --cwd CLIENT && yarn install --cwd ADMIN",
+    "build": "yarn build:client && yarn build:admin && yarn build:server",
+    "build:client": "cd CLIENT && yarn build",
+    "build:admin": "cd ADMIN && yarn build", 
+    "build:server": "cd SERVER && yarn build",
+    "start": "node SERVER/dist/index.js"
+  },
   "packageManager": "yarn@4.9.2+sha512.1fc009bc09d13cfd0e19efa44cbfc2b9cf6ca61482725eb35bbc5e257e093ebf4130db6dfe15d604ff4b79efd8e1e8e99b25fa7d0a6197c9f9826358d4d65c3c"
 }
