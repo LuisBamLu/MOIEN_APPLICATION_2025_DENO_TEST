@@ -38,6 +38,5 @@
         "senselogic-gist": "^3.0.6",
         "sortablejs": "^1.15.6",
         "svelte-routing": "^2.11.0"
-    },
-    "packageManager": "yarn@4.5.1"
+    }
 }
