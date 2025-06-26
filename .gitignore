@@ -4,3 +4,4 @@ DATABASE/*.sql
 yarn.lock
 .yarnrc
 CODE/node_modules
+node_modules/
